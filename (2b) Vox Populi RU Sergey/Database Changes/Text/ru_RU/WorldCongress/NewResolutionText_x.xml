@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_ru_RU>
+		<Row Tag="TXT_KEY_RESOLUTION_SOI">
+			<Text>Сфера влияния</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOLUTION_SOI_HELP">
+			<Text>Потребовать установить сферу влияния над городом-государством. В случае успеха предложивший игрок становится постоянным союзником этого города-государства (если только это предложение не будет отменено). Предлагающий должен быть текущим союзником данного города-государства.[NEWLINE][NEWLINE]Доступно после того, как любая цивилизация откроет Паровую энергию.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_RESOLUTION_OPEN_DOOR">
+			<Text>Открытые двери</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOLUTION_OPEN_DOOR_HELP">
+			<Text>Ввести политику открытых дверей для города-государства. В случае успеха влияние всех цивилизаций на этот город-государство немедленно устанавливается на уровне 40, и никто не сможет стать его союзником, пока это предложение не будет отменено.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOLUTION_DECISION_CITY_CSD">
+			<Text>Выберите город-государство, на которое повлияет эта резолюция</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_RESOLUTION_DECOLONIZATION">
+			<Text>Деколонизация</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOLUTION_DECOLONIZATION_HELP">
+			<Text>Принудительно провести глобальную деколонизацию. В случае успеха [ICON_INFLUENCE] влияние всех игроков на все города-государства снижается до 50, если только они не являются постоянными союзниками.[NEWLINE][NEWLINE]Доступно после того, как любая цивилизация откроет Радио.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_RESOLUTION_WORLD_WAR">
+			<Text>Casus Belli</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOLUTION_WORLD_WAR_HELP">
+			<Text>Мир признаёт необходимость оправданной войны для разрешения дипломатических споров.[NEWLINE][NEWLINE]Пока эта резолюция активна, затраты на содержание юнитов снижаются на 15% [ICON_GOLD] золота. Штрафы [ICON_VICTORY_DOMINATION] воинственности за захват городов и объявление войны уменьшаются в 0.5 раза, а показатели [ICON_VICTORY_DOMINATION] воинственности уменьшаются в 2 раза быстрее.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_RESOLUTION_TOURISM_PENALTY">
+			<Text>Запрет на путешествия</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOLUTION_TOURISM_PENALTY_HELP">
+			<Text>Ограничивает международные поездки между цивилизациями. Снижает модификатор [ICON_TOURISM] туризма для всех цивилизаций на 35%.[NEWLINE][NEWLINE]Доступно после того, как любая цивилизация откроет Полёт.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_RESOLUTION_TOURISM_BONUS">
+			<Text>Паспортная система</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOLUTION_TOURISM_BONUS_HELP">
+			<Text>Увеличивает международные поездки между цивилизациями. Повышает модификатор [ICON_TOURISM] туризма для всех цивилизаций на 50%.[NEWLINE][NEWLINE]Доступно после того, как любая цивилизация откроет Полёт.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_RESOLUTION_COLD_WAR">
+			<Text>Холодная война</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOLUTION_COLD_WAR_HELP">
+			<Text>Идеологические различия втянули мир в холодную войну, и экономические и политические блоки формируются исключительно по идеологическому признаку.[NEWLINE][NEWLINE]Пока эта резолюция активна, игроки могут прокладывать [ICON_INTERNATIONAL_TRADE] торговые пути только с цивилизациями, придерживающимися той же идеологии, или с союзными городами-государствами. Кроме того, уровни [ICON_INFLUENCE] влияния с союзными городами-государствами не уменьшаются.[NEWLINE][NEWLINE]Доступно после того, как любая цивилизация откроет Атомную теорию.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_RESOLUTION_SPACESHIP_INSPECTION">
+			<Text>Регулирование космических полётов</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOLUTION_SPACESHIP_INSPECTION_HELP">
+			<Text>Регулирование космических полётов контролирует распространение современной баллистической технологии, надзирает за национальными космическими программами и ограничивает развитие потенциально опасных технологий.[NEWLINE][NEWLINE]Пока эта резолюция активна, все игроки получают глобальный штраф -25% [ICON_PRODUCTION] к производству [ICON_VICTORY_SPACE] деталей космического корабля и +25% [ICON_GOLD] к стоимости покупки [ICON_VICTORY_SPACE] деталей космического корабля за золото.[NEWLINE][NEWLINE]Доступно после того, как любая цивилизация откроет Атомную теорию.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_RESOLUTION_PLAYER_VASSAL_TAX">
+			<Text>Глобальное освобождение</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOLUTION_PLAYER_VASSAL_TAX_HELP">
+			<Text>Все отношения сюзерен-вассал немедленно и мирно аннулируются.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_RESOLUTION_TREASURE_FLEET">
+			<Text>Флот сокровищ</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOLUTION_TREASURE_FLEET_HELP">
+			<Text>Начинает проект «Флот сокровищ». После запуска цивилизации могут вкладывать [ICON_PRODUCTION] производство в его завершение, выбрав его в списке городского производства. После завершения цивилизации получают бонусы в зависимости от своего вклада.[NEWLINE][NEWLINE][ICON_TROPHY_GOLD]: {TXT_KEY_LEAGUE_PROJECT_REWARD_TREASURE_FLEET_3_HELP}[NEWLINE][ICON_TROPHY_SILVER]: {TXT_KEY_LEAGUE_PROJECT_REWARD_TREASURE_FLEET_2_HELP}[NEWLINE][ICON_TROPHY_BRONZE]: {TXT_KEY_LEAGUE_PROJECT_REWARD_TREASURE_FLEET_1_HELP}</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_RESOLUTION_WARGAMES">
+			<Text>Глобальные военные игры</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOLUTION_WARGAMES_HELP">
+			<Text>Начинает проект «Глобальные военные игры». После запуска цивилизации могут вкладывать [ICON_PRODUCTION] производство в его завершение, выбрав его в списке городского производства. После завершения цивилизации получают бонусы в зависимости от своего вклада.[NEWLINE][NEWLINE][ICON_TROPHY_GOLD]: {TXT_KEY_LEAGUE_PROJECT_REWARD_WARGAMES_3_HELP}[NEWLINE][ICON_TROPHY_SILVER]: {TXT_KEY_LEAGUE_PROJECT_REWARD_WARGAMES_2_HELP}[NEWLINE][ICON_TROPHY_BRONZE]: {TXT_KEY_LEAGUE_PROJECT_REWARD_WARGAMES_1_HELP}[NEWLINE][NEWLINE]Доступно после того, как любая цивилизация откроет Сменные части.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_RESOLUTION_UNITED_NATIONS">
+			<Text>Организация Объединённых Наций</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOLUTION_UNITED_NATIONS_HELP">
+			<Text>Начинает проект «Организация Объединённых Наций». После запуска цивилизации могут вкладывать [ICON_PRODUCTION] производство в его завершение, выбрав его в списке городского производства. После завершения цивилизации получают бонусы в зависимости от своего вклада.[NEWLINE][NEWLINE][ICON_TROPHY_GOLD]: {TXT_KEY_LEAGUE_PROJECT_REWARD_UNITED_NATIONS_3_HELP}[NEWLINE][ICON_TROPHY_SILVER]: {TXT_KEY_LEAGUE_PROJECT_REWARD_UNITED_NATIONS_2_HELP}[NEWLINE][ICON_TROPHY_BRONZE]: {TXT_KEY_LEAGUE_PROJECT_REWARD_UNITED_NATIONS_1_HELP}[NEWLINE][NEWLINE]Доступно после того, как любая цивилизация откроет Атомную теорию.</Text>
+		</Row>
+	</Language_ru_RU>
+</GameData>

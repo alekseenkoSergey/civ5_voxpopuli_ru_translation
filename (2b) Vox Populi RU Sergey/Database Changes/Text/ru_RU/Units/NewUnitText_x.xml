@@ -1,0 +1,667 @@
+<?xml version='1.0' encoding='utf-8'?>
+<GameData>
+	<Language_ru_RU>
+		<Row Tag="TXT_KEY_UNIT_HEAVY_SKIRMISHER">
+			<Text>Тяжёлый застрельщик</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HEAVY_SKIRMISHER_STRATEGY">
+			<Text>Тяжёлые застрельщики — юниты средневековой эпохи, способные быстро передвигаться и атаковать на расстоянии. Используйте их, чтобы тревожить врага и поддерживать ваши войска, но не позволяйте им оставаться без прикрытия.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HEAVY_SKIRMISHER_TEXT">
+			<Text>Конные рыцари, вооружённые копьями, оказались малоэффективны против построений пикинёров в сочетании с арбалетчиками, чьё оружие могло пробивать большую часть рыцарских доспехов. Изобретение рычажных и храповых механизмов натяжения позволило использовать арбалеты верхом, что привело к развитию новой кавалерийской тактики. Рыцари и наёмники выстраивались треугольными формациями, а наиболее тяжело бронированные всадники находились впереди. Некоторые из них несли собственные небольшие, но мощные цельнометаллические арбалеты. Со временем арбалеты были вытеснены более мощным пороховым оружием, хотя ранние ружья стреляли медленнее и были гораздо менее точны, чем современные им арбалеты. Позднее схожие тактики использовали аркебузиры или мушкетёры, действовавшие вместе с пикинёрами («пика и выстрел»), против кавалерии, вооружённой пистолетами или карабинами.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HEAVY_SKIRMISHER_HELP">
+			<Text />
+		</Row>
+
+		<Row Tag="TXT_KEY_UNIT_CUIRASSIER">
+			<Text>Кирасир</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_CUIRASSIER_STRATEGY">
+			<Text>Кирасиры — юниты эпохи Возрождения, способные быстро перемещаться и атаковать на расстоянии. Используйте их, чтобы тревожить врага и поддерживать свои войска.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_CUIRASSIER_TEXT">
+			<Text>Кирасиры (от французского cuirassier) были кавалерией, вооружённой доспехами и огнестрельным оружием, впервые появившейся в Европе в конце XV века. Французское слово означает «носящий кирасу» (cuirasse), то есть нагрудный доспех, который они носили. Первые кирасиры появились, когда тяжёлая бронированная кавалерия, такая как men-at-arms и demi-lancers, отказалась от копий и перешла к использованию пистолетов в качестве основного оружия. В конце XVII века кирасиры лишились брони на конечностях и обычно сохраняли только кирасу (нагрудник и спинную пластину), а иногда и шлем. К этому времени главным оружием кирасира стала сабля, а пистолеты отошли на второстепенную роль.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_CUIRASSIER_HELP">
+			<Text />
+		</Row>
+
+		<Row Tag="TXT_KEY_UNIT_COMMANDO">
+			<Text>Коммандос</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_COMMANDO_STRATEGY">
+			<Text>Коммандос — разведывательно-штурмовые юниты, специализирующиеся на ударах по уязвимым целям через труднопроходимую местность и быстром отходе. Используйте их для обхода и дезорганизации противника в тылу.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_COMMANDO_HELP">
+			<Text />
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_COMMANDO_TEXT">
+			<Text>Коммандос — это элитная лёгкая пехота, специализирующаяся на ударах по особо важным целям и на фронтовой разведке. Термин вошёл в широкое употребление после англо-бурских войн и Великого трека, где бурские отряды kommando с большим успехом применяли партизанскую и асимметричную тактику против коса, зулусов и британской армии.</Text>
+		</Row>
+
+		
+		<Row Tag="TXT_KEY_UNIT_EXPLORER_HELP">
+			<Text />
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EXPLORER_TEXT">
+			<Text>Исследование — это поиск с целью открытия информации или ресурсов. Исследование присуще всем неподвижным видам животных, включая человека. В истории человечества наиболее яркий его подъём пришёлся на эпоху Великих географических открытий, когда европейские исследователи проплыли и нанесли на карты большую часть остального мира, главным образом в поисках материальных богатств. После этого крупные экспедиции в основном проводились ради получения знаний.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_UNIT_FIELD_GUN">
+			<Text>Полевая пушка</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FIELD_GUN_TEXT">
+			<Text>Полевая пушка — это артиллерийское орудие. Первоначально термин использовался для обозначения небольших пушек, которые можно было брать с собой в поход. В бою полевая пушка могла быстро перемещаться по полю сражения по мере необходимости. Орудия, установленные в крепостях, осадные пушки и мортиры были слишком велики для быстрого перемещения и обычно применялись только при длительной осаде.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FIELD_GUN_STRATEGY">
+			<Text>Полевые пушки обладают большей боевой мощью, чем пушки, хотя и не могут далеко видеть сами по себе. Используйте полевые пушки для поддержки армий индустриальной эпохи, но не позволяйте врагу приближаться к ним.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FIELD_GUN_HELP">
+			<Text />
+		</Row>
+
+		<Row Tag="TXT_KEY_UNIT_FREE_COMPANY">
+			<Text>Вольная компания</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_FCOMPANY">
+			<Text />
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FCOMPANY_STRATEGY">
+			<Text>Вольная компания — первые наёмные юниты, доступные после завершения ветви политики «Власть». Хотя их нельзя производить напрямую, по боевой мощи они заметно превосходят пикинёров и при этом получают дополнительные преимущества.[NEWLINE][NEWLINE]Поскольку их можно купить и сразу использовать с полным запасом хода и опыта, вы способны быстро выставить их в большом количестве, если у вас достаточно золота. Кроме того, эти головорезы особенно хороши в наступательной войне благодаря способности грабить без затрат [ICON_MOVES] хода и получать золото за урон, нанесённый городам.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_FCOMPANY_TEXT">
+			<Text>Там, где встречаются возможность, война и беззаконие, жизнь солдата легко превращается в разбойничью.[NEWLINE][NEWLINE]Вольные компании, также известные как Большие компании или Компании искателей приключений, были отрядами наёмников, действовавшими по всей Европе с XII по начало XV века. Их часто нанимала знать; они были известны своим пренебрежением к законам войны и полезностью как рейдеры. Наибольшую известность Вольные компании получили во время бесконечных конфликтов XIV века, когда англичане использовали их для террора французской сельской местности в Столетней войне.[NEWLINE][NEWLINE]Пока шла война, у компаний была работа, но в мирное время они сами становились бедствием: нередко, как только им переставали платить за разграбление чужих земель, они принимались грабить земли бывших нанимателей. После мира в Бретиньи в 1360 году Вольные компании были распущены и стали неуправляемыми. Они переходили от владения к владению, нападая на фермы и замки по всей Западной Европе и даже побеждая армии, выставленные против них. Мир и чума помогли этим бандам вырасти в численности и дерзости, а вместе с этим — в богатстве и дурной славе. Среди заметных компаний того времени были Белая компания в Италии, Каталанская компания в Греции и Тар-Венюс во Франции. Многие из этих авантюристов приобрели значительное политическое влияние; например, англичанин Джон Хоквуд стал богатым кондотьером, которого нанимали несколько итальянских государств и Папа.[NEWLINE][NEWLINE]Восстановление государств Западной Европы и формирование профессиональных армий и действенных ополчений в XV веке положили конец могуществу наёмников. Однако смерть и разрушения, принесённые Вольными компаниями, оставили глубокий след в европейской памяти.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_UNIT_MERCENARY">
+			<Text>Наёмник</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_GUERILLA_TEXT">
+			<Text>Солдаты частных военных компаний (ЧВК) — современная ветвь наёмничества, предоставляющая логистику, бойцов, военную подготовку и другие услуги. Таким образом, подрядчики ЧВК являются гражданскими лицами, которым разрешено сопровождать армию в полевых условиях; отсюда и термин «гражданский подрядчик». Тем не менее ЧВК могут применять вооружённую силу и потому определяются как законно созданные предприятия, извлекающие прибыль либо предоставлением услуг, связанных с потенциальным применением вооружённой силы на систематической основе и военными средствами, либо передачей этого потенциала клиентам через обучение и другие практики, такие как логистическая поддержка, закупка оборудования и сбор разведданных.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_GUERILLA_STRATEGY">
+			<Text>Используйте наёмников как дешёвый, пусть и несколько менее эффективный, способ защитить свои земли от захватчиков или как фланговый элемент точечного удара. Наёмники получают большой бонус за флангование, так что применяйте их с умом! Доступны только после открытия завершающей политики ветви «Власть». Можно получить только покупкой за [ICON_GOLD] золото.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_GUERILLA">
+			<Text />
+		</Row>
+
+		<Row Tag="TXT_KEY_UNIT_PIONEER">
+			<Text>Пионер</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_PIONEER_STRATEGY">
+			<Text>Используйте этот юнит для основания новых городов. Он не умеет защищаться, поэтому сопровождайте его боевым юнитом. Основанные пионерами города начинают с 3 граждан, захватывают дополнительную территорию и автоматически получают следующий набор зданий:[NEWLINE][NEWLINE][ICON_BULLET] Арена[NEWLINE][ICON_BULLET] Казармы[NEWLINE][ICON_BULLET] Совет[NEWLINE][ICON_BULLET] Кузница[NEWLINE][ICON_BULLET] Амбар[NEWLINE][ICON_BULLET] Травник[NEWLINE][ICON_BULLET] Библиотека[NEWLINE][ICON_BULLET] Рынок[NEWLINE][ICON_BULLET] Монумент[NEWLINE][ICON_BULLET] Святилище[NEWLINE][ICON_BULLET] Коптильня[NEWLINE][ICON_BULLET] Водяная мельница (если доступна)[NEWLINE][ICON_BULLET] Колодец (если доступен)[NEWLINE][NEWLINE]Примечание: бонусы к строительству зданий из ветвей политики «Прогресс» и «Промышленность» не применяются к зданиям, создаваемым пионерами!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_PIONEER_TEXT">
+			<Text>Пионеры — это люди, которые в разные времена переселялись для заселения и освоения новых территорий. Обычно этот термин особенно относится к тем, кто отправлялся заселять земли, ранее не освоенные или не развитые европейским или американским обществом, хотя такие территории могли быть населены или использоваться коренными народами. Само понятие и дух пионерства возникли задолго до переселения на территории нынешнего американского Запада, поскольку многие места, которые сегодня считаются Востоком, также были заселены пионерами с побережья. Например, Дэниел Бун, важная фигура американской истории, поселился в Кентукки, когда эта «тёмная и кровавая земля» ещё не была освоена. Важным этапом освоения Запада стал Акт о гомстедах, который закрепил официальное законодательство, регулирующее процесс переселения.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_PIONEER_HELP">
+			<Text />
+		</Row>
+
+		<Row Tag="TXT_KEY_UNIT_COLONIST">
+			<Text>Колонист</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_COLONIST_STRATEGY">
+			<Text>Используйте этот юнит для основания новых городов; в отличие от прежних поселенцев, города, основанные колонистом, считаются марионетками и не увеличивают штрафы за размер империи, такие как стоимость технологий и политик. Их можно аннексировать без затрат, и им не нужны суды.[NEWLINE][NEWLINE]Колонист не может защищаться, поэтому сопровождайте его боевым юнитом. Основанные колонистами города начинают с 5 граждан, захватывают дополнительную территорию и автоматически получают следующий набор зданий:[NEWLINE][NEWLINE][ICON_BULLET] Амфитеатр[NEWLINE][ICON_BULLET] Акведук[NEWLINE][ICON_BULLET] Арена[NEWLINE][ICON_BULLET] Казармы[NEWLINE][ICON_BULLET] Совет[NEWLINE][ICON_BULLET] Кузница[NEWLINE][ICON_BULLET] Амбар[NEWLINE][ICON_BULLET] Гавань[NEWLINE][ICON_BULLET] Травник[NEWLINE][ICON_BULLET] Библиотека[NEWLINE][ICON_BULLET] Маяк[NEWLINE][ICON_BULLET] Рынок[NEWLINE][ICON_BULLET] Монумент[NEWLINE][ICON_BULLET] Святилище[NEWLINE][ICON_BULLET] Коптильня[NEWLINE][ICON_BULLET] Храм[NEWLINE][ICON_BULLET] Водяная мельница (если доступна)[NEWLINE][ICON_BULLET] Колодец (если доступен)[NEWLINE][ICON_BULLET] Ветряная мельница[NEWLINE][ICON_BULLET] Мастерская[NEWLINE][NEWLINE]Примечание: бонусы к строительству зданий из ветвей политики «Прогресс» и «Промышленность» не применяются к зданиям, создаваемым колонистами!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_COLONIST_TEXT">
+			<Text>Изучая историю, можно увидеть, как колонисты — разновидность поселенцев — очень часто занимали земли, которые прежде были домом для давно живущих там народов, обозначаемых как коренные. В некоторых случаях по мере изменения колониальных взглядов и законов юридическая принадлежность таких земель оспаривается коренными народами, которые заявляют о правах на традиционное пользование, земельных правах, титуле коренных жителей и связанных с этим формах владения или частичного контроля. В переносном смысле понятие «тот, кто идёт первым» также связано со словом «пионер» — человеком, переселившимся в менее освоенную область и основавшим там постоянное поселение.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_COLONIST_HELP">
+			<Text />
+		</Row>
+
+		
+		<Row Tag="TXT_KEY_UNIT_VP_GALLEY_HELP">
+			<Text />
+		</Row>
+
+		<Row Tag="TXT_KEY_UNIT_FLEET_DESTROYER">
+			<Text>Эскадренный миноносец флота</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FLEET_DESTROYER_STRATEGY">
+			<Text>Эскадренный миноносец флота — морской юнит ближнего боя, предназначенный для охоты на подводные лодки и обеспечения противовоздушной поддержки.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FLEET_DESTROYER_TEXT">
+			<Text>Эсминец — корабль XX века, предназначенный для патрулирования, эскорта, ПВО и борьбы с подводными лодками. Первые эсминцы были лёгкими судами, плохо подходившими для океанских походов без сопровождения вспомогательных судов с дополнительным топливом. Ко Второй мировой войне эсминцы стали быстрыми, манёвренными и несли достаточно вооружения и припасов для дальних походов через океаны мира.[NEWLINE][NEWLINE]Из вооружения эсминцы имели зенитные орудия, лёгкие корабельные пушки, торпеды и глубинные бомбы. Они часто сопровождали авианосные группы, патрулировали воды вокруг более ценных крупных кораблей в поисках субмарин и обеспечивали им ПВО. Они также охраняли транспортные конвои и патрулировали гавани и побережья. Служба на эсминце во время Второй мировой войны была крайне опасной: за войну Британия, США, Австралия и Канада потеряли более 220 эсминцев, в основном от ударов авиации.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FLEET_DESTROYER_HELP">
+			<Text />
+		</Row>
+
+		<Row Tag="TXT_KEY_UNIT_SENSOR_COMBAT_SHIP">
+			<Text>Разведывательный боевой корабль</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SENSOR_COMBAT_SHIP_STRATEGY">
+			<Text>Разведывательные боевые корабли — современная версия эсминцев, способная нести 3 ракеты и имеющая увеличенную дальность воздушного перехвата. Может использоваться как ударный или эскортный юнит.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SENSOR_COMBAT_SHIP_TEXT">
+			<Text>Эсминец с управляемым ракетным оружием (обозначение НАТО «DDG») — это эсминец, предназначенный для запуска управляемых ракет. Обычно он оснащён двумя крупными ракетными погребами, чаще всего с ячейками вертикального пуска. Помимо ракет и пушек, многие такие корабли способны выполнять противолодочные, противовоздушные и противокорабельные задачи. Некоторые оснащаются мощными радарами и могут использоваться в роли противоракетной или противобаллистической обороны.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SENSOR_COMBAT_SHIP_HELP">
+			<Text />
+		</Row>
+
+		<Row Tag="TXT_KEY_UNIT_LIBURNA">
+			<Text>Либурна</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_LIBURNA_STRATEGY">
+			<Text>Атакует смертоносными залпами стрел, становясь первым морским юнитом с дистанционной атакой. Не может заканчивать ход на океанских клетках.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_LIBURNA_TEXT">
+			<Text>Либурна — небольшой и быстрый тип галеры, использовавшийся для налётов и патрулирования в Средиземном море. Сначала её создали либурны на территории современной Далмации, а позднее римский флот принял её на вооружение как манёвренный патрульный корабль для борьбы с пиратами.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_LIBURNA_HELP">
+			<Text />
+		</Row>
+
+		<Row Tag="TXT_KEY_UNIT_CRUISER">
+			<Text>Крейсер</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_CRUISER_STRATEGY">
+			<Text>Стройте крейсеры, чтобы усилить свои броненосцы и захватить контроль над морями! Однако убедитесь, что у вас достаточно железа.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_CRUISER_TEXT">
+			<Text>Крейсер — тип военного корабля. Этот термин используется уже несколько столетий и в разное время означал разное. В эпоху паруса «крейсерская служба» обозначала самостоятельную разведку, рейдерство или защиту торговли. В середине XIX века крейсером стали называть корабли, предназначенные для этих ролей, хотя сами крейсеры сильно различались по размеру — от небольших защищённых крейсеров до броненосных. К началу XX века крейсеры заняли устойчивое место в шкале классов военных кораблей: меньше линкора, но больше эсминца.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_CRUISER_HELP">
+			<Text />
+		</Row>
+
+		<Row Tag="TXT_KEY_UNIT_DREADNOUGHT">
+			<Text>Дредноут</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_DREADNOUGHT_STRATEGY">
+			<Text>Дредноуты получают продвижение [COLOR_POSITIVE_TEXT]Огонь с закрытых позиций[ENDCOLOR] по сравнению с заменяемыми ими крейсерами. В сочетании с высокой [ICON_RANGE_STRENGTH] дальнобойной силой это позволяет вести более агрессивную бомбардировку побережья. Дредноуты особенно полезны против наземных целей и кораблей ближнего боя, пока ваши корабли ближнего боя связывают вражеские дальнобойные корабли.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_DREADNOUGHT_TEXT">
+			<Text>Дредноут был преобладающим типом линкора в начале XX века. В его конструкции были две революционные особенности: схема вооружения «только крупный калибр» и паротурбинная силовая установка. Первый корабль этого типа, британский «Dreadnought», нёс десять 12-дюймовых орудий. Менее чем через пять лет после его ввода в строй начали строиться ещё более мощные «супердредноуты».</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_DREADNOUGHT_HELP">
+			<Text />
+		</Row>
+
+		<Row Tag="TXT_KEY_UNIT_ATTACK_SUBMARINE">
+			<Text>Ударная подводная лодка</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ATTACK_SUBMARINE_STRATEGY">
+			<Text>Ударная подлодка — наступательный морской юнит, более сильный и быстрый, чем предшественник. Может также нести ракету.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ATTACK_SUBMARINE_TEXT">
+			<Text>Ударная, или «охотник-убийца», подводная лодка — это субмарина, специально предназначенная для атаки и уничтожения других подводных лодок и боевых кораблей. Некоторые ударные подлодки также вооружаются крылатыми ракетами в шахтах вертикального пуска, что расширяет круг их задач вплоть до ударов по наземным целям.[NEWLINE][NEWLINE]Основой большинства неядерных подводных лодок в мире в 1950-е годы стала немецкая лодка типа XXI времён Второй мировой войны. В 1960-е годы и США, и СССР ввели в строй первые подводные лодки с баллистическими ракетами в рамках стратегии ядерного сдерживания времён холодной войны.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ATTACK_SUBMARINE_HELP">
+			<Text />
+		</Row>
+
+		<Row Tag="TXT_KEY_UNIT_SUPERCARRIER">
+			<Text>Суперавианосец</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SUPERCARRIER_STRATEGY">
+			<Text>Суперавианосец — специализированное судно, перевозящее истребители, бомбардировщики и атомные бомбы. Самолёты на его борту делают его самым мощным наступательным оружием на море. В обороне суперавианосец гораздо крепче предшественника, но его всё равно следует сопровождать эсминцами и подлодками. Одновременно вы не можете иметь более 2 активных суперавианосцев.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SUPERCARRIER_TEXT">
+			<Text>Суперавианосец — неофициальный термин для крупнейшего типа авианосцев, обычно водоизмещением свыше 70 000 тонн. Суперавианосцы — крупнейшие боевые корабли, когда-либо построенные.[NEWLINE][NEWLINE]Суперавианосцы типа «Nimitz» — серия из десяти атомных авианосцев ВМС США. При общей длине 333 метра и полном водоизмещении свыше 100 000 тонн они долгое время были крупнейшими действующими боевыми кораблями.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SUPERCARRIER_HELP">
+			<Text />
+		</Row>
+
+		<Row Tag="TXT_KEY_UNIT_ROCKET_MISSILE">
+			<Text>Ракета</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ROCKET_MISSILE_STRATEGY">
+			<Text>Ракета — одноразовый юнит, уничтожающийся при атаке цели. Она может напрямую наносить урон юнитам, размещённым в городах. Подробнее см. правила о ракетах.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ROCKET_MISSILE_TEXT">
+			<Text>Ракета — это самоходная неуправляемая система вооружения, приводимая в действие ракетным двигателем. Исторически ракеты использовались главным образом как оружие класса «воздух-земля» и «воздух-воздух».[NEWLINE][NEWLINE]Первыми ракетами, применявшимися в бою, стала серия, разработанная нацистской Германией во Второй мировой войне. Наиболее известны летающая бомба V-1 и ракета V-2.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ROCKET_MISSILE_HELP">
+			<Text />
+		</Row>
+
+		<Row Tag="TXT_KEY_UNIT_EMISSARY">
+			<Text>Эмиссар</Text>
+			<Gender>neuter:an</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EMISSARY_STRATEGY">
+			<Text>Эмиссар — первый дипломатический юнит, доступный игроку; он олицетворяет ранние попытки мирного сотрудничества между цивилизациями. Поскольку культура дипломатии в древнюю эпоху ещё крайне примитивна, эмиссар не слишком эффективен. Стоимость [ICON_PRODUCTION] производства увеличивается с эпохой.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EMISSARY_TEXT">
+			<Text>Хотя эмиссары — самые дешёвые и самые ранние дипломатические юниты, они не слишком надёжны как постоянный источник влияния. Игрокам стоит использовать их главным образом для закрепления или поддержания отношений с городом-государством, с которым вы уже дружите или союзничаете.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EMISSARY_HELP">
+			<Text>Переместите этот юнит в [ICON_CITY_STATE] город-государство, с которым вы не воюете, и проведите дипломатическую миссию, чтобы получить 40 [ICON_INFLUENCE] влияния. Стоимость [ICON_PRODUCTION] производства увеличивается с эпохой.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_UNIT_ENVOY">
+			<Text>Посланник</Text>
+			<Gender>neuter:an</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ENVOY_TEXT">
+			<Text>В средневековый период искусство дипломатии наконец повзрослело. Возникли новые взгляды на внешнюю политику, основанные уже не на принципе «прав тот, кто сильнее», а на искусстве лести, изощрённости и, при необходимости, запугивания. Посланник воплощает этот скачок в дипломатической силе и потому эффективнее эмиссара, но и заметно дороже. Стоимость [ICON_PRODUCTION] производства увеличивается с эпохой.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ENVOY_STRATEGY">
+			<Text>Посланники гораздо полезнее как источник дипломатического влияния на города-государства. Однако за эту полезность приходится платить более высокой ценой. Игрокам потребуется достаточный запас бумаги, чтобы обеспечивать растущие нужды своей дипломатической службы.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ENVOY_HELP">
+			<Text>Переместите этот юнит в [ICON_CITY_STATE] город-государство, с которым вы не воюете, и проведите дипломатическую миссию, чтобы получить 50 [ICON_INFLUENCE] влияния. Стоимость [ICON_PRODUCTION] производства увеличивается с эпохой.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_UNIT_DIPLOMAT">
+			<Text>Дипломат</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_DIPLOMAT_TEXT">
+			<Text>Вооружённые философией Просвещения и мощью современной индустрии, дипломаты индустриальной эпохи становятся подлинными гигантами влияния. Несмотря на всё более высокую стоимость, дипломаты позволяют игроку значительно расширить масштабы своего влияния на города-государства по всему миру. Стоимость [ICON_PRODUCTION] производства увеличивается с эпохой.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_DIPLOMAT_STRATEGY">
+			<Text>Дипломаты очень дороги по сравнению с эмиссарами и посланниками. Игрокам, которые не наращивали постоянно запас бумаги, будет трудно сохранять влияние на города-государства по всему миру. Но если у вас есть ресурсы и производство, чтобы массово создавать дипломатов, мир склонится перед вашей империей мягкой силы и убедительного влияния.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_DIPLOMAT_HELP">
+			<Text>Переместите этот юнит в [ICON_CITY_STATE] город-государство, с которым вы не воюете, и проведите дипломатическую миссию, чтобы получить 60 [ICON_INFLUENCE] влияния. Стоимость [ICON_PRODUCTION] производства увеличивается с эпохой.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_UNIT_AMBASSADOR">
+			<Text>Посол</Text>
+			<Gender>neuter:an</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_AMBASSADOR_TEXT">
+			<Text>Современный посол, рождённый напряжением эпохи атомной войны, воплощает вершину дипломатической мощи. Годы обучения языкам, политике, культуре и экономике позволяют послам подчинять своему влиянию любой город-государство. Эти таланты, однако, делают послов самыми дорогими дипломатическими юнитами в игре. Стоимость [ICON_PRODUCTION] производства увеличивается с эпохой.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_AMBASSADOR_STRATEGY">
+			<Text>Послы, хоть и дороги, крайне важны для дипломатической победы. Используйте их, чтобы вырывать контроль над городами-государствами у других игроков, удерживать собственные союзы и держать власть над Всемирным конгрессом в своих руках.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_AMBASSADOR_HELP">
+			<Text>Переместите этот юнит в [ICON_CITY_STATE] город-государство, с которым вы не воюете, и проведите дипломатическую миссию, чтобы получить 70 [ICON_INFLUENCE] влияния. Стоимость [ICON_PRODUCTION] производства увеличивается с эпохой.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_UNIT_GREAT_DIPLOMAT">
+			<Text>Великий дипломат</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_GREAT_DIPLOMAT_TEXT">
+			<Text>На протяжении истории каждой цивилизации в периоды раздоров или величия появлялись выдающиеся посредники, советники и сановники. Великие дипломаты представляют именно таких исторических личностей и способны значительно усилить дипломатическое могущество игрока.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_GREAT_DIPLOMAT_STRATEGY">
+			<Text>Бесплатно получает продвижение [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_GREAT_DIPLOMAT}[ENDCOLOR], которое даёт 100 [ICON_INFLUENCE] влияния от дипломатических миссий, а также дополнительное [ICON_INFLUENCE] влияние за каждую завершённую эпоху.[NEWLINE][NEWLINE]Вы можете переместить этот юнит в город-государство, с которым не воюете, и либо провести [COLOR_POSITIVE_TEXT]дипломатическую миссию[ENDCOLOR], либо построить [COLOR_POSITIVE_TEXT]посольство[ENDCOLOR], дающее дополнительный голос во Всемирном конгрессе.[NEWLINE][NEWLINE]Великий дипломат расходуется при использовании любым из этих способов. При расходовании вы получаете +1 [ICON_RES_PAPER] бумаги.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_GREAT_DIPLOMAT_HELP">
+			<Text>Дипломатические миссии этого юнита дают целевому [ICON_CITY_STATE] городу-государству 100 базового [ICON_INFLUENCE] влияния, плюс 15 дополнительного [ICON_INFLUENCE] влияния за каждую прошедшую эпоху, и уменьшают на такую же величину [ICON_INFLUENCE] влияние всех остальных цивилизаций на этот [ICON_CITY_STATE] город-государство.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_UNIT_REDCOAT">
+			<Text>Красный мундир</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_REDCOAT_TEXT">
+			<Text>Хотя ярко-красная форма вовсе не была редкостью в европейской военной истории, именно красные мундиры британской армии и королевского флота стали узнаваемым символом британской военной мощи. Изначально этот цвет использовали ради удешевления изготовления формы, но со временем он стал частью английской идентичности и сопровождал британскую пехоту в эпоху имперской экспансии.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_REDCOAT_STRATEGY">
+			<Text />
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_REDCOAT_HELP">
+			<Text />
+		</Row>
+
+		<Row Tag="TXT_KEY_UNIT_YAMATO">
+			<Text>Ямато</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_YAMATO_TEXT">
+			<Text>Линкоры типа «Ямато» были жемчужиной Императорского флота Японии во Второй мировой войне. При полном водоизмещении в 73 000 тонн это были самые тяжёлые и мощно вооружённые линкоры из когда-либо построенных. Каждый «Ямато» нёс девять 18,1-дюймовых орудий — крупнейшую корабельную артиллерию, когда-либо установленную на военном корабле.[NEWLINE][NEWLINE]Своими размерами, скоростью и мощью корабли типа «Ямато» наглядно воплощали решимость Японии защищать свои интересы от западных держав. Поэтому создание и гибель линкоров «Ямато» стали символом взлёта и падения японских имперских устремлений.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_YAMATO_STRATEGY">
+			<Text>У «Ямато» дальность 4, продвижение [COLOR_POSITIVE_TEXT]Бронирование I[ENDCOLOR], а также более высокие [ICON_STRENGTH] боевая сила и [ICON_RANGE_STRENGTH] дальнобойная сила по сравнению с линкорами. За уничтожение этого корабля враг получает награду в виде [ICON_GOLDEN_AGE] очков золотого века и [ICON_CULTURE] культуры.[NEWLINE][NEWLINE]Используйте его превосходную дальность, чтобы поражать важные удалённые цели, сохраняя безопасную дистанцию.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_YAMATO_HELP">
+			<Text />
+		</Row>
+
+		
+		<Row Tag="TXT_KEY_UNITCOMBAT_MISSILE">
+			<Text>Ракета</Text>
+		</Row>		
+		<Row Tag="TXT_KEY_UNITCOMBAT_NUKE">
+			<Text>Ядерное оружие</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNITCOMBAT_SETTLER">
+			<Text>Поселенец</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNITCOMBAT_WORKER">
+			<Text>Рабочий</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNITCOMBAT_WORKBOAT">
+			<Text>Рабочая лодка</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNITCOMBAT_CARGO">
+			<Text>Груз</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNITCOMBAT_CARAVAN">
+			<Text>Караван</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNITCOMBAT_INQUISITOR">
+			<Text>Инквизитор</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNITCOMBAT_MISSIONARY">
+			<Text>Миссионер</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNITCOMBAT_DIPLOMACY">
+			<Text>Дипломатия</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNITCOMBAT_ARCHAEOLOGIST">
+			<Text>Археолог</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNITCOMBAT_SPECIAL_PEOPLE">
+			<Text>Великий человек</Text>
+		</Row>	
+		<Row Tag="TXT_KEY_UNITCOMBAT_SPACESHIP">
+			<Text>Часть космического корабля</Text>
+		</Row>
+
+		
+		<Row Tag="TXT_KEY_GREAT_PERSON_KISSINGER">
+			<Text>Henry Kissinger</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_ALBRIGHT">
+			<Text>Madeleine Albright</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_ANNAN">
+			<Text>Kofi Annan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_BAN">
+			<Text>Ban Ki-Moon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_BELL">
+			<Text>Gertrude Bell</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_DAG">
+			<Text>Dag Hammarskjold</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_DINTEVILLE">
+			<Text>Jean de Dinteville</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_DURRELL">
+			<Text>Lawrence Durrell</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JAY">
+			<Text>John Jay</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_KOLLONTAI">
+			<Text>Aleksandra Kollontai</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_LAWRENCE">
+			<Text>T.E. Lawrence</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_METTERNICH">
+			<Text>Klemens von Metternich</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_NERUDA">
+			<Text>Pablo Neruda</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_ODO">
+			<Text>Odo Russell</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_SELVE">
+			<Text>Georges de Selve</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_SEWARD">
+			<Text>William Seward</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_SHIGERU">
+			<Text>Yoshida Shigeru</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_SZABO">
+			<Text>Violette Szabo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_TALLEYRAND">
+			<Text>Charles-Maurice de Talleyrand</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_THANT">
+			<Text>U Thant</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_WALDHEIM">
+			<Text>Kurt Waldheim</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_WALLENBERG">
+			<Text>Raoul Wallenberg</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_WEIJUN">
+			<Text>Gu Weijun</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_WHOWARD">
+			<Text>William Howard</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_ZIMMERMAN">
+			<Text>Arthur Zimmerman</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__010">
+			<Text>Hattusili III</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__020">
+			<Text>Titus Quinctius Flamininus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__025">
+			<Text>Zhang Qian</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__030">
+			<Text>Pope Leo I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__035">
+			<Text>Wang Xuance</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__040">
+			<Text>Jigonhsasee</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__050">
+			<Text>Baldassare Castiglione</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__060">
+			<Text>Eustace Chapuys</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__070">
+			<Text>Kamehameha III</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__080">
+			<Text>Pargali Ibrahim Pasha</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__090">
+			<Text>Sir Thomas Roe</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__100">
+			<Text>Hugo Grotius</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__110">
+			<Text>Johann Rudolf Wettstein</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__120">
+			<Text>Kosa Pan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__130">
+			<Text>Lord Macartney</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__140">
+			<Text>Moshoeshoe I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__150">
+			<Text>Sir Stratford Canning</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__160">
+			<Text>Albert von Mensdorff</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__170">
+			<Text>José Maria da Silva Paranhos</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__180">
+			<Text>Orestes Ferrara</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__190">
+			<Text>Sir Samuel Ebenezer Runganadhan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__200">
+			<Text>Robert Anthony Eden</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__210">
+			<Text>Tran Van Chuong</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__220">
+			<Text>Miguel Ángel Asturias</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__230">
+			<Text>Narciso Ramos</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__240">
+			<Text>Suzanne Borel</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__250">
+			<Text>George F. Kennan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__260">
+			<Text>Yakov Malik</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__270">
+			<Text>Shanker Shamsher Jang Bahadur Rana</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__280">
+			<Text>Adam Malik</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__290">
+			<Text>Stéphane Hessel</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__300">
+			<Text>Javier Perez de Cuellar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__310">
+			<Text>Boutros Boutros-Ghali</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__320">
+			<Text>Max Jakobson</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__330">
+			<Text>Gérard Ouédraogo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__340">
+			<Text>Eduard Shevardnadze</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__350">
+			<Text>Zbigniew Brzezinski</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__360">
+			<Text>Lawrence Eagleburger</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__370">
+			<Text>Redha Malek</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__380">
+			<Text>Patrick Nothomb</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__390">
+			<Text>Larbi Messari</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__400">
+			<Text>Donald McHenry</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__410">
+			<Text>Peter Jay</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__420">
+			<Text>Ali Treki</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__430">
+			<Text>Martti Ahtisaari</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__440">
+			<Text>Jacques Diouf</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__450">
+			<Text>Jiri Grusa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__460">
+			<Text>Endymion Wilkinson</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__470">
+			<Text>Mountaga Diallo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__480">
+			<Text>Migonette Patricia Durrant</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__490">
+			<Text>Arthur J. Collingsworth</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__500">
+			<Text>Roble Olhaye</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__510">
+			<Text>César Mayoral</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__520">
+			<Text>Masatoshi Muto</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__530">
+			<Text>Benedikt Ásgeirsson</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__540">
+			<Text>Juan Manuel Santos</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__550">
+			<Text>Vitali Tchourkine</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__560">
+			<Text>Andreï Karlov</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__570">
+			<Text>Mats Foyer</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__580">
+			<Text>Saëb Erakat</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__590">
+			<Text>Jamal al-Jamal</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__600">
+			<Text>Zhao Lijian</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__610">
+			<Text>Raychelle Omamo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__620">
+			<Text>Susan Rice</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__630">
+			<Text>Ahmed Sareer</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__640">
+			<Text>Samantha Smith</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__650">
+			<Text>Nikola Dimitrov</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__660">
+			<Text>Carolyn Rodrigues</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__670">
+			<Text>Vuk Jeremic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__680">
+			<Text>Abiy Ahmed Ali</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__690">
+			<Text>Julie Chappell</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__700">
+			<Text>Nadia Murad</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__710">
+			<Text>Malala Yousafzai</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__720">
+			<Text>Aalayah Eastmond</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__730">
+			<Text>Greta Thunberg</Text>
+		</Row>
+		
+		
+		<Row Tag="TXT_KEY_GREAT_PERSON_LAWRENCE_ALMA_TADEMA">
+			<Text>Lawrence Alma-Tadema</Text>
+		</Row>
+	</Language_ru_RU>
+</GameData>

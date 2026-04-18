@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='utf-8'?>
+<GameData>
+	<Language_ru_RU>
+		<Row Tag="TXT_KEY_BUILD_FARM_HELP">
+			<Text>+1 [ICON_FOOD] пищи за каждые 2 фермы, соседствующие с этой фермой, и/или за доступ к пресной воде.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_FARM_REC">
+			<Text>Это увеличит [ICON_FOOD] производство пищи на этой клетке. Фермы, соседствующие с двумя другими фермами и/или с пресной водой, получают +1 [ICON_FOOD] пищи.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_TRADING_POST_HELP">
+			<Text>+1 [ICON_PRODUCTION] производства и [ICON_GOLD] золота, если построена на дороге, соединяющей два города; на железной дороге бонус удваивается. +1 [ICON_PRODUCTION] производства и [ICON_GOLD] золота, если через эту деревню проходит торговый путь; после Индустриальной эпохи бонус удваивается.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_LUMBERMILL_HELP">
+			<Text>+1 [ICON_PRODUCTION] производства и [ICON_GOLD] золота за каждые 2 лесопилки, соседствующие с этой лесопилкой.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_CUSTOMS_HOUSE_HELP">
+			<Text>Городки получают +2 [ICON_GOLD] золота и [ICON_PRODUCTION] производства, если построены на дороге, соединяющей два ваших города, и +4 [ICON_GOLD] золота и [ICON_PRODUCTION] производства, если на железной дороге. Также дают дополнительное [ICON_GOLD] золото и [ICON_PRODUCTION] производство (+2 на дорогах, +4 на железных дорогах), если через этот городок проходит торговый путь — внутренний или международный.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_CONSUMED_HELP_CUSTOMS_HOUSE">
+			<Text>Юнит будет израсходован. +2 [ICON_PRODUCTION] производства и [ICON_GOLD] золота, если построен на дороге, соединяющей два города; на железной дороге бонус удваивается. +2 [ICON_PRODUCTION] производства и [ICON_GOLD] золота, если через этот городок проходит торговый путь; после Индустриальной эпохи бонус удваивается.[NEWLINE][NEWLINE]Улучшения, создаваемые великими людьми, подключают стратегические ресурсы на этой клетке к торговой сети. Городки повышают количество [ICON_GOLD] золота от дипломатической миссии Великого торговца и длительность «Дня любви к королю» на [COLOR_POSITIVE_TEXT]25%[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_MANUFACTORY_HELP">
+			<Text>Даёт +1 [COLOR_POSITIVE_TEXT]дополнительную копию[ENDCOLOR] любого предмета роскоши или стратегического ресурса, который подключает. Для расчёта [ICON_MONOPOLY] монополии дополнительные копии учитываются во владении (числитель), но не увеличивают общее число ресурса в мире (знаменатель).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_CONSUMED_HELP_MANUFACTORY">
+			<Text>Юнит будет израсходован.[NEWLINE][NEWLINE]Подключит ресурсы на этой клетке к торговой сети и даст +1 дополнительную копию. Мануфактуры улучшают способность Великого инженера «Ускорить производство» на [COLOR_POSITIVE_TEXT]10%[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_ACADEMY_HELP">
+			<Text>Считается всеми типами улучшений для [COLOR_POSITIVE_TEXT]бонусов соседства[ENDCOLOR], например даёт +0.5 [ICON_FOOD] пищи соседним фермам.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_CONSUMED_HELP_ACADEMY">
+			<Text>Юнит будет израсходован.[NEWLINE][NEWLINE]Подключит ресурсы на этой клетке к торговой сети. Академии улучшают способность Великого учёного «Открыть технологию» на [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] и считаются всеми типами улучшений для [COLOR_POSITIVE_TEXT]бонусов соседства[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_HOLY_SITE_HELP">
+			<Text>+1 [ICON_PEACE] веры за каждую соседнюю гору. Особенно важно, что национальные чудеса, открывающие [COLOR_POSITIVE_TEXT]реформационные верования[ENDCOLOR], дают всем священным местам в империи +5 к одному виду дохода.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IMPROVEMENT_EMBASSY">
+			<Text>Посольство</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IMPROVEMENT_EMBASSY_TEXT">
+			<Text>Посольства могут строиться только на территории города-государства Великими дипломатами.[NEWLINE][NEWLINE]Первый игрок (и только первый!), построивший посольство на земле города-государства, [COLOR_POSITIVE_TEXT]получает дополнительный голос во Всемирном конгрессе[ENDCOLOR]. За посольства сверх первого, построенного на территории одного и того же города-государства, дополнительные голоса не выдаются.[NEWLINE][NEWLINE]Посольство нельзя разграбить — после постройки его уже нельзя удалить, и оно всегда будет давать свой дополнительный голос во Всемирном конгрессе первоначальному строителю. Однако если первоначальный владелец будет завоёван, завоеватель получит контроль над его посольствами и их голосами!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_EMBASSY">
+			<Text>Построить [LINK=IMPROVEMENT_EMBASSY]посольство[\LINK]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_CONSUMED_HELP_EMBASSY">
+			<Text>Юнит будет израсходован.[NEWLINE][NEWLINE]При строительстве даёт [COLOR_POSITIVE_TEXT]1 голос во Всемирном конгрессе[ENDCOLOR]. Получите +1 [ICON_RES_PAPER] бумаги.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IMPROVEMENT_MOUNTAIN_CITY">
+			<Text>Горный город</Text>
+		</Row>
+	</Language_ru_RU>
+</GameData>

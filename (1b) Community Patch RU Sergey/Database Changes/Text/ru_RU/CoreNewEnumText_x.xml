@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_ru_RU>
+		<Row Tag="TXT_KEY_ACCOMPLISHMENT_POLICY_BRANCH_ANCIENT">
+			<Text>Завершение ветки институтов Древности</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ACCOMPLISHMENT_POLICY_BRANCH_MEDIEVAL">
+			<Text>Завершение ветки институтов Средневековья</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ACCOMPLISHMENT_POLICY_BRANCH_INDUSTRIAL">
+			<Text>Завершение ветки институтов Индустриальной эпохи</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ACCOMPLISHMENT_CHOOSE_IDEOLOGY">
+			<Text>Выбор идеологии</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ACCOMPLISHMENT_BELIEF_PANTHEON">
+			<Text>Выбор пантеона</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ACCOMPLISHMENT_BELIEF_FOUNDER">
+			<Text>Выбор верования основателя</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ACCOMPLISHMENT_BELIEF_FOLLOWER">
+			<Text>Выбор верования последователей</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ACCOMPLISHMENT_BELIEF_ENHANCER">
+			<Text>Выбор верования-усилителя</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ACCOMPLISHMENT_BELIEF_REFORMATION">
+			<Text>Выбор верования Реформации</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ACCOMPLISHMENT_LONGCOUNT_GENERAL">
+			<Text>Великий генерал Длинного счёта майя</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ACCOMPLISHMENT_LONGCOUNT_ADMIRAL">
+			<Text>Великий адмирал Длинного счёта майя</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ACCOMPLISHMENT_LONGCOUNT_PROPHET">
+			<Text>Великий пророк Длинного счёта майя</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ACCOMPLISHMENT_LONGCOUNT_WRITER">
+			<Text>Великий писатель Длинного счёта майя</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ACCOMPLISHMENT_LONGCOUNT_ARTIST">
+			<Text>Великий художник Длинного счёта майя</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ACCOMPLISHMENT_LONGCOUNT_MUSICIAN">
+			<Text>Великий музыкант Длинного счёта майя</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ACCOMPLISHMENT_LONGCOUNT_ENGINEER">
+			<Text>Великий инженер Длинного счёта майя</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ACCOMPLISHMENT_LONGCOUNT_MERCHANT">
+			<Text>Великий купец Длинного счёта майя</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ACCOMPLISHMENT_LONGCOUNT_SCIENTIST">
+			<Text>Великий учёный Длинного счёта майя</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ACCOMPLISHMENT_LONGCOUNT_DIPLOMAT">
+			<Text>Великий дипломат Длинного счёта майя</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ACCOMPLISHMENT_ELIMINATE_PLAYER">
+			<Text>Устранение игрока</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ACCOMPLISHMENT_DIPLOMATIC_MISSION_BOOST">
+			<Text>Дипломатическая миссия юнита-проксена</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ACCOMPLISHMENT_WARS_WON">
+			<Text>Победа в войне</Text>
+		</Row>
+	</Language_ru_RU>
+</GameData>

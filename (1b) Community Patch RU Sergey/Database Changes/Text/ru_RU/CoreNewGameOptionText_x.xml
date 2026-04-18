@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_ru_RU>
+		<Row Tag="TXT_KEY_GAME_OPTION_BARB_GG_GA_POINTS">
+			<Text>Очки Великого Генерала/Великого Адмирала за варваров</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_BARB_GG_GA_POINTS_HELP">
+			<Text>Позволяет всем игрокам накапливать очки Великого Генерала и Великого Адмирала за сражения с варварами.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_CHILL_BARBARIANS">
+			<Text>Спокойные варвары</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_CHILL_BARBARIANS_HELP">
+			<Text>Частота появления варваров немного снижена. Расслабьтесь.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_DISABLE_AI_VICTORY_COMPETITION">
+			<Text>Отключить соперничество ИИ за победу</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_DISABLE_AI_VICTORY_COMPETITION_HELP">
+			<Text>Лидеры ИИ не будут недолюбливать других игроков за их прогресс к условиям победы. Это заметно облегчает игру.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_DISABLE_AI_ENDGAME_AGGRESSION">
+			<Text>Отключить агрессию ИИ в конце игры</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_DISABLE_AI_ENDGAME_AGGRESSION_HELP">
+			<Text>Лидеры ИИ не будут получать бонус к агрессии против игроков, близких к победе в игре. ПРИМЕЧАНИЕ: этот параметр бесполезен, если включено «Отключить соперничество ИИ за победу».</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_RANDOMIZED_VICTORIES">
+			<Text>Случайные типы победы</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_RANDOMIZED_VICTORIES_HELP">
+			<Text>Когда любой игрок входит в Атомную эру, случайным образом включается один тип победы (Культурная, Дипломатическая или Научная). Все остальные победы отключаются (примечание: победы по Времени и Доминированию всегда возможны).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_RANDOMIZE_CITY_NAMES">
+			<Text>Случайные названия городов</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_RANDOMIZE_CITY_NAMES_HELP">
+			<Text>Названия городов после столицы будут назначаться в случайном порядке вместо обычного порядка названий данной цивилизации.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_TRANSPARENT_DIPLOMACY">
+			<Text>Прозрачная дипломатия</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_TRANSPARENT_DIPLOMACY_HELP">
+			<Text>Показывает точные числовые значения рядом с дипломатическими модификаторами. Кроме того, лидеры ИИ никогда не будут скрывать отрицательные модификаторы.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_KEEP_UNMET_PLAYERS_UNKNOWN">
+			<Text>Скрывать неизвестные цивилизации до игры</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_KEEP_UNMET_PLAYERS_UNKNOWN_HELP">
+			<Text>На экране настройки игры не показывать сведения о лидере/цивилизации других игроков-людей из других команд (если они не выбирают случайного лидера).[NEWLINE]При загрузке сохранения не показывать сведения о лидере/цивилизации игроков из других команд, с которыми вы ещё не встретились в игре.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_DISABLE_RESEARCH_AGREEMENTS">
+			<Text>Отключить соглашения об исследованиях</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_DISABLE_RESEARCH_AGREEMENTS_HELP">
+			<Text>Соглашения об исследованиях нельзя заключать с другими цивилизациями.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_ENABLE_TECH_TRADING">
+			<Text>Включить торговлю технологиями</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_ENABLE_TECH_TRADING_HELP">
+			<Text>Позволяет цивилизациям торговать технологиями.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_NO_TECH_BROKERING">
+			<Text>Без перепродажи технологий</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_NO_TECH_BROKERING_HELP">
+			<Text>Цивилизации не могут продавать технологию, если не исследовали её самостоятельно.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_BAD_EVENTS">
+			<Text>Включить события (негативные)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_BAD_EVENTS_HELP">
+			<Text>Включить события с плохими исходами из системы событий игрока и города Vox Populi.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_CIV_SPECIFIC_EVENTS">
+			<Text>Включить события (цивилизационные)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_CIV_SPECIFIC_EVENTS_HELP">
+			<Text>Включить события, уникальные для цивилизаций, из системы событий игрока и города Vox Populi.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_GOOD_EVENTS">
+			<Text>Включить события (позитивные)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_GOOD_EVENTS_HELP">
+			<Text>Включить события с положительными исходами из системы событий игрока и города Vox Populi.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_NEUTRAL_EVENTS">
+			<Text>Включить события (нейтральные)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_NEUTRAL_EVENTS_HELP">
+			<Text>Включить события с нейтральными исходами из системы событий игрока и города Vox Populi.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_TRADE_EVENTS">
+			<Text>Включить события (торговые)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_TRADE_EVENTS_HELP">
+			<Text>Включить торговые (прочие) события из системы событий игрока и города Vox Populi.</Text>
+		</Row>
+	</Language_ru_RU>
+</GameData>

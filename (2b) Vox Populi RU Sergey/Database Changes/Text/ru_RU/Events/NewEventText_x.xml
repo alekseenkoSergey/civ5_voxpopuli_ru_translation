@@ -1,0 +1,1367 @@
+<?xml version='1.0' encoding='utf-8'?>
+<GameData>
+	<Language_ru_RU>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_NO_CHOICE">
+			<Text>Меня это не интересует.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_NO_CHOICE_HELP">
+			<Text>Завершает событие без какого-либо эффекта.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_COMET_DESCRIPTION">
+			<Text>Замечена комета!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_COMET_HELP">
+			<Text>В ночном небе появилась комета. Одни считают это чудом, другие — дурным предзнаменованием. Ваши советники не уверены и ждут вашего решения. Что это значит?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_COMET_CHOICE_1">
+			<Text>Это доброе знамение.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_COMET_CHOICE_1_HELP">
+			<Text>{2_InstantYield}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_COMET_CHOICE_2">
+			<Text>Наши боги благоволят нам.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_COMET_CHOICE_2_HELP">
+			<Text>+1 [ICON_HAPPINESS_1] счастья во всех городах на {4_Turns}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_COMET_CHOICE_3">
+			<Text>Наши жрецы проведут гадание, чтобы понять, добрый ли это знак.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_COMET_CHOICE_3_HELP">
+			<Text>50% шанс получить {2_InstantYield}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_COMET_CHOICE_3_SUCCESSFUL_S">
+			<Text>Гадание удалось!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_COMET_CHOICE_3_SUCCESSFUL">
+			<Text>Ваши жрецы считают, что гадание прошло успешно, и в результате ваша [ICON_PEACE] вера значительно возросла.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_COMET_CHOICE_4">
+			<Text>Наши обсерватории многое узнают благодаря этому.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_COMET_CHOICE_4_HELP">
+			<Text>+500 [ICON_RESEARCH] науки.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_METEOR_DESCRIPTION">
+			<Text>Падающие звёзды</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_METEOR_HELP">
+			<Text>Прошлой ночью небо озарила серия ярких вспышек — нашу планету посетил метеорный дождь. По всему миру упали крупные метеориты. Ваши чиновники доставили один такой образец в столицу для изучения. Что с ним делать?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_METEOR_CHOICE_1">
+			<Text>Разбейте его и отправьте в кузницу.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_METEOR_CHOICE_1_HELP">
+			<Text>50% шанс получить 2 [ICON_RES_IRON] железа.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_METEOR_CHOICE_1_SUCCESSFUL_S">
+			<Text>[ICON_RES_IRON] Железо извлечено из метеорита!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_METEOR_CHOICE_1_SUCCESSFUL">
+			<Text>Ваши кузнецы смогли извлечь из метеорита крупные куски железа и выковать из этого материала прекрасные мечи и копья.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_METEOR_CHOICE_2">
+			<Text>Дар небес следует разделить и передать нашим жрецам.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_METEOR_CHOICE_2_HELP">
+			<Text>+1 [ICON_PEACE] веры от всех святилищ.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_METEOR_CHOICE_3">
+			<Text>Вырежьте из него декоративные предметы для моего тронного зала.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_METEOR_CHOICE_3_HELP">
+			<Text>+2 [ICON_CULTURE] культуры от дворца.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_METEOR_CHOICE_4">
+			<Text>Передайте его университетам для изучения.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_METEOR_CHOICE_4_HELP">
+			<Text>+1 [ICON_RESEARCH] науки от всех университетов.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_METEOR_CHOICE_5">
+			<Text>Ему место в музее.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_METEOR_CHOICE_5_HELP">
+			<Text>+1 [ICON_CULTURE] культуры от всех музеев.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_ECLIPSE_DESCRIPTION">
+			<Text>Затмение!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_ECLIPSE_HELP">
+			<Text>Сегодня наш народ с удивлением наблюдал затмение. Что это означает для нашей империи?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_ECLIPSE_CHOICE_1">
+			<Text>Я не уверен, что это значит.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_ECLIPSE_CHOICE_1_HELP">
+			<Text>Получите {1_YieldCost}. 25% шанс на следующий эффект: {2_InstantYield}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_ECLIPSE_CHOICE_1_SUCCESSFUL_S">
+			<Text>Дурное предзнаменование!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_ECLIPSE_CHOICE_1_SUCCESSFUL">
+			<Text>Это было дурное предзнаменование.{4_Help}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_ECLIPSE_CHOICE_2">
+			<Text>Быстро, принесите жертву!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_ECLIPSE_CHOICE_2_HELP">
+			<Text>Потратьте {1_YieldCost} в [ICON_CAPITAL] столице. Получите {2_InstantYield}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_ECLIPSE_CHOICE_3">
+			<Text>Наука может это объяснить!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_ECLIPSE_CHOICE_3_HELP">
+			<Text>{2_InstantYield}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_ECLIPSE_CHOICE_4">
+			<Text>Быстро, сделайте снимок!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_ECLIPSE_CHOICE_4_HELP">
+			<Text>{2_InstantYield}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_HEAT_WAVE_DESCRIPTION">
+			<Text>Жара!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_HEAT_WAVE_HELP">
+			<Text>Каждое лето кажется жарче предыдущего, а наши озёра и реки пересыхают. Вскоре нас может настигнуть засуха. Что нам делать?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_HEAT_WAVE_CHOICE_1">
+			<Text>Субсидировать фермы.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_HEAT_WAVE_CHOICE_1_HELP">
+			<Text>{1_YieldCost}. Вы уверены, что сможете избежать засухи.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_HEAT_WAVE_CHOICE_2">
+			<Text>Отложить немного средств на чрезвычайный случай.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_HEAT_WAVE_CHOICE_2_HELP">
+			<Text>{1_YieldCost}. Вы надеетесь, что сможете избежать засухи.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_HEAT_WAVE_CHOICE_3">
+			<Text>Отправить деньги местным чиновникам.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_HEAT_WAVE_CHOICE_3_HELP">
+			<Text>{1_YieldCost}. Вы не уверены, что сможете избежать засухи.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_HEAT_WAVE_CHOICE_4">
+			<Text>Стиснем зубы и переживём это. Мы ничего не можем сделать.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_HEAT_WAVE_CHOICE_4_HELP">
+			<Text>Вы опасаетесь возможной засухи.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_ICE_AGE_DESCRIPTION">
+			<Text>Ледниковый период!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_ICE_AGE_HELP">
+			<Text>Внезапное падение средних температур может означать только одно: малый ледниковый период! Как нам подготовиться?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_ICE_AGE_CHOICE_1">
+			<Text>Людям следует оставаться дома, даже если это сократит торговлю.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_ICE_AGE_CHOICE_1_HELP">
+			<Text>-2 [ICON_GOLD] золота во всех городах на {4_Turns}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_ICE_AGE_CHOICE_2">
+			<Text>Заберём топливо у промышленности и раздадим его бедным и нуждающимся.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_ICE_AGE_CHOICE_2_HELP">
+			<Text>-2 [ICON_PRODUCTION] производства во всех городах на {4_Turns}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_ICE_AGE_CHOICE_3">
+			<Text>Поезда и паровые машины делают нас невосприимчивыми к холоду.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_ICE_AGE_CHOICE_3_HELP">
+			<Text>Без негативного эффекта.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_ICE_AGE_CHOICE_4">
+			<Text>Будем решать проблемы по мере их появления.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_ICE_AGE_CHOICE_4_HELP">
+			<Text>Ожидайте, что холод вызовет проблемы в наших городах.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_REVOLUTION_DESCRIPTION">
+			<Text>Революция!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_REVOLUTION_HELP">
+			<Text>К оружию! Недовольные граждане по всей вашей империи поднялись, чтобы оспорить вашу власть! Что вы будете делать?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_REVOLUTION_CHOICE_1">
+			<Text>Пусть едят пирожные.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_REVOLUTION_CHOICE_1_HELP">
+			<Text>Около всех ваших городов появляются 2 варвара. 5 ходов [ICON_RESISTANCE] волнений во всех городах.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_REVOLUTION_CHOICE_2">
+			<Text>Использовать наши связи с городами-государствами, чтобы найти общий язык.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_REVOLUTION_CHOICE_2_HELP">
+			<Text>3 хода [ICON_RESISTANCE] волнений во всех городах.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_REVOLUTION_CHOICE_3">
+			<Text>Разве мы не все братья и сёстры прогресса?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_REVOLUTION_CHOICE_3_HELP">
+			<Text>Возле каждого вашего города появляется 1 варвар, 2 хода [ICON_RESISTANCE] волнений во всех городах.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_REVOLUTION_CHOICE_4">
+			<Text>Найдите лидера и подкупите его.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_REVOLUTION_CHOICE_4_HELP">
+			<Text>{1_YieldCost}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_WAR_FERVOR_DESCRIPTION">
+			<Text>Военный пыл!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_WAR_FERVOR_HELP">
+			<Text>Ваш народ жаждет войны! Воинственный дух высок, и ваш военный советник хочет знать, как вы желаете направить эту энергию.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_WAR_FERVOR_CHOICE_1">
+			<Text>Поднять боевой дух нашего народа.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_WAR_FERVOR_CHOICE_1_HELP">
+			<Text>Все подходящие юниты получают временную версию повышения [COLOR_POSITIVE_TEXT]Боевой дух[ENDCOLOR]. +5 [ICON_HAPPINESS_1] счастья на {4_Turns}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_WAR_FERVOR_CHOICE_2">
+			<Text>Направить эту энергию в нашу промышленность.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_WAR_FERVOR_CHOICE_2_HELP">
+			<Text>+{3_CityYield} во всех городах на {4_Turns}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_WAR_FERVOR_CHOICE_3">
+			<Text>Новый мировой порядок начинается сейчас!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_WAR_FERVOR_CHOICE_3_HELP">
+			<Text>10 ходов (с масштабированием по скорости игры) [COLOR_POSITIVE_TEXT]«Дня любви к королю»[ENDCOLOR] во всех городах. Военные академии дают +5 [ICON_RESEARCH] науки на {4_Turns}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_WAR_FERVOR_CHOICE_4">
+			<Text>За Родину!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_WAR_FERVOR_CHOICE_4_HELP">
+			<Text>Фабрики дают городам +10% [ICON_PRODUCTION] производства на {4_Turns}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_WAR_FERVOR_CHOICE_5">
+			<Text>Покупайте облигации победы!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_WAR_FERVOR_CHOICE_5_HELP">
+			<Text>Банки дают городам +20% [ICON_GOLD] золота на {4_Turns}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_WAR_WEARINESS_DESCRIPTION">
+			<Text>Усталость от войны!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_WAR_WEARINESS_HELP">
+			<Text>Тяготы войны тяжело сказываются на нашем народе. Люди ищут утешения перед лицом разрушения и поражения и ждут от вас указаний. Как вы ответите?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_WAR_WEARINESS_CHOICE_1">
+			<Text>Произнесите речь в нашем дворце.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_WAR_WEARINESS_CHOICE_1_HELP">
+			<Text>75% шанс, что все города будут давать -1 [ICON_HAPPINESS_1] счастья в течение следующих {4_Turns}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_WAR_WEARINESS_CHOICE_1_SUCCESSFUL_S">
+			<Text>Речь не удалась!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_WAR_WEARINESS_CHOICE_1_SUCCESSFUL">
+			<Text>Речь не тронула народ, и он стал ещё несчастнее. -1 [ICON_HAPPINESS_1] счастья во всех городах.{4_Help}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_WAR_WEARINESS_CHOICE_2">
+			<Text>Пусть наш религиозный лидер помолится за раненых и погибших.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_WAR_WEARINESS_CHOICE_2_HELP">
+			<Text>{1_YieldCost}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_WAR_WEARINESS_CHOICE_3">
+			<Text>Выступите перед нацией по радио.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_WAR_WEARINESS_CHOICE_3_HELP">
+			<Text>25% шанс, что все города будут давать -2 [ICON_HAPPINESS_1] счастья.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_WAR_WEARINESS_CHOICE_3_SUCCESSFUL_S">
+			<Text>Радиообращение не удалось!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_WAR_WEARINESS_CHOICE_3_SUCCESSFUL">
+			<Text>Радиообращение не тронуло народ, и он стал ещё несчастнее. -2 [ICON_HAPPINESS_1] счастья во всех городах.{4_Help}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_WAR_WEARINESS_CHOICE_4">
+			<Text>Мы должны победить. Начать призыв.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_WAR_WEARINESS_CHOICE_4_HELP">
+			<Text>50% шанс, что все города произведут военный юнит и начнут 2 хода [ICON_RESISTANCE] сопротивления.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_WAR_WEARINESS_CHOICE_4_SUCCESSFUL_S">
+			<Text>Призыв!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_WAR_WEARINESS_CHOICE_4_SUCCESSFUL">
+			<Text>Призыв оказался успешным, но ваш народ ещё больше разгневан. Все города получают 2 хода [ICON_RESISTANCE] сопротивления и производят по 1 военному юниту.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_MARKET_DEVELOPMENT">
+			<Text>Переполненные рынки, чужеземные языки</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_MARKET_DEVELOPMENT_HELP">
+			<Text>На ваших рынках собираются толпы, звучат голоса из множества земель, пока заключаются сделки и идут торги. Одни злятся и считают, что чужеземцы разрушат нашу торговлю. Другие, напротив, приветствуют иностранный бизнес, надеясь чему-то научиться у их культуры.[NEWLINE][NEWLINE]Что вы об этом думаете? Выберите один из следующих вариантов:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_MARKET_DEVELOPMENT_CHOICE_1">
+			<Text>Пусть иностранцы продолжают торговать.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_MARKET_DEVELOPMENT_CHOICE_1_HELP">
+			<Text>Рынки во всех городах: +1 [ICON_CULTURE] культуры, -1 [ICON_GOLD] золота.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_MARKET_DEVELOPMENT_CHOICE_2">
+			<Text>Ввести высокие налоги на импортные товары.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_MARKET_DEVELOPMENT_CHOICE_2_HELP">
+			<Text>Рынки во всех городах: +1 [ICON_GOLD] золота.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_MONUMENT_DEVELOPMENT">
+			<Text>Иконы нашего прошлого</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_MONUMENT_DEVELOPMENT_HELP">
+			<Text>Монументы — важнейшие символы вашей культуры. Ваш народ хочет подчеркнуть это, посвящая монументы либо своим предкам, либо своим богам.[NEWLINE][NEWLINE]Что вы об этом думаете? Выберите один из следующих вариантов:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_MONUMENT_DEVELOPMENT_CHOICE_1">
+			<Text>Посвятить монументы нашей плодородности.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_MONUMENT_DEVELOPMENT_CHOICE_1_HELP">
+			<Text>Монументы во всех городах: +1 [ICON_FOOD] пищи.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_MONUMENT_DEVELOPMENT_CHOICE_2">
+			<Text>Сейчас главное — боги.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_MONUMENT_DEVELOPMENT_CHOICE_2_HELP">
+			<Text>Монументы во всех городах: +1 [ICON_PEACE] веры.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_MONUMENT_DEVELOPMENT_CHOICE_3">
+			<Text>Ни то ни другое не подходит. Монумент должен приносить доход.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_MONUMENT_DEVELOPMENT_CHOICE_3_HELP">
+			<Text>Монументы во всех городах: +1 [ICON_GOLD] золота.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_CASTLE_DOCTRINE_DESCRIPTION">
+			<Text>Доктрина замка</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_CASTLE_DOCTRINE_HELP">
+			<Text>Люди собираются у ворот ваших замков, требуя защиты во время войны. Ваши замки недостаточно велики, чтобы вместить целые города, поэтому вы должны решить: кого допускать в крепость во время войны?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_CASTLE_DOCTRINE_CHOICE_1">
+			<Text>Разумеется, знать.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_CASTLE_DOCTRINE_CHOICE_1_HELP">
+			<Text>Все замки дают +1 [ICON_CULTURE] культуры.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_CASTLE_DOCTRINE_CHOICE_2">
+			<Text>Наших лучших купцов и ремесленников, по заслугам.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_CASTLE_DOCTRINE_CHOICE_2_HELP">
+			<Text>Все замки дают +2 [ICON_PRODUCTION] производства.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_CASTLE_DOCTRINE_CHOICE_3">
+			<Text>Крепость не для горожан!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_CASTLE_DOCTRINE_CHOICE_3_HELP">
+			<Text>Все замки дают +2 [ICON_FOOD] пищи.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_CASTLE_DOCTRINE_CHOICE_4">
+			<Text>Духовенство, как велит бог.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_CASTLE_DOCTRINE_CHOICE_4_HELP">
+			<Text>Все замки дают +1 [ICON_PEACE] веры.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_UNIVERSITY_POLICY_DESCRIPTION">
+			<Text>Университетская программа</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_UNIVERSITY_POLICY_HELP">
+			<Text>Преподаватели и администрация ваших государственных университетов хотят создать единую программу для всех нынешних и будущих университетов в империи. Как глава государства, вы должны принять окончательное решение. Что вы предпочтёте?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_UNIVERSITY_POLICY_CHOICE_1">
+			<Text>Сделать упор на естественные науки.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_UNIVERSITY_POLICY_CHOICE_1_HELP">
+			<Text>Все университеты получают +2 [ICON_RESEARCH] науки.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_UNIVERSITY_POLICY_CHOICE_2">
+			<Text>Либеральное образование важнее всего.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_UNIVERSITY_POLICY_CHOICE_2_HELP">
+			<Text>Все университеты получают +1 [ICON_CULTURE] культуры.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_UNIVERSITY_POLICY_CHOICE_3">
+			<Text>Обучение богословию принесёт нам наибольшую пользу.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_UNIVERSITY_POLICY_CHOICE_3_HELP">
+			<Text>Все университеты получают +1 [ICON_PEACE] веры.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_UNIVERSITY_POLICY_CHOICE_4">
+			<Text>Военное образование кажется наиболее разумным.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_UNIVERSITY_POLICY_CHOICE_4_HELP">
+			<Text>Все университеты получают +2 [ICON_PRODUCTION] производства.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_FACTORY_PARTNERSHIP">
+			<Text>Партнёрства с фабриками</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_FACTORY_PARTNERSHIP_HELP">
+			<Text>К вашему правительству обратились предприниматели с просьбой разрешить совместные предприятия с вашими фабриками. Есть пять конкурирующих предложений, и вашему правительству нужно определиться. Что вы предпочтёте?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_FACTORY_PARTNERSHIP_CHOICE_1">
+			<Text>Давайте производить роскошные ткани.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_FACTORY_PARTNERSHIP_CHOICE_1_HELP">
+			<Text>Фабрики во всех городах: +2 [ICON_CULTURE] культуры.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_FACTORY_PARTNERSHIP_CHOICE_2">
+			<Text>Дешёвые ткани звучат выгодно.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_FACTORY_PARTNERSHIP_CHOICE_2_HELP">
+			<Text>Фабрики во всех городах: +3 [ICON_GOLD] золота.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_FACTORY_PARTNERSHIP_CHOICE_3">
+			<Text>Химикаты — ценный актив.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_FACTORY_PARTNERSHIP_CHOICE_3_HELP">
+			<Text>Фабрики во всех городах: +2 [ICON_PRODUCTION] производства.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_FACTORY_PARTNERSHIP_CHOICE_4">
+			<Text>Фармацевтика пойдёт на пользу нашим местным учёным.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_FACTORY_PARTNERSHIP_CHOICE_4_HELP">
+			<Text>Фабрики во всех городах: +2 [ICON_RESEARCH] науки.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_FACTORY_PARTNERSHIP_CHOICE_5">
+			<Text>Консервированные продукты поддержат рост наших городов.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_FACTORY_PARTNERSHIP_CHOICE_5_HELP">
+			<Text>Фабрики во всех городах: +2 [ICON_FOOD] пищи.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_BANK_DECISION_DESCRIPTION">
+			<Text>Новая банковская система</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_BANK_DECISION_HELP">
+			<Text>Сложность нашей банковской системы растёт, и экономические советники рекомендуют ввести общеимперское банковское регулирование. Сейчас всеми деньгами в империи управляют гильдии, но некоторые считают этот способ устаревшим. Одни выступают за централизацию, но ваши советники расходятся во мнениях. Что из следующего вы предпочтёте?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_BANK_DECISION_CHOICE_1">
+			<Text>Децентрализовать. Наш народ вполне способен сам распоряжаться своими деньгами.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_BANK_DECISION_CHOICE_1_HELP">
+			<Text>Все трудящиеся и торговцы дают +1 [ICON_GOLD] золота.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_BANK_DECISION_CHOICE_2">
+			<Text>Пусть гильдии и дальше управляют нашими деньгами.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_BANK_DECISION_CHOICE_2_HELP">
+			<Text>Все банки дают +5% [ICON_GOLD] золота.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_BANK_DECISION_CHOICE_3">
+			<Text>Централизовать. Деньги слишком важны, чтобы оставлять их частным лицам.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_BANK_DECISION_CHOICE_3_HELP">
+			<Text>Все банки дают +3 [ICON_GOLD] золота.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_PUBLIC_SCHOOL_DECISION">
+			<Text>Учреждены школьные советы</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_PUBLIC_SCHOOL_DECISION_HELP">
+			<Text>В ваших городах недавно были учреждены школьные советы, и теперь они хотят реформировать систему государственных школ. Они ждут вашего указания: вы предпочтёте бесплатное обучение для всех или же приватизируете учреждения?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_PUBLIC_SCHOOL_DECISION_CHOICE_1">
+			<Text>Образование должно быть бесплатным для всех.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_PUBLIC_SCHOOL_DECISION_CHOICE_1_HELP">
+			<Text>Государственные школы во всех городах: +10% [ICON_CULTURE] культуры в городе.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_PUBLIC_SCHOOL_DECISION_CHOICE_2">
+			<Text>Образование должно быть доступно тем, кто может его оплатить.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_PUBLIC_SCHOOL_DECISION_CHOICE_2_HELP">
+			<Text>Государственные школы во всех городах: +10% [ICON_GOLD] золота в городе.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_WINDMILLS_MODERNIZE_DESCRIPTION">
+			<Text>Стареющие ветряные мельницы</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_WINDMILLS_MODERNIZE_HELP">
+			<Text>Когда-то вершина промышленного дизайна, ветряные мельницы нашей страны теперь выглядят устаревшими. Несколько промышленников обратились к вам, надеясь заручиться имперской поддержкой в модернизации наших мельниц. Эти инженеры предлагают вам следующие проекты. Что вы предпочтёте?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_WINDMILLS_MODERNIZE_CHOICE_1">
+			<Text>Провести полную переработку наших мельниц, начиная немедленно.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_WINDMILLS_MODERNIZE_CHOICE_1_HELP">
+			<Text>{1_YieldCost}. Все ветряные мельницы получают +10% [ICON_PRODUCTION] производства.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_WINDMILLS_MODERNIZE_CHOICE_2">
+			<Text>Скоординировать их с нашими мануфактурами и встроить в современные промышленные процессы.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_WINDMILLS_MODERNIZE_CHOICE_2_HELP">
+			<Text>{1_YieldCost} и 4 [ICON_RES_IRON] железа. Все ветряные мельницы получают +15% [ICON_PRODUCTION] производства.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_WINDMILLS_MODERNIZE_CHOICE_3">
+			<Text>Модернизировать их там, где можем, а в остальном они и так хороши.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_WINDMILLS_MODERNIZE_CHOICE_3_HELP">
+			<Text>{1_YieldCost}. Все ветряные мельницы получают +3 [ICON_PRODUCTION] производства.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_STADIUM_WORLD_EVENT_CHOICE_1">
+			<Text>Всемирное спортивное событие!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_STADIUM_WORLD_EVENT_CHOICE_1_HELP">
+			<Text>Всемирная спортивная организация выбрала вашу империю местом проведения международного турнира WSO! В течение следующих {4_Turns} города со стадионом будут принимать игры, что повысит [ICON_TOURISM] туризм этого города!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_STADIUM_WORLD_EVENT_CHOICE_1_SUCCESSFUL_S">
+			<Text>{3_PlayerName} примет турнир Всемирной спортивной организации!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_STADIUM_WORLD_EVENT_CHOICE_1_SUCCESSFUL">
+			<Text>WSO выбрала {3_PlayerName} местом проведения своего международного турнира. Его/её стадионы будут приносить много [ICON_GOLD] золота и [ICON_TOURISM] туризма!{4_Help}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_CORRUPTION_SCIENCE_FAILURE_CHOICE_1">
+			<Text>Провал исследования</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_CORRUPTION_SCIENCE_FAILURE_CHOICE_1_HELP">
+			<Text>Ваши исследователи с сожалением сообщают, что последние исследования оказались ошибочными и их пришлось отбросить. {1_YieldCost}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_BABY_BOOM_CHOICE_1">
+			<Text>Бэби-бум!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_BABY_BOOM_CHOICE_1_HELP">
+			<Text>Численность населения растёт стремительно благодаря резкому всплеску рождаемости в последнее время. Все города получают +1 [ICON_CITIZEN] населения и 5 ходов (с масштабированием по скорости игры) [COLOR_POSITIVE_TEXT]«Дня любви к королю»[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_PLAGUE_CHOICE_1">
+			<Text>Надвигается чума</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_PLAGUE_CHOICE_1_HELP">
+			<Text>Ваши советники сообщают о далёкой вирулентной болезни, которая калечит другие империи. Будем надеяться, что она останется подальше от наших городов...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_ADVISOR_DEBATE">
+			<Text>Специальная сессия</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_ADVISOR_DEBATE_HELP">
+			<Text>Созван дипломатический саммит для оценки бюджета Всемирного конгресса. Там будут все наши соперники, стремящиеся нам помешать. Мы должны проявить хитрость, если хотим выйти с него богаче, чем пришли.[NEWLINE][NEWLINE]Поскольку мы можем сосредоточиться лишь на одной из множества конкурирующих целей, кого вы поставите во главе нашей делегации?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_ADVISOR_DEBATE_CHOICE_1">
+			<Text>Международная торговля и дружба — высшие силы добра в этом мире. Назначьте нашего советника по внешней политике главой делегации. Снесите тарифы, закрытые границы и все прочие барьеры на пути к более тесному сотрудничеству и взаимопониманию!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_ADVISOR_DEBATE_CHOICE_1_HELP">
+			<Text>Все таможни дают +2 [ICON_TOURISM] туризма. 10 ходов (с масштабированием по скорости игры) [COLOR_POSITIVE_TEXT]«Дня любви к королю»[ENDCOLOR] во всех городах.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_ADVISOR_DEBATE_CHOICE_2">
+			<Text>Только работая вместе, мы сможем раскрыть тайны вселенной! Поставьте во главе нашего научного советника. Мы должны получить ведущий голос в величайших научных организациях мира.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_ADVISOR_DEBATE_CHOICE_2_HELP">
+			<Text>Получите {1_YieldCost}. 16.66% шанс на бесплатную технологию.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_ADVISOR_DEBATE_CHOICE_2_SUCCESSFUL_S">
+			<Text>Исследовательский грант</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_ADVISOR_DEBATE_CHOICE_2_SUCCESSFUL">
+			<Text>Ваш научный советник отмечает, что наше влияние на международный исследовательский совет успешно позволило открыть новую технологию.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_ADVISOR_DEBATE_CHOICE_3">
+			<Text>Такой саммит даёт нам беспрецедентную возможность проводить трансграничную денежную политику. Если наш экономический советник разыграет карты правильно, мы сможем открыть доступ к огромным капиталам. Сейчас и в будущем.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_ADVISOR_DEBATE_CHOICE_3_HELP">
+			<Text>Получите вливание {2_InstantYield}. Банк навсегда увеличивает выработку [ICON_GOLD] золота в [ICON_CAPITAL] столице на 5%.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_ADVISOR_DEBATE_CHOICE_4">
+			<Text>Идея международной миротворческой организации набирает поддержку по всему миру. Мы не можем допустить существования такой силы без нашего руководства. Отправьте нашего военного советника главным представителем. Решительно настаивайте на создании этой армии и на том, чтобы нашими людьми ей командовать.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_ADVISOR_DEBATE_CHOICE_4_HELP">
+			<Text>Народы мира уважают вашу решимость, и вы получаете {2_InstantYield}. Возле [ICON_CAPITAL] столицы появляется новая армия.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_DEATH_MERCHANT">
+			<Text>Смерть купца</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_DEATH_MERCHANT_HELP">
+			<Text>Богатый купец вашей империи умер, оставив после себя неоднозначное завещание. Два его сына — моряк и банкир — оба имеют законные притязания на наследство и обратились к государству за решением. Что вы постановите?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_DEATH_MERCHANT_CHOICE_1">
+			<Text>Мне всё равно, но наследство я всё же намерен обложить налогом.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_DEATH_MERCHANT_CHOICE_1_HELP">
+			<Text>+{2_InstantYield}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_DEATH_MERCHANT_CHOICE_2">
+			<Text>Доводы банкира убедительнее, поскольку его вложения соответствуют делу его отца.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_DEATH_MERCHANT_CHOICE_2_HELP">
+			<Text>Получите бесплатный караван в столице.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_DEATH_MERCHANT_CHOICE_3">
+			<Text>Идеи моряка пошли бы на пользу всем нашим прибрежным городам.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_DEATH_MERCHANT_CHOICE_3_HELP">
+			<Text>+{3_CityYieldGlobal} во всех прибрежных городах.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_BATHS_DECISION">
+			<Text>Вопрос гигиены</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_BATHS_DECISION_HELP">
+			<Text>По мере того как популярность купания растёт, растёт и спрос. Жители империи требуют дополнительных бань, однако элита и аристократы протестуют, заявляя, что бани — это роскошь. Вашим советникам нужно ваше мнение. Как вы к этому относитесь?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_BATHS_DECISION_CHOICE_1">
+			<Text>Немытые массы должны оставаться немытыми.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_BATHS_DECISION_CHOICE_1_HELP">
+			<Text>Получите бесплатного великого человека по вашему выбору.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_BATHS_DECISION_CHOICE_2">
+			<Text>Не жалеть средств — народ должен быть чистым!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_BATHS_DECISION_CHOICE_2_HELP">
+			<Text>+1 [ICON_HAPPINESS_1] счастья во всех городах. Все бани стоят дополнительно 3 [ICON_GOLD] золота.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_BATHS_DECISION_CHOICE_3">
+			<Text>Поощрять людей находить более... творческие способы мыться.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_BATHS_DECISION_CHOICE_3_HELP">
+			<Text>Акведуки во всех городах: +1 [ICON_CULTURE] культуры.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_DO_NOTHING">
+			<Text>Меня это не интересует.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_DO_NOTHING_HELP">
+			<Text>Ничего не происходит.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_STONE_WORKS_DISCOVERY">
+			<Text>Богатая жила</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_STONE_WORKS_DISCOVERY_HELP">
+			<Text>В карьере у города была обнаружена богатая жила голубого мрамора. Ваши шахтёры и каменщики пришли к вам спросить, что вы хотите с ней сделать.[NEWLINE][NEWLINE]Выберите один из вариантов ниже...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_STONE_WORKS_DISCOVERY_CHOICE_1">
+			<Text>Похвастайтесь этим, и купцы приедут покупать его у нас.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_STONE_WORKS_DISCOVERY_CHOICE_1_HELP">
+			<Text>+{2_InstantYield}, а также 10 ходов (с масштабированием по скорости игры) [COLOR_POSITIVE_TEXT]«Дня любви к королю»[ENDCOLOR] в городе.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_STONE_WORKS_DISCOVERY_CHOICE_2">
+			<Text>Пожертвовать его храму.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_STONE_WORKS_DISCOVERY_CHOICE_2_HELP">
+			<Text>{2_InstantYield}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_STONE_WORKS_DISCOVERY_CHOICE_3">
+			<Text>Вырезать из него реликвии и идолов.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_STONE_WORKS_DISCOVERY_CHOICE_3_HELP">
+			<Text>{2_InstantYield}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_STONE_WORKS_DISCOVERY_CHOICE_4">
+			<Text>Отдать его нашим лучшим художникам.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_STONE_WORKS_DISCOVERY_CHOICE_4_HELP">
+			<Text>+2 [ICON_CULTURE] культуры в городе на {5_Turns}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_FISHING_EXPEDITION">
+			<Text>Старик и море</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_FISHING_EXPEDITION_HELP">
+			<Text>Группа местных рыбаков попросила у города финансирование для сезонной рыболовной экспедиции.[NEWLINE][NEWLINE]Выберите один из следующих вариантов...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_FISHING_EXPEDITION_CHOICE_1">
+			<Text>Давайте сосредоточимся на чём-то простом.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_FISHING_EXPEDITION_CHOICE_1_HELP">
+			<Text>Потратьте {1_Scaled}. Получите {2_InstantYield} пищи в городе.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_FISHING_EXPEDITION_CHOICE_2">
+			<Text>Крупное вложение окупится.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_FISHING_EXPEDITION_CHOICE_2_HELP">
+			<Text>Потратьте {1_Scaled}. Рыбацкие лодки рядом с городом будут давать +5 [ICON_FOOD] пищи на {5_Turns}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_FISHING_EXPEDITION_CHOICE_3">
+			<Text>Я бы лучше вложился во что-то куда более выгодное...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_FISHING_EXPEDITION_CHOICE_3_HELP">
+			<Text>Инвестируйте {1_Scaled}. 50% шанс, что в городе будет построена гавань.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_FISHING_EXPEDITION_CHOICE_3_SUCCESSFUL_S">
+			<Text>Гавань построена!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_FISHING_EXPEDITION_CHOICE_3_SUCCESSFUL">
+			<Text>Инвестиция в {2_City} оказалась успешной и оплатила строительство!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_AMPHITHEATER_NEW_DRAMA">
+			<Text>Драматический шедевр</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_AMPHITHEATER_NEW_DRAMA_HELP">
+			<Text>Писатели этого города создали новое произведение, и критики уже называют его «шедевром». Новости об этом дошли до вас, и советники ждут вашей реакции.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_AMPHITHEATER_NEW_DRAMA_CHOICE_1">
+			<Text>Разошлите новость другим цивилизациям мира.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_AMPHITHEATER_NEW_DRAMA_CHOICE_1_HELP">
+			<Text>{1_YieldCost}. Получите {2_InstantYield} туризма со всеми известными цивилизациями.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_AMPHITHEATER_NEW_DRAMA_CHOICE_1_SUCCESSFUL_S">
+			<Text>Писатели из {2_CityName} создают шедевр.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_AMPHITHEATER_NEW_DRAMA_CHOICE_1_SUCCESSFUL">
+			<Text>Писатели из {2_City} создали новое драматическое произведение, привлекающее посетителей со всего мира.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_AMPHITHEATER_NEW_DRAMA_CHOICE_2">
+			<Text>Надо это отпраздновать.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_AMPHITHEATER_NEW_DRAMA_CHOICE_2_HELP">
+			<Text>Получите {2_InstantYield}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_AMPHITHEATER_NEW_DRAMA_CHOICE_3">
+			<Text>Проследите, чтобы писателей за это прославили.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_AMPHITHEATER_NEW_DRAMA_CHOICE_3_HELP">
+			<Text>Получите {4_GPChange} очков в городе.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_AMPHITHEATER_NEW_DRAMA_CHOICE_4">
+			<Text>Им следовало бы молиться, а не этим заниматься.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_AMPHITHEATER_NEW_DRAMA_CHOICE_4_HELP">
+			<Text>Получите {2_InstantYield}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_TEMPLE_CONCERNS">
+			<Text>Проблемы в храме</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_TEMPLE_CONCERNS_HELP">
+			<Text>Жрецы города требуют, чтобы вы вмешались в религиозный спор. По мере роста города всё больше людей иных вероисповеданий просят допустить их в храм. Последователи доминирующей веры негодуют и грозят насилием, если вы впустите неверующих. Неверующие же угрожают уйти, если вы им откажете. Что вы сделаете?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_TEMPLE_CONCERNS_CHOICE_1">
+			<Text>И скатертью дорога.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_TEMPLE_CONCERNS_CHOICE_1_HELP">
+			<Text>-1 [ICON_CITIZEN] населения в городе и 2 хода [ICON_RESISTANCE] сопротивления. Получите {2_InstantYield}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_TEMPLE_CONCERNS_CHOICE_2">
+			<Text>Впустите их, но пусть за это платят.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_TEMPLE_CONCERNS_CHOICE_2_HELP">
+			<Text>Храм получает +2 [ICON_GOLD] золота и +1 [ICON_PEACE] веры. -1 [ICON_HAPPINESS_1] счастья в городе.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_TEMPLE_CONCERNS_CHOICE_3">
+			<Text>Отвергнуть неверующих.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_TEMPLE_CONCERNS_CHOICE_3_HELP">
+			<Text>50% шанс, что храм будет разрушен. Если это случится, город получит +1 [ICON_PEACE] веры и +1 [ICON_HAPPINESS_1] счастья.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_TEMPLE_CONCERNS_CHOICE_3_SUCCESSFUL_S">
+			<Text>Храм в {2_City} разрушен!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_TEMPLE_CONCERNS_CHOICE_3_SUCCESSFUL">
+			<Text>Неверующие в {2_City} напали на храм и в знак протеста сожгли его дотла. Однако ваш народ не поколеблен. Город получает +1 [ICON_HAPPINESS_1] счастья, а также: {5_Help}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_TEMPLE_CONCERNS_CHOICE_4">
+			<Text>Нужно мыслить масштабнее.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_TEMPLE_CONCERNS_CHOICE_4_HELP">
+			<Text>{1_YieldCost}. Храм разрушается, и на его месте строится Великий храм.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_LIGHTHOUSE">
+			<Text>Маяк надежды</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_LIGHTHOUSE_HELP">
+			<Text>Рыбаки города обеспокоены судьбой городского маяка. В последние годы он пришёл в запустение и нуждается в восстановлении. Как нам поступить?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_LIGHTHOUSE_CHOICE_1">
+			<Text>Пусть частные лица сами им управляют.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_LIGHTHOUSE_CHOICE_1_HELP">
+			<Text>Маяк получает +2 [ICON_GOLD] золота.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_LIGHTHOUSE_CHOICE_2">
+			<Text>Город должен управлять им сам.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_LIGHTHOUSE_CHOICE_2_HELP">
+			<Text>Потеряйте {1_YieldCost}. Маяк получает +1 [ICON_PRODUCTION] производства.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_LIGHTHOUSE_CHOICE_3">
+			<Text>Продайте этот участок.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_LIGHTHOUSE_CHOICE_3_HELP">
+			<Text>Получите {2_InstantYield}. Маяк уничтожается.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_HOSPITAL_OVERCROWDING">
+			<Text>Переполненная больница</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_HOSPITAL_OVERCROWDING_HELP">
+			<Text>Солдаты с фронта каждый день прибывают в этот город, и палаты теперь переполнены пациентами. Местные врачи не знают, что делать с избытком раненых, и обратились к правительству за поддержкой. Что вы сделаете?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_HOSPITAL_OVERCROWDING_CHOICE_1">
+			<Text>Отправить экстренное финансирование.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_HOSPITAL_OVERCROWDING_CHOICE_1_HELP">
+			<Text>В течение следующих {5_Turns} город даёт -5 [ICON_GOLD] золота, но получает +1 [ICON_HAPPINESS_1] счастья.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_HOSPITAL_OVERCROWDING_CHOICE_2">
+			<Text>Сортировка раненых — единственный выход.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_HOSPITAL_OVERCROWDING_CHOICE_2_HELP">
+			<Text>Ввести систему триажа, спасая тех, кого можем. Город теряет 1 [ICON_CITIZEN] населения.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_HOSPITAL_OVERCROWDING_CHOICE_3">
+			<Text>Это не наша проблема.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_HOSPITAL_OVERCROWDING_CHOICE_3_HELP">
+			<Text>Город навсегда получает -1 [ICON_HAPPINESS_1] счастья.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_HOSPITAL_OVERCROWDING_CHOICE_4">
+			<Text>Учредить постоянную дотацию для больницы.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_HOSPITAL_OVERCROWDING_CHOICE_4_HELP">
+			<Text>Город даёт -5 [ICON_GOLD] золота, но навсегда получает +2 [ICON_HAPPINESS_1] счастья.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_HOSPITAL_OVERCROWDING_CHOICE_5">
+			<Text>Отправить всех умерших в нашу исследовательскую лабораторию.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_HOSPITAL_OVERCROWDING_CHOICE_5_HELP">
+			<Text>50% шанс, что город получит 3 хода [ICON_RESISTANCE] сопротивления. Если это случится, больница получает +4 [ICON_RESEARCH] науки.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_HOSPITAL_OVERCROWDING_CHOICE_5_SUCCESSFUL_S">
+			<Text>Открытия из больничных экспериментов!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_HOSPITAL_OVERCROWDING_CHOICE_5_SUCCESSFUL">
+			<Text>Тела умерших были доставлены в нашу исследовательскую лабораторию, однако общественность возмущена нашей бессердечностью.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_STADIUM_WORLD_EVENT_CHOICE_1">
+			<Text>Аншлаг на стадионе!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_STADIUM_WORLD_EVENT_CHOICE_1_HELP">
+			<Text>На вашем стадионе прошла игра в рамках международного турнира WSO! Вы получаете 500 [ICON_TOURISM] туризма со всеми известными цивилизациями и 500 [ICON_GOLD] золота.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_STADIUM_LOCAL_EVENT">
+			<Text>День игры</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_STADIUM_LOCAL_EVENT_HELP">
+			<Text>Стадион города готовится к дню игры! К несчастью, менеджер, похоже, потерял своё расписание и не может вспомнить, какое именно мероприятие должно проходить! Что же тут всё-таки происходит?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_STADIUM_LOCAL_EVENT_CHOICE_1">
+			<Text>Лыжные соревнования, разумеется.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_STADIUM_LOCAL_EVENT_CHOICE_1_HELP">
+			<Text>Получите 100 [ICON_GOLD] золота и 75 [ICON_CULTURE] культуры. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_STADIUM_LOCAL_EVENT_CHOICE_2">
+			<Text>Водные виды спорта, разумеется.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_STADIUM_LOCAL_EVENT_CHOICE_2_HELP">
+			<Text>Получите 100 [ICON_GOLD] золота и 75 [ICON_RESEARCH] науки.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_STADIUM_LOCAL_EVENT_CHOICE_3">
+			<Text>Почти уверен, что это был футбол. Нет, американский.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_STADIUM_LOCAL_EVENT_CHOICE_3_HELP">
+			<Text>Получите 200 [ICON_GOLD] золота.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_STADIUM_LOCAL_EVENT_CHOICE_4">
+			<Text>Почти уверен, что это был футбол. Да, настоящий.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_STADIUM_LOCAL_EVENT_CHOICE_4_HELP">
+			<Text>Получите 200 [ICON_GOLD] золота.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_STADIUM_LOCAL_EVENT_CHOICE_5">
+			<Text>Спортивное событие? Нет, это была церемония.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_STADIUM_LOCAL_EVENT_CHOICE_5_HELP">
+			<Text>Получите 400 [ICON_GOLDEN_AGE] очков золотого века.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_NUCLEAR_MELTDOWN_CHOICE_1">
+			<Text>Ядерная авария!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_NUCLEAR_MELTDOWN_CHOICE_1_HELP">
+			<Text>Случилось худшее. На городской АЭС произошёл расплав активной зоны, сделав огромные участки города непригодными для жизни. Здание уничтожено, а все остальные здания в городе находятся под угрозой. Город теряет 5 [ICON_CITIZEN] населения.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_DROUGHT_CHOICE_1_DESCRIPTION">
+			<Text>Засуха</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_DROUGHT_CHOICE_1_HELP">
+			<Text>Засуха поразила город, подорвав его [ICON_FOOD] производство пищи. В течение следующих {5_Turns} фермы дают -1 [ICON_FOOD] пищи.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_SEVERE_DROUGHT_CHOICE_1_DESCRIPTION">
+			<Text>Сильная засуха</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_SEVERE_DROUGHT_CHOICE_1_HELP">
+			<Text>Сильная засуха поразила город, подорвав его [ICON_FOOD] производство пищи. В течение следующих {5_Turns} фермы дают -1 [ICON_FOOD] пищи, а одна ближайшая ферма разграбляется.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_CRITICAL_DROUGHT_CHOICE_1_DESCRIPTION">
+			<Text>Критическая засуха</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_CRITICAL_DROUGHT_CHOICE_1_HELP">
+			<Text>Критическая засуха поразила город, подорвав его [ICON_FOOD] производство пищи. В течение следующих {5_Turns} фермы дают -2 [ICON_FOOD] пищи, а 2 ближайшие фермы разграбляются.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_ICE_AGE_EXPOSURE_CHOICE_1_DESCRIPTION">
+			<Text>Переохлаждение</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_ICE_AGE_EXPOSURE_CHOICE_1_HELP">
+			<Text>Температуры ниже нуля подвергли многих жителей города риску гибели от холода. -1 [ICON_CITIZEN] населения в городе.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_ICE_AGE_NO_FUEL_CHOICE_1_DESCRIPTION">
+			<Text>Нехватка топлива</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_ICE_AGE_NO_FUEL_CHOICE_1_HELP">
+			<Text>Из-за экстремального холода город сейчас испытывает нехватку топлива. Дополнительные запасы были перенаправлены из нашей промышленности в качестве компенсации. {1_YieldCost} в текущую задачу города.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_ICE_AGE_FROZEN_WATER_CHOICE_1_DESCRIPTION">
+			<Text>Скованные льдом воды</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_ICE_AGE_FROZEN_WATER_CHOICE_1_HELP">
+			<Text>Река города замёрзла, серьёзно затруднив торговлю. -3 [ICON_GOLD] золота в городе на {5_Turns}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_ICE_AGE_BITTER_WINDS_CHOICE_1_DESCRIPTION">
+			<Text>Лютые ветра</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_ICE_AGE_BITTER_WINDS_CHOICE_1_HELP">
+			<Text>Пронизывающе холодные ветра серьёзно мешают производству на землях вокруг города. В течение {5_Turns} все карьеры, пастбища, фермы и лесопилки дают -1 [ICON_PRODUCTION] производства.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_MINE_COLLAPSE">
+			<Text>Авария на шахте</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_MINE_COLLAPSE_HELP">
+			<Text>Штольня возле города наткнулась на какой-то жидкий резервуар и начала заполняться жидкостью.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_MINE_COLLAPSE_CHOICE_1">
+			<Text>Обрушить туннели, чтобы сохранить то, что можно.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_MINE_COLLAPSE_CHOICE_1_HELP">
+			<Text>Засыпать повреждённый участок шахты. Шахта переходит в состояние разграбленной.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_MINE_COLLAPSE_CHOICE_2">
+			<Text>Перенаправить инженеров из города, чтобы перекрыть прорыв с минимальной потерей проходов.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_MINE_COLLAPSE_CHOICE_2_HELP">
+			<Text>Задержите текущий строительный проект города на {1_YieldCost}, но сохраните шахту.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_MINE_COLLAPSE_CHOICE_3">
+			<Text>Похоже, эта жидкость богата нефтью. Используйте наш георадар, чтобы определить месторождение и начать добычу!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_MINE_COLLAPSE_CHOICE_3_HELP">
+			<Text>Потратьте {1_YieldCost}, чтобы получить 1 [ICON_RES_OIL] нефти.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_FOREST_FIRE">
+			<Text>Сквозь дым</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_FOREST_FIRE_HELP">
+			<Text>Подлесок в ближайшем лесу загорелся, вынудив рабочих покинуть лес до тех пор, пока пламя не утихнет.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_FOREST_FIRE_CHOICE_1">
+			<Text>Нам остаётся только переждать. Жизни этих людей важнее нашей лесозаготовки.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_FOREST_FIRE_CHOICE_1_HELP">
+			<Text>До двух лесопилок рядом с городом будут разграблены.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_FOREST_FIRE_CHOICE_2">
+			<Text>Отправьте пожарных с водой и топорами, защитите нашу инфраструктуру любой ценой!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_FOREST_FIRE_CHOICE_2_HELP">
+			<Text>Люди на сумму {1_YieldCost} погибают в огне.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_FOREST_FIRE_CHOICE_3">
+			<Text>Поднимите резервную авиацию, чтобы сбрасывать воду на огонь и распылять с воздуха замедляющее горение удобрение.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_FOREST_FIRE_CHOICE_3_HELP">
+			<Text>Потратьте {1_YieldCost}. Там, где бушевал огонь, пышно разрастается новая растительность; ближайшие леса дают +1 [ICON_PRODUCTION] производства.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_AVALANCHE_CHOICE_1">
+			<Text>Лавина</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_AVALANCHE_CHOICE_1_HELP">
+			<Text>Снег с ближайшей горы сошёл, вызвав мощную лавину. До двух деревень и двух ферм возле города будут разграблены.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_CORRUPTION">
+			<Text>Местная коррупция</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_CORRUPTION_HELP">
+			<Text>Администраторы этого города сейчас обвиняются в коррупции. Народ разгневан и требует хоть какого-то правосудия. Нужен козёл отпущения. Кого вы обвините?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_CORRUPTION_CHOICE_1">
+			<Text>Виноват министр сельского хозяйства.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_CORRUPTION_CHOICE_1_HELP">
+			<Text>{3_CityYield} в городе на {5_Turns}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_CORRUPTION_CHOICE_2">
+			<Text>Я знал, что инженерный корпус замышляет недоброе.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_CORRUPTION_CHOICE_2_HELP">
+			<Text>{3_CityYield} в городе на {5_Turns}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_CORRUPTION_CHOICE_3">
+			<Text>Кто-то воровал деньги из казны?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_CORRUPTION_CHOICE_3_HELP">
+			<Text>{3_CityYield} в городе на {5_Turns}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_CORRUPTION_CHOICE_4">
+			<Text>Пожалуй, я возьму вину на себя.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_CORRUPTION_CHOICE_4_HELP">
+			<Text>-2 [ICON_HAPPINESS_1] счастья в городе на {5_Turns}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_CORRUPTION_FOOD_SPOILED_CHOICE_1">
+			<Text>Испорченная еда</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_CORRUPTION_FOOD_SPOILED_CHOICE_1_HELP">
+			<Text>Большая часть пищи в амбаре испортилась, несомненно, из-за бесхозяйственности. {1_YieldCost} в городе.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_CORRUPTION_BANDITS_CHOICE_1">
+			<Text>Бандиты!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_CORRUPTION_BANDITS_CHOICE_1_HELP">
+			<Text>Бандиты напали на ваших сборщиков налогов и скрылись с деньгами! {1_YieldCost}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_GOOD_HARVEST_CHOICE_1">
+			<Text>Большой урожай</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_GOOD_HARVEST_CHOICE_1_HELP">
+			<Text>Фермеры города сообщают об отличном урожае в этом сезоне. +{2_InstantYield} в городе.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_MARKET_DAY_CHOICE_1">
+			<Text>Рыночный день</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_MARKET_DAY_CHOICE_1_HELP">
+			<Text>Начался рыночный день, и городской рынок полон покупателей. В течение следующих {5_Turns} рынок города даёт +2 [ICON_GOLD] золота.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_VOLCANO_CHOICE_1">
+			<Text>Извержение!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_VOLCANO_CHOICE_1_HELP">
+			<Text>О нет! Некогда спящая гора рядом с городом внезапно изверглась, обрушив лаву на город и окружающую местность! Эффекты: -3 [ICON_CITIZEN] населения в городе, множество улучшений разграблено, а многие городские здания повреждены!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_VOLCANO_SPECIAL_CHOICE_1">
+			<Text>Извержение Кракатау!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_VOLCANO_SPECIAL_CHOICE_1_HELP">
+			<Text>Кракатау извергся! Огромные облака пепла, дыма и лавы накрыли ближайший город и его окрестности. Эффекты: -3 [ICON_CITIZEN] населения, улучшения разграблены, а многие здания повреждены!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_HOTEL_ESTABLISHED_CHOICE_1">
+			<Text>Курорт у природного чуда</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_HOTEL_ESTABLISHED_CHOICE_1_HELP">
+			<Text>Из-за туризма, создаваемого ближайшим природным чудом, деловой консорциум решил построить в этом городе отель.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_PESTILENCE">
+			<Text>Мор</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_PESTILENCE_HELP">
+			<Text>Посевы гниют прямо в земле. Неясно, как далеко распространилось заражение, но значительная часть урожая уже поражена.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_PESTILENCE_CHOICE_1">
+			<Text>Сжечь заражённые поля.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_PESTILENCE_CHOICE_1_HELP">
+			<Text>Сельские общины возле города опустошены. До двух ферм рядом с городом перейдут в состояние разграбленных.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_PESTILENCE_CHOICE_2">
+			<Text>Попробовать пересадить до зимы.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_PESTILENCE_CHOICE_2_HELP">
+			<Text>Возьмите {1_YieldCost} из амбара города, чтобы засеять новый урожай и сохранить обычную работу сельского хозяйства региона.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_PESTILENCE_CHOICE_3">
+			<Text>Разработать специальный фунгицид, чтобы искоренить болезнь.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_PESTILENCE_CHOICE_3_HELP">
+			<Text>Выделите {1_YieldCost} исследователей, чтобы навсегда увеличить урожайность ближайших ферм на +1 [ICON_FOOD] пищи.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_FLOODING">
+			<Text>Наводнение</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_FLOODING_HELP">
+			<Text>Уровень воды в реке у города поднялся опасно высоко, угрожая городу и окружающим землям.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_FLOODING_CHOICE_1">
+			<Text>Перетерпеть наводнение.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_FLOODING_CHOICE_1_HELP">
+			<Text>До 3 ферм будут разграблены, а некоторые здания также могут быть разрушены.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_FLOODING_CHOICE_2">
+			<Text>Отправить рабочих строить защиту от паводка.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_FLOODING_CHOICE_2_HELP">
+			<Text>Перенаправьте {1_YieldCost} из строительного проекта города, чтобы спасти сельхозугодья, хотя некоторые здания всё ещё могут быть разрушены.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_FLOODING_CHOICE_3">
+			<Text>Разработать систему управления на гидроэлектростанции, чтобы регулировать уровень воды в реке.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_FLOODING_CHOICE_3_HELP">
+			<Text>Выделите {1_YieldCost} исследователей, чтобы навсегда решить проблему наводнений в этом регионе. Получите прирост {4_GPChange}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_HURRICANE">
+			<Text>Надвигается ураган</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_HURRICANE_HELP">
+			<Text>На горизонте навис ураган, и он движется прямо к городу. Он может ударить по городу, а может и нет. Если ударит, ожидайте крупных потерь людей и имущества. Городской совет не знает, как реагировать, и ждёт вашего указания.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_HURRICANE_CHOICE_1">
+			<Text>Эвакуировать город и укрепить всё мешками с песком.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_HURRICANE_CHOICE_1_HELP">
+			<Text>Потеряйте {1_YieldCost}. Город хорошо подготовлен к урагану.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_HURRICANE_SUCCESSFUL_S">
+			<Text>Ураган обрушился на {2_City}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_HURRICANE_CHOICE_1_SUCCESSFUL">
+			<Text>Очень мощный ураган ударил по {2_City}. К счастью, город был хорошо подготовлен и пострадал минимально.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_HURRICANE_CHOICE_2">
+			<Text>Собраться с духом и надеяться на лучшее. Мы ничего не можем сделать.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_HURRICANE_CHOICE_2_HELP">
+			<Text>Без подготовки. Удачи!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_HURRICANE_CHOICE_2_SUCCESSFUL">
+			<Text>Очень мощный ураган ударил по {2_City}. Город был плохо подготовлен и ужасно пострадал.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_HURRICANE_CHOICE_3">
+			<Text>Отправить военных защищать имущество.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_HURRICANE_CHOICE_3_HELP">
+			<Text>Потеряйте {1_YieldCost}. Если ураган ударит, ожидайте больших человеческих потерь.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_HURRICANE_CHOICE_3_SUCCESSFUL">
+			<Text>Очень мощный ураган ударил по {2_City}. Сам город был хорошо защищён, но население пострадало.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_HURRICANE_CHOICE_4">
+			<Text>Отправить военных защищать население.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_HURRICANE_CHOICE_4_HELP">
+			<Text>Потеряйте {1_YieldCost}. Если ураган ударит, ожидайте серьёзного материального ущерба.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_HURRICANE_CHOICE_4_SUCCESSFUL">
+			<Text>Очень мощный ураган ударил по {2_City}. Население города было хорошо защищено, но сам город оказался опустошён.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_HURRICANE_CHOICE_5">
+			<Text>Наша дамба на реке защитит нас от нагонной волны!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_HURRICANE_CHOICE_5_HELP">
+			<Text>Потеряйте {1_YieldCost} и положитесь на городскую дамбу. Если ураган ударит, ожидайте серьёзного материального ущерба.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_HURRICANE_CHOICE_5_SUCCESSFUL">
+			<Text>Очень мощный ураган ударил по {2_City}. Дамба города не выдержала, и город был опустошён.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_PLAGUE_CHOICE_1">
+			<Text>Чума!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_PLAGUE_CHOICE_1_HELP">
+			<Text>Наши худшие опасения оправдались. Чума добралась до города! Люди лежат мёртвыми на улицах, а сотни умирают каждый день. Эффект: -15 [ICON_FOOD] пищи в городе на {5_Turns}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_WANDERER">
+			<Text>Таинственный странник</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_WANDERER_HELP">
+			<Text>Закутанная фигура задержалась за стенами города. Когда стража спросила, зачем он пришёл, он передал им потрёпанное письмо:[NEWLINE][NEWLINE]"Я человек многих талантов, но у меня нет дома. Немой с рождения, я учу и тренирую без слов. В обмен на гостеприимство и дом я могу предложить вам один из четырёх даров."</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_WANDERER_CHOICE_1">
+			<Text>«Дар художника.»</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_WANDERER_CHOICE_1_HELP">
+			<Text>Получите {4_GPChange} в городе.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_WANDERER_CHOICE_2">
+			<Text>«Дар мастера.»</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_WANDERER_CHOICE_2_HELP">
+			<Text>Получите {4_GPChange} в городе.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_WANDERER_CHOICE_3">
+			<Text>«Дар провидца.»</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_WANDERER_CHOICE_3_HELP">
+			<Text>Получите {4_GPChange} в городе.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_WANDERER_CHOICE_4">
+			<Text>«Дар торговца.»</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_WANDERER_CHOICE_4_HELP">
+			<Text>Получите {4_GPChange} в городе.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_NOMADS">
+			<Text>Вторжение кочевников</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_NOMADS_HELP">
+			<Text>Группа кочевых народов появилась у ваших границ и просит позволить им поселиться на вашей территории. Они кажутся дружелюбными и готовы вести переговоры, чтобы получить желаемое. Как вы ответите?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_NOMADS_CHOICE_1">
+			<Text>Дать им землю, но только если они примут нашу культуру.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_NOMADS_CHOICE_1_HELP">
+			<Text>Получите {2_Instant} к росту границ в этом городе (влияет только на рост границ).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_NOMADS_CHOICE_2">
+			<Text>Прогнать их и забрать всё, что сможем унести.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_NOMADS_CHOICE_2_HELP">
+			<Text>Получите {1_Cost}. 50% шанс, что рядом с городом появятся два варварских юнита.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_NOMADS_CHOICE_2_SUCCESSFUL_S">
+			<Text>Ответ кочевников против {2_City}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_NOMADS_CHOICE_2_SUCCESSFUL">
+			<Text>Ваши дерзкие действия разгневали кочевников, и они объявили вам войну! Рядом с {2_City} появляются два варварских юнита.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_NOMADS_CHOICE_3">
+			<Text>Позволить им поселиться, но только если их лучшие воины вступят в нашу армию.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_NOMADS_CHOICE_3_HELP">
+			<Text>Возле вашего города появляется бесплатный военный юнит.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_NOMADS_CHOICE_4">
+			<Text>Пригласить их влиться в город.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_NOMADS_CHOICE_4_HELP">
+			<Text>Город получает 1 [ICON_CITIZEN] жителя.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_OCCUPIED_REBELS">
+			<Text>Сопротивление</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_OCCUPIED_REBELS_HELP">
+			<Text>Угрозы вашей власти в городе продолжают расти, и советники боятся, что дело может дойти до насилия. Вам нужно искоренить это сопротивление, пока оно не усилилось. Однако ваши возможности ограничены:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_OCCUPIED_REBELS_CHOICE_1">
+			<Text>Инквизицию они точно не ожидают!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_OCCUPIED_REBELS_CHOICE_1_HELP">
+			<Text>Город теряет 3 [ICON_CITIZEN] населения.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_OCCUPIED_REBELS_CHOICE_2">
+			<Text>Выманите мятежников — мы раздавим их военной силой.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_OCCUPIED_REBELS_CHOICE_2_HELP">
+			<Text>Рядом с городом появляются три юнита мятежников, а город получает [ICON_RESISTANCE] сопротивление на 1 ход.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_OCCUPIED_REBELS_CHOICE_3">
+			<Text>Изолируйте мятежников. Они могут занять часть города, но этого не избежать.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_OCCUPIED_REBELS_CHOICE_3_HELP">
+			<Text>10% шанс, что каждое здание в городе будет уничтожено.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_PLANTATION_RARE_CROP_CHOICE_1">
+			<Text>Редкий образец</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_PLANTATION_RARE_CROP_CHOICE_1_HELP">
+			<Text>Ваши фермеры обнаружили на плантации возле города редкое растение, которого раньше никто не видел. Ваши исследователи в восторге от возможности изучить его! Получите +{2_InstantYield}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_STEAL_GW">
+			<Text>[ICON_GREAT_WORK] Украсть великое произведение</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_STEAL_GW_HELP">
+			<Text>Украсть случайно выбранное [ICON_GREAT_WORK] великое произведение из целевого города.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_STEAL_GW_EFFECT">
+			<Text>[ICON_GREAT_WORK] Великое произведение «{2_GWName}» было украдено.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_SABOTAGE_PRODUCTION">
+			<Text>[ICON_PRODUCTION] Саботировать городское производство</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_SABOTAGE_PRODUCTION_HELP">
+			<Text>Город не может строить или инвестировать в здания, чудеса и проекты в течение {8_Num} ходов.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_SABOTAGE_PRODUCTION_EFFECT">
+			<Text>Город не может строить или инвестировать в здания, чудеса и проекты в течение {8_Num} ходов</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_STEAL_FAITH">
+			<Text>[ICON_PEACE] Похитить религиозные реликвии</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_STEAL_FAITH_HELP">
+			<Text>Красть 100% [ICON_PEACE] веры за ход из целевого города. -100% религиозного давления, исходящего от целевого города. Длится {5_Duration}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_STEAL_FAITH_EFFECT">
+			<Text>Каждый ход крадётся 100% [ICON_PEACE] выработки веры города. Город испускает -100% религиозного давления. {5_DurationText}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_SCIENTIFIC_GREATPEOPLE">
+			<Text>[ICON_GREAT_PEOPLE] Похитить специалистов в городе</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_SCIENTIFIC_GREATPEOPLE_HELP">
+			<Text>Специалисты дают -1 [ICON_GREAT_PEOPLE] ОВЛ в ход в целевом городе. {6_PlayerEventEffect}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_SCIENTIFIC_GREATPEOPLE_EFFECT">
+			<Text>Специалисты дают -1 [ICON_GREAT_PEOPLE] ОВЛ в ход. {5_Duration}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_REPATRIATED_SPECIALISTS">
+			<Text>Возвращённые специалисты</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_REPATRIATED_SPECIALISTS_HELP">
+			<Text>Специалисты в вашей столице дают +1 [ICON_GREAT_PEOPLE] ОВЛ в ход. Длится {4_Duration}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_REPATRIATED_SPECIALISTS_PARENT">
+			<Text>Возвращённые специалисты</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_REPATRIATED_SPECIALISTS_PARENT_HELP">
+			<Text>Специалисты в вашей столице дают +1 [ICON_GREAT_PEOPLE] ОВЛ в ход.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_STEAL_FROM_TREASURY">
+			<Text>[ICON_GOLD] Украсть из государственной казны</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_STEAL_FROM_TREASURY_HELP">
+			<Text>Украсть {8_Num}% [ICON_GOLD] золота из казны целевой империи. {7_AmountToSteal}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_STEAL_FROM_TREASURY_EFFECT">
+			<Text>{3_Num} [ICON_GOLD] золота было украдено из вашей казны.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_STEAL_TREASURY_AMOUNT">
+			<Text>[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Сумма кражи:[ENDCOLOR] {1_Num} [ICON_GOLD] золота</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_STEAL_TECH">
+			<Text>[ICON_RESEARCH] Украсть технологию</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_STEAL_TECH_HELP">
+			<Text>Украсть случайно выбранную технологию.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_STEAL_TECH_EFFECT">
+			<Text>Технология «{1_TechName}» была украдена.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_ECONOMIC_TILES">
+			<Text>[ICON_CITIZEN] Радикализовать сельское население</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_ECONOMIC_TILES_HELP">
+			<Text>Все улучшенные клетки с ресурсами, принадлежащие городу, разграбляются. Каждая дорога или железная дорога имеет 50% шанс быть разграбленной.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_ECONOMIC_TILES_EFFECT">
+			<Text>Все улучшенные клетки с ресурсами и часть дорог/железных дорог вокруг города были разграблены.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_URBAN_UNREST">
+			<Text>[ICON_RESISTANCE] Вооружить местное население</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_URBAN_UNREST_HELP">
+			<Text>Город входит в состояние [ICON_RESISTANCE] сопротивления на 2 хода, и в районе появляются юниты мятежников. Город не генерирует [ICON_TOURISM] туризм в течение {8_Num} ходов.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_URBAN_UNREST_EFFECT">
+			<Text>Город вошёл в состояние [ICON_RESISTANCE] сопротивления на 2 хода, и в районе появились юниты мятежников. Город не генерирует [ICON_TOURISM] туризм в течение {8_Num} ходов.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_CITY_DEFENSES">
+			<Text>[ICON_STRENGTH] Вывести из строя оборону города</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_CITY_DEFENSES_HELP">
+			<Text>Все укрепления, принадлежащие этому городу, разграбляются. Город блокирован и не может выполнять дальние удары в течение {8_Num} ходов.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_CITY_DEFENSES_EFFECT">
+			<Text>Укрепления вокруг города были разграблены. Город блокирован и не может выполнять дальние удары в течение {8_Num} ходов.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_COUNTERSPY_FOCUS">
+			<Text>Контрразведка</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_COUNTERSPY_FOCUS_HELP">
+			<Text>Ваш шпион создал новую контрразведывательную операцию. На чём вы хотите, чтобы он сосредоточился?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_COUNTERSPY_NETWORK">
+			<Text>[ICON_CITY_SECURITY] Создать контршпионскую сеть.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_COUNTERSPY_NETWORK_HELP">
+			<Text>Иностранные [ICON_SPY] шпионы получают -20 очков сети в ход.[NEWLINE][NEWLINE]Получайте 50 [ICON_RESEARCH] науки и [ICON_CULTURE] культуры, когда вы обнаруживаете иностранного [ICON_SPY] шпиона, и 150 [ICON_RESEARCH] науки и [ICON_CULTURE] культуры, когда вы убиваете иностранного шпиона, с масштабированием по эпохе.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_COUNTERSPY_NETWORK_EFFECT">
+			<Text>Иностранные [ICON_SPY] шпионы получают [ICON_NEGATIVE_TEXT]-20 очков сети[ENDCOLOR] в ход.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_COUNTERSPY_NETWORK_MISSION">
+			<Text>Создать сеть</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_COUNTERSPY_DEFENSE">
+			<Text>[ICON_STRENGTH] Усилить оборону города.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_COUNTERSPY_DEFENSE_HELP">
+			<Text>Городские [ICON_RANGE_STRENGTH] дальнобойные атаки на 30% сильнее. Иностранные шпионы не могут выполнять миссию «Вывести из строя оборону города».[NEWLINE][NEWLINE]Получайте 50 [ICON_RESEARCH] науки и [ICON_CULTURE] культуры, когда вы обнаруживаете иностранного [ICON_SPY] шпиона, и 150 [ICON_RESEARCH] науки и [ICON_CULTURE] культуры, когда вы убиваете иностранного шпиона, с масштабированием по эпохе.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_COUNTERSPY_DEFENSE_EFFECTS">
+			<Text>Городские [ICON_RANGE_STRENGTH] дальнобойные атаки на 30% сильнее. Иностранные шпионы не могут выполнять миссию «Вывести из строя оборону города».</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_COUNTERSPY_DEFENSE_MISSION">
+			<Text>Усилить оборону</Text>
+		</Row>
+	</Language_ru_RU>
+</GameData>

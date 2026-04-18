@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_ru_RU>
+		<Row Tag="TXT_KEY_VP_MP_WARNING_RESYNC_SCHEDULED">
+			<Text>Я запланировал принудительную повторную синхронизацию. На следующем ходу сессия будет перезагружена.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VP_MP_WARNING_DESYNC">
+			<Text>На клиентской стороне произошла десинхронизация, возможно неопределенное поведение. Создайте отчет об ошибке на GitHub: https://github.com/LoneGazebo/Community-Patch-DLL/issues</Text>
+		</Row>
+	</Language_ru_RU>
+</GameData>

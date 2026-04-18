@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_ru_RU>
+		<Row Tag="TXT_KEY_GAME_OPTION_ENABLE_VASSALAGE">
+			<Text>Включить вассалитет</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_ENABLE_VASSALAGE_HELP">
+			<Text>Включает систему вассалитета, позволяя более слабым цивилизациям становиться вассалами более сильных цивилизаций.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_GAME_OPTION_PASSIVE_ESPIONAGE">
+			<Text>Пассивный шпионаж</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_PASSIVE_ESPIONAGE_HELP">
+			<Text>Отключает продвинутые шпионские миссии. Шпионы дают только свои пассивные бонусы, пока находятся в городе. ПРИМЕЧАНИЕ: этот параметр ничего не делает, если включена опция «Без шпионажа».</Text>
+		</Row>
+	</Language_ru_RU>
+</GameData>

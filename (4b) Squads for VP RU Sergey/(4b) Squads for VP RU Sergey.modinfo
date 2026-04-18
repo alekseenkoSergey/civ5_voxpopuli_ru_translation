@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="2920e66f-5aa2-46f8-a204-99ddd7a57fa9" version="1">
+  <Properties>
+    <Name>(4b) Squads for VP - Sergey перевод</Name>
+    <Teaser>(5.2.2) Перевод на русский</Teaser>
+    <Description>QoL-мод для организации и одновременного перемещения групп юнитов.
+Squads использует два режима: [COLOR_GREEN]Режим управления[ENDCOLOR] и [COLOR_GREEN]Режим перемещения[ENDCOLOR].[NEWLINE][NEWLINE]
+В [COLOR_GREEN]Режиме управления[ENDCOLOR] юнитов можно добавлять или удалять с помощью [COLOR_YELLOW]ЛКМ[ENDCOLOR] по самому юниту или его значку. Группы юнитов можно добавлять в отряд сразу, удерживая [COLOR_YELLOW]ПКМ[ENDCOLOR] и протягивая рамку над юнитами, которых нужно добавить. Войти в [COLOR_GREEN]Режим управления[ENDCOLOR] для отряда можно, нажав кнопку [COLOR_BLUE]Управление отрядом[ENDCOLOR] в интерфейсе при выбранном этом отряде, либо сочетанием клавиш [COLOR_YELLOW]CTRL+NUM[ENDCOLOR], где num — клавиша с номером отряда.[NEWLINE][NEWLINE]
+В [COLOR_GREEN]Режиме перемещения[ENDCOLOR] [COLOR_YELLOW]ПКМ[ENDCOLOR] по клетке отдаёт приказ всем юнитам этого отряда переместиться в указанную область. Войти в [COLOR_GREEN]Режим перемещения[ENDCOLOR] для отряда можно, нажав кнопку [COLOR_BLUE]Переместить отряд[ENDCOLOR] в интерфейсе при выбранном этом отряде, либо сочетанием клавиш [COLOR_YELLOW]NUM+NUM[ENDCOLOR] (двойное нажатие), где num — клавиша с номером отряда.[NEWLINE][NEWLINE]
+Интерфейс Squads позволяет переименовывать отряды, удалять все юниты из отряда, удалять отдельных юнитов из списка юнитов с помощью [COLOR_YELLOW]ПКМ[ENDCOLOR], а также настраивать параметры отображения и поведения по завершении перемещения.</Description>
+    <Authors>Sergey</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Mod id="3645dbca-bdfb-4d86-bdc5-46cb5a426cc2" minversion="1" maxversion="999" title="(4a) Squads for VP" />
+  </Dependencies>
+  <References>
+    <Mod id="8411a7a8-dad3-4622-a18e-fcc18324c799" minversion="17" maxversion="999" title="(2) Vox Populi" />
+  </References>
+  <Blocks>
+    <Mod id="24923240-e4fb-4bf6-link-6e5b6cf4d3c2" minversion="0" maxversion="999" title="Linked and Group Unit Movement for VP-noEUI " />
+    <Mod id="24923240-e4fb-4bf6-link-6e5b6cf4d3c2" minversion="0" maxversion="999" title="Linked and Group Unit Movement for VP-EUI " />
+    <Mod id="59c70c09-d8ec-4856-b012-33b43b4f98fc" minversion="0" maxversion="999" title="Squads for VP" />
+  </Blocks>
+  <Files>
+    <File>XML/Squads_ru_RU.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>XML/Squads_ru_RU.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

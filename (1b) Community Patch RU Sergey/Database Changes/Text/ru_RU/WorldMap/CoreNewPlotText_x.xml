@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_ru_RU>
+		<Row Tag="TXT_KEY_PLOT_LAND">
+			<Text>Ровная суша</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLOT_OCEAN">
+			<Text>Вода</Text>
+		</Row>
+	</Language_ru_RU>
+</GameData>

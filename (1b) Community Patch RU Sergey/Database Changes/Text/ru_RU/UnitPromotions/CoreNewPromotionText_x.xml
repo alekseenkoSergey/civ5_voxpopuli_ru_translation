@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_ru_RU>
+		<!-- Cannot End Turn on Ocean Tile -->
+		<Row Tag="TXT_KEY_PROMOTION_OCEAN_IMPASSABLE_HELP">
+			<Text>Никогда не может закончить ход на тайле океана. Может двигаться через видимые клетки Океана, если точка назначения находится на видимой клетке Побережья.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_DEEPWATER_EMBARKATION">
+			<Text>Посадка в океан</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_DEEPWATER_EMBARKATION_HELP">
+			<Text>Позволяет парящим юнитам высадиться на границе побережья и океана.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_DEFENSIVE_DEEPWATER_EMBARKATION">
+			<Text>Морская посадка с защитой</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_DEFENSIVE_DEEPWATER_EMBARKATION_HELP">
+			<Text>Позволяет парящим юнитам высадиться на границе побережья и океана. Посаженные юниты получают +100% бонус к [ICON_STRENGTH] защите.</Text>
+		</Row>
+	</Language_ru_RU>
+</GameData>

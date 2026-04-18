@@ -1,0 +1,977 @@
+<?xml version='1.0' encoding='utf-8'?>
+<GameData>
+	<Language_ru_RU>
+		<!-- Great Works of Writing -->
+		<!-- Titles -->
+		<Row Tag="TXT_KEY_GREAT_WORK_GENESIS">
+			<Text>Бытие</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_WW_010">
+			<Text>Эпос о Гильгамеше</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_WW_020">
+			<Text>Ода Афродите</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_WW_030">
+			<Text>Повесть временных лет</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_WW_040">
+			<Text>Диван</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_WW_050">
+			<Text>Младшая Эдда</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_WW_060">
+			<Text>Кебра Нагаст (Книги царей)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_WW_070">
+			<Text>Аль-Мукаддима (Пролегомены)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_WW_080">
+			<Text>Рихла (Дар созерцающим чудеса городов и диковины странствий)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_WW_090">
+			<Text>Сокровенное сказание монголов</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_WW_100">
+			<Text>Кокин вакасю (сборник, из которого известны её стихи)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_WW_110">
+			<Text>Книга Маргери Кемп</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_WW_120">
+			<Text>Го рин но сё (Книга пяти колец)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_WW_130">
+			<Text>Чудесная лампа Аладдина</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_WW_140">
+			<Text>Книга о Граде женском</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_WW_150">
+			<Text>Пылающий мир</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_WW_160">
+			<Text>Rime di Madonna (Стихи моей госпоже)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_WW_170">
+			<Text>Си ю цзи (Путешествие на Запад)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_WW_180">
+			<Text>Сказка о кролике Питере</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_WW_190">
+			<Text>Ода соловью</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_WW_200">
+			<Text>Снежная королева</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_WW_210">
+			<Text>Сирень</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_WW_220">
+			<Text>Калевала</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_WW_230">
+			<Text>Зов Ктулху</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_WW_240">
+			<Text>Хоббит</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_WW_250">
+			<Text>Приключения Тинтина</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_WW_260">
+			<Text>Энн из Зелёных Мезонинов</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_WW_270">
+			<Text>Мэри Поппинс</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_WW_280">
+			<Text>Astérix chez les Bretons (Астерикс в Британии)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_WW_290">
+			<Text>Флэш Гордон</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_WW_300">
+			<Text>Своя комната</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_WW_310">
+			<Text>Матт и Джефф</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_WW_320">
+			<Text>Солярис</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_WW_330">
+			<Text>Ноктюрны</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_WW_340">
+			<Text>Жизнь и судьба</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_WW_350">
+			<Text>Заметки сына этой страны</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_WW_360">
+			<Text>Поунаму, Поунаму</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_WW_370">
+			<Text>Мир глазами Гарпа</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_WW_380">
+			<Text>Хоровод</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_WW_390">
+			<Text>Воспоминания Адриана</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_WW_400">
+			<Text>Всё рушится</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_WW_410">
+			<Text>Любовник</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_WW_420">
+			<Text>Грибы</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_WW_430">
+			<Text>Астробой</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_WW_440">
+			<Text>Песнь Соломона</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_WW_450">
+			<Text>Wiedźmin (Ведьмак)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_WW_460">
+			<Text>Гарри Поттер и философский камень</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_WW_470">
+			<Text>Рассказ служанки</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_WW_480">
+			<Text>Дом духов</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_WW_490">
+			<Text>Бог мелочей</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_WW_500">
+			<Text>Книга негров</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_WW_510">
+			<Text>Пляж обезьян</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_WW_520">
+			<Text>Зелёная трава, бегущая вода</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_WW_530">
+			<Text>O Alquimista (Алхимик)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_WW_540">
+			<Text>La vraie gloire est ici (Истинная слава здесь)</Text>
+		</Row>
+		<!-- Excerpts -->
+		<Row Tag="TXT_KEY_GREAT_WORK_GENESIS_QUOTE">
+			<Text>«В начале сотворил Бог небо и землю. Земля же была безвидна и пуста, и тьма над бездною, и Дух Божий носился над водою. И сказал Бог: „Да будет свет“. И стал свет. И увидел Бог свет, что он хорош, и отделил Бог свет от тьмы. И назвал Бог свет днём, а тьму — ночью. И был вечер, и было утро: день один.»</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_WQ_010">
+			<Text>Даже боги ужаснулись Потопу,[NEWLINE]они ушли и взошли на небо Ану,[NEWLINE]свернувшись, словно псы, под открытым небом.[NEWLINE]Богиня закричала, как женщина в родах,[NEWLINE]рыдала Белет-или, чей голос так сладок:[NEWLINE]«Это я рождаю, эти люди — мои![NEWLINE]А теперь, как рыбы, они наполняют океан!»</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_WQ_020">
+			<Text>Афродита, коварная душой и бессмертная,[NEWLINE]Дочь бога, ткачиха хитростей, молю тебя:[NEWLINE]Ни заботой, грозная Владычица, ни мукой[NEWLINE]Не губи мой дух!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_WQ_030">
+			<Text>Пока между вами царит любовь, Бог будет с вами, покорит ваших врагов, и вы будете жить в мире. Но если будете жить в ненависти, раздоре и распрях, то погибнете; потеряете земли ваших отцов и предков, которые они приобрели великими страданиями. Потому живите в мире и согласии, слушайте друг друга.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_WQ_040">
+			<Text>Я вижу её, от горя обезумевшую, плачущую по брату.[NEWLINE]В вечер его утраты или на следующий день.[NEWLINE]Не оплакивают они подобного моему брату,[NEWLINE]Но я утешаюсь о нём их скорбью.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_WQ_050">
+			<Text>Из плоти Имира[NEWLINE]Была создана земля,[NEWLINE]А из пота его — моря;[NEWLINE]Скалы — из его костей,[NEWLINE]Деревья — из его волос,[NEWLINE]А небо — из его черепа;[NEWLINE]Но из его бровей[NEWLINE]Светлые силы[NEWLINE]Создали Мидгард для сынов человеческих.[NEWLINE]Из его мозга[NEWLINE]Были созданы все печальные[NEWLINE]Облака.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_WQ_060">
+			<Text>Тот, кто копит золото и серебро, не получит от этого пользы без мудрости; но тот, кто копит мудрость, уже никто не вырвет её из его сердца.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_WQ_070">
+			<Text>Во всех человеческих качествах крайности достойны порицания, а срединный путь — похвалы.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_WQ_080">
+			<Text>Воистину — хвала Богу — я достиг своего желания в этом мире, которое состояло в том, чтобы странствовать по земле, и достиг в этом того, чего, насколько мне известно, не достиг никто иной.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_WQ_090">
+			<Text>В начале был сине-серый волк, рождённый с судьбой, определённой Небом. Его супругой была лань. Они пришли, переправившись через Тенггис. После того как они поселились у истока реки Онон на горе Бурхан-Халдун, у них родился Батацихан.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_WQ_100">
+			<Text>Глядя на луну[NEWLINE]на рассвете,[NEWLINE]одинокую, посреди неба,[NEWLINE]я познала себя полностью,[NEWLINE]не упустив ни частицы.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_WQ_110">
+			<Text>Она много раз встречала мужчин из той местности, которые говорили ей: «Женщина, оставь эту жизнь, которую ведёшь, иди прясть и чесать шерсть, как другие женщины, и не терпеть столько стыда и столько несчастья. Мы бы не вынесли такого ни за какие деньги на земле».</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_WQ_120">
+			<Text>Ты начнёшь мыслить широко и, приняв пустоту за Путь, увидишь Путь как пустоту. В пустоте есть добродетель, и нет зла. Мудрость существует, принцип существует, Путь существует, дух же — ничто.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_WQ_130">
+			<Text>Когда он сложил руки, то, сам того вовсе не думая, потёр кольцо, которое африканский маг надел ему на палец и о силе которого он ещё ничего не знал. Как только он его потёр, перед ним мгновенно, будто бы из-под земли, возник Джинн огромнейшего роста и с ужаснейшим лицом.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_WQ_140">
+			<Text>Мужчина или женщина, в ком обитает большая добродетель, тот и выше; ни высота, ни низость человека не заключены в теле согласно полу, но в совершенстве поведения и добродетелей.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_WQ_150">
+			<Text>Если вы только укажете мне, — сказала Герцогиня Духам, — какой Мир легче всего завоевать, Её Величество поможет мне средствами, а я доверюсь Судьбе и Фортуне; ибо я скорее умру в приключении благородных деяний, чем буду жить в безвестной и вялой безопасности; ведь в одном случае я могу жить в славной Молве, а в другом буду погребена в забвении.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_WQ_160">
+			<Text>Это было в тот день, когда Творец,[NEWLINE]Который мог бы остаться в Своей высокой обители,[NEWLINE]Сошёл, чтобы явить Себя в человеческом облике,[NEWLINE]Выйдя из чрева Пресвятой Девы,[NEWLINE]И случилось так, что мой славный господин,[NEWLINE]О ком я написала столь много любовных жалоб,[NEWLINE]Кто не мог бы найти благороднейшего пристанища,[NEWLINE]Свил собственное гнездо и убежище в моём сердце.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_WQ_170">
+			<Text>Одно желание, рождённое в сердце человека,[NEWLINE]Известно Небу и Земле.[NEWLINE]Если порок и добродетель не получают воздаяния,[NEWLINE]Значит, вселенная несправедлива.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_WQ_180">
+			<Text>Флопси, Мопси и Коттонтэйл — хорошие маленькие крольчата — пошли по дорожке собирать ежевику, а Питер — очень непослушный — побежал прямо в сад мистера Макгрегора и проскользнул под калиткой.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_WQ_190">
+			<Text>Ты не для смерти рождена, бессмертная Птица![NEWLINE]Тебя не попирают голодные поколения;[NEWLINE]Тот голос, что я слышу этой мимолётной ночью, был слышен[NEWLINE]И в древние дни — и императором, и шутом.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_WQ_200">
+			<Text>Сила — в её сердце, потому что она такой добрый, невинный ребёнок. Если она сама не сможет дойти до Снежной королевы и избавить маленького Кая от тех осколков стекла, тогда никакой помощи мы ей дать не сможем.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_WQ_210">
+			<Text>О, маковощекая, не искусный ли садовник тебя создал?[NEWLINE]В этом цветнике мира было слишком много обыкновенных лиц;[NEWLINE]Не потому ли всесильный хранитель создал тебя?[NEWLINE]Цветы берут у тебя свои краски и аромат.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_WQ_220">
+			<Text>Об этом я плачу все свои дни[NEWLINE]И скорблю всю свою жизнь,[NEWLINE]Что уплыла из родных земель[NEWLINE]И пришла из знакомых мест[NEWLINE]К этим чужим дверям,[NEWLINE]К этим чужим воротам.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_WQ_230">
+			<Text>Пх’нглуи мглв’нафх Ктулху Р’льех вгах’нагл фхтагн.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_WQ_240">
+			<Text>В норе под землёй жил-был хоббит. Не в мерзкой, грязной, сырой норе, полной червячьих хвостов и зловонного запаха, и не в сухой, голой, песчаной норе, где не на что сесть и нечего поесть: это была хоббитская нора, а значит — уютная.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_WQ_250">
+			<Text>— Но нет, тысяча громовых каракатиц! Всё хорошо, что хорошо кончается!... ВСЁ ХОРОШО, ЧТО ХОРОШО КОНЧАЕТСЯ!... / Без сомнения... и сейчас как раз самый подходящий момент, чтобы процитировать пословицу: всё хорошо, что хорошо кончается!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_WQ_260">
+			<Text>Как же я рада, что живу в мире, где есть октябри. Было бы ужасно, если бы мы просто перескакивали с сентября сразу в ноябрь, правда? Посмотри на эти кленовые ветви. Разве они не волнуют тебя — даже несколько раз? Я собираюсь украсить ими свою комнату. «Опять беспорядок», — сказала Марилла, чьё чувство прекрасного было развито не слишком заметно.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_WQ_270">
+			<Text>Из одной и той же субстанции состоим мы[NEWLINE]дерево над нами, камень под нами, птица, зверь, звезда[NEWLINE]мы все едины, все движемся к одной цели. Помни это, когда уже не будешь помнить меня, дитя моё.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_WQ_280">
+			<Text>— Ты не слишком силён.[NEWLINE]— А сильный парень нам на что?[NEWLINE]— На то, чтобы тащить целую бочку волшебного зелья.[NEWLINE]— Такой, как кто-нибудь, кто упал в котёл, когда был совсем маленьким![NEWLINE]— А? О, это я![NEWLINE]— Ахаха[NEWLINE]— Разобьём римлян, разобьём римлян, разобьём римлян!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_WQ_290">
+			<Text>— А теперь залезайте в ракету! Я намерен направить этот корабль в комету, которая угрожает Земле! Мой корабль собьёт комету с курса и спасёт Землю! Мы втроём умрём мучениками науки! Начинаем сейчас же![NEWLINE]— Боже правый, да вы безумны!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_WQ_300">
+			<Text>«Запирайте свои библиотеки, если хотите,[NEWLINE]но нет ни ворот, ни замка, ни засова, которыми вы могли бы сковать свободу моего разума.»</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_WQ_310">
+			<Text>«Ах! Бедный маленький Джефф! Совесть меня замучила. Я ведь сказал ему, что никакой опасности нет. Держу пари, он уже мёртв. Я потихоньку выберусь и посмотрю...[NEWLINE]Бедный маленький приятель... / !!!»</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_WQ_320">
+			<Text>Так... вы думаете, это океан? Что океан во всём виноват? Но почему? Я не спрашиваю как, я просто спрашиваю — почему? Неужели вы всерьёз думаете, что он хочет играть с нами — нечто вроде стихийной демономании? Планета, которой управляет огромный дьявол, удовлетворяющий прихоти своего сатанинского юмора, посылая суккубов мучить участников научной экспедиции?... Сноу, вы не можете верить в такую нелепость!»[NEWLINE]Он пробормотал себе под нос.[NEWLINE]«Дьявол не такой уж дурак, как всё это...»</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_WQ_330">
+			<Text>Блеск почестей подобен Сахаре,[NEWLINE]Огромной пустоте без дюн, без каменистого плато, без трав, без трепета век, без биения сердца.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_WQ_340">
+			<Text>История человечества — это не битва добра, стремящегося одолеть зло. Это битва великого зла, пытающегося раздавить маленькое зерно человеческой доброты. Но если человеческое в человеке не уничтожено даже теперь, зло не победит никогда.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_WQ_350">
+			<Text>Мне кажется, одна из причин, по которым люди так упорно держатся за свою ненависть, в том, что они чувствуют: когда ненависть уйдёт, им придётся столкнуться с болью.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_WQ_360">
+			<Text>Эта комната была whanau; whanau была этой комнатой. Если бы вы захотели узнать о достижениях whanau, здесь были все спортивные трофеи, щиты, фотографии стариков, умерших давным-давно, whakapapa — родословные свитки, резные коробки для перьев, панели, фигуры, плащи из перьев, юбки пиупиу — всё это разливало буйство цвета и тени по залитой солнцем комнате.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_WQ_370">
+			<Text>Знаешь, все умирают. Мои родители умерли. Твой отец умер. Все умирают. Я тоже умру. И ты. Главное — успеть пожить до того, как умрём. Жизнь может быть настоящим приключением.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_WQ_380">
+			<Text>Три закона роботехники:[NEWLINE]1: робот не может причинить вред человеку или своим бездействием допустить, чтобы человеку был причинён вред;[NEWLINE]2: робот должен повиноваться приказам, которые дают ему люди, кроме тех случаев, когда такие приказы противоречат Первому закону;[NEWLINE]3: робот должен защищать своё существование до тех пор, пока такая защита не противоречит Первому или Второму закону.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_WQ_390">
+			<Text>Он достиг того момента в жизни, разного для каждого из нас, когда человек отдаётся своему демону или своему гению, следуя таинственному закону, который велит ему либо уничтожить себя, либо превзойти самого себя.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_WQ_400">
+			<Text>Человек зовёт родичей на пир не для того, чтобы спасти их от голода. У каждого есть пища в собственном доме. Когда мы собираемся на освещённой луной деревенской площади, то не из-за луны. Каждый и у себя во дворе её видит. Мы собираемся вместе потому, что так и должно быть родичам.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_WQ_410">
+			<Text>Очень рано в моей жизни стало слишком поздно. Уже было слишком поздно, когда мне было восемнадцать. Между восемнадцатью и двадцатью пятью моё лицо вдруг повернуло в новую сторону. Я состарилась в восемнадцать.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_WQ_420">
+			<Text>Мы питаемся водой,[NEWLINE]Крошками тени,[NEWLINE]Скромные, просим[NEWLINE]Мало или вовсе ничего,[NEWLINE]Так много нас!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_WQ_430">
+			<Text>— д... а... я... в... и... ж... у... т... е... б... я...[NEWLINE]Отлично! Получилось! Ну-ка, Тобио... я твой папа... Попробуй сказать «папа»...[NEWLINE]— па... па...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_WQ_440">
+			<Text>Быть может, именно к этому и сводятся все человеческие отношения: спасёшь ли ты мне жизнь — или отнимешь её?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_WQ_450">
+			<Text>«Зло есть зло, Стрегобор, — серьёзно сказал ведьмак, поднимаясь. — Меньшее, большее, среднее — всё едино. Пропорции условны, границы размыты. Я не благочестивый отшельник. Я не творил в жизни одного только добра. Но если мне предстоит выбирать между одним злом и другим, я предпочту не выбирать вовсе.»</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_WQ_460">
+			<Text>То, что произошло в подземельях между тобой и профессором Квирреллом, — полнейшая тайна, так что, разумеется, о ней знает вся школа.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_WQ_470">
+			<Text>Но помни, что прощение — тоже сила. Просить о нём — сила, и удерживать его или даровать — тоже сила, быть может, величайшая.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_WQ_480">
+			<Text>Как и когда мы приходим в этот мир, когда умираем, мы боимся неизвестного. Но этот страх — нечто внутри нас, не имеющее ничего общего с реальностью. Умереть — всё равно что родиться: просто перемена.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_WQ_490">
+			<Text>Когда ты причиняешь людям боль, они начинают любить тебя меньше. Вот что делают небрежные слова: они заставляют людей любить тебя чуть-чуть меньше.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_WQ_500">
+			<Text>Смотреть в лицо другому человеку — значит делать две вещи: признавать его человечность и утверждать свою собственную.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_WQ_510">
+			<Text>Имена обладают силой. Это фундаментальный принцип магии повсюду. Назови имя сверхъестественного существа — и ты мгновенно завладеешь всем его вниманием, точно так же, как теряющийся малыш мгновенно привлекает твоё, стоит ему позвать тебя по имени.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_WQ_520">
+			<Text>Истин не существует. Есть только истории.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_WQ_530">
+			<Text>Тайна жизни, однако, в том, чтобы семь раз упасть и восемь раз подняться.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_WQ_540">
+			<Text>Жажду и голод,[NEWLINE]Смех и слёзы,[NEWLINE]Сладость, обиды,[NEWLINE]Ярость, сожаления,[NEWLINE]Мы ничего не отбросим,[NEWLINE]Мы понесём всё,[NEWLINE]Вечное напутствие,[NEWLINE]В долгий путь.</Text>
+		</Row>
+		<!-- Great Works of Art -->
+		<Row Tag="TXT_KEY_GREAT_WORK_SUTTON_HOO">
+			<Text>Саттон-Ху</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_CHINESE_LANDSCAPE">
+			<Text>Китайская весна</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_EGYPTIAN_SCULPTURE">
+			<Text>Нефертем Египетский</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_JAPANESE_LANDSCAPE">
+			<Text>Гейша</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AUGUSTUS">
+			<Text>Статуя императора Августа</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_JUSTINIAN">
+			<Text>Рельеф императора Юстиниана I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_KELLS_2">
+			<Text>Келлская книга</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_LASCAUX">
+			<Text>Наскальные рисунки Ласко</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MEDIEVAL_DRAGON">
+			<Text>Средневековый дракон</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_ASHURBANIPAL">
+			<Text>Ашшурбанипал, поражающий львов</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AZTEC">
+			<Text>Ацтекские боги</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_BAYEUX_TAPESTRY">
+			<Text>Байёский гобелен</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_GREEK_POTTERY">
+			<Text>Греческая керамика</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_KALAMKARI">
+			<Text>Каламкари</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_PERSIAN_SOLDIERS">
+			<Text>Персидские воины</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_010">
+			<Text>Тамирис пишет свою картину богини Дианы</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_020">
+			<Text>Великая богиня Теотиуакана</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_030">
+			<Text>Портрет Франческо д’Эсте</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_040">
+			<Text>Сад земных наслаждений (центральная панель)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_050">
+			<Text>Бодхисаттва сострадания</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_060">
+			<Text>Могёндо</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_070">
+			<Text>Автопортрет</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_080">
+			<Text>Инфанта Маргарита Тереза в голубом платье</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_090">
+			<Text>Кымган чондо</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_100">
+			<Text>Голландские лодки в шторм</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_110">
+			<Text>Санчхун</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_120">
+			<Text>Мадемуазель Жанна Гонин</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_130">
+			<Text>Излучина реки</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_140">
+			<Text>Вид на Дрезден при лунном свете</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_150">
+			<Text>Охота</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_160">
+			<Text>Станьчик</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_170">
+			<Text>Индейцы, бьющие рыбу копьями</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_180">
+			<Text>Сюрприз у моста на рассвете</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_190">
+			<Text>Раздражающий джентльмен</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_200">
+			<Text>Зимний пейзаж</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_210">
+			<Text>Псише</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_220">
+			<Text>Ноябрь</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_230">
+			<Text>Хаока</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_240">
+			<Text>Независимость или смерть</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_250">
+			<Text>Больная девочка</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_260">
+			<Text>Сбор гороха</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_270">
+			<Text>Свежо с огорода</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_280">
+			<Text>Маки</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_290">
+			<Text>Защита Сампо</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_300">
+			<Text>Снег в Нью-Йорке</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_310">
+			<Text>Роттердамское солнце</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_320">
+			<Text>Кузница</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_330">
+			<Text>Мадам Купка среди вертикалей</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_340">
+			<Text>Апокалиптический пейзаж</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_350">
+			<Text>Русская кавалерия в атаке в Восточной Пруссии</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_360">
+			<Text>Атака под Рокитной</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_370">
+			<Text>Ночной вид гавани</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_380">
+			<Text>Зимняя ночь</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_390">
+			<Text>Мальчик с голубыми глазами</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_400">
+			<Text>Композиция с красным, жёлтым, синим и чёрным</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_410">
+			<Text>Синяя и зелёная музыка</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_420">
+			<Text>Портрет Марии Навроцкой</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_430">
+			<Text>Абапору</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_440">
+			<Text>Автопортрет</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_450">
+			<Text>Натюрморт</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_460">
+			<Text>Крестьянки из Тонкина</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_470">
+			<Text>Одинокий храм в осенних горах</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_480">
+			<Text>Женщина в фиолетовом пальто</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_490">
+			<Text>Автопортрет с терновым ожерельем и колибри</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_500">
+			<Text>Подземная фантазия</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_510">
+			<Text>Полуночники</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_520">
+			<Text>Портрет Маде Тоэй</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_530">
+			<Text>Дни былые</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_540">
+			<Text>Сияние надежды</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_550">
+			<Text>Ночь покера (из «Трамвая „Желание“»)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_560">
+			<Text>Номер 17-А</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_570">
+			<Text>Белый интерьер</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_580">
+			<Text>Без названия</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_590">
+			<Text>Предчувствие</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_600">
+			<Text>Диптих Мэрилин</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_610">
+			<Text>Чистый чек</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_620">
+			<Text>Большой всплеск</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_630">
+			<Text>Вега 200</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_640">
+			<Text>Громовая птица</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_650">
+			<Text>Уки</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_660">
+			<Text>Без названия</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_670">
+			<Text>Разглагольствования Пататта</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_680">
+			<Text>Натюрморт с хрустальной чашей</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_690">
+			<Text>Фабиан</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_700">
+			<Text>Женственность</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_710">
+			<Text>Автопортрет</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_720">
+			<Text>Без названия</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_730">
+			<Text>Пыльные головы</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_740">
+			<Text>Тревожный выезд II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_750">
+			<Text>Время рассказчиков</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_760">
+			<Text>№ 3 из серии «Персоны»</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_770">
+			<Text>Цветок</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_780">
+			<Text>Красный ара</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_790">
+			<Text>Странное насилие и белые богини</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_800">
+			<Text>Весеннее настроение I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_810">
+			<Text>Без названия</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_820">
+			<Text>Асила на рассвете</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_830">
+			<Text>Дин, одна очень красивая негритянка 1</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_840">
+			<Text>Автопортрет с дочерью</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_850">
+			<Text>Твори искусство, а не войну</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_860">
+			<Text>Утро на пляже</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_870">
+			<Text>К центру Вселенной</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_880">
+			<Text>Взгляд на время</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_890">
+			<Text>Без названия</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_900">
+			<Text>Анк Шус</Text>
+		</Row>
+		<!-- Great Works of Music -->
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_010">
+			<Text>Первый Дельфийский гимн</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_020">
+			<Text>Мелодическая модель Mater</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_030">
+			<Text>Палестинская песнь</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_040">
+			<Text>Король Артур</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_050">
+			<Text>Плач пророка Иеремии</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_060">
+			<Text>Эй, бют-и нев эда олмушум мюптела</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_070">
+			<Text>Спелая вишня</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_080">
+			<Text>Сон в летнюю ночь</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_090">
+			<Text>Лючия ди Ламмермур</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_100">
+			<Text>Я покинул снежные холмы</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_110">
+			<Text>Буду бежать всю ночь</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_120">
+			<Text>Лурлайн</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_130">
+			<Text>Арабское каприччио</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_140">
+			<Text>Реквием</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_150">
+			<Text>Голубые небеса</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_160">
+			<Text>Мои воспоминания</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_170">
+			<Text>Кармина Бурана</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_180">
+			<Text>Адажио для струнных</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_190">
+			<Text>Петя и волк</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_200">
+			<Text>Моя серенада</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_210">
+			<Text>Я не знал, который час</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_220">
+			<Text>Рух Афза</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_230">
+			<Text>Жизнь в розовом цвете</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_240">
+			<Text>Концерт № 3 «Из Квебека»</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_250">
+			<Text>Скажи мне «да»</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_260">
+			<Text>В настроении</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_270">
+			<Text>Таинственно</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_280">
+			<Text>Пуансиана</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_290">
+			<Text>Отель разбитых сердец</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_300">
+			<Text>Фантазия</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_310">
+			<Text>Останься со мной</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_320">
+			<Text>Тери пьяри пьяри сурат ко</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_330">
+			<Text>Гуахира и тамбо</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_340">
+			<Text>Девушка из Ипанемы</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_350">
+			<Text>Грядут перемены</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_360">
+			<Text>Как перекати-поле</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_370">
+			<Text>Богема</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_380">
+			<Text>Лишь Бог знает</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_390">
+			<Text>Эндаро Маханубхавулу</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_400">
+			<Text>Летняя пора</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_410">
+			<Text>Жизнь на Марсе</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_420">
+			<Text>У тебя есть друг</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_430">
+			<Text>Ревнивец</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_440">
+			<Text>Озорное регги</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_450">
+			<Text>Суеверие</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_460">
+			<Text>Расплата</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_470">
+			<Text>Вода не знает врага</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_480">
+			<Text>Богемская рапсодия</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_490">
+			<Text>Свобода</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_500">
+			<Text>Кислород</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_510">
+			<Text>Насколько глубока твоя любовь</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_520">
+			<Text>Зеркало в зеркале</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_530">
+			<Text>Чак влюблён</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_540">
+			<Text>Это будет страшно</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_550">
+			<Text>Слёзы</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_560">
+			<Text>Можно я подержу тебя, малыш</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_570">
+			<Text>Тень</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_580">
+			<Text>Пахнет духом подростка</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_590">
+			<Text>Не плачь по мне, Аргентина</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_600">
+			<Text>Атлантика</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_610">
+			<Text>Где-то над радугой</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_620">
+			<Text>Звук от полиции</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_630">
+			<Text>Палладио</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_640">
+			<Text>Млечный Путь M12</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_650">
+			<Text>Миндаль</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_660">
+			<Text>Фортепианный концерт «Memo Flora»</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_670">
+			<Text>Потерянные</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_680">
+			<Text>В настроении для любви</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_690">
+			<Text>Эсорагото</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_700">
+			<Text>Река течёт в тебе</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_710">
+			<Text>Ноябрь</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_720">
+			<Text>Баба Йету</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_730">
+			<Text>Спи, чернокожая малышка</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_740">
+			<Text>Я</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_750">
+			<Text>Налесонко</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_760">
+			<Text>Гангнам Стайл</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_770">
+			<Text>Ноктюрн фа минор</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_780">
+			<Text>Я не знаю своего имени</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_790">
+			<Text>Элегия для Арктики</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_800">
+			<Text>Джунгли</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_810">
+			<Text>Я Лили</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_820">
+			<Text>Деспасито</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_830">
+			<Text>Лаунг Лаачи</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_840">
+			<Text>Капитан</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_850">
+			<Text>Нимб</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_860">
+			<Text>Ослепляющие огни</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_870">
+			<Text>Я думаю о тебе</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_880">
+			<Text>Источник</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_890">
+			<Text>Нена</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_900">
+			<Text>Цветение</Text>
+		</Row>
+		<!-- Artifacts -->
+		<Row Tag="TXT_KEY_ARTIFACT_SARCOPHAGUS_1">
+			<Text>Саркофаг Хуфу</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_SARCOPHAGUS_2">
+			<Text>Саркофаг Неферефры</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_SARCOPHAGUS_3">
+			<Text>Саркофаг Ментухотепа I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_SARCOPHAGUS_4">
+			<Text>Саркофаг Менекхара</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_SARCOPHAGUS_5">
+			<Text>Саркофаг Сенусерта I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_SARCOPHAGUS_6">
+			<Text>Саркофаг Хатшепсут</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_SARCOPHAGUS_7">
+			<Text>Саркофаг Тутмоса II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_SARCOPHAGUS_8">
+			<Text>Саркофаг Рамсеса I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_SARCOPHAGUS_9">
+			<Text>Саркофаг Сети II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_SARCOPHAGUS_10">
+			<Text>Саркофаг Аменемопе</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_SARCOPHAGUS_11">
+			<Text>Саркофаг Осоркона I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_SARCOPHAGUS_12">
+			<Text>Саркофаг Иупута I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_SARCOPHAGUS_13">
+			<Text>Саркофаг Никаубы</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_SARCOPHAGUS_14">
+			<Text>Саркофаг Артаксеркса I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_SARCOPHAGUS_15">
+			<Text>Саркофаг Береники II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_SARCOPHAGUS_16">
+			<Text>Саркофаг Клеопатры I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_SARCOPHAGUS_17">
+			<Text>Саркофаг Птолемея I</Text>
+		</Row>
+	</Language_ru_RU>
+</GameData>

@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="b16f4a70-b69d-4b17-af4c-05e101b333fd" version="1">
+  <Properties>
+    <Name>(1b) Community Patch - Sergey перевод</Name>
+    <Teaser>(5.2.2) Перевод на русский</Teaser>
+    <Description>...</Description>
+    <Authors>Sergey</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <MinCompatibleSaveVersion>2</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>1</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Game minversion="1.0.3.124" maxversion="1.0.3.999" />
+    <Dlc id="6DA07636-4123-4018-B643-6575B4EC336B" minversion="0" maxversion="999" />
+  </Dependencies>
+  <References />
+  <Blocks>
+    <Mod id="a4a8d2bb-cffd-4d8e-8893-d773f25b6fe1" minversion="0" maxversion="999" title="Artificial Unintelligence" />
+    <Mod id="275db698-0c69-401e-89a8-7eab501b6bcf" minversion="0" maxversion="999" title="Civilization IV Diplomatic Features - Standalone" />
+    <Mod id="781d81cf-49e1-4acb-ae5f-b9e3713f98d3" minversion="0" maxversion="999" title="(1a) Civ IV Diplomatic Features - CP" />
+  </Blocks>
+  <Files>
+    <File>Database Changes/Text/ru_RU/AI/CoreDiplomacyResponseTextChanges_x.sql</File>
+    <File>Database Changes/Text/ru_RU/AI/CoreNewDiplomacyResponseText_x.xml</File>
+    <File>Database Changes/Text/ru_RU/AI/CoreStrategyTextChanges_x.sql</File>
+    <File>Database Changes/Text/ru_RU/City/CoreBuildingTextChanges_x.sql</File>
+    <File>Database Changes/Text/ru_RU/City/CoreNewGreatWorkText_x.xml</File>
+    <File>Database Changes/Text/ru_RU/Civilizations/CoreCivilizationTextChanges_x.sql</File>
+    <File>Database Changes/Text/ru_RU/Civilizations/CoreLeaderTextChanges_x.sql</File>
+    <File>Database Changes/Text/ru_RU/Civilizations/CoreNewCivilizationText_x.xml</File>
+    <File>Database Changes/Text/ru_RU/Concepts/CoreConceptTextChanges_x.sql</File>
+    <File>Database Changes/Text/ru_RU/Concepts/CoreNewConceptText_x.xml</File>
+    <File>Database Changes/Text/ru_RU/CoreNewAutomateText_x.xml</File>
+    <File>Database Changes/Text/ru_RU/CoreNewChatMessageText_x.xml</File>
+    <File>Database Changes/Text/ru_RU/CoreNewEnumText_x.xml</File>
+    <File>Database Changes/Text/ru_RU/CoreNewGameOptionText_x.xml</File>
+    <File>Database Changes/Text/ru_RU/CoreNewReplayDataSetText_x.xml</File>
+    <File>Database Changes/Text/ru_RU/Espionage/CoreNewEspionageText_x.xml</File>
+    <File>Database Changes/Text/ru_RU/Minors/CoreMinorTextChanges_x.sql</File>
+    <File>Database Changes/Text/ru_RU/Notifications/CoreNewNotificationText_x.xml</File>
+    <File>Database Changes/Text/ru_RU/Notifications/CoreNotificationTextChanges_x.sql</File>
+    <File>Database Changes/Text/ru_RU/Policies/CorePolicyTextChanges_x.sql</File>
+    <File>Database Changes/Text/ru_RU/Religions/CoreReligionTextChanges_x.sql</File>
+    <File>Database Changes/Text/ru_RU/UI/CoreNewUIText_x.xml</File>
+    <File>Database Changes/Text/ru_RU/UI/CoreUITextChanges_x.sql</File>
+    <File>Database Changes/Text/ru_RU/UnitPromotions/CoreNewPromotionText_x.xml</File>
+    <File>Database Changes/Text/ru_RU/UnitPromotions/CorePromotionTextChanges_x.sql</File>
+    <File>Database Changes/Text/ru_RU/Units/CoreMissionTextChanges_x.sql</File>
+    <File>Database Changes/Text/ru_RU/Units/CoreNewUnitText_x.xml</File>
+    <File>Database Changes/Text/ru_RU/Units/CoreSpecialUnitTextChanges_x.sql</File>
+    <File>Database Changes/Text/ru_RU/Units/CoreUnitCombatTextChanges_x.sql</File>
+    <File>Database Changes/Text/ru_RU/Units/CoreUnitTextChanges_x.sql</File>
+    <File>Database Changes/Text/ru_RU/WorldMap/CoreGoodyHutTextChanges_x.sql</File>
+    <File>Database Changes/Text/ru_RU/WorldMap/CoreImprovementTextChanges_x.sql</File>
+    <File>Database Changes/Text/ru_RU/WorldMap/CoreNewGoodyHutText_x.xml</File>
+    <File>Database Changes/Text/ru_RU/WorldMap/CoreNewPlotText_x.xml</File>
+    <File>Database Changes/Text/ru_RU/WorldMap/CoreNewYieldText_x.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Database Changes/Text/ru_RU/AI/CoreDiplomacyResponseTextChanges_x.sql</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/AI/CoreNewDiplomacyResponseText_x.xml</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/AI/CoreStrategyTextChanges_x.sql</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/City/CoreBuildingTextChanges_x.sql</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/City/CoreNewGreatWorkText_x.xml</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/Civilizations/CoreCivilizationTextChanges_x.sql</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/Civilizations/CoreLeaderTextChanges_x.sql</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/Civilizations/CoreNewCivilizationText_x.xml</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/Concepts/CoreConceptTextChanges_x.sql</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/Concepts/CoreNewConceptText_x.xml</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/CoreNewAutomateText_x.xml</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/CoreNewChatMessageText_x.xml</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/CoreNewEnumText_x.xml</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/CoreNewGameOptionText_x.xml</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/CoreNewReplayDataSetText_x.xml</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/Espionage/CoreNewEspionageText_x.xml</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/Minors/CoreMinorTextChanges_x.sql</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/Notifications/CoreNewNotificationText_x.xml</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/Notifications/CoreNotificationTextChanges_x.sql</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/Policies/CorePolicyTextChanges_x.sql</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/Religions/CoreReligionTextChanges_x.sql</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/UI/CoreNewUIText_x.xml</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/UI/CoreUITextChanges_x.sql</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/UnitPromotions/CoreNewPromotionText_x.xml</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/UnitPromotions/CorePromotionTextChanges_x.sql</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/Units/CoreMissionTextChanges_x.sql</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/Units/CoreNewUnitText_x.xml</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/Units/CoreSpecialUnitTextChanges_x.sql</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/Units/CoreUnitCombatTextChanges_x.sql</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/Units/CoreUnitTextChanges_x.sql</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/WorldMap/CoreGoodyHutTextChanges_x.sql</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/WorldMap/CoreImprovementTextChanges_x.sql</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/WorldMap/CoreNewGoodyHutText_x.xml</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/WorldMap/CoreNewPlotText_x.xml</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/WorldMap/CoreNewYieldText_x.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

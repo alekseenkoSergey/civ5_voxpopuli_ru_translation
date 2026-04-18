@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_ru_RU>
+		<Row Tag="TXT_KEY_BELIEF_MORRIGAN">
+			<Text>Получайте [ICON_GOLD] золото, [ICON_CULTURE] культуру и [ICON_GOLDEN_AGE] очки Золотого века за убийство вражеских юнитов в размере 200% их [ICON_STRENGTH] силы. Получайте 20 [ICON_GOLD] золота, [ICON_CULTURE] культуры и [ICON_GOLDEN_AGE] очков Золотого века при разграблении улучшения, масштабируется с эпохой. +2 [ICON_GREAT_GENERAL] очка великого генерала от Ceilidh Hall.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_MORRIGAN_SHORT">
+			<Text>Морриган, Предвестница</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_EPONA">
+			<Text>+3 [ICON_CULTURE_LOCAL] роста границ. Получайте +8 [ICON_FOOD] пищи, [ICON_PRODUCTION] производства, [ICON_RESEARCH] науки и [ICON_CULTURE] культуры каждый раз, когда город естественным образом расширяет свои границы, масштабируется с эпохой. +5 [ICON_CULTURE_LOCAL] роста границ от Ceilidh Hall.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_EPONA_SHORT">
+			<Text>Эпона, Великая Кобылица</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_NUADA">
+			<Text>+15% [ICON_GOLD] золота и [ICON_RESEARCH] науки во время «Дня любви к королю». +3 [ICON_GOLD] золота, [ICON_RESEARCH] науки и [ICON_GOLDEN_AGE] очков Золотого века в вашей [ICON_CAPITAL] столице/Святом городе за каждый уникальный ресурс роскоши, которым вы владеете или который импортируете. +3 [ICON_GOLD] золота, [ICON_RESEARCH] науки и [ICON_GOLDEN_AGE] очков Золотого века за каждый активный торговый путь в город или из него. +5 [ICON_GOLD] золота от Ceilidh Hall.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_NUADA_SHORT">
+			<Text>Нуада, Сереброрукий</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_CERNUNNOS">
+			<Text>+1 [ICON_FOOD] пищи и [ICON_GOLD] золота от лесов. +1 [ICON_FOOD] пищи и [ICON_PRODUCTION] производства от джунглей. +1 [ICON_RESEARCH] науки и [ICON_CULTURE] культуры от лагерей и плантаций. +2 [ICON_CULTURE] культуры от Ceilidh Hall.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_CERNUNNOS_SHORT">
+			<Text>Кернунн, Рогатый Олень</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_LUGH">
+			<Text>+2 [ICON_FOOD] пищи, [ICON_GOLD] золота, [ICON_RESEARCH] науки и [ICON_CULTURE] культуры, если в городе есть специалист. +10% [ICON_PRODUCTION] производства [ICON_WONDER] чудес. +2 [ICON_CULTURE] культуры и [ICON_TOURISM] туризма от [ICON_WONDER] чудес света. +3 [ICON_PRODUCTION] производства от Ceilidh Hall.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_LUGH_SHORT">
+			<Text>Луг, Искусный</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_RHIANNON">
+			<Text>+2 [ICON_CULTURE] культуры. +1 [ICON_PRODUCTION] производства и [ICON_GOLD] золота от [COLOR_POSITIVE_TEXT]улучшенных[ENDCOLOR] ресурсов. +5 [ICON_GOLDEN_AGE] очков Золотого века от Ceilidh Hall.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_RHIANNON_SHORT">
+			<Text>Рианнон, Владычица</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_MANANNAN">
+			<Text>+3 [ICON_FOOD] пищи, [ICON_PRODUCTION] производства и [ICON_GOLD] золота, если город [COLOR_POSITIVE]прибрежный[ENDCOLOR]. +1 [ICON_PRODUCTION] производства от водных клеток и +1 [ICON_GOLD] золота от рыбацких лодок. +2 [ICON_GREAT_ADMIRAL] очка великого адмирала от Ceilidh Hall.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_MANANNAN_SHORT">
+			<Text>Мананнан, Сын Моря</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_OGMA">
+			<Text>+1 [ICON_RESEARCH] науки за каждых 4 [ICON_CITIZEN] жителей в городе. +1 [ICON_RESEARCH] науки и [ICON_CULTURE] культуры от [ICON_GREAT_WORK] великих творений. +3 [ICON_RESEARCH] науки и [ICON_CULTURE] культуры от дворца. +3 [ICON_GREAT_SCIENTIST] очка великого учёного и [ICON_GREAT_ARTIST] очка великого художника в вашей [ICON_CAPITAL] столице/Святом городе. +5 [ICON_RESEARCH] науки от Ceilidh Hall.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_OGMA_SHORT">
+			<Text>Огма, Мудрый</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_DAGDA">
+			<Text>+25% [ICON_FOOD] роста и +1 [ICON_HAPPINESS_1] счастья. +12 [ICON_PRODUCTION] производства, [ICON_GOLD] золота и [ICON_CULTURE] культуры при рождении [ICON_CITIZEN] жителя, масштабируется с эпохой. +5 [ICON_FOOD] пищи от Ceilidh Hall.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_DAGDA_SHORT">
+			<Text>Дагда, Всеотец</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_BRAN">
+			<Text>+1 [ICON_PRODUCTION] производства, [ICON_GOLD] золота, [ICON_RESEARCH] науки и [ICON_CULTURE] культуры от дворца. +1 [ICON_PRODUCTION] производства, [ICON_GOLD] золота, [ICON_RESEARCH] науки и [ICON_CULTURE] культуры в вашей [ICON_CAPITAL] столице/Святом городе за каждых 4 последователей вашего пантеона в принадлежащих вам городах. +25% [ICON_RANGE_STRENGTH] силы дальнего боя города. Юниты восстанавливают +10 HP за ход на принадлежащей вам территории. +2 [ICON_HAPPINESS_1] счастья от Ceilidh Hall.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_BRAN_SHORT">
+			<Text>Бран, Спящий Страж</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_CAILLEACH">
+			<Text>+1 [ICON_FOOD] пищи и [ICON_PRODUCTION] производства за каждые 2 клетки тундры, обрабатываемые городом. +1 [ICON_FOOD] пища, [ICON_PRODUCTION] производство, [ICON_RESEARCH] наука и [ICON_CULTURE] культура от клеток снега с ресурсами. +1 [ICON_GOLD] золота и [ICON_CULTURE] культуры от каменоломен и шахт на ресурсах. +5 [ICON_TOURISM] туризма от Ceilidh Hall.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_CAILLEACH_SHORT">
+			<Text>Кайлех, Королева Зимы</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BELIEF_GURDWARA">
+			<Text>Можно покупать гурдвары за [ICON_PEACE] веру.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_GURDWARA_SHORT">
+			<Text>Гурдвары</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BELIEF_TEOCALLI">
+			<Text>Можно покупать теокалли за [ICON_PEACE] веру.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_TEOCALLI_SHORT">
+			<Text>Теокалли</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BELIEF_COMMUNALISM">
+			<Text>Внутренние торговые пути [ICON_FOOD] пищи и [ICON_PRODUCTION] производства дают +3 к соответствующему виду дохода, масштабируется с эпохой. +2 [ICON_FOOD] пищи и [ICON_PRODUCTION] производства, если в городе есть специалист.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_COMMUNALISM_SHORT">
+			<Text>Сотрудничество</Text>
+		</Row>
+
+		<!-- Tooltips -->
+		<Row Tag="TXT_KEY_BUILDING_CATHEDRAL_TOOLTIP">
+			<Text>+2 [ICON_PEACE] веры[NEWLINE]+2 [ICON_GOLD] золота[NEWLINE][NEWLINE]+1 [ICON_GOLD] золота к фермам, пастбищам и каменоломням, обрабатываемым городом.[NEWLINE][NEWLINE]+10 [ICON_GOLD] золота при естественном расширении границ города, масштабируется с эпохой.[NEWLINE][NEWLINE]+25% религиозного давления на другие города, если эта религия является религией большинства в городе.[NEWLINE][NEWLINE]-1 [ICON_HAPPINESS_3] недовольства от [ICON_GOLD] бедности.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CHURCH_TOOLTIP">
+			<Text>+4 [ICON_PEACE] веры[NEWLINE]+2 [ICON_CULTURE] культуры[NEWLINE][NEWLINE]+1 [ICON_PEACE] веры ко всем [ICON_GREAT_WORK] великим творениям в городе.[NEWLINE][NEWLINE]При постройке начинается 15 ходов [ICON_HAPPINESS_1] «Дня любви к королю».[NEWLINE][NEWLINE]+40% религиозного давления на другие города, если эта религия является религией большинства в городе.[NEWLINE][NEWLINE]-1 [ICON_HAPPINESS_3] недовольства от [ICON_CULTURE] скуки.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_GURDWARA_TOOLTIP">
+			<Text>+2 [ICON_PEACE] веры[NEWLINE]+3 [ICON_FOOD] пищи[NEWLINE]+10% [ICON_FOOD] пищи[NEWLINE][NEWLINE]+10% [ICON_STRENGTH] силы города от зданий.[NEWLINE][NEWLINE]+25% религиозного давления на другие города, если эта религия является религией большинства в городе.[NEWLINE][NEWLINE]-1 [ICON_HAPPINESS_3] недовольства от [ICON_FOOD] и [ICON_PRODUCTION] нужды.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MANDIR_TOOLTIP">
+			<Text>+3 [ICON_PEACE] веры[NEWLINE]+2 [ICON_FOOD] пищи[NEWLINE][NEWLINE]+5 всех видов дохода при рождении [ICON_CITIZEN] жителя в этом городе, масштабируется с эпохой.[NEWLINE][NEWLINE]+15% религиозного давления на другие города, если эта религия является религией большинства в городе, и -10% религиозного давления на этот город от городов, следующих другим религиям, или от активного распространения других религий.[NEWLINE][NEWLINE]-1 [ICON_HAPPINESS_3] недовольства от [ICON_GOLD] бедности.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MOSQUE_TOOLTIP">
+			<Text>+3 [ICON_PEACE] веры[NEWLINE]+2 [ICON_RESEARCH] науки[NEWLINE][NEWLINE]+15% [ICON_CULTURE] культуры во время [ICON_GOLDEN_AGE] Золотого века.[NEWLINE][NEWLINE]+25% религиозного давления на другие города, если эта религия является религией большинства в городе.[NEWLINE][NEWLINE]-1 [ICON_HAPPINESS_3] недовольства от [ICON_RESEARCH] безграмотности.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_ORDER_TOOLTIP">
+			<Text>+2 [ICON_PEACE] веры[NEWLINE]+3 [ICON_GOLD] золота[NEWLINE]+1 [ICON_WAR] военного снабжения[NEWLINE][NEWLINE]Получайте [ICON_PEACE] веру в размере 10% от [ICON_PRODUCTION] стоимости производства при завершении создания военного юнита.[NEWLINE][NEWLINE]+10% [ICON_RANGE_STRENGTH] силы городского обстрела.[NEWLINE][NEWLINE]Все существующие и будущие подходящие юниты, обученные в этом городе, получают повышение [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_MORALE}[ENDCOLOR].[NEWLINE][NEWLINE]+25% религиозного давления на другие города, если эта религия является религией большинства в городе.[NEWLINE][NEWLINE]-1 [ICON_HAPPINESS_3] недовольства от [ICON_FOOD] и [ICON_PRODUCTION] нужды.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_PAGODA_TOOLTIP">
+			<Text>+2 [ICON_PEACE] веры[NEWLINE][NEWLINE]+1 ко [COLOR_POSITIVE_TEXT]всем видам дохода[ENDCOLOR] за каждую [ICON_RELIGION] религию, у которой есть хотя бы один последователь в городе.[NEWLINE][NEWLINE]-1 [ICON_HAPPINESS_3] недовольства от [ICON_CULTURE] скуки и -2 [ICON_HAPPINESS_3] недовольства от [ICON_RELIGION] религиозных волнений.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_STUPA_TOOLTIP">
+			<Text>+3 [ICON_PEACE] веры[NEWLINE]+3 [ICON_GOLDEN_AGE] очка Золотого века[NEWLINE]+5 [ICON_TOURISM] туризма[NEWLINE]+1 [ICON_HAPPINESS_1] счастья[NEWLINE][NEWLINE]+25% религиозного давления на другие города, если эта религия является религией большинства в городе.[NEWLINE][NEWLINE]-1 [ICON_HAPPINESS_3] недовольства от [ICON_RESEARCH] безграмотности.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SYNAGOGUE_TOOLTIP">
+			<Text>+2 [ICON_PEACE] веры[NEWLINE]+3 [ICON_PRODUCTION] производства[NEWLINE][NEWLINE]+10% [ICON_RESEARCH] науки во время [ICON_HAPPINESS_1] «Дня любви к королю».[NEWLINE][NEWLINE]-15% религиозного давления на этот город от городов, следующих другим религиям, или от активного распространения других религий.[NEWLINE][NEWLINE]-1 [ICON_HAPPINESS_3] недовольства от [ICON_FOOD] и [ICON_PRODUCTION] нужды.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_TEOCALLI_TOOLTIP">
+			<Text>+2 [ICON_PEACE] веры[NEWLINE][NEWLINE]+2 [ICON_PEACE] веры, когда ваш юнит побеждает военный юнит, и дополнительно +8 [ICON_PEACE] веры, если этот юнит был создан в этом городе.[NEWLINE][NEWLINE]+10 XP для военных юнитов, обученных в городе.[NEWLINE][NEWLINE]+25% религиозного давления на другие города, если эта религия является религией большинства в городе.[NEWLINE][NEWLINE]-1 [ICON_HAPPINESS_3] недовольства от [ICON_FOOD] и [ICON_PRODUCTION] нужды.</Text>
+		</Row>
+	</Language_ru_RU>
+</GameData>

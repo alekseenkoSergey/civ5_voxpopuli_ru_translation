@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="3f3328eb-bf8c-4daa-8dbf-20f28b165bc7" version="1">
+  <Properties>
+    <Name>(2b) Vox Populi - Sergey перевод</Name>
+    <Teaser>(5.2.2) Перевод на русский</Teaser>
+    <Description>...</Description>
+    <Authors>Sergey</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <MinCompatibleSaveVersion>2</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>1</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Mod id="8411a7a8-dad3-4622-a18e-fcc18324c799" minversion="17" maxversion="999" title="(2) Vox Populi" />
+  </Dependencies>
+  <References />
+  <Files>
+    <File>Database Changes/Text/ru_RU/AI/DiplomacyResponseTextChanges_x.sql</File>
+    <File>Database Changes/Text/ru_RU/AI/NewDiplomacyResponseText_x.xml</File>
+    <File>Database Changes/Text/ru_RU/Beliefs/BeliefTextChanges_x.sql</File>
+    <File>Database Changes/Text/ru_RU/Beliefs/NewBeliefText_x.xml</File>
+    <File>Database Changes/Text/ru_RU/City/BuildingTextChanges_x.sql</File>
+    <File>Database Changes/Text/ru_RU/City/NewBuildingText_x.xml</File>
+    <File>Database Changes/Text/ru_RU/City/NewGreatWorkText_x.xml</File>
+    <File>Database Changes/Text/ru_RU/City/NewProcessText_x.xml</File>
+    <File>Database Changes/Text/ru_RU/City/NewProjectText_x.xml</File>
+    <File>Database Changes/Text/ru_RU/City/NewSpecialistText_x.xml</File>
+    <File>Database Changes/Text/ru_RU/City/ProcessTextChanges_x.sql</File>
+    <File>Database Changes/Text/ru_RU/City/ProjectTextChanges_x.sql</File>
+    <File>Database Changes/Text/ru_RU/City/SpecialistTextChanges_x.sql</File>
+    <File>Database Changes/Text/ru_RU/Civilizations/CivilizationTextChanges_x.sql</File>
+    <File>Database Changes/Text/ru_RU/Civilizations/NewCivilizationText_x.xml</File>
+    <File>Database Changes/Text/ru_RU/Concepts/ConceptTextChanges_x.sql</File>
+    <File>Database Changes/Text/ru_RU/Concepts/NewConceptText_x.xml</File>
+    <File>Database Changes/Text/ru_RU/Corporations/NewCorporationText_x.xml</File>
+    <File>Database Changes/Text/ru_RU/Difficulty/DifficultyTextChanges_x.sql</File>
+    <File>Database Changes/Text/ru_RU/Espionage/NewEspionageText_x.xml</File>
+    <File>Database Changes/Text/ru_RU/Events/NewEventText_x.xml</File>
+    <File>Database Changes/Text/ru_RU/GameOptionTextChanges_x.sql</File>
+    <File>Database Changes/Text/ru_RU/Minors/MinorTextChanges_x.sql</File>
+    <File>Database Changes/Text/ru_RU/Minors/NewMinorText_x.xml</File>
+    <File>Database Changes/Text/ru_RU/NewAutomateText_x.xml</File>
+    <File>Database Changes/Text/ru_RU/NewGameOptionText_x.xml</File>
+    <File>Database Changes/Text/ru_RU/NewMapscriptText_x.xml</File>
+    <File>Database Changes/Text/ru_RU/Notifications/NewNotificationText_x.xml</File>
+    <File>Database Changes/Text/ru_RU/Notifications/NotificationTextChanges_x.sql</File>
+    <File>Database Changes/Text/ru_RU/Policies/NewPolicyText_x.xml</File>
+    <File>Database Changes/Text/ru_RU/Policies/PolicyTextChanges_x.sql</File>
+    <File>Database Changes/Text/ru_RU/Tech/NewTechText_x.xml</File>
+    <File>Database Changes/Text/ru_RU/Tech/TechTextChanges_x.sql</File>
+    <File>Database Changes/Text/ru_RU/UI/InterfaceModeTextChanges_x.sql</File>
+    <File>Database Changes/Text/ru_RU/UI/NewUIText_x.sql</File>
+    <File>Database Changes/Text/ru_RU/UI/NewUIText_x.xml</File>
+    <File>Database Changes/Text/ru_RU/UI/UITextChanges_x.sql</File>
+    <File>Database Changes/Text/ru_RU/UnitPromotions/NewPromotionText_x.xml</File>
+    <File>Database Changes/Text/ru_RU/UnitPromotions/PromotionTextChanges_x.sql</File>
+    <File>Database Changes/Text/ru_RU/Units/MissionTextChanges_x.sql</File>
+    <File>Database Changes/Text/ru_RU/Units/NewMissionText_x.xml</File>
+    <File>Database Changes/Text/ru_RU/Units/NewUnitText_x.xml</File>
+    <File>Database Changes/Text/ru_RU/Units/UnitTextChanges_x.sql</File>
+    <File>Database Changes/Text/ru_RU/WorldCongress/NewProjectText_x.xml</File>
+    <File>Database Changes/Text/ru_RU/WorldCongress/NewResolutionText_x.xml</File>
+    <File>Database Changes/Text/ru_RU/WorldCongress/ProjectTextChanges_x.sql</File>
+    <File>Database Changes/Text/ru_RU/WorldCongress/ResolutionTextChanges_x.sql</File>
+    <File>Database Changes/Text/ru_RU/WorldCongress/SpecialSessionTextChanges_x.sql</File>
+    <File>Database Changes/Text/ru_RU/WorldMap/FeatureTextChanges_x.sql</File>
+    <File>Database Changes/Text/ru_RU/WorldMap/ImprovementTextChanges_x.sql</File>
+    <File>Database Changes/Text/ru_RU/WorldMap/NewFeatureText_x.xml</File>
+    <File>Database Changes/Text/ru_RU/WorldMap/NewGoodyHutText_x.xml</File>
+    <File>Database Changes/Text/ru_RU/WorldMap/NewImprovementText_x.xml</File>
+    <File>Database Changes/Text/ru_RU/WorldMap/NewResourceText_x.xml</File>
+    <File>Database Changes/Text/ru_RU/WorldMap/ResourceTextChanges_x.sql</File>
+    <File>Database Changes/Text/ru_RU/WorldMap/RouteTextChanges_x.sql</File>
+    <File>Database Changes/Text/ru_RU/WorldMap/TerrainTextChanges_x.sql</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Database Changes/Text/ru_RU/AI/DiplomacyResponseTextChanges_x.sql</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/AI/NewDiplomacyResponseText_x.xml</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/Beliefs/BeliefTextChanges_x.sql</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/Beliefs/NewBeliefText_x.xml</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/City/BuildingTextChanges_x.sql</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/City/NewBuildingText_x.xml</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/City/NewGreatWorkText_x.xml</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/City/NewProcessText_x.xml</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/City/NewProjectText_x.xml</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/City/NewSpecialistText_x.xml</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/City/ProcessTextChanges_x.sql</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/City/ProjectTextChanges_x.sql</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/City/SpecialistTextChanges_x.sql</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/Civilizations/CivilizationTextChanges_x.sql</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/Civilizations/NewCivilizationText_x.xml</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/Concepts/ConceptTextChanges_x.sql</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/Concepts/NewConceptText_x.xml</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/Corporations/NewCorporationText_x.xml</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/Difficulty/DifficultyTextChanges_x.sql</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/Espionage/NewEspionageText_x.xml</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/Events/NewEventText_x.xml</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/GameOptionTextChanges_x.sql</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/Minors/MinorTextChanges_x.sql</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/Minors/NewMinorText_x.xml</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/NewAutomateText_x.xml</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/NewGameOptionText_x.xml</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/NewMapscriptText_x.xml</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/Notifications/NewNotificationText_x.xml</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/Notifications/NotificationTextChanges_x.sql</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/Policies/NewPolicyText_x.xml</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/Policies/PolicyTextChanges_x.sql</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/Tech/NewTechText_x.xml</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/Tech/TechTextChanges_x.sql</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/UI/InterfaceModeTextChanges_x.sql</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/UI/NewUIText_x.sql</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/UI/NewUIText_x.xml</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/UI/UITextChanges_x.sql</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/UnitPromotions/NewPromotionText_x.xml</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/UnitPromotions/PromotionTextChanges_x.sql</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/Units/MissionTextChanges_x.sql</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/Units/NewMissionText_x.xml</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/Units/NewUnitText_x.xml</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/Units/UnitTextChanges_x.sql</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/WorldCongress/NewProjectText_x.xml</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/WorldCongress/NewResolutionText_x.xml</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/WorldCongress/ProjectTextChanges_x.sql</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/WorldCongress/ResolutionTextChanges_x.sql</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/WorldCongress/SpecialSessionTextChanges_x.sql</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/WorldMap/FeatureTextChanges_x.sql</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/WorldMap/ImprovementTextChanges_x.sql</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/WorldMap/NewFeatureText_x.xml</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/WorldMap/NewGoodyHutText_x.xml</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/WorldMap/NewImprovementText_x.xml</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/WorldMap/NewResourceText_x.xml</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/WorldMap/ResourceTextChanges_x.sql</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/WorldMap/RouteTextChanges_x.sql</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/WorldMap/TerrainTextChanges_x.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

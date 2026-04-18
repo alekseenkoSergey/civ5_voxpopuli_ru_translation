@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 1/27/2015 4:17:17 PM -->
+<GameData>
+	<Language_ru_RU>
+		<Row Tag="TXT_KEY_DEBUG_X_Y">
+			<Text>X: {1_Num} / Y: {2_Num} / Опасность клетки: {3_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CP_HAPPINESS_EXPLANATION">
+			<Text>Это общеимперская сводка. [ICON_HAPPINESS_1] Счастье компенсирует [ICON_HAPPINESS_3] недовольство в каждом городе. Недовольство ограничено размером города, за исключением урбанизации!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_LOCAL_RESOURCES_CBP">
+			<Text>Местные ресурсы</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_MISC_RESOURCES">
+			<Text>Прочие ресурсы</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_GP_RESOURCES">
+			<Text>От великих людей</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_CORP_RESOURCES">
+			<Text>От корпорации</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_FRANCHISE_RESOURCES">
+			<Text>От франшиз корпорации</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_CS_ALLY_RESOURCES">
+			<Text>От числа союзных городов-государств</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_STRAT_MOD_RESOURCES">
+			<Text>От модификатора стратегических ресурсов</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_REL_MOD_RESOURCES">
+			<Text>От религиозного модификатора ресурсов</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CP_DIPLO_DP">
+			<Text>Оборонительный пакт</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CP_DIPLO_MARRIAGE">
+			<Text>Брак</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CP_DIPLO_MASTER_OF">
+			<Text> [COLOR_POSITIVE_TEXT]Сюзерен[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CP_DIPLO_VASSAL_OF">
+			<Text> [COLOR_POSITIVE_TEXT]Вассал[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_WARSCORE_CP">
+			<Text>Счёт войны:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_AT_WAR_WITH_CP">
+			<Text> [COLOR_NEGATIVE_TEXT]Война с {1_enemy}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_CORPSBUILDING_TEXT">
+			<Text>Корпорации</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_UNHIDE_BUILDINGS">
+			<Text>Показать</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_UNHIDE_BUILDINGS_TT">
+			<Text>Снова сделать скрытые здания видимыми в вариантах производства этого города.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_UNHAPPINESS_LABEL">
+			<Text>Недовольство:</Text>
+		</Row>
+		<!-- Condensed Help Texts -->
+		<Row>
+			<Tag>TXT_KEY_CITYVIEW_PURCHASE_TT_BUILDING</Tag>
+			<Text>[ICON_GOLD] Золото, потраченное на здания, инвестируется в них, снижая их стоимость в [ICON_PRODUCTION] производстве на 50% (на 25% для чудес)</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_CITYVIEW_PURCHASE_TT_UNIT</Tag>
+			<Text>Юниты, купленные за [ICON_GOLD] золото, начинают с половиной опыта юнита, созданного за [ICON_PRODUCTION] производство.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_CITYVIEW_PURCHASE_TT_FAITH</Tag>
+			<Text>[ICON_PEACE] Купить этот юнит или здание за веру.</Text>
+		</Row>
+	</Language_ru_RU>
+</GameData>

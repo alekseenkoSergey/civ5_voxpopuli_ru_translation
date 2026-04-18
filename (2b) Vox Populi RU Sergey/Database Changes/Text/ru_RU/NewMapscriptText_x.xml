@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_ru_RU>
+		<!-- Mapscripts for VP -->
+		<Row Tag="TXT_KEY_MAP_AMAZON_XP_VP">
+			<Text>Амазония Плюс для VP</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_ARBOREA_VP">
+			<Text>Арборея для VP</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_BOREAL_VP">
+			<Text>Бореал для VP</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_EUROPE_VP">
+			<Text>Европа для VP</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_FOUR_CORNERS_VP">
+			<Text>Четыре угла для VP</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_FRONTIER_VP">
+			<Text>Фронтир для VP</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_GREAT_PLAINS_XP_VP">
+			<Text>Великие равнины Плюс для VP</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_HIGHLANDS_VP">
+			<Text>Высокогорье для VP</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_INLAND_SEA_VP">
+			<Text>Внутреннее море для VP</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_LAKES_VP">
+			<Text>Озёра для VP</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_LARGE_ISLANDS_VP">
+			<Text>Большие острова для VP</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_NORTH_VS_SOUTH_VP">
+			<Text>Север против Юга для VP</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_RAINFOREST_VP">
+			<Text>Тропический лес для VP</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_RING_VP">
+			<Text>Кольцо для VP</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CW_MAP_PACK_CHINA_VP">
+			<Text>Китай для VP</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_SKIRMISH_VP">
+			<Text>Схватка для VP</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_TERRA_VP">
+			<Text>Терра для VP</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_WEST_VS_EAST_VP">
+			<Text>Запад против Востока для VP</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CONTINENTAL_DRIFT">
+			<Text>Дрейф континентов</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONTINENTAL_DRIFT_HELP">
+			<Text>Разнообразный мир, основанный на тектонике плит.</Text>
+		</Row>
+
+		<!-- Map Options for Continental Drift -->
+		<Row Tag="TXT_KEY_MAP_OPTION_MAP_RATIO">
+			<Text>Пропорции карты</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_OPTION_SIZE_MODIFIER">
+			<Text>Модификатор размера</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_OPTION_SIZE_MODIFIER_HELP">
+			<Text>Изменяет размер карты. Это также влияет на общее количество суши.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_OPTION_OCEAN_RIFTS">
+			<Text>Океанические разломы</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_OPTION_OCEAN_RIFTS_HELP">
+			<Text>Если эта опция включена, карта будет разделена на две части меридиональными океаническими разломами.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_OPTION_ARCTIC_OCEAN_WIDTH">
+			<Text>Размер полярного океана</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_OPTION_ARCTIC_OCEAN_WIDTH_HELP">
+			<Text>Настраивает размер полярных океанов у севернейшего и южнейшего края карты.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_OPTION_ISLANDS_HELP">
+			<Text>Влияет на количество создаваемых маленьких островов.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_OPTION_PLATE_MOTION">
+			<Text>Движение плит</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_OPTION_PLATE_MOTION_HELP">
+			<Text>Влияет на скорость движения плит. Более высокая скорость приведёт к более высоким и частым горным цепям и к более глубоким океаническим разломам.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_OPTION_CONTINENTS">
+			<Text>Связанность суши</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_OPTION_CONTINENTS_HELP">
+			<Text>Влияет на то, насколько плиты суши сбиваются в группы. Высокий уровень связанности суши приведёт к карте с несколькими крупными континентами. Низкий уровень связанности суши приведёт к карте с большим количеством меньших массивов суши.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_OPTION_LAND">
+			<Text>Количество суши</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_OPTION_LAND_HELP">
+			<Text>Изменяет общее количество суши на карте.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_OPTION_PLATES">
+			<Text>Количество плит</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_OPTION_PLATES_HELP">
+			<Text>Влияет на число тектонических плит, используемых при генерации карты. Большее число плит создаёт более сложные структуры.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_OPTION_COASTAL_START">
+			<Text>Принудительный старт на побережье</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_OPTION_COASTAL_START_HELP">
+			<Text>По возможности заставляет каждую цивилизацию начинать игру на побережье.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_OPTION_START_PLACEMENT">
+			<Text>Размещение старта</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_OPTION_START_PLACEMENT_HELP">
+			<Text>Выберите метод регионального деления, влияющий на стартовые позиции крупных цивилизаций.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_MAP_OPTION_SQUARED">
+			<Text>Квадратная</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_OPTION_SQUARISH">
+			<Text>Почти квадратная</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_OPTION_RECTANGULAR">
+			<Text>Прямоугольная (стандарт)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_OPTION_WIDE_RECTANGULAR">
+			<Text>Широкая прямоугольная</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_OPTION_RECTILINEAR">
+			<Text>Прямолинейная</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_OPTION_SIZE_80">
+			<Text>Сжатая — 80%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_OPTION_SIZE_85">
+			<Text>Уплотнённая — 85%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_OPTION_SIZE_90">
+			<Text>Уменьшенная — 90%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_OPTION_SIZE_95">
+			<Text>Меньше — 95%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_OPTION_SIZE_100">
+			<Text>Обычная — 100%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_OPTION_SIZE_105">
+			<Text>Плюс — 105%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_OPTION_SIZE_110">
+			<Text>Экстра — 110%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_OPTION_SIZE_115">
+			<Text>Супер — 115%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_OPTION_SIZE_120">
+			<Text>Гигантская — 120%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_OPTION_TIGHT">
+			<Text>Тесная</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_OPTION_NARROW">
+			<Text>Узкая</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_OPTION_WIDE">
+			<Text>Широкая</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_OPTION_NONE">
+			<Text>Нет</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_OPTION_FEW">
+			<Text>Мало</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_OPTION_LESS">
+			<Text>Меньше</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_OPTION_MORE">
+			<Text>Больше</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_OPTION_MUCH_MORE">
+			<Text>Намного больше</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_OPTION_SHALLOW">
+			<Text>Неглубокие</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_OPTION_EXTREME">
+			<Text>Экстремально</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_OPTION_SLOW">
+			<Text>Медленно</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_OPTION_AVERAGE">
+			<Text>Средне</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_OPTION_FAST">
+			<Text>Быстро</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_OPTION_RAMMING_SPEED">
+			<Text>Таранная скорость!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_OPTION_FRAGMENTED">
+			<Text>Раздробленная</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_OPTION_BALANCED">
+			<Text>Сбалансированная</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_OPTION_CLUSTERED">
+			<Text>Сгруппированная</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_OPTION_CONTIGUOUS">
+			<Text>Сплошная</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_OPTION_ANY_CONTINENTS">
+			<Text>Любые континенты</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_OPTION_LARGEST_LANDMASS">
+			<Text>Крупнейший массив суши</Text>
+		</Row>
+
+		<!-- End Map Options for Continental Drift --> 
+
+		<Row Tag="TXT_KEY_MAP_PLAYERS_START_IN">
+			<Text>Игроки начинают на</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_TERRA_LARGEST_CONTINENT">
+			<Text>Терра — крупнейший континент</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_CONTINENTS_EVERYWHERE">
+			<Text>Континенты — везде</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_OCEAN_SHAPES">
+			<Text>Формы океанов</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_OCEAN_SHAPES_DESCRIPTION">
+			<Text>Вертикальные океанические разломы, разделяющие континенты</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_2_ATLANTIC">
+			<Text>2 Атлантики</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_PACIFIC_AND_ATLANTIC">
+			<Text>Тихий и Атлантический</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_2_PACIFIC">
+			<Text>2 Тихих океана</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_2_RANDOM">
+			<Text>2 случайных</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_1_RANDOM">
+			<Text>1 случайный</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_NONE">
+			<Text>Нет</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_RANDOM">
+			<Text>Случайно</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_RIFT_WIDTH">
+			<Text>Ширина разлома</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_RIFT_WIDTH_DESCRIPTION">
+			<Text>Ширина непроходимого океана</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_NARROW">
+			<Text>Узкая</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_NORMAL">
+			<Text>Обычная</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_WIDE">
+			<Text>Широкая</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_CIRCUMNAVIGATION">
+			<Text>Кругосветное плавание</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_CIRCUMNAVIGATION_DESCRIPTION">
+			<Text>Гарантирует горизонтальный водный путь вокруг света</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_ON">
+			<Text>Вкл.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_OFF">
+			<Text>Выкл.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_FORCE_COASTAL_START">
+			<Text>Принудительный старт на побережье</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_FORCE_COASTAL_START_DESCRIPTION">
+			<Text>Все крупные цивилизации начинают на побережье</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_YES">
+			<Text>Да</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_NO">
+			<Text>Нет</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_LAND_SHAPES">
+			<Text>Формы суши</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_LAND_SHAPES_DESCRIPTION">
+			<Text>Определяет форму континентов и островов</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_BLOCKY">
+			<Text>Угловатая</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_STRINGY">
+			<Text>Извилистая</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_EXTREMELY_STRINGY">
+			<Text>Крайне извилистая</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_STARTING_RESOURCES">
+			<Text>Стартовые ресурсы</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_STARTING_RESOURCES_DESCRIPTION">
+			<Text>Добавляет стратегические и/или дополнительные ресурсы к стартовой позиции</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_ADD_BOTH">
+			<Text>Добавить и то и другое</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_ADD_SOME_STRATEGICS">
+			<Text>Добавить немного стратегических</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_ADD_SOME_EXTRA_BONUS">
+			<Text>Добавить немного дополнительных бонусных</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_STRATEGIC_DEPOSIT_SIZE">
+			<Text>Размер залежей стратегических ресурсов</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_STRATEGIC_DEPOSIT_SIZE_DESCRIPTION">
+			<Text>Определяет размер каждой залежи стратегических ресурсов</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_SMALL">
+			<Text>Малый</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_LARGE">
+			<Text>Большой</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_BONUS_RESOURCE_DENSITY">
+			<Text>Плотность бонусных ресурсов</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_BONUS_RESOURCE_DENSITY_DESCRIPTION">
+			<Text>Определяет количество бонусных ресурсов на карте</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_SPARSE">
+			<Text>Редкая</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_ABUNDANT">
+			<Text>Обильная</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_STRATEGIC_RESOURCE_DENSITY">
+			<Text>Плотность стратегических ресурсов</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_STRATEGIC_RESOURCE_DENSITY_DESCRIPTION">
+			<Text>Определяет количество залежей стратегических ресурсов на карте</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_LUXURY_RESOURCE_DENSITY">
+			<Text>Плотность роскошных ресурсов</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_LUXURY_RESOURCE_DENSITY_DESCRIPTION">
+			<Text>Определяет количество роскошных ресурсов на карте</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_OVERRIDE_ASSIGN_STARTING_PLOTS">
+			<Text>Переопределить AssignStartingPlots</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_OVERRIDE_ASSIGN_STARTING_PLOTS_DESCRIPTION">
+			<Text>При включении применяет дополнительные оптимизации, специфичные для этой карты. Выключите для стандартной производительности VP.</Text>
+		</Row>
+	</Language_ru_RU>
+</GameData>

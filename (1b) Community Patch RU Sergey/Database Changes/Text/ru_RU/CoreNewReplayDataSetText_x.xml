@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_ru_RU>
+		<Row Tag="TXT_KEY_REPLAY_DATA_TOURISMPERTURN">
+			<Text>Туризм [ICON_TOURISM] за ход</Text>
+		</Row>
+		<Row Tag="TXT_KEY_REPLAY_DATA_GAPPERTURN">
+			<Text>Очки Золотого Века [ICON_GOLDEN_AGE] за ход</Text>
+		</Row>
+	</Language_ru_RU>
+</GameData>

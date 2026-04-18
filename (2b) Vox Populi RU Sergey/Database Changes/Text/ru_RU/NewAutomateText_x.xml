@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_ru_RU>
+		<Row Tag="TXT_KEY_ACTION_AUTOMATE_DIPLOMAT">
+			<Text>Дипломатическая миссия (автоматически)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ACTION_AUTOMATE_DIPLOMAT_HELP">
+			<Text>Автоматизировать все действия [COLOR_UNIT_TEXT]дипломатических отрядов[ENDCOLOR]. Отряд будет оставаться автоматизированным, пока вы не отмените автоматизацию.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ACTION_AUTOMATE_DIPLOMAT_DISABLED_HELP">
+			<Text>Сейчас нет подходящих целей для дипломатии.</Text>
+		</Row>
+	</Language_ru_RU>
+</GameData>

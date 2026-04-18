@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_ru_RU>
+		<Row Tag="TXT_KEY_GENERIC_MAPS_OFFER">
+			<Text>Мы хотели бы купить у вас карту мира. Вы согласны?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_TECH_OFFER">
+			<Text>Мы хотели бы купить у вас технологию. Вас это устроит?</Text>
+		</Row>
+		<!-- AI vassal greets human master -->
+		<Row Tag="TXT_KEY_GENERIC_GREETING_VASSALAGE_VASSAL_HOSTILE_1">
+			<Text>Порабощение моего народа навлекает позор на нас всех. Чего вы хотите?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_GREETING_VASSALAGE_VASSAL_HOSTILE_2">
+			<Text>О, тиран снова показал свое лицо. Как вы намерены и дальше нас эксплуатировать?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_GREETING_VASSALAGE_VASSAL_HOSTILE_3">
+			<Text>О? Что привело тирана к моему порогу? Вы пришли и дальше плевать на нас и нашу гордость?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_GREETING_VASSALAGE_VASSALX_1">
+			<Text>Добро пожаловать, господин, в мои земли. Чем я могу служить?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_GREETING_VASSALAGE_VASSALX_2">
+			<Text>Приветствую! Надеюсь, вам приятно знать, что наши работники усердно трудятся, добывая ресурсы для вашего пользования.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_GREETING_VASSALAGE_VASSALX_3">
+			<Text>А, добро пожаловать, господин! Какой помощи вы от нас ищете?</Text>
+		</Row>
+		<!-- AI master greets human vassal -->
+		<Row Tag="TXT_KEY_GENERIC_GREETING_HOSTILE_VASSALAGE_MASTER_1">
+			<Text>О, смотрите-ка, мое маленькое ручное государство явилось ко мне. Чего вы хотите?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_GREETING_HOSTILE_VASSALAGE_MASTER_2">
+			<Text>Вашим людям лучше бы усердно трудиться, создавая ресурсы мне в угоду. Чего вы хотите?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_GREETING_HOSTILE_VASSALAGE_MASTER_3">
+			<Text>Вы стоите перед тем, кто выше вас. Преклоните колени, или...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_GREETING_VASSALAGE_MASTER_1">
+			<Text>Что это? Визит моего вассала? Вы пришли с данью?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_GREETING_VASSALAGE_MASTER_2">
+			<Text>А, один из моих многочисленных слуг? Что вы мне предложите?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_GREETING_VASSALAGE_MASTER_3">
+			<Text>Обещаю, что мои солдаты защитят вас и вашу землю. Чего вы хотите?</Text>
+		</Row>
+		<!-- AI asks human to revoke their vassalage -->
+		<Row Tag="TXT_KEY_GENERIC_VASSALAGE_REVOKE_VASSALAGE_HOSTILE_1">
+			<Text>Нам надоело ваше жалкое владычество над нами, и мы готовы сражаться насмерть, чтобы вернуть себе независимость.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_VASSALAGE_REVOKE_VASSALAGE_HOSTILE_2">
+			<Text>Откажитесь от власти над нашей империей, иначе столкнетесь с последствиями. Какой вариант кажется вам разумнее?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_VASSALAGE_REVOKE_VASSALAGE_HOSTILE_3">
+			<Text>Мой народ хочет независимости, и вы ничего не сможете с этим сделать. Мы можем решить это по-хорошему или по-плохому. Выбор за вами.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_VASSALAGE_REVOKE_VASSALAGEX_1">
+			<Text>Пришло время моему народу искать собственный путь в этом мире. Мы желаем стать независимым государством. Что вы скажете?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_VASSALAGE_REVOKE_VASSALAGEX_2">
+			<Text>Ваша власть над нашей империей более невыносима для моих подданных, и я официально прошу вас позволить моему народу жить как отдельному суверенному государству.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_VASSALAGE_REVOKE_VASSALAGEX_3">
+			<Text>Мы считаем, что пришло время расторгнуть наше соглашение о вассалитете. Наш народ желает править собой самостоятельно. Вы согласны?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_VASSALAGE_REVOKED_HUMAN_PEACEFUL_1">
+			<Text>Мой народ благодарен вам за решение даровать нам независимость.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_VASSALAGE_REVOKED_HUMAN_PEACEFUL_2">
+			<Text>Освободить мой народ с вашей стороны очень великодушно. Я вам признателен.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_VASSALAGE_REVOKED_HUMAN_PEACEFUL_3">
+			<Text>Вернуть нам независимость с вашей стороны весьма благородно. Пусть этот день помнят еще многие века.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_VASSALAGE_REVOKED_HUMAN_WAR_1">
+			<Text>Что ж. Наш народ будет сражаться насмерть за свою независимость.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_VASSALAGE_REVOKED_HUMAN_WAR_2">
+			<Text>Вы решили понапрасну пролить кровь своих людей из-за этого. Наш народ не отступится от независимости.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_VASSALAGE_REVOKED_HUMAN_WAR_3">
+			<Text>Что ж. Мы будем сражаться насмерть за нашу свободу.</Text>
+		</Row>
+		<!-- Human asks AI to revoke their vassalage -->
+		<Row Tag="TXT_KEY_GENERIC_VASSALAGE_REVOKED_PEACEFUL_1">
+			<Text>Хорошо. Мы даруем вам независимость и признаем ваш народ самостоятельным государством.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_VASSALAGE_REVOKED_PEACEFUL_2">
+			<Text>Я согласен. Вы свободны от власти моей империи.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_VASSALAGE_REVOKED_PEACEFUL_3">
+			<Text>Понятно. Мы признаем ваше право на независимость.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_VASSALAGE_REVOKED_FORCEFUL_1">
+			<Text>Да кем вы себя возомнили? Мои марионетки так просто от меня не уйдут. Теперь я подавлю ваш мятеж.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_VASSALAGE_REVOKED_FORCEFUL_2">
+			<Text>Вы правда думали, что я так просто вас отпущу? Ха! Нет... теперь готовьтесь умереть.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_VASSALAGE_REVOKED_FORCEFUL_3">
+			<Text>Вы в своем уме? Неужели вы думали, что я окажусь настолько жалок? Я с удовольствием разобью ваши армии в клочья.</Text>
+		</Row>
+		<!-- Human declares war on AI vassal -->
+		<Row Tag="TXT_KEY_GENERIC_VASSALAGE_ATTACKED_VASSAL_1">
+			<Text>Я доверял вам нашу защиту, а вы вместо этого напали на нас. Какой позор.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_VASSALAGE_ATTACKED_VASSAL_2">
+			<Text>Как это варварски с вашей стороны! Вы обещали защищать мой народ, а вместо этого нападаете на нас! Не сомневайтесь: я убью вас, и когда это случится, вы будете страдать.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_VASSALAGE_ATTACKED_VASSAL_3">
+			<Text>Вы были нашим защитником. Говорили, что будете уничтожать тех, кто нас атакует, а не примкнете к ним! Вы должны были принести процветание нам обоим, а не оставлять нас во тьме! Вы заблудились, и теперь мир это узнает.</Text>
+		</Row>
+		<!-- Third-party AI asks human to release vassals -->
+		<Row Tag="TXT_KEY_GENERIC_RESPONSE_VASSALAGE_TRADE_REVOKE_1">
+			<Text>Ваши зависимые государства взывают к независимости. Слышите? Скажите, чего вам будет стоить прислушаться?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_RESPONSE_VASSALAGE_TRADE_REVOKE_2">
+			<Text>Умоляю вас, отпустите своих вассалов. Достаточно ли заманчиво это предложение?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_RESPONSE_VASSALAGE_TRADE_REVOKE_3">
+			<Text>Независимость — естественное право. Давайте восстановим равновесие, придя к соглашению ради ваших вассалов.</Text>
+		</Row>
+		<!-- Human releases AI vassal -->
+		<Row Tag="TXT_KEY_RESPONSE_VASSALAGE_LIBERATED_HUMAN_1">
+			<Text>Этот жест доброты не будет скоро забыт. Вы даровали моему народу свободу. Я навеки у вас в долгу.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESPONSE_VASSALAGE_LIBERATED_HUMAN_2">
+			<Text>Только мудрый и мужественный правитель способен отказаться от своих притязаний во имя порядочности и свободы. Мой народ будет праздновать наш День независимости еще многие века. Вы заслужили мою благодарность.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESPONSE_VASSALAGE_LIBERATED_HUMAN_3">
+			<Text>Благодарим вас за то, что признали мой народ независимым государством. Пусть наши народы и дальше живут рядом как союзники.</Text>
+		</Row>
+		<!-- AI releases human vassal -->
+		<Row Tag="TXT_KEY_RESPONSE_LIBERATE_VASSAL_1">
+			<Text>Мы решили отказаться от притязаний на ваши земли. Вы можете жить как свободный народ. Вы больше не наш вассал.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESPONSE_LIBERATE_VASSAL_2">
+			<Text>Полагаю, наше время в роли вашего господина подошло к концу. Я дарую вам независимость. Пусть в будущем мы останемся великими союзниками. Вы больше не наш вассал.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESPONSE_LIBERATE_VASSAL_3">
+			<Text>После тщательного раздумья мы решили прекратить наше соглашение и даровать вам свободу. Пусть наши империи процветают в грядущие времена. Вы больше не наш вассал.</Text>
+		</Row>
+		<!-- Human raises AI vassal tax -->
+		<Row Tag="TXT_KEY_RESPONSE_VASSAL_TAXES_RAISED_HUMAN_MASTER_1">
+			<Text>Я разочарован тем, что вы решили повысить наши налоги. Эти деньги принадлежат моему народу. Будьте уверены: это навредило нашим отношениям.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESPONSE_VASSAL_TAXES_RAISED_HUMAN_MASTER_2">
+			<Text>Прошу вас, проявите милосердие к нашим торговцам. Ваши налоги подрывают нашу экономику. Я разочарован, что вы решили пойти этим путем.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESPONSE_VASSAL_TAXES_RAISED_HUMAN_MASTER_3">
+			<Text>Повышение наших налогов неприемлемо. Разве контроля над нашими политическими делами недостаточно, чтобы утолить вашу жадность?</Text>
+		</Row>
+		<!-- Human lowers AI vassal tax -->
+		<Row Tag="TXT_KEY_RESPONSE_VASSAL_TAXES_LOWERED_HUMAN_MASTER_1">
+			<Text>Мы рады слышать, что вы снизили наши налоги. Остается лишь надеяться, что это знак лучших времен.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESPONSE_VASSAL_TAXES_LOWERED_HUMAN_MASTER_2">
+			<Text>Благодарю вас за некоторое облегчение налогового бремени. Обещаю, что укрепление нашей экономики в долгосрочной перспективе поможет обоим нашим народам.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESPONSE_VASSAL_TAXES_LOWERED_HUMAN_MASTER_3">
+			<Text>Мы считаем, что ваше решение снизить наши налоги — шаг, который сблизит наши народы. Благодарим вас.</Text>
+		</Row>
+		<!-- AI raises human vassal tax -->
+		<Row Tag="TXT_KEY_RESPONSE_VASSAL_TAXES_RAISED_AI_MASTER_1">
+			<Text>Управление другим государством обходится нам недешево. Мы решили повысить ваши налоги. Надеюсь, вы поймете.</Text>
+		</Row>
+		<!-- AI lowers human vassal tax -->
+		<Row Tag="TXT_KEY_RESPONSE_VASSAL_TAXES_LOWERED_AI_MASTER_1">
+			<Text>Я рад сообщить, что снизил ваши налоги. Наша империя вполне может процветать и без вашей помощи, и я не вижу нужды понапрасну портить наши отношения.</Text>
+		</Row>
+		<!-- AI offers voluntary vassalage -->
+		<Row Tag="TXT_KEY_RESPONSE_VASSALAGE_BECOME_VASSAL_1">
+			<Text>Моя слабость очевидна всему миру. Прошу, примите мою клятву верности.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESPONSE_VASSALAGE_BECOME_VASSAL_2">
+			<Text>Ваше могущество не знает границ. Наша слабость делает нас заманчивой целью. Мы смиренно просим вашей защиты.</Text>
+		</Row>
+	</Language_ru_RU>
+</GameData>
