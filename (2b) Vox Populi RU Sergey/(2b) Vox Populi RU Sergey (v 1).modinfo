@@ -32,6 +32,7 @@
     <File>Database Changes/Text/ru_RU/City/NewProcessText_x.xml</File>
     <File>Database Changes/Text/ru_RU/City/NewProjectText_x.xml</File>
     <File>Database Changes/Text/ru_RU/City/NewSpecialistText_x.xml</File>
+    <File>Database Changes/Text/ru_RU/City/PreBuildingTextChanges_x.sql</File>
     <File>Database Changes/Text/ru_RU/City/ProcessTextChanges_x.sql</File>
     <File>Database Changes/Text/ru_RU/City/ProjectTextChanges_x.sql</File>
     <File>Database Changes/Text/ru_RU/City/SpecialistTextChanges_x.sql</File>
@@ -92,6 +93,7 @@
       <UpdateDatabase>Database Changes/Text/ru_RU/City/NewProcessText_x.xml</UpdateDatabase>
       <UpdateDatabase>Database Changes/Text/ru_RU/City/NewProjectText_x.xml</UpdateDatabase>
       <UpdateDatabase>Database Changes/Text/ru_RU/City/NewSpecialistText_x.xml</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/City/PreBuildingTextChanges_x.sql</UpdateDatabase>
       <UpdateDatabase>Database Changes/Text/ru_RU/City/ProcessTextChanges_x.sql</UpdateDatabase>
       <UpdateDatabase>Database Changes/Text/ru_RU/City/ProjectTextChanges_x.sql</UpdateDatabase>
       <UpdateDatabase>Database Changes/Text/ru_RU/City/SpecialistTextChanges_x.sql</UpdateDatabase>
