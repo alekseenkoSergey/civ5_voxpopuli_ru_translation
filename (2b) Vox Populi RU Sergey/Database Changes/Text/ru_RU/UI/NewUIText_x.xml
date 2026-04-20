@@ -1952,7 +1952,7 @@
       <Text>Корпорации и Монополии</Text>
     </Row>
     <Row Tag="TXT_KEY_CPO_TAB_MONOPOLIES">
-      <Text>монополии</Text>
+      <Text>Монополии</Text>
     </Row>
     <Row Tag="TXT_KEY_CPO_TAB_CORPORATIONS">
       <Text>Ваша корпорация</Text>
@@ -1982,7 +1982,7 @@
       <Text>Чтобы основать корпорацию, вы должны иметь глобальную монополию на любой из требуемых ресурсов и построить её штаб-квартиру в одном из своих городов. Каждая цивилизация может основать только одну корпорацию.</Text>
     </Row>
     <Row Tag="TXT_KEY_CPO_YOUR_CORPORATION_HQ">
-      <Text>Штаб-квартира: {1_CityName}</Text>
+      <Text>Штаб: {1_CityName}</Text>
     </Row>
     <Row Tag="TXT_KEY_CPO_YOUR_CORPORATION_ESTABLISHED">
       <Text>Основана: {1_Date} (ход {2_Turn})</Text>
@@ -2051,13 +2051,13 @@
       <Text>Название города, в котором расположен филиал.[NEWLINE][NEWLINE]Нажмите, чтобы отсортировать города с филиалами по названию.</Text>
     </Row>
     <Row Tag="TXT_KEY_CPO_WC_CORPNAME">
-      <Text>корпорация</Text>
+      <Text>Корпорация</Text>
     </Row>
     <Row Tag="TXT_KEY_CPO_WC_CORPNAME_SORT_TT">
       <Text>Название корпорации.[NEWLINE][NEWLINE]Нажмите, чтобы отсортировать корпорации по названию.</Text>
     </Row>
     <Row Tag="TXT_KEY_CPO_WC_CIVILIZATION">
-      <Text>цивилизация</Text>
+      <Text>Цивилизация</Text>
     </Row>
     <Row Tag="TXT_KEY_CPO_WC_CIVILIZATION_SORT_TT">
       <Text>Цивилизация, основавшая корпорацию.[NEWLINE][NEWLINE]Нажмите, чтобы отсортировать корпорации по основателю.</Text>
@@ -2069,7 +2069,7 @@
       <Text>Город, в котором основана штаб-квартира корпорации.[NEWLINE][NEWLINE]Нажмите, чтобы отсортировать корпорации по городу штаб-квартиры.</Text>
     </Row>
     <Row Tag="TXT_KEY_CPO_WC_DATE_FOUNDED">
-      <Text>Дата основания</Text>
+      <Text>Основание</Text>
     </Row>
     <Row Tag="TXT_KEY_CPO_WC_DATE_FOUNDED_SORT_TT">
       <Text>Дата основания корпорации.[NEWLINE][NEWLINE]Нажмите, чтобы отсортировать корпорации по дате основания.</Text>
@@ -2099,7 +2099,7 @@
       <Text>Название ресурса.</Text>
     </Row>
     <Row Tag="TXT_KEY_CPO_MP_CIVILIZATION">
-      <Text>Владелец монополии</Text>
+      <Text>Владелец</Text>
     </Row>
     <Row Tag="TXT_KEY_CPO_MP_CIVILIZATION_SORT_TT">
       <Text>Название цивилизации, владеющей монополией.</Text>
@@ -2120,16 +2120,16 @@
       <Text>({1_NumOwned}/{2_NumOnMap})</Text>
     </Row>
     <Row Tag="TXT_KEY_CPO_MP_NO_CIVILIZATION">
-      <Text>Нет цивилизации</Text>
+      <Text>Нет</Text>
     </Row>
     <Row Tag="TXT_KEY_CPO_MONOPOLY_OWNER_INFO">
       <Text>{1_цивилизация} ({2_Percent}%)</Text>
     </Row>
     <Row Tag="TXT_KEY_CPO_MP_DROPDOWN_LABEL_SELECT_TYPE">
-      <Text>Выберите тип монополии</Text>
+      <Text>Тип монополии</Text>
     </Row>
     <Row Tag="TXT_KEY_CPO_MP_DROPDOWN_LABEL_SELECT_PLAYER">
-      <Text>Выбрать игрока</Text>
+      <Text>Игрок</Text>
     </Row>
     <Row Tag="TXT_KEY_CPO_MP_PULLDOWN_TYPE_ALL">
       <Text>Все</Text>
@@ -2207,7 +2207,7 @@
       <Text>Вассал уже {1_NumTurns} {1_NumTurns: plural 1?ход; other?ходов;} (с хода {2_TurnStarted})</Text>
     </Row>
     <Row Tag="TXT_KEY_VO_INDEPENDENCE_POSSIBLE">
-      <Text>Может объявить независимость:</Text>
+      <Text>Может стать независимым:</Text>
     </Row>
     <Row Tag="TXT_KEY_VO_INDEPENDENCE_POSSIBLE_TT">
       <Text>Если вассал может объявить независимость, он может в любой момент отказаться от статуса вашего вассала. Если вы отклоните этот запрос, вы объявите войну своему вассалу. Он с большей вероятностью попросит об этом, если считает, что у него хорошие шансы на успешное восстание.[NEWLINE][NEWLINE]Ваш вассал сможет объявить независимость после выполнения следующих условий:</Text>
@@ -2237,31 +2237,31 @@
       <Text>УПРАВЛЕНИЕ</Text>
     </Row>
     <Row Tag="TXT_KEY_VO_CITY_PERCENT">
-      <Text>Текущий процент городов:</Text>
+      <Text>Города вассала:</Text>
     </Row>
     <Row Tag="TXT_KEY_VO_CITY_PERCENT_TT">
-      <Text>Соотношение между общим числом городов, которыми ваш вассал владеет сейчас (по всей команде), и числом городов (по всей команде), которое у него было на момент начала вассалитета.[NEWLINE][NEWLINE][ICON_BULLET]Текущее число городов команды: {1_CurrentCities}[NEWLINE][ICON_BULLET]Число городов команды на момент начала вассалитета: {2_StartCities}[NEWLINE][NEWLINE]Сейчас у этого игрока {3_PlayerCities} городов.</Text>
+      <Text>Соотношение между общим числом городов, которыми ваш вассал владеет сейчас, и числом городов, которое у него было на момент начала вассалитета.[NEWLINE][NEWLINE][ICON_BULLET]Городов сейчас: {1_CurrentCities}[NEWLINE][ICON_BULLET]Городов раньше: {2_StartCities}[NEWLINE][NEWLINE]У этого игрока {3_PlayerCities} городов.</Text>
     </Row>
     <Row Tag="TXT_KEY_VO_MASTER_CITY_PERCENT">
-      <Text>Процент городов сюзерена:</Text>
+      <Text>Города сюзерена:</Text>
     </Row>
     <Row Tag="TXT_KEY_VO_MASTER_CITY_PERCENT_TT">
-      <Text>Соотношение между общим числом городов, которыми ваш вассал владеет сейчас (по всей команде), и числом городов вашей команды сейчас.[NEWLINE][NEWLINE][ICON_BULLET]Текущее число городов команды вассала: {1_CurrentCities}[NEWLINE][ICON_BULLET]Число городов команды сюзерена: {2_MasterCities}[NEWLINE][NEWLINE]Сейчас у этого игрока {3_Cities} городов.</Text>
+      <Text>Соотношение между общим числом городов, которыми ваш вассал владеет сейчас, и числом ваших городов сейчас.[NEWLINE][NEWLINE][ICON_BULLET]Города вассала: {1_CurrentCities}[NEWLINE][ICON_BULLET]Города сюзерена: {2_MasterCities}[NEWLINE][NEWLINE]У этого игрока {3_Cities} городов.</Text>
     </Row>
     <Row Tag="TXT_KEY_VO_MASTER_POP_PERCENT">
-      <Text>Процент населения сюзерена:</Text>
+      <Text>Население сюзерена:</Text>
     </Row>
     <Row Tag="TXT_KEY_VO_MASTER_POP_PERCENT_TT">
-      <Text>Соотношение между общим [ICON_CITIZEN] населением, которым ваш вассал владеет сейчас (по всей команде), и [ICON_CITIZEN] населением вашей команды сейчас.[NEWLINE][NEWLINE][ICON_BULLET]Текущее [ICON_CITIZEN] население команды: {1_CurrentPop}[NEWLINE][ICON_BULLET][ICON_CITIZEN] Население команды сюзерена: {2_MasterPop}[NEWLINE][NEWLINE]Сейчас у этого игрока {3_PlayerPop} [ICON_CITIZEN] населения.</Text>
+      <Text>Соотношение между общим [ICON_CITIZEN] населением, которым ваш вассал владеет сейчас, и [ICON_CITIZEN] вашим населением сейчас.[NEWLINE][NEWLINE][ICON_BULLET]Население вассала: {1_CurrentPop}[NEWLINE][ICON_BULLET]Население сюзерена: {2_MasterPop}[NEWLINE][NEWLINE]У этого игрока {3_PlayerPop} населения.</Text>
     </Row>
     <Row Tag="TXT_KEY_VO_POP_PERCENT">
-      <Text>Текущий процент населения:</Text>
+      <Text>Население вассала:</Text>
     </Row>
     <Row Tag="TXT_KEY_VO_POP_PERCENT_TT">
-      <Text>Соотношение между общим [ICON_CITIZEN] населением, которым ваш вассал владеет сейчас (по всей команде), и [ICON_CITIZEN] населением (по всей команде), которое у него было на момент начала вассалитета.[NEWLINE][NEWLINE][ICON_BULLET]Текущее [ICON_CITIZEN] население команды: {1_CurrentPop}[NEWLINE][ICON_BULLET][ICON_CITIZEN] Население команды на момент начала вассалитета: {2_StartPop}[NEWLINE][NEWLINE]Сейчас у этого игрока {3_PlayerPop} [ICON_CITIZEN] населения.</Text>
+      <Text>Соотношение между общим [ICON_CITIZEN] населением, которым ваш вассал владеет сейчас, и [ICON_CITIZEN] населением, которое у него было на момент начала вассалитета.[NEWLINE][NEWLINE][ICON_BULLET]Населения сейчас: {1_CurrentPop}[NEWLINE][ICON_BULLET]Населения раньше: {2_StartPop}[NEWLINE][NEWLINE]У этого игрока {3_PlayerPop} населения.</Text>
     </Row>
     <Row Tag="TXT_KEY_VO_LIBERATE_VASSAL">
-      <Text>Освободить вассала</Text>
+      <Text>Освободить</Text>
     </Row>
     <Row Tag="TXT_KEY_VO_LIBERATE_VASSAL_TT">
       <Text>Освободить этого вассала, избавив его от вашего контроля. Это мирное действие не приведёт к войне и даст очень большой дипломатический бонус вашему бывшему вассалу.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]После этого действия {1_TeamName} больше не будет вашим вассалом. Это действие нельзя отменить.[ENDCOLOR]</Text>
@@ -2273,7 +2273,7 @@
       <Text>Налоговая ставка: {1_Num}%</Text>
     </Row>
     <Row Tag="TXT_KEY_VO_TREATMENT">
-      <Text>Отношение к вассалитету: {1_szStr}</Text>
+      <Text>Отношение: {1_szStr}</Text>
     </Row>
     <Row Tag="TXT_KEY_VO_TREATMENT_TT">
       <Text>Мнение вашего вассала о том, как вы с ним обращаетесь, основано на следующих факторах:</Text>
@@ -2348,7 +2348,7 @@
       <Text>Применить изменения</Text>
     </Row>
     <Row Tag="TXT_KEY_SET_TAXES">
-      <Text>Установить налоги</Text>
+      <Text>Задать налоги</Text>
     </Row>
     <Row Tag="TXT_KEY_SET_TAXES_TT">
       <Text>Установить налоговую ставку вассала. Изменения вступят в силу на следующем ходу.</Text>
