@@ -12,15 +12,15 @@ SET Text = '[COLOR_POSITIVE_TEXT]Традиция[ENDCOLOR] в [COLOR_CYAN]ра�
 WHERE Tag = 'TXT_KEY_POLICY_BRANCH_TRADITION_HELP';
 
 UPDATE Language_ru_RU
-SET Text = 'Справедливость'
+SET Text = 'Юстиция'
 WHERE Tag = 'TXT_KEY_POLICY_ARISTOCRACY';
 
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Справедливость[ENDCOLOR][NEWLINE][ICON_BULLET]Города с гарнизоном получают +25% [ICON_RANGE_STRENGTH] дальнобойной боевой мощи.[NEWLINE][ICON_BULLET]В [ICON_CAPITAL] столице строится [COLOR_POSITIVE_TEXT]{TXT_KEY_BUILDING_ROYAL_GUARDHOUSE}[ENDCOLOR] (+3 [ICON_PRODUCTION] производства, +2 [ICON_STRENGTH] к обороне, +50 очков здоровья, +10% [ICON_SILVER_FIST] лимита снабжения армии от [ICON_CITIZEN] населения во всех городах, +1 [ICON_PRODUCTION] производства всем советам и кузницам, 1 ячейка [ICON_ENGINEER] инженера).'
+SET Text = '[COLOR_POSITIVE_TEXT]Юстиция[ENDCOLOR][NEWLINE][ICON_BULLET]Города с гарнизоном получают +25% [ICON_RANGE_STRENGTH] дальнобойной боевой мощи.[NEWLINE][ICON_BULLET]В [ICON_CAPITAL] столице строится [COLOR_POSITIVE_TEXT]{TXT_KEY_BUILDING_ROYAL_GUARDHOUSE}[ENDCOLOR] (+3 [ICON_PRODUCTION] производства, +2 [ICON_STRENGTH] к обороне, +50 очков здоровья, +10% [ICON_SILVER_FIST] лимита снабжения армии от [ICON_CITIZEN] населения во всех городах, +1 [ICON_PRODUCTION] производства всем советам и кузницам, 1 ячейка [ICON_ENGINEER] инженера).'
 WHERE Tag = 'TXT_KEY_POLICY_ARISTOCRACY_HELP';
 
 UPDATE Language_ru_RU
-SET Text = 'Справедливость в самом широком смысле включает как достижение справедливого, так и философское осмысление того, что является справедливым. Понятие справедливости опирается на множество областей знания и множество различных взглядов, включая моральную правильность, основанную на законе, равноправии, этике, рациональности, религии и честности. Часто обсуждение справедливости делят на сферу общественной справедливости, рассматриваемой в философии, теологии и религии, и процедурной справедливости, изучаемой в теории и практике права.'
+SET Text = 'Юстиция в самом широком смысле включает как достижение справедливого, так и философское осмысление того, что является справедливым. Понятие справедливости опирается на множество областей знания и множество различных взглядов, включая моральную правильность, основанную на законе, равноправии, этике, рациональности, религии и честности. Часто обсуждение справедливости делят на сферу общественной справедливости, рассматриваемой в философии, теологии и религии, и процедурной справедливости, изучаемой в теории и практике права.'
 WHERE Tag = 'TXT_KEY_POLICY_ARISTOCRACY_TEXT';
 
 UPDATE Language_ru_RU
@@ -48,15 +48,15 @@ SET Text = '«Величество» — английское слово, в к�
 WHERE Tag = 'TXT_KEY_POLICY_MONARCHY_TEXT';
 
 UPDATE Language_ru_RU
-SET Text = 'Блеск'
+SET Text = 'Великолепие'
 WHERE Tag = 'TXT_KEY_POLICY_LANDED_ELITE';
 
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Блеск[ENDCOLOR][NEWLINE][ICON_BULLET]Использование [ICON_GREAT_PEOPLE] Великого человека даёт 50 [ICON_CULTURE] культуры, с ростом по эпохе.[NEWLINE][ICON_BULLET]В [ICON_CAPITAL] столице строится [COLOR_POSITIVE_TEXT]{TXT_KEY_BUILDING_STATE_TREASURY}[ENDCOLOR] (+4 [ICON_GOLD] золота, +2 [ICON_CULTURE] культуры всем монументам, садам и баням, 1 ячейка [ICON_MERCHANT] торговца).'
+SET Text = '[COLOR_POSITIVE_TEXT]Великолепие[ENDCOLOR][NEWLINE][ICON_BULLET]Использование [ICON_GREAT_PEOPLE] Великого человека даёт 50 [ICON_CULTURE] культуры, с ростом по эпохе.[NEWLINE][ICON_BULLET]В [ICON_CAPITAL] столице строится [COLOR_POSITIVE_TEXT]{TXT_KEY_BUILDING_STATE_TREASURY}[ENDCOLOR] (+4 [ICON_GOLD] золота, +2 [ICON_CULTURE] культуры всем монументам, садам и баням, 1 ячейка [ICON_MERCHANT] торговца).'
 WHERE Tag = 'TXT_KEY_POLICY_LANDED_ELITE_HELP';
 
 UPDATE Language_ru_RU
-SET Text = 'Блеск — термин, который часто используют, говоря о публичной деятельности монархов и аристократов, особенно когда речь идёт о демонстрации власти или престижа.'
+SET Text = 'Великолепие — термин, который часто используют, говоря о публичной деятельности монархов и аристократов, особенно когда речь идёт о демонстрации власти или престижа.'
 WHERE Tag = 'TXT_KEY_POLICY_LANDED_ELITE_TEXT';
 
 UPDATE Language_ru_RU
@@ -306,7 +306,7 @@ SET Text = '{@1: gender feminine?Госпожа; other?Господин;} {1_Pla
 WHERE Tag = 'TXT_KEY_PATRONAGE_TITLE';
 
 UPDATE Language_ru_RU
-SET Text = 'Государственное управление'
+SET Text = 'Управление'
 WHERE Tag = 'TXT_KEY_POLICY_BRANCH_PATRONAGE';
 
 UPDATE Language_ru_RU

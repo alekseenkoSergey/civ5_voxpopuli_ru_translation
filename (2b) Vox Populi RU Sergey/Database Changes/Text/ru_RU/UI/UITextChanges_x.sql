@@ -631,19 +631,19 @@ SET Text = 'АВТОРИТЕТ'
 WHERE Tag = 'TXT_KEY_POLICY_BRANCH_HONOR_CAP';
 
 UPDATE Language_ru_RU
-SET Text = 'НАБOЖНОСТЬ'
+SET Text = 'ВЕРНОСТЬ'
 WHERE Tag = 'TXT_KEY_POLICY_BRANCH_PIETY_CAP';
 
 UPDATE Language_ru_RU
-SET Text = 'ГОСУДАРСТВЕННОСТЬ'
+SET Text = 'УПРАВЛЕНИЕ'
 WHERE Tag = 'TXT_KEY_POLICY_BRANCH_PATRONAGE_CAP';
 
 UPDATE Language_ru_RU
-SET Text = 'ИСКУСНОСТЬ'
+SET Text = 'ИСКУССТВО'
 WHERE Tag = 'TXT_KEY_POLICY_BRANCH_AESTHETICS_CAP';
 
 UPDATE Language_ru_RU
-SET Text = 'ПРОМЫШЛЕННОСТЬ'
+SET Text = 'ИНДУСТРИЯ'
 WHERE Tag = 'TXT_KEY_POLICY_BRANCH_COMMERCE_CAP';
 
 UPDATE Language_ru_RU
