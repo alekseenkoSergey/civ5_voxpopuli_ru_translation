@@ -491,7 +491,7 @@
 			<Text>Их границы закрыты для вас</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_EUI_BUILT_IN_X_CITIES">
-			<Text>{1: plural  0?Не построено; 1?Построено в 1 городе; 2?Построено в {1} городах;}{2: plural 0?; 1?, строится в 1 городе; 2?, строится в {2} городах;}</Text>
+			<Text>{1: plural 1?Построено в 1 городе; 2?Построено в {1} городах;}{2: plural 1?[NEWLINE]Строится в 1 городе; 2?[NEWLINE]Строится в {2} городах;}</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_EUI_WONDER_BUILT_BY">
 			<Text>Построено цивилизацией {@1_CivName} в городе {@2_CityName}</Text>

@@ -662,7 +662,7 @@
 			<Text>Автоматически строится при основании города, если игра начинается в {1_Era:textkey} или позже</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_COUNT">
-			<Text>{1: plural 0?Не построено; 1?Построено в 1 городе; 2?Построено в {1} городах;}{2: plural 0?; 1?, строится в 1 городе; 2?, строится в {2} городах;}</Text>
+			<Text>{1: plural 1?Построено в 1 городе; 2?Построено в {1} городах;}{2: plural 1?[NEWLINE]Строится в 1 городе; 2?[NEWLINE]Строится в {2} городах;}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_VICTORY_REQUIREMENT">
 			<Text>Требуется {1_Num}, чтобы добиться победы {2_Victory:textkey}</Text>

@@ -216,6 +216,10 @@ UPDATE Language_ru_RU
 SET Text = '{1_ReligionIcon} {2_NumFollowers} {2_NumFollowers: plural 1?последователь; other?последователей;} {3_PressureString} ({4_Num} торговых путей)'
 WHERE Tag = 'TXT_KEY_RELIGION_TOOLTIP_LINE_WITH_TRADE';
 
+UPDATE Language_ru_RU
+SET Text = 'Не более {1_Num} на одного игрока'
+WHERE Tag = 'TXT_KEY_NO_ACTION_PLAYER_COUNT_MAX';
+
 ------------------------------------------------
 -- Conquest picker
 ------------------------------------------------
