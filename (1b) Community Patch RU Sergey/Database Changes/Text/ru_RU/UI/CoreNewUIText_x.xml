@@ -755,7 +755,7 @@
 			<Text>+{1_Num} {2_ResourceIcon} {3_Resource:textkey} для каждые [ICON_CITIZEN] население в город</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_FREE_RESOURCE_FROM_FRANCHISE">
-			<Text>+1 {2_ResourceIcon} {3_Resource:textkey} для каждые {1_Num} [ICON_FRANCHISE] действующий {1: plural 1?Franchise; other?Franchises;}</Text>
+			<Text>+1 {2_ResourceIcon} {3_Resource:textkey} для каждых {1_Num} [ICON_FRANCHISE] действующих франшиз}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_FOOD_MODIFIER_PER_FOLLOWER">
 			<Text>{2_Sign}{1_Num}% [ICON_FOOD] еды за каждого последователя религии большинства</Text>
@@ -1685,7 +1685,7 @@
 			<Text>[ICON_BULLET]Каждая клетка, принадлежащая городу: {1_YieldBoosts}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_BOOST_FROM_FRANCHISES">
-			<Text>[ICON_BULLET]Каждый [ICON_FRANCHISE] действующий франшиза: {1_YieldBoosts}</Text>
+			<Text>[ICON_BULLET]Каждая [ICON_FRANCHISE] действующая франшиза: {1_YieldBoosts}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_BOOST_FROM_CITY_STATE_FRIENDS">
 			<Text>[ICON_BULLET]Каждый дружественный [ICON_CITY_STATE] город-государство: {1_YieldBoosts}</Text>
@@ -1841,7 +1841,7 @@
 			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% от завоевания города ({2_Num} {2: plural 1?ход; other?хода;} осталось)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_YIELD_MOD_CORPORATION">
-			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% от [ICON_INTERNATIONAL_TRADE] торговые пути с [ICON_FRANCHISE] действующий франшиза</Text>
+			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% от [ICON_INTERNATIONAL_TRADE] торговые пути с [ICON_FRANCHISE] действующей франшизой</Text>
 		</Row>
 		<Row Tag="TXT_KEY_YIELD_MOD_EVENT">
 			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% от активных событий</Text>

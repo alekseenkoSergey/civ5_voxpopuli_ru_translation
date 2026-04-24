@@ -564,7 +564,7 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_TRADER_SIDS_HQ">
-			<Text>Штаб-квартира Trader Sid's</Text>
+			<Text>Trader Sid's</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_TRADER_SIDS_HQ_STRATEGY">
 			<Text>Постройте это здание в одном из своих городов, чтобы основать корпорацию Trader Sid's. Подробнее см. раздел [COLOR_POSITIVE_TEXT]«Корпорации»[ENDCOLOR] в Цивилопедии.[NEWLINE][NEWLINE]Помните, что каждая цивилизация может основать только [COLOR_POSITIVE_TEXT]одну[ENDCOLOR] корпорацию, поэтому убедитесь, что её преимущества подходят вашей стратегии победы!</Text>
@@ -597,7 +597,7 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_CENTAURUS_EXTRACTORS_HQ">
-			<Text>Штаб-квартира Centaurus Extractors</Text>
+			<Text>Centaurus Extractors</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_CENTAURUS_EXTRACTORS_HQ_STRATEGY">
 			<Text>Постройте это здание в одном из своих городов, чтобы основать корпорацию Centaurus Extractors. Подробнее см. раздел [COLOR_POSITIVE_TEXT]«Корпорации»[ENDCOLOR] в Цивилопедии.[NEWLINE][NEWLINE]Помните, что каждая цивилизация может основать только [COLOR_POSITIVE_TEXT]одну[ENDCOLOR] корпорацию, поэтому убедитесь, что её преимущества подходят вашей стратегии победы!</Text>
@@ -630,7 +630,7 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_HEXXON_REFINERY_HQ">
-			<Text>Штаб-квартира Hexxon Refineries</Text>
+			<Text>Hexxon Refineries</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_HEXXON_REFINERY_HQ_STRATEGY">
 			<Text>Постройте это здание в одном из своих городов, чтобы основать корпорацию Hexxon Refineries. Подробнее см. раздел [COLOR_POSITIVE_TEXT]«Корпорации»[ENDCOLOR] в Цивилопедии.[NEWLINE][NEWLINE]Помните, что каждая цивилизация может основать только [COLOR_POSITIVE_TEXT]одну[ENDCOLOR] корпорацию, поэтому убедитесь, что её преимущества подходят вашей стратегии победы!</Text>
@@ -663,7 +663,7 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_GIORGIO_ARMEIER_HQ">
-			<Text>Штаб-квартира Giorgio Armeier</Text>
+			<Text>Giorgio Armeier</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_GIORGIO_ARMEIER_HQ_STRATEGY">
 			<Text>Постройте это здание в одном из своих городов, чтобы основать корпорацию Giorgio Armeier. Подробнее см. раздел [COLOR_POSITIVE_TEXT]«Корпорации»[ENDCOLOR] в Цивилопедии.[NEWLINE][NEWLINE]Помните, что каждая цивилизация может основать только [COLOR_POSITIVE_TEXT]одну[ENDCOLOR] корпорацию, поэтому убедитесь, что её преимущества подходят вашей стратегии победы!</Text>
@@ -696,7 +696,7 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_FIRAXITE_MATERIALS_HQ">
-			<Text>Штаб-квартира Firaxite Materials</Text>
+			<Text>Firaxite Materials</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FIRAXITE_MATERIALS_HQ_STRATEGY">
 			<Text>Постройте это здание в одном из своих городов, чтобы основать корпорацию Firaxite Materials. Подробнее см. раздел [COLOR_POSITIVE_TEXT]«Корпорации»[ENDCOLOR] в Цивилопедии.[NEWLINE][NEWLINE]Помните, что каждая цивилизация может основать только [COLOR_POSITIVE_TEXT]одну[ENDCOLOR] корпорацию, поэтому убедитесь, что её преимущества подходят вашей стратегии победы!</Text>
@@ -729,7 +729,7 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_TWOKAY_FOODS_HQ">
-			<Text>Штаб-квартира TwoKay Foods</Text>
+			<Text>TwoKay Foods</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_TWOKAY_FOODS_HQ_STRATEGY">
 			<Text>Постройте это здание в одном из своих городов, чтобы основать корпорацию TwoKay Foods. Подробнее см. раздел [COLOR_POSITIVE_TEXT]«Корпорации»[ENDCOLOR] в Цивилопедии.[NEWLINE][NEWLINE]Помните, что каждая цивилизация может основать только [COLOR_POSITIVE_TEXT]одну[ENDCOLOR] корпорацию, поэтому убедитесь, что её преимущества подходят вашей стратегии победы!</Text>
@@ -762,7 +762,7 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_CIVILIZED_JEWELERS_HQ">
-			<Text>Штаб-квартира Civilized Jewelers</Text>
+			<Text>Civilized Jewelers</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_CIVILIZED_JEWELERS_HQ_STRATEGY">
 			<Text>Постройте это здание в одном из своих городов, чтобы основать корпорацию Civilized Jewelers. Подробнее см. раздел [COLOR_POSITIVE_TEXT]«Корпорации»[ENDCOLOR] в Цивилопедии.[NEWLINE][NEWLINE]Помните, что каждая цивилизация может основать только [COLOR_POSITIVE_TEXT]одну[ENDCOLOR] корпорацию, поэтому убедитесь, что её преимущества подходят вашей стратегии победы!</Text>
@@ -795,7 +795,7 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_POPULI_MEDICINE_HQ">
-			<Text>Штаб-квартира Populi Medicine</Text>
+			<Text>Populi Medicine</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_POPULI_MEDICINE_HQ_STRATEGY">
 			<Text>Постройте это здание в одном из своих городов, чтобы основать корпорацию Populi Medicine. Подробнее см. раздел [COLOR_POSITIVE_TEXT]«Корпорации»[ENDCOLOR] в Цивилопедии.[NEWLINE][NEWLINE]Помните, что каждая цивилизация может основать только [COLOR_POSITIVE_TEXT]одну[ENDCOLOR] корпорацию, поэтому убедитесь, что её преимущества подходят вашей стратегии победы!</Text>
