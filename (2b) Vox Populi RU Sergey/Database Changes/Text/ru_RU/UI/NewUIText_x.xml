@@ -95,7 +95,7 @@
       <Text>Шанс быть [COLOR_NEGATIVE_TEXT]раскрытым[ENDCOLOR]: {1_IDChance}%</Text>
     </Row>
     <Row Tag="TXT_KEY_EO_COUNTERSPY">
-      <Text>Сменить специализацию</Text>
+      <Text>Назначить</Text>
     </Row>
     <Row Tag="TXT_KEY_EO_COUNTERSPY_TOOLTIP_SHORT">
       <Text>Сменить специализацию контршпиона</Text>
@@ -488,7 +488,7 @@
       <Text>[ICON_CARGO_SHIP] Торговля с крупным городом</Text>
     </Row>
     <Row Tag="TXT_KEY_CO_HISTORIC_EVENT_TRADE_CS">
-      <Text>[ICON_CARAVAN]/[ICON_CARGO_SHIP] Торговля с [ICON_CITY_STATE] городом-государством</Text>
+      <Text>[ICON_CARAVAN]/[ICON_CARGO_SHIP] Торговля с [ICON_CITY_STATE] ГГ</Text>
     </Row>
     <Row Tag="TXT_KEY_CO_HISTORIC_EVENT_ERA_CHANGE_TT">
       <Text>Каждая [ICON_RESEARCH] эпоха, в которую вы переходите, становится [COLOR_POSITIVE_TEXT]историческим событием[ENDCOLOR]!</Text>
@@ -1469,7 +1469,7 @@
       <Text>Филиал:</Text>
     </Row>
     <Row Tag="TXT_KEY_PEDIA_FREE_TR_LABEL">
-      <Text>Бесплатные торговые пути:</Text>
+      <Text>Торговые пути:</Text>
     </Row>
     <Row Tag="TXT_KEY_PEDIA_CORPORATION_RESOURCE_BONUS_LABEL">
       <Text>Бонус ресурса:</Text>
@@ -1481,7 +1481,7 @@
       <Text>Бонус торгового пути:</Text>
     </Row>
     <Row Tag="TXT_KEY_PEDIA_MONOPOLY_RESRC_LABEL">
-      <Text>Требуемая монополия (любая):</Text>
+      <Text>Нужная монополия (любая):</Text>
     </Row>
     <Row Tag="TXT_KEY_PEDIA_MONOPOLY_RESOURCE_NAME">
       <Text>Ресурс монополии:</Text>
@@ -1961,7 +1961,7 @@
       <Text>Мировые корпорации</Text>
     </Row>
     <Row Tag="TXT_KEY_CPO_MONOPOLY_REQUIRED">
-      <Text>Требуемая монополия (любая)</Text>
+      <Text>Нужная монополия (любая)</Text>
     </Row>
     <Row Tag="TXT_KEY_CPO_OFFICE">
       <Text>офис</Text>
@@ -1970,7 +1970,7 @@
       <Text>филиал</Text>
     </Row>
     <Row Tag="TXT_KEY_CPO_RIGHT_CLICK_MORE_INFO">
-      <Text>(Щёлкните правой кнопкой мыши по значку корпорации, чтобы узнать подробности)</Text>
+      <Text>(детали - ПКМ)</Text>
     </Row>
     <Row Tag="TXT_KEY_CPO_FOUND_CORPORATION_AVAILABLE">
       <Text>Корпорации доступны для основания.</Text>
@@ -1979,7 +1979,7 @@
       <Text>Вы не можете основать корпорацию, потому что все корпорации уже основаны.</Text>
     </Row>
     <Row Tag="TXT_KEY_CPO_FOUND_CORPORATION_HELP">
-      <Text>Чтобы основать корпорацию, вы должны иметь глобальную монополию на любой из требуемых ресурсов и построить её штаб-квартиру в одном из своих городов. Каждая цивилизация может основать только одну корпорацию.</Text>
+      <Text>Для основания корпорации, вы должны иметь глобальную монополию на любой из требуемых ресурсов и построить её штаб-квартиру в одном из своих городов. Каждая цивилизация может основать только одну корпорацию.</Text>
     </Row>
     <Row Tag="TXT_KEY_CPO_YOUR_CORPORATION_HQ">
       <Text>Штаб: {1_CityName}</Text>
@@ -2357,7 +2357,7 @@
       <Text>Применить изменения налоговой ставки вассала. Изменения вступят в силу на следующем ходу.</Text>
     </Row>
     <Row Tag="TXT_KEY_VO_CONFIRM_TAX_CHANGE">
-      <Text>Вы уверены, что хотите применить ставку налога {1_TaxRate} для {2_TeamName}? Вы не сможете менять это значение в течение {3_NumTurns} ходов. Налог начнёт действовать на следующем ходу. [COLOR_WARNING_TEXT]Это действие НЕЛЬЗЯ отменить.[ENDCOLOR]</Text>
+      <Text>Применить ставку налога {1_TaxRate} для {2_TeamName} на {3_NumTurns} ходов? Действует со следующего хода.[NEWLINE][COLOR_WARNING_TEXT]Это действие НЕЛЬЗЯ отменить.[ENDCOLOR]</Text>
     </Row>
     <Row Tag="TXT_KEY_VO_CONFIRM_LIBERATE">
       <Text>Вы уверены, что хотите освободить {1_TeamName}? Это освободит ВСЕ цивилизации этой команды от вашего контроля. [COLOR_WARNING_TEXT]Это действие НЕЛЬЗЯ отменить.[ENDCOLOR]</Text>

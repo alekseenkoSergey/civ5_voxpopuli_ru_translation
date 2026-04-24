@@ -341,7 +341,7 @@ SET Text = 'Агент'
 WHERE Tag = 'TXT_KEY_SPY_RANK_0';
 
 UPDATE Language_ru_RU
-SET Text = 'Уровень безопасности'
+SET Text = 'Безопасность'
 WHERE Tag = 'TXT_KEY_EO_POTENTIAL';
 
 UPDATE Language_ru_RU
