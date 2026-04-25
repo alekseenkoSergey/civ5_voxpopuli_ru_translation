@@ -923,28 +923,28 @@
       <Text>Нажмите, чтобы отсортировать по количеству [COLOR_POSITIVE_TEXT]ходов[ENDCOLOR], необходимых для завершения этого торгового пути.</Text>
     </Row>
     <Row Tag="TXT_KEY_TROE_CHECKBOX_LAND">
-      <Text>Сухопутный</Text>
+      <Text>Суша</Text>
     </Row>
     <Row Tag="TXT_KEY_TROE_CHECKBOX_SEA">
-      <Text>Морской</Text>
+      <Text>Море</Text>
     </Row>
     <Row Tag="TXT_KEY_TROE_CHECKBOX_INTERNAL_FOOD">
-      <Text>Внутренний/еда</Text>
+      <Text>Внутренний [ICON_FOOD]</Text>
     </Row>
     <Row Tag="TXT_KEY_TROE_CHECKBOX_INTERNAL_PRODUCTION">
-      <Text>Внутренний/производство</Text>
+      <Text>Внутренний [ICON_PRODUCTION]</Text>
     </Row>
     <Row Tag="TXT_KEY_TROE_CHECKBOX_FOREIGN_MINOR">
-      <Text>Иностранный/малый</Text>
+      <Text>Города-государства</Text>
     </Row>
     <Row Tag="TXT_KEY_TROE_CHECKBOX_FOREIGN_MAJOR">
-      <Text>Иностранный/крупный</Text>
+      <Text>Великие державы</Text>
     </Row>
     <Row Tag="TXT_KEY_TROE_CHECKBOX_BLOCKED">
       <Text>Заблокирован ([COLOR_RED]![ENDCOLOR])</Text>
     </Row>
     <Row Tag="TXT_KEY_TROE_CHECKBOX_UNIT">
-      <Text>Только для выбранного юнита</Text>
+      <Text>Для выбранного юнита</Text>
     </Row>
     <Row Tag="TXT_KEY_TROE_SEND_TR">
       <Text>Нажмите, чтобы открыть этот торговый путь.</Text>
