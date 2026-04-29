@@ -536,7 +536,7 @@
 			<Text>Самуэль Барбер</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GREAT_PERSON_M__190">
-			<Text>Сергеи Прокофиев</Text>
+			<Text>Сергей Прокофьев</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GREAT_PERSON_M__200">
 			<Text>Дджанго Реинхардт</Text>
@@ -1267,7 +1267,7 @@
 			<Text>Томми Фловерс</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GREAT_PERSON_E__550">
-			<Text>Сергуеи Королев</Text>
+			<Text>Сергей Королёв</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GREAT_PERSON_E__560">
 			<Text>Соичиро Хонда</Text>
@@ -2137,7 +2137,7 @@
 			<Text>Владимир Касатонов</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GREAT_PERSON_B__630">
-			<Text>Сергеи Горшков</Text>
+			<Text>Сергей Горшков</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GREAT_PERSON_B__640">
 			<Text>Рам Дасс Катари</Text>

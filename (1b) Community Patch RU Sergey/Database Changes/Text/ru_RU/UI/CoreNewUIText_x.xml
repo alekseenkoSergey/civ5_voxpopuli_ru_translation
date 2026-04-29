@@ -291,7 +291,7 @@
 		<!-- Info tooltip -->
 		<!-- Common -->
 		<Row Tag="TXT_KEY_INVESTED">
-			<Text>[COLOR_POSITIVE_TEXT] (INVESTED) [ENDCOLOR]</Text>
+			<Text>[COLOR_POSITIVE_TEXT] (ПРОИНВЕСТИРОВАНО) [ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_COST_PREFIX">
 			<Text>Стоимость: {1_CostStr}</Text>

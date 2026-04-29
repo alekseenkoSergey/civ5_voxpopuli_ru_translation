@@ -1235,7 +1235,7 @@
       <Text>[ICON_BULLET] [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] от религиозного волнения[NEWLINE]    Снижение: {3_Num}, нужны {2_Icon} последователи</Text>
     </Row>
     <Row Tag="TXT_KEY_ISOLATION_UNHAPPINESS">
-      <Text>[ICON_BULLET] [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] от изоляции.[NEWLINE]    ([ICON_BLOCKADED] Блокада / нет [ICON_CONNECTED] соединения /[NEWLINE]    нет [ICON_CAPITAL] столичного [ICON_INTERNATIONAL_TRADE] торгового пути)</Text>
+      <Text>[ICON_BULLET] [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] от изоляции.[NEWLINE]    ([ICON_BLOCKADED] Блокада / нет [ICON_CONNECTED] соединения /[NEWLINE]    нет [ICON_CAPITAL] столичного [ICON_INTERNATIONAL_TRADE] пути)</Text>
     </Row>
     <Row Tag="TXT_KEY_PILLAGED_UNHAPPINESS">
       <Text>[ICON_BULLET] [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] от [ICON_RAZING] разграбленных клеток.</Text>
@@ -2333,19 +2333,19 @@
       <Text>Вы можете менять налоговую ставку вассала только после того, как с момента последней корректировки прошло {1_NumTurns} ходов.[NEWLINE][NEWLINE]Следующее изменение будет доступно через {2_NumTurnsLeft} {2_NumTurnsLeft: plural 1?ход; other?ходов;}.</Text>
     </Row>
     <Row Tag="TXT_KEY_VO_TAX_TURN_SET">
-      <Text>Налоги были установлены на ходу {1_Turn}.</Text>
+      <Text>Установлено на {1_Turn} ходу</Text>
     </Row>
     <Row Tag="TXT_KEY_VO_TAX_TURN_NOT_SET_EVER">
       <Text>[COLOR_NEGATIVE_TEXT]Ещё ни разу не устанавливались[ENDCOLOR]</Text>
     </Row>
     <Row Tag="TXT_KEY_VO_TAX_TURN_AVAILABLE">
-      <Text>Налоги можно изменить на ходу {1_Turn}.</Text>
+      <Text>Можно изменить на {1_Turn} ходу</Text>
     </Row>
     <Row Tag="TXT_KEY_VO_TAX_CHANGE_READY">
       <Text>[COLOR_POSITIVE_TEXT]Налоги можно изменить.[ENDCOLOR]</Text>
     </Row>
     <Row Tag="TXT_KEY_APPLY_CHANGES">
-      <Text>Применить изменения</Text>
+      <Text>Применить</Text>
     </Row>
     <Row Tag="TXT_KEY_SET_TAXES">
       <Text>Задать налоги</Text>
