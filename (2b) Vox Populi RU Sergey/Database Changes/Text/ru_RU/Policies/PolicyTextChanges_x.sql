@@ -916,7 +916,7 @@ SET Text = 'Господство в воздухе'
 WHERE Tag = 'TXT_KEY_POLICY_MILITARISM';
 
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Господство в воздухе[ENDCOLOR]: вы получаете бесплатный аэропорт в каждом городе. +25% [ICON_PRODUCTION] производства при строительстве авиации. Можно строить [COLOR_YELLOW]Zero[ENDCOLOR].'
+SET Text = '[COLOR_POSITIVE_TEXT]Господство в воздухе[ENDCOLOR]: вы получаете бесплатный аэропорт в каждом городе. +25% [ICON_PRODUCTION] производства при строительстве авиации. Можно строить [COLOR_YELLOW]Зеро[ENDCOLOR].'
 WHERE Tag = 'TXT_KEY_POLICY_MILITARISM_HELP';
 
 UPDATE Language_ru_RU
