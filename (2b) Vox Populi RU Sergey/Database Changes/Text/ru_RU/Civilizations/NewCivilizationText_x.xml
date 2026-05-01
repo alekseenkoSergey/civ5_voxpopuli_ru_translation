@@ -6,7 +6,7 @@
 			<Text>Индепенденс-холл</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_INDEPENDENCE_HALL_HELP">
-			<Text>Открывает доступ к [COLOR_POSITIVE_TEXT]Slater Mill[ENDCOLOR], [COLOR_POSITIVE_TEXT]West Point[ENDCOLOR] и [COLOR_POSITIVE_TEXT]Smithsonian Institute[ENDCOLOR] в [COLOR_CYAN]индустриальную эпоху[ENDCOLOR].[NEWLINE]Возможные тематические бонусы:[NEWLINE][ICON_BULLET] +8 [ICON_CULTURE] и [ICON_TOURISM] за два [COLOR_POSITIVE_TEXT]отечественных[ENDCOLOR] [ICON_GW_ART] великих произведения искусства.</Text>
+			<Text>Открывает доступ к [COLOR_POSITIVE_TEXT]Слейтер-Милл[ENDCOLOR], [COLOR_POSITIVE_TEXT]Вест-Пойнт[ENDCOLOR] и [COLOR_POSITIVE_TEXT]Смитсоновский институт[ENDCOLOR] в [COLOR_CYAN]индустриальную эпоху[ENDCOLOR].[NEWLINE]Возможные тематические бонусы:[NEWLINE][ICON_BULLET] +8 [ICON_CULTURE] и [ICON_TOURISM] за два [COLOR_POSITIVE_TEXT]отечественных[ENDCOLOR] [ICON_GW_ART] великих произведения искусства.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_INDEPENDENCE_HALL_TEXT">
 			<Text>Изначально построенный как здание собрания штата Пенсильвания, Индепенденс-холл стал местом, где обсуждались и были официально приняты Декларация независимости США и Конституция, что сделало его колыбелью американской нации. Сегодня Индепенденс-холл — это музей и центр Национального исторического парка Независимости в самом сердце Филадельфии.</Text>
