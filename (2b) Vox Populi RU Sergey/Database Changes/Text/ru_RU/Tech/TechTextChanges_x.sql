@@ -116,7 +116,7 @@ WHERE Tag = 'TXT_KEY_TECH_LASERS_HELP';
 
 -- Globalization
 UPDATE Language_ru_RU
-SET Text = 'Позволяет строить [COLOR_POSITIVE_TEXT]SS Cockpit[ENDCOLOR] — компонент, необходимый для [COLOR_POSITIVE_TEXT]Научной победы[ENDCOLOR]. С глобализацией каждый шпион, отправленный вами к другой цивилизации в качестве [ICON_DIPLOMAT] дипломата, увеличивает число делегатов под вашим контролем во Всемирном конгрессе, приближая вас к [COLOR_POSITIVE_TEXT]Дипломатической победе[ENDCOLOR].'
+SET Text = 'Позволяет строить [COLOR_POSITIVE_TEXT]Мостик КК[ENDCOLOR] — компонент, необходимый для [COLOR_POSITIVE_TEXT]Научной победы[ENDCOLOR]. С глобализацией каждый шпион, отправленный вами к другой цивилизации в качестве [ICON_DIPLOMAT] дипломата, увеличивает число делегатов под вашим контролем во Всемирном конгрессе, приближая вас к [COLOR_POSITIVE_TEXT]Дипломатической победе[ENDCOLOR].'
 WHERE Tag = 'TXT_KEY_TECH_GLOBALIZATION_HELP';
 
 -- Computers
@@ -126,7 +126,7 @@ WHERE Tag = 'TXT_KEY_TECH_COMPUTERS_HELP';
 
 -- Nuclear Fusion
 UPDATE Language_ru_RU
-SET Text = 'Позволяет строить [COLOR_POSITIVE_TEXT]SS Booster[ENDCOLOR] — компонент, необходимый для [COLOR_POSITIVE_TEXT]Научной победы[ENDCOLOR].'
+SET Text = 'Позволяет строить [COLOR_POSITIVE_TEXT]Ракету-носитель КК[ENDCOLOR] — компонент, необходимый для [COLOR_POSITIVE_TEXT]Научной победы[ENDCOLOR].'
 WHERE Tag = 'TXT_KEY_TECH_NUCLEAR_FUSION_HELP';
 
 -- Telecommunications
@@ -266,7 +266,7 @@ WHERE Tag = 'TXT_KEY_TECH_PENICILIN_HELP';
 
 -- Nanotechnology
 UPDATE Language_ru_RU
-SET Text = 'Все рабочие получают повышение [COLOR_POSITIVE_TEXT]Иммунитет к радиации[ENDCOLOR], полностью устраняющее урон при очистке радиоактивных осадков. Позволяет строить [COLOR_POSITIVE_TEXT]Отряд XCOM[ENDCOLOR] и [COLOR_POSITIVE_TEXT]SS Stasis Chamber[ENDCOLOR] — одну из частей космического корабля, необходимых для [COLOR_POSITIVE_TEXT]Научной победы[ENDCOLOR].'
+SET Text = 'Все рабочие получают повышение [COLOR_POSITIVE_TEXT]Иммунитет к радиации[ENDCOLOR], полностью устраняющее урон при очистке радиоактивных осадков. Позволяет строить [COLOR_POSITIVE_TEXT]Отряд XCOM[ENDCOLOR] и [COLOR_POSITIVE_TEXT]Систему анабиоза КК[ENDCOLOR] — одну из частей космического корабля, необходимых для [COLOR_POSITIVE_TEXT]Научной победы[ENDCOLOR].'
 WHERE Tag = 'TXT_KEY_TECH_NANOTECHNOLOGY_HELP';
 
 -- Future Tech

@@ -88,7 +88,7 @@
 			<Text>[ICON_RES_IRON] Железо, [ICON_RES_ALUMINUM] алюминий, [ICON_RES_MARBLE] мрамор, [ICON_RES_COPPER] медь и [ICON_RES_PORCELAIN] фарфор, обрабатываемые городом, получают +3 [ICON_RESEARCH] науки от [ICON_OFFICE] офисов и [ICON_FRANCHISE] франшиз Firaxite Materials.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CORPORATION_OFFICE_BONUS_FIRAXITE_MATERIALS">
-			<Text>+1 [ICON_RESEARCH] науки за каждую глобальную [ICON_FRANCHISE] франшизу. +10% [ICON_PRODUCTION] производства при строительстве зданий и +10 [ICON_RESEARCH] науки при завершении строительства здания, с масштабированием по эпохе. +8 [ICON_RESEARCH] науки после открытия [COLOR_CYAN]Electronics[ENDCOLOR].</Text>
+			<Text>+1 [ICON_RESEARCH] науки за каждую глобальную [ICON_FRANCHISE] франшизу. +10% [ICON_PRODUCTION] производства при строительстве зданий и +10 [ICON_RESEARCH] науки при завершении строительства здания, с масштабированием по эпохе. +8 [ICON_RESEARCH] науки после открытия [COLOR_CYAN]{TXT_KEY_TECH_ELECTRONICS_TITLE}[ENDCOLOR].</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CORPORATION_TRADE_ROUTE_BONUS_FIRAXITE_MATERIALS">
 			<Text>[ICON_INTERNATIONAL_TRADE] Торговые пути из городов с офисом Firaxite Materials в города с франшизой Firaxite Materials дают городу-отправителю +3% [ICON_RESEARCH] науки.</Text>

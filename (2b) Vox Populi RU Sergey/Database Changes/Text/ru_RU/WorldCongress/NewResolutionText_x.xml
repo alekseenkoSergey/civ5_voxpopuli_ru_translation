@@ -26,7 +26,7 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_RESOLUTION_WORLD_WAR">
-			<Text>Casus Belli</Text>
+			<Text>Казус белли</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESOLUTION_WORLD_WAR_HELP">
 			<Text>Мир признаёт необходимость оправданной войны для разрешения дипломатических споров.[NEWLINE][NEWLINE]Пока эта резолюция активна, затраты на содержание юнитов снижаются на 15% [ICON_GOLD] золота. Штрафы [ICON_VICTORY_DOMINATION] воинственности за захват городов и объявление войны уменьшаются в 0.5 раза, а показатели [ICON_VICTORY_DOMINATION] воинственности уменьшаются в 2 раза быстрее.</Text>

@@ -56,7 +56,7 @@
       <Text>[COLOR_NEGATIVE_TEXT]Миссия недоступна по следующим причинам:[ENDCOLOR]</Text>
     </Row>
     <Row Tag="TXT_KEY_EO_MISSION_COST">
-      <Text>[COLOR_NEGATIVE_TEXT]{1_Num} NP:[ENDCOLOR] {2_Text}</Text>
+      <Text>[COLOR_NEGATIVE_TEXT]{1_Num} ОС:[ENDCOLOR] {2_Text}</Text>
     </Row>
     <Row Tag="TXT_KEY_EO_MISSIONS_TOOLTIP">
       <Text>Просмотр пассивных бонусов, открытых {1_Rank} {2_Spy} при сборе разведданных в {3_City}, либо выбор траты очков сети на проведение шпионской миссии.</Text>
@@ -74,7 +74,7 @@
       <Text>Пассивные бонусы</Text>
     </Row>
     <Row Tag="TXT_KEY_EO_PASSIVE_BONUS_NP_REQUIRED">
-      <Text>{1_Num} NP: {2_Text}</Text>
+      <Text>{1_Num} ОС: {2_Text}</Text>
     </Row>
     <Row Tag="TXT_KEY_EO_PASSIVE_BONUSES_UNLOCKED">
       <Text>Ваш шпион собрал [COLOR_CYAN]{1_Num} очков сети[ENDCOLOR]. Это открыло следующие пассивные бонусы:[NEWLINE][NEWLINE]{2_PassiveBonuses}</Text>
@@ -197,7 +197,7 @@
       <Text>[NEWLINE][ICON_BULLET]Избыточное недовольство: [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
     </Row>
     <Row Tag="TXT_KEY_NETWORK_POINTS">
-      <Text>{1_NumStored} NP (+{2_NumPerTurn})</Text>
+      <Text>{1_NumStored} ОС (+{2_NumPerTurn})</Text>
     </Row>
     <Row Tag="TXT_KEY_EO_NETWORK_POINTS_BASE_TT">
       <Text>[NEWLINE][ICON_BULLET]Базовые очки сети за ход: [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
@@ -224,7 +224,7 @@
       <Text>[NEWLINE][ICON_BULLET]Модификатор особенностей игрока: [COLOR_POSITIVE_TEXT]+{1_Num}%[ENDCOLOR]</Text>
     </Row>
     <Row Tag="TXT_KEY_EO_NETWORK_POINTS_BEFORE_SECURITY_TT">
-      <Text>[NEWLINE]Всего NP за ход до модификаторов: [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
+      <Text>[NEWLINE]Всего ОС за ход до модификаторов: [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
     </Row>
     <Row Tag="TXT_KEY_EO_NETWORK_POINTS_SECURITY_MOD_TT">
       <Text>[NEWLINE][ICON_BULLET]Снижение из-за безопасности города: [COLOR_NEGATIVE_TEXT]{1_Num}%[ENDCOLOR]</Text>
