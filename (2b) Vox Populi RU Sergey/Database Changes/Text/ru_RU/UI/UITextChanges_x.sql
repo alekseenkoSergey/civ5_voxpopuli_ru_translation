@@ -148,7 +148,7 @@ SET Text = '{1_Num : number "#.##"} от [ICON_PUPPET] марионеточны�
 WHERE Tag = 'TXT_KEY_TP_UNHAPPINESS_PUPPET_CITIES';
 
 UPDATE Language_ru_RU
-SET Text = '{1_Num : number "#.##"} от [ICON_URBANIZATION] урбанизации (специалисты).'
+SET Text = '{1_Num : number "#.##"} от [ICON_URBANIZATION] урбанизации.'
 WHERE Tag = 'TXT_KEY_TP_UNHAPPINESS_SPECIALISTS';
 
 UPDATE Language_ru_RU
@@ -689,11 +689,11 @@ SET Text = '[NEWLINE][COLOR_POSITIVE_TEXT]Создание достоприме�
 WHERE Tag = 'TXT_KEY_CHOOSE_ARCH_LANDMARK_MINOR_CIV';
 
 UPDATE Language_ru_RU
-SET Text = 'Артефакт будет помещён в ближайшую ячейку великого труда искусства или артефакта. Артефакт даёт +' || (SELECT Value FROM Defines WHERE Name = 'BASE_CULTURE_PER_GREAT_WORK') || ' [ICON_CULTURE] культуры и +' || (SELECT Value FROM Defines WHERE Name = 'BASE_TOURISM_PER_GREAT_WORK') || ' [ICON_TOURISM] туризма. Археолог будет израсходован.'
+SET Text = 'Артефакт будет помещён в ближайшую ячейку великого произведения искусства или артефакта. Артефакт даёт +' || (SELECT Value FROM Defines WHERE Name = 'BASE_CULTURE_PER_GREAT_WORK') || ' [ICON_CULTURE] культуры и +' || (SELECT Value FROM Defines WHERE Name = 'BASE_TOURISM_PER_GREAT_WORK') || ' [ICON_TOURISM] туризма. Археолог будет израсходован.'
 WHERE Tag = 'TXT_KEY_CHOOSE_ARCH_ARTIFACT_RESULT';
 
 UPDATE Language_ru_RU
-SET Text = 'Древнее письмо будет помещено в ближайшую ячейку великого труда письменности. Письменность даёт +' || (SELECT Value FROM Defines WHERE Name = 'BASE_CULTURE_PER_GREAT_WORK') || ' [ICON_CULTURE] культуры и +' || (SELECT Value FROM Defines WHERE Name = 'BASE_TOURISM_PER_GREAT_WORK') || ' [ICON_TOURISM] туризма. Археолог будет израсходован.'
+SET Text = 'Древнее письмо будет помещено в ближайшую ячейку великого литературного произведения. Письменность даёт +' || (SELECT Value FROM Defines WHERE Name = 'BASE_CULTURE_PER_GREAT_WORK') || ' [ICON_CULTURE] культуры и +' || (SELECT Value FROM Defines WHERE Name = 'BASE_TOURISM_PER_GREAT_WORK') || ' [ICON_TOURISM] туризма. Археолог будет израсходован.'
 WHERE Tag = 'TXT_KEY_CHOOSE_ARCH_WRITTEN_ARTIFACT_RESULT';
 
 ------------------------------------------------
@@ -766,7 +766,7 @@ SET Text = '-{1_ResearchCostPercent}% [ICON_RESEARCH] к стоимости ис
 WHERE Tag = 'TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_DISCOVERED_TECH_MODIFIER';
 
 UPDATE Language_ru_RU
-SET Text = '+{1_CulturePerWorldWonder} [ICON_CULTURE] культуры от чудес света, +1 [ICON_RESEARCH] науки от великих трудов'
+SET Text = '+{1_CulturePerWorldWonder} [ICON_CULTURE] культуры от чудес света, +1 [ICON_RESEARCH] науки от великих произведений'
 WHERE Tag = 'TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_CULTURE_FROM_WONDERS';
 
 UPDATE Language_ru_RU

@@ -385,7 +385,7 @@
 			<Text>[COLOR_POSITIVE_TEXT]Не требует содержания[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_UNIT_NO_SUPPLY">
-			<Text>[COLOR_POSITIVE_TEXT]Не расходует [ICON_WAR] лимит снабжения юнитов[ENDCOLOR]</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Не расходует [ICON_WAR] военное снабжение[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_UNIT_UNHAPPINESS">
 			<Text>[ICON_HAPPINESS_3] [COLOR_NEGATIVE_TEXT]Недовольство: {1_Num}</Text>
@@ -755,7 +755,7 @@
 			<Text>+{1_Num} {2_ResourceIcon} {3_Resource:textkey} для каждые [ICON_CITIZEN] население в город</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_FREE_RESOURCE_FROM_FRANCHISE">
-			<Text>+1 {2_ResourceIcon} {3_Resource:textkey} для каждых {1_Num} [ICON_FRANCHISE] действующих франшиз}</Text>
+			<Text>+1 {2_ResourceIcon} {3_Resource:textkey} за каждые {1_Num} [ICON_FRANCHISE] {1: plural 1?действующую франшизу; other?действующие франшизы;}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_FOOD_MODIFIER_PER_FOLLOWER">
 			<Text>{2_Sign}{1_Num}% [ICON_FOOD] еды за каждого последователя религии большинства</Text>
@@ -767,7 +767,7 @@
 			<Text>{2_Sign}{1_Num}% [ICON_GREAT_PEOPLE] скорость появления великих людей</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_GPP_MODIFIER_FROM_CORPORATION">
-			<Text>{2_Sign}{1_Num}% [ICON_GREAT_PEOPLE] скорость появления великих людей за действующий франшиза</Text>
+			<Text>{2_Sign}{1_Num}% [ICON_GREAT_PEOPLE] скорости появления великих людей за действующую франшизу</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_GPP_MODIFIER_FROM_MARRIAGE">
 			<Text>{2_Sign}{1_Num}% к скорости появления [ICON_GREAT_PEOPLE] великих людей за каждый активный [ICON_RES_MARRIAGE] дипломатический брак</Text>
@@ -887,7 +887,7 @@
 			<Text>{2_Sign}{1_Num} [ICON_WAR] военное снабжение</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_SUPPLY_MODIFIER">
-			<Text>{2_Sign}{1_Num}% [ICON_SILVER_FIST] военное снабжение от население</Text>
+			<Text>{2_Sign}{1_Num}% [ICON_SILVER_FIST] военного снабжения от населения</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_CITY_SECURITY">
 			<Text>{2_Sign}{1_Num} [ICON_CITY_SECURITY] безопасность города</Text>
@@ -1667,7 +1667,7 @@
 			<Text>[ICON_BULLET]Каждый тематически оформленный набор [ICON_GREAT_WORK] великих произведений в городе: {1_YieldBoosts}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_BOOST_FROM_MONOPOLIES">
-			<Text>[ICON_BULLET]Каждый [ICON_MONOPOLY] глобальный монополия: {1_YieldBoosts}</Text>
+			<Text>[ICON_BULLET]Каждая [ICON_MONOPOLY] глобальная монополия: {1_YieldBoosts}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_BOOST_FROM_POPULATION">
 			<Text>[ICON_BULLET]Каждый [ICON_CITIZEN] население в город: {1_YieldBoosts}</Text>
@@ -1841,7 +1841,7 @@
 			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% от завоевания города ({2_Num} {2: plural 1?ход; other?хода;} осталось)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_YIELD_MOD_CORPORATION">
-			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% от [ICON_INTERNATIONAL_TRADE] торговые пути с [ICON_FRANCHISE] действующей франшизой</Text>
+			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% от [ICON_INTERNATIONAL_TRADE] торговых путей с [ICON_FRANCHISE] действующей франшизой</Text>
 		</Row>
 		<Row Tag="TXT_KEY_YIELD_MOD_EVENT">
 			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% от активных событий</Text>
@@ -1871,7 +1871,7 @@
 			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% от [ICON_INTERNATIONAL_TRADE] торговых путей с [ICON_CITY_STATE] городами-государствами</Text>
 		</Row>
 		<Row Tag="TXT_KEY_YIELD_MOD_MONOPOLY">
-			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% от [ICON_MONOPOLY] ресурс монополии</Text>
+			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% от [ICON_MONOPOLY] ресурсных монополий</Text>
 		</Row>
 		<Row Tag="TXT_KEY_YIELD_MOD_NAVAL_BLOCKADE">
 			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% от [ICON_BLOCKADED] морской блокады</Text>
@@ -1980,7 +1980,7 @@
 			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% от активных резолюций</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GPP_MOD_MONOPOLY">
-			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% от [ICON_MONOPOLY] ресурс монополии</Text>
+			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% от [ICON_MONOPOLY] ресурсных монополий</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GPP_MOD_PLAYER">
 			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% от бонусов империи</Text>
@@ -2044,7 +2044,7 @@
 			<Text>Нажмите здесь, чтобы губернатор заново распределил специалистов.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MONOPOLY_GP_MOD">
-			<Text>[ICON_BULLET] Бонус Монополии Ресурсов: +{1_num}%</Text>
+			<Text>[ICON_BULLET] Бонус ресурсной монополии: +{1_num}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IMPROVEMENTS_GP_MOD">
 			<Text>[ICON_BULLET] улучшение бонус: +{1_num}%</Text>
@@ -2062,7 +2062,7 @@
 			<Text>[NEWLINE][ICON_BULLET] Модификатор боевых юнитов от религии: {1_Num}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODMOD_UNIT_CORPORATION">
-			<Text>[NEWLINE][ICON_BULLET]модификатор для юнит от корпорация: {1_Num}%</Text>
+			<Text>[NEWLINE][ICON_BULLET]Модификатор для юнита от корпорации: {1_Num}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODMOD_CONQUEST_BUILDINGS_PRIOR_ERAS">
 			<Text>[NEWLINE][ICON_BULLET] Модификатор зданий прошлых эпох: {1_Num}%</Text>
@@ -3459,7 +3459,7 @@
 			<Text>Исследуйте неизведанную область мира ([COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]% завершено).</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_STATE_QUEST_BUILD_X_BUILDINGS_FORMAL">
-			<Text>Постройте [COLOR_POSITIVE_TEXT]{2_Num}[ENDCOLOR] {@1_Building} {2_Num: plural 1?здание; other?здания;} в городах (не сателлитах) вашей империи.</Text>
+			<Text>Постройте [COLOR_POSITIVE_TEXT]{2_Num}[ENDCOLOR] {@1_Building} {2_Num: plural 1?здание; other?здания;} в немарионеточных городах вашей империи.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_STATE_QUEST_SPY_ON_MAJOR_FORMAL">
 			<Text>Проведите разведывательные операции против {1_Civ} (осталось [COLOR_POSITIVE_TEXT]{2_Num}[ENDCOLOR]).</Text>

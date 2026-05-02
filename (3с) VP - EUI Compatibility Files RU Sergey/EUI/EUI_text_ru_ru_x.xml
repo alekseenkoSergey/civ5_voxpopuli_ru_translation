@@ -465,10 +465,10 @@
 		</Replace>
 		<!-- Vox Populi -->
 		<Replace Tag="TXT_KEY_EUI_BUILDING_SUPPLY_CAP_LOCAL">
-			<Text>Локальный лимит снабжения:</Text>
+			<Text>Локальный лимит военного снабжения:</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_EUI_BUILDING_SUPPLY_CAP_GLOBAL">
-			<Text>Глобальный лимит снабжения:</Text>
+			<Text>Глобальный лимит военного снабжения:</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_EUI_BUILDING_GRANTED_BY">
 			<Text>ПРЕДОСТАВЛЕНО</Text>

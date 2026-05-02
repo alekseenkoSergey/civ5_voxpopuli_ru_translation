@@ -33,7 +33,7 @@
 			<Text>+1 [ICON_PRODUCTION] производства за каждую глобальную [ICON_FRANCHISE] франшизу. +1 [ICON_PRODUCTION] производства и [ICON_CULTURE] культуры на всех морских клетках рядом с городом, а также дополнительно +1 [ICON_RESEARCH] науки и [ICON_CULTURE] культуры на морских ресурсах.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CORPORATION_TRADE_ROUTE_BONUS_CENTAURUS_EXTRACTORS">
-			<Text>[ICON_INTERNATIONAL_TRADE] Торговые пути из городов с офисом Centaurus Extractors в города с франшизой Centaurus Extractors дают городу-отправителю +3% [ICON_PRODUCTION] производства.</Text>
+			<Text>[ICON_INTERNATIONAL_TRADE] Торговые пути из городов с офисом Centaurus Extractors в города с франшизой Centaurus Extractors дают отправителю +3% [ICON_PRODUCTION] производства.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CORPORATION_CENTAURUS_EXTRACTORS_OFFICE_BENEFIT_HELP">
 			<Text>Текущий бонус офиса: {1_String}</Text>
@@ -72,7 +72,7 @@
 			<Text>+1 [ICON_CULTURE] культуры и +2% к скорости появления [ICON_GREAT_PEOPLE] великих людей за каждую глобальную [ICON_FRANCHISE] франшизу. 1 ячейка [ICON_ARTIST] художника.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CORPORATION_TRADE_ROUTE_BONUS_GIORGIO_ARMEIER">
-			<Text>[ICON_INTERNATIONAL_TRADE] Торговые пути из городов с офисом Giorgio Armeier в город с франшизой Giorgio Armeier дают городу-отправителю +3% [ICON_CULTURE] культуры.</Text>
+			<Text>[ICON_INTERNATIONAL_TRADE] Торговые пути из городов с офисом Giorgio Armeier в город с франшизой Giorgio Armeier дают отправителю +3% [ICON_CULTURE] культуры.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CORPORATION_GIORGIO_ARMEIER_OFFICE_BENEFIT_HELP">
 			<Text>Текущий бонус офиса: {1_String}</Text>
@@ -91,7 +91,7 @@
 			<Text>+1 [ICON_RESEARCH] науки за каждую глобальную [ICON_FRANCHISE] франшизу. +10% [ICON_PRODUCTION] производства при строительстве зданий и +10 [ICON_RESEARCH] науки при завершении строительства здания, с масштабированием по эпохе. +8 [ICON_RESEARCH] науки после открытия [COLOR_CYAN]{TXT_KEY_TECH_ELECTRONICS_TITLE}[ENDCOLOR].</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CORPORATION_TRADE_ROUTE_BONUS_FIRAXITE_MATERIALS">
-			<Text>[ICON_INTERNATIONAL_TRADE] Торговые пути из городов с офисом Firaxite Materials в города с франшизой Firaxite Materials дают городу-отправителю +3% [ICON_RESEARCH] науки.</Text>
+			<Text>[ICON_INTERNATIONAL_TRADE] Торговые пути из городов с офисом Firaxite Materials в города с франшизой Firaxite Materials дают отправителю +3% [ICON_RESEARCH] науки.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CORPORATION_FIRAXITE_MATERIALS_OFFICE_BENEFIT_HELP">
 			<Text>Текущий бонус офиса: {1_String}</Text>
@@ -110,7 +110,7 @@
 			<Text>+2 [ICON_FOOD] пищи за каждую глобальную [ICON_FRANCHISE] франшизу. -1 [ICON_HAPPINESS_3] недовольства от всех потребностей и -2% к [ICON_CITY_STATE] модификатору размера империи во [COLOR_POSITIVE_TEXT]всех[ENDCOLOR] городах.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CORPORATION_TRADE_ROUTE_BONUS_TWOKAY_FOODS">
-			<Text>[ICON_INTERNATIONAL_TRADE] Торговые пути из городов с офисом TwoKay Foods в города с франшизой TwoKay Foods дают городу-отправителю +3% [ICON_FOOD] пищи.</Text>
+			<Text>[ICON_INTERNATIONAL_TRADE] Торговые пути из городов с офисом TwoKay Foods в города с франшизой TwoKay Foods дают отправителю +3% [ICON_FOOD] пищи.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CORPORATION_TWOKAY_FOODS_OFFICE_BENEFIT_HELP">
 			<Text>Текущий бонус офиса: {1_String}</Text>
@@ -129,7 +129,7 @@
 			<Text>+2 [ICON_GOLDEN_AGE] очка золотого века за каждую глобальную [ICON_FRANCHISE] франшизу. +10% [ICON_GOLD] золота и [ICON_TOURISM] туризма во время [ICON_GOLDEN_AGE] золотых веков. +1 [ICON_GOLD] золота от каждого [ICON_CITY_STATE] города-государства-[COLOR_POSITIVE_TEXT]друга[ENDCOLOR] и +2 [ICON_GOLD] золота и +1 [ICON_TOURISM] туризма от каждого [COLOR_CYAN]союзника[ENDCOLOR].</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CORPORATION_TRADE_ROUTE_BONUS_CIVILIZED_JEWELERS">
-			<Text>[ICON_INTERNATIONAL_TRADE] Торговые пути из городов с офисом Civilized Jewelers в город с франшизой Civilized Jewelers дают городу-отправителю +3% [ICON_GOLD] золота.</Text>
+			<Text>[ICON_INTERNATIONAL_TRADE] Торговые пути из городов с офисом Civilized Jewelers в город с франшизой Civilized Jewelers дают отправителю +3% [ICON_GOLD] золота.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CORPORATION_CIVILIZED_JEWELERS_OFFICE_BENEFIT_HELP">
 			<Text>Текущий бонус офиса: {1_String}</Text>
@@ -148,7 +148,7 @@
 			<Text>+1 [ICON_PEACE] веры за каждую глобальную [ICON_FRANCHISE] франшизу. +2 [ICON_HAPPINESS_1] счастья. 15 [ICON_INFLUENCE] влияния со всеми [ICON_CITY_STATE] городами-государствами при строительстве.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CORPORATION_TRADE_ROUTE_BONUS_POPULI_MEDICINE">
-			<Text>[ICON_INTERNATIONAL_TRADE] Торговые пути из городов с [ICON_OFFICE] офисом Populi Medicine в города с [ICON_FRANCHISE] франшизой Populi Medicine дают городу-отправителю +3% [ICON_PEACE] веры.</Text>
+			<Text>[ICON_INTERNATIONAL_TRADE] Торговые пути из городов с [ICON_OFFICE] офисом Populi Medicine в города с [ICON_FRANCHISE] франшизой Populi Medicine дают отправителю +3% [ICON_PEACE] веры.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CORPORATION_POPULI_MEDICINE_OFFICE_BENEFIT_HELP">
 			<Text>Текущий бонус офиса: {1_String}</Text>

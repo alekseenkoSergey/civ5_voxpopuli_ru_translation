@@ -78,7 +78,7 @@ WHERE Tag = 'TXT_KEY_RESOLUTION_NATURAL_HERITAGE_SITES_HELP';
 
 -- Historical Landmarks
 UPDATE Language_ru_RU
-SET Text = 'Клеточные улучшения Великих людей дают +1 [ICON_FOOD] пищи, [ICON_PRODUCTION] производства и [ICON_GOLD] золота при работе на них, а ориентиры, построенные археологами, дают +1 [ICON_RESEARCH] науки, [ICON_CULTURE] культуры и [ICON_PEACE] веры при работе на них.[NEWLINE][NEWLINE]Доступно после того, как любая цивилизация откроет Археологию.'
+SET Text = 'Улучшения Великих людей дают +1 [ICON_FOOD] пищи, [ICON_PRODUCTION] производства и [ICON_GOLD] золота при работе на них, а достопримечательности, созданные археологами, дают +1 [ICON_RESEARCH] науки, [ICON_CULTURE] культуры и [ICON_PEACE] веры при работе на них.[NEWLINE][NEWLINE]Доступно после того, как любая цивилизация откроет Археологию.'
 WHERE Tag = 'TXT_KEY_RESOLUTION_HISTORICAL_LANDMARKS_HELP';
 
 -- World's Fair

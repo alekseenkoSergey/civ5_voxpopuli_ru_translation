@@ -88,7 +88,7 @@ SET Text = 'Богиня красоты'
 WHERE Tag = 'TXT_KEY_BELIEF_MONUMENT_GODS_SHORT';
 
 UPDATE Language_ru_RU
-SET Text = '+2 [ICON_PEACE] веры от дворца и чудес света, +1 [ICON_PEACE] веры от [ICON_GREAT_WORK] великих творений. +2 [ICON_GREAT_ARTIST] очка великого художника и [ICON_GREAT_ENGINEER] очка великого инженера в вашей [ICON_CAPITAL] столице/Святом городе.'
+SET Text = '+2 [ICON_PEACE] веры от дворца и чудес света, +1 [ICON_PEACE] веры от [ICON_GREAT_WORK] великих произведений. +2 [ICON_GREAT_ARTIST] очка великого художника и [ICON_GREAT_ENGINEER] очка великого инженера в вашей [ICON_CAPITAL] столице/Святом городе.'
 WHERE Tag = 'TXT_KEY_BELIEF_MONUMENT_GODS';
 
 -- Goddess of Festivals
@@ -277,7 +277,7 @@ SET Text = 'Творчество'
 WHERE Tag = 'TXT_KEY_BELIEF_DIVINE_INSPIRATION_SHORT';
 
 UPDATE Language_ru_RU
-SET Text = '+1 [ICON_CULTURE] культуры за каждых 3 последователей в городе. +1 [ICON_CULTURE] культуры от [ICON_GREAT_WORK] великих творений.'
+SET Text = '+1 [ICON_CULTURE] культуры за каждых 3 последователей в городе. +1 [ICON_CULTURE] культуры от [ICON_GREAT_WORK] великих произведений.'
 WHERE Tag = 'TXT_KEY_BELIEF_DIVINE_INSPIRATION';
 
 UPDATE Language_ru_RU
@@ -482,7 +482,7 @@ SET Text = 'Святая земля'
 WHERE Tag = 'TXT_KEY_BELIEF_RELIGIOUS_FERVOR_SHORT';
 
 UPDATE Language_ru_RU
-SET Text = 'Получайте 1 дополнительного [ICON_DIPLOMAT] делегата во Всемирном конгрессе за каждые 2 принадлежащих вам [ICON_RELIGION] святых места и [ICON_TOURISM] достопримечательности. +50% дохода от дружественных/союзных [ICON_CITY_STATE] городов-государств, следующих этой религии.'
+SET Text = 'Получайте 1 дополнительного [ICON_DIPLOMAT] делегата во Всемирном конгрессе за каждые 2 принадлежащих вам [ICON_RELIGION] святых мест и [ICON_TOURISM] достопримечательностей. +50% дохода от дружественных/союзных [ICON_CITY_STATE] городов-государств, следующих этой религии.'
 WHERE Tag = 'TXT_KEY_BELIEF_RELIGIOUS_FERVOR';
 
 UPDATE Language_ru_RU
@@ -490,7 +490,7 @@ SET Text = 'Вдохновлённые труды'
 WHERE Tag = 'TXT_KEY_BELIEF_UNITY_OF_PROPHETS_SHORT';
 
 UPDATE Language_ru_RU
-SET Text = 'Достопримечательности и улучшения великих людей дают +2 [ICON_PEACE] веры и [ICON_RESEARCH] науки. [ICON_GREAT_WORK] Великие творения дают +2 [ICON_CULTURE] культуры. Можно покупать археологов за [ICON_PEACE] веру.'
+SET Text = 'Достопримечательности и улучшения великих людей дают +2 [ICON_PEACE] веры и [ICON_RESEARCH] науки. [ICON_GREAT_WORK] Великие произведения дают +2 [ICON_CULTURE] культуры. Можно покупать археологов за [ICON_PEACE] веру.'
 WHERE Tag = 'TXT_KEY_BELIEF_UNITY_OF_PROPHETS';
 
 -- Sacred Sites

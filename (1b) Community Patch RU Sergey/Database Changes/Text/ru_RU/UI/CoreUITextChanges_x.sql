@@ -197,7 +197,7 @@ SET Text = 'Нажмите здесь, чтобы остановить рост 
 WHERE Tag = 'TXT_KEY_CITYVIEW_FOCUS_AVOID_GROWTH_TT';
 
 UPDATE Language_ru_RU
-SET Text = '{1_Num} [ICON_CULTURE] от Шедевров и тематических бонусов'
+SET Text = '{1_Num} [ICON_CULTURE] от шедевров и тематических бонусов'
 WHERE Tag = 'TXT_KEY_CULTURE_FROM_GREAT_WORKS';
 
 UPDATE Language_ru_RU

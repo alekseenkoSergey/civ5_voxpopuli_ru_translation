@@ -604,7 +604,7 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_WIRE_SERVICE">
-			<Text>Телеграфная служба</Text>
+			<Text>Информационное агентство</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_WIRE_SERVICE_HELP">
 			<Text>+10 [ICON_INFLUENCE] влияния при выполнении [COLOR_POSITIVE_TEXT]дипломатической миссии[ENDCOLOR].[NEWLINE]+1 [ICON_MOVES] перемещения и перемещения при погрузке.</Text>
@@ -632,7 +632,7 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_NOBILITY">
-			<Text>Благородство</Text>
+			<Text>Дворянство</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_NOBILITY_HELP">
 			<Text>+15 [ICON_INFLUENCE] влияния при выполнении [COLOR_POSITIVE_TEXT]дипломатической миссии[ENDCOLOR].[NEWLINE]Может входить на территорию соперников без открытых границ.</Text>

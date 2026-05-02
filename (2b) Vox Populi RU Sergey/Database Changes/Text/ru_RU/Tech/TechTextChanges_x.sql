@@ -131,7 +131,7 @@ WHERE Tag = 'TXT_KEY_TECH_NUCLEAR_FUSION_HELP';
 
 -- Telecommunications
 UPDATE Language_ru_RU
-SET Text = 'Позволяет строить [COLOR_POSITIVE_TEXT]Интерпретационный центр[ENDCOLOR], усиливающий все ориентиры в вашей империи.'
+SET Text = 'Позволяет строить [COLOR_POSITIVE_TEXT]Интерпретационный центр[ENDCOLOR], усиливающий все достопримечательности в вашей империи.'
 WHERE Tag = 'TXT_KEY_TECH_TELECOM_HELP';
 
 -- Electronics

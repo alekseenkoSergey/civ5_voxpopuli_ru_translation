@@ -26,7 +26,7 @@
       <Text>[NEWLINE] [ICON_BULLET] Нет технологий для кражи.</Text>
     </Row>
     <Row Tag="TXT_KEY_EVENT_NO_GW_FORGE">
-      <Text>[NEWLINE] [ICON_BULLET] Нет великих трудов в городе для кражи.</Text>
+      <Text>[NEWLINE] [ICON_BULLET] Нет великих произведений в городе для кражи.</Text>
     </Row>
     <Row Tag="TXT_KEY_EVENT_SPY_RANK">
       <Text>[NEWLINE] [ICON_BULLET] Ранг шпиона недостаточно высок для этого выбора.</Text>
@@ -416,13 +416,13 @@
       <Text>Оптимизировать</Text>
     </Row>
     <Row Tag="TXT_KEY_OPTIMIZE_TT">
-      <Text>Перераспределить ваши великие труды в потенциальные тематические наборы. Не меняет великие труды с другими цивилизациями и убирает из торговли любые великие труды, уже выставленные на обмен.</Text>
+      <Text>Перераспределить ваши великие произведения в потенциальные тематические наборы. Не меняет великие произведения с другими цивилизациями и убирает из торговли любые великие произведения, уже выставленные на обмен.</Text>
     </Row>
     <Row Tag="TXT_KEY_OPTIMIZE_SWAP">
       <Text>..с обменом</Text>
     </Row>
     <Row Tag="TXT_KEY_OPTIMIZE_SWAP_TT">
-      <Text>Перераспределить великие труды в потенциальные тематические наборы. Меняет великие труды с другими цивилизациями и при необходимости может выставить излишки великих трудов на обмен.</Text>
+      <Text>Перераспределить великие произведения в потенциальные тематические наборы. Меняет великие произведения с другими цивилизациями и при необходимости может выставить излишки великих произведений на обмен.</Text>
     </Row>
     <Row Tag="TXT_KEY_CO_PUBLIC_OPINION_UNHAPPINESS_FLAT">
       <Text>[COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
@@ -635,7 +635,7 @@
       <Text>{1_Num} от [ICON_CULTURE] скуки.</Text>
     </Row>
     <Row Tag="TXT_KEY_TP_UNHAPPINESS_DISTRESS">
-      <Text>{1_Num} от [ICON_FOOD] и [ICON_PRODUCTION] бедствия.</Text>
+      <Text>{1_Num} от [ICON_FOOD][ICON_PRODUCTION] тягот.</Text>
     </Row>
     <Row Tag="TXT_KEY_TP_UNHAPPINESS_POVERTY">
       <Text>{1_Num} от [ICON_GOLD] бедности.</Text>
@@ -713,7 +713,7 @@
       <Text>От N городов</Text>
     </Row>
     <Row Tag="TXT_KEY_UNIT_SUPPLY_REMAINING_TOOLTIP_NOT_WEARY">
-      <Text>Количество военных юнитов: {12_Num} ({2_Num} использовано военного снабжения)[NEWLINE]Общее военное снабжение: {1_Num}[NEWLINE][COLOR_NEGATIVE_TEXT]Снижение лимита снабжения из-за усталости от войны: {6_Num}%[ENDCOLOR][NEWLINE][NEWLINE]Источники военного снабжения:[NEWLINE]  [ICON_BULLET]+{4_Num} от [ICON_CITY_STATE] городов ([ICON_WAR] {13_Num} - {14_Num} из-за [ICON_RESEARCH] содержания технологий)[NEWLINE]  [ICON_BULLET]+{3_Num} от [ICON_CITIZEN] населения ([ICON_SILVER_FIST] {15_Num} - {16_Num} из-за [ICON_RESEARCH] содержания технологий)[NEWLINE]  [ICON_BULLET]+{5_Num} от [ICON_CHECKBOX] уровня сложности ([ICON_CAPITAL] {17_Num} - {18_Num} из-за [ICON_RESEARCH] уровня эпохи)[NEWLINE]  [ICON_BULLET]+{11_Num} от [ICON_GREAT_GENERAL]/[ICON_GREAT_ADMIRAL] великих людей[NEWLINE][NEWLINE][NEWLINE]Снижения военного снабжения:[NEWLINE]  [ICON_BULLET] -{8_Num} от [ICON_RESEARCH] общего уровня технологий[NEWLINE]  [ICON_BULLET] -{9_Num} от [ICON_CITY_STATE] числа городов[NEWLINE]  [ICON_BULLET] -{7_Num} от [ICON_WAR] усталости от войны[NEWLINE][NEWLINE]Каждый ваш ([ICON_PUPPET] немарионеточный) город: +5% к штрафу за [ICON_CITY_STATE] число городов.[NEWLINE]Стоимость военных юнитов в [ICON_GOLD]/[ICON_PEACE] увеличена на {10_Num}% из-за [ICON_WAR] усталости от войны.</Text>
+      <Text>Количество военных юнитов: {12_Num} ({2_Num} использовано военного снабжения)[NEWLINE]Общее военное снабжение: {1_Num}[NEWLINE][COLOR_NEGATIVE_TEXT]Снижение лимита военного снабжения из-за усталости от войны: {6_Num}%[ENDCOLOR][NEWLINE][NEWLINE]Источники военного снабжения:[NEWLINE]  [ICON_BULLET]+{4_Num} от [ICON_CITY_STATE] городов ([ICON_WAR] {13_Num} - {14_Num} из-за [ICON_RESEARCH] содержания технологий)[NEWLINE]  [ICON_BULLET]+{3_Num} от [ICON_CITIZEN] населения ([ICON_SILVER_FIST] {15_Num} - {16_Num} из-за [ICON_RESEARCH] содержания технологий)[NEWLINE]  [ICON_BULLET]+{5_Num} от [ICON_CHECKBOX] уровня сложности ([ICON_CAPITAL] {17_Num} - {18_Num} из-за [ICON_RESEARCH] уровня эпохи)[NEWLINE]  [ICON_BULLET]+{11_Num} от [ICON_GREAT_GENERAL]/[ICON_GREAT_ADMIRAL] великих людей[NEWLINE][NEWLINE][NEWLINE]Снижения военного снабжения:[NEWLINE]  [ICON_BULLET] -{8_Num} от [ICON_RESEARCH] общего уровня технологий[NEWLINE]  [ICON_BULLET] -{9_Num} от [ICON_CITY_STATE] числа городов[NEWLINE]  [ICON_BULLET] -{7_Num} от [ICON_WAR] усталости от войны[NEWLINE][NEWLINE]Каждый ваш ([ICON_PUPPET] немарионеточный) город: +5% к штрафу за [ICON_CITY_STATE] число городов.[NEWLINE]Стоимость военных юнитов в [ICON_GOLD]/[ICON_PEACE] увеличена на {10_Num}% из-за [ICON_WAR] усталости от войны.</Text>
     </Row>
     <Row Tag="TXT_KEY_UNIT_SUPPLY_REMAINING_TOOLTIP">
       <Text>{TXT_KEY_UNIT_SUPPLY_REMAINING_TOOLTIP_NOT_WEARY}[NEWLINE]Наибольшая усталость от войны: {19_CivName} {20_Num}%</Text>
@@ -854,13 +854,13 @@
       <Text>Бонус золота от торговли внутри вашей империи: {2_Num}</Text>
     </Row>
     <Row Tag="TXT_KEY_HAS_FRANCHISE_TT">
-      <Text>[COLOR_POSITIVE_TEXT]Корпоративный филиал присутствует[ENDCOLOR][NEWLINE][NEWLINE]</Text>
+      <Text>[COLOR_POSITIVE_TEXT]Корпоративная франшиза присутствует[ENDCOLOR][NEWLINE][NEWLINE]</Text>
     </Row>
     <Row Tag="TXT_KEY_CAN_FRANCHISE_TT">
-      <Text>[COLOR_POSITIVE_TEXT]Филиал доступен[ENDCOLOR][NEWLINE][NEWLINE]</Text>
+      <Text>[COLOR_POSITIVE_TEXT]Франшиза доступна[ENDCOLOR][NEWLINE][NEWLINE]</Text>
     </Row>
     <Row Tag="TXT_KEY_NO_FRANCHISE_HERE_TT">
-      <Text>Невозможно создать филиал здесь по одной из следующих причин:[NEWLINE]- Достигнут максимум филиалов[NEWLINE]- Вы или другой игрок находитесь под санкциями Всемирного конгресса[NEWLINE]- Вы или другой игрок приняли догматы, запрещающие создание филиалов в иностранных городах</Text>
+      <Text>Невозможно создать франшизу здесь по одной из следующих причин:[NEWLINE]- Достигнут максимум франшиз[NEWLINE]- Вы или другой игрок находитесь под санкциями Всемирного конгресса[NEWLINE]- Вы или другой игрок приняли догматы, запрещающие создание франшиз в иностранных городах</Text>
     </Row>
     <Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_BOREDOM">
       <Text>[ICON_CULTURE] Скука: {1_Num}</Text>
@@ -962,10 +962,10 @@
       <Text>Доступен квест на торговый путь!</Text>
     </Row>
     <Row Tag="TXT_KEY_TROE_FRANCHISE_PRESENT">
-      <Text>Корпоративный филиал присутствует.</Text>
+      <Text>Корпоративная франшиза присутствует.</Text>
     </Row>
     <Row Tag="TXT_KEY_TROE_FRANCHISE_AVAILABLE">
-      <Text>Можно основать корпоративный филиал.</Text>
+      <Text>Можно основать корпоративную франшизу.</Text>
     </Row>
     <Row Tag="TXT_KEY_BUILD_TOURISM_STRING">
       <Text>{1_Num}[ENDCOLOR] [ICON_TOURISM] туризма</Text>
@@ -995,7 +995,7 @@
       <Text>Количество раз, которое вы можете использовать способность ремонта флота. Когда заряды закончатся, юнит будет израсходован.</Text>
     </Row>
     <Row Tag="TXT_KEY_UPANEL_TOURISM_TURNS_TT">
-      <Text>Показывает длительность концертного тура. Длительность зависит от числа принадлежащих цивилизации великих трудов музыки.</Text>
+      <Text>Показывает длительность концертного тура. Длительность зависит от числа принадлежащих цивилизации великих музыкальных произведений.</Text>
     </Row>
     <Row Tag="TXT_KEY_VP_RESTING_INFLUENCE">
       <Text>Базовое [ICON_INFLUENCE] влияние</Text>
@@ -1052,7 +1052,7 @@
       <Text>[NEWLINE][ICON_BULLET]{1_Num}% от местного [ICON_HAPPINESS_1] счастья</Text>
     </Row>
     <Row Tag="TXT_KEY_GROWTH_MOD_OVER_SUPPLY">
-      <Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% от [COLOR_NEGATIVE_TEXT]превышения лимита снабжения[ENDCOLOR]</Text>
+      <Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% от [COLOR_NEGATIVE_TEXT]превышения лимита военного снабжения[ENDCOLOR]</Text>
     </Row>
     <Row Tag="TXT_KEY_PRODMOD_BALANCE_HAPPINESS_MOD">
       <Text>[NEWLINE][ICON_BULLET]Модификатор для военных юнитов и поселенцев от местного недовольства: {1_Num}%</Text>
@@ -1085,13 +1085,13 @@
       <Text>[ICON_CAPITAL] Штаб-квартира [COLOR_POSITIVE_TEXT]{1_Name}[ENDCOLOR]</Text>
     </Row>
     <Row Tag="TXT_KEY_CORPORATION_OFFICEHQ_TT2">
-      <Text>Захват [COLOR_POSITIVE_TEXT]{1_Name}[ENDCOLOR] всегда приводит к уничтожению штаб-квартиры, закрывая все активные офисы и филиалы, но позволяя другим снова отстроить её штаб-квартиру.</Text>
+      <Text>Захват [COLOR_POSITIVE_TEXT]{1_Name}[ENDCOLOR] всегда приводит к уничтожению штаб-квартиры, закрывая все активные офисы и франшизы, но позволяя другим снова отстроить её штаб-квартиру.</Text>
     </Row>
     <Row Tag="TXT_KEY_CORPORATION_OFFICE_TT">
       <Text>Офис [COLOR_POSITIVE_TEXT]{1_Name}[ENDCOLOR]</Text>
     </Row>
     <Row Tag="TXT_KEY_CORPORATION_OFFICE_TT2">
-      <Text>Завершённый [ICON_INTERNATIONAL_TRADE] торговый путь из [COLOR_POSITIVE_TEXT]{1_Name}[ENDCOLOR] или в него попытается основать [ICON_FRANCHISE] [COLOR_POSITIVE_TEXT]филиал[ENDCOLOR] в иностранных городах.</Text>
+      <Text>Завершённый [ICON_INTERNATIONAL_TRADE] торговый путь из [COLOR_POSITIVE_TEXT]{1_Name}[ENDCOLOR] или в него попытается основать [ICON_FRANCHISE] [COLOR_POSITIVE_TEXT]франшизу[ENDCOLOR] в иностранных городах.</Text>
     </Row>
     <Row Tag="TXT_KEY_CITY_STATE_CULTURED_TT_ANNEXED">
       <Text>Завоёванный [COLOR_POSITIVE_TEXT]культурный[ENDCOLOR] город-государство будет дарить вам [ICON_CULTURE] культуру, позволяя быстрее получать социальные политики.</Text>
@@ -1127,7 +1127,7 @@
       <Text>[NEWLINE][NEWLINE]При [ICON_CITIZEN] росте [ICON_HAPPINESS_3] недовольство от потребностей изменится так:</Text>
     </Row>
     <Row Tag="TXT_KEY_POTENTIAL_UNHAPPINESS_DEFENSE">
-      <Text>[NEWLINE]   [ICON_BULLET] [ICON_FOOD] и [ICON_PRODUCTION] бедствие: {1: number "'[COLOR_NEGATIVE_TEXT]'##;'[COLOR_POSITIVE_TEXT]'##"}[ENDCOLOR]</Text>
+      <Text>[NEWLINE]   [ICON_BULLET] [ICON_FOOD][ICON_PRODUCTION] тяготы: {1: number "'[COLOR_NEGATIVE_TEXT]'##;'[COLOR_POSITIVE_TEXT]'##"}[ENDCOLOR]</Text>
     </Row>
     <Row Tag="TXT_KEY_POTENTIAL_UNHAPPINESS_GOLD">
       <Text>[NEWLINE]   [ICON_BULLET] [ICON_GOLD] бедность: {1: number "'[COLOR_NEGATIVE_TEXT]'##;'[COLOR_POSITIVE_TEXT]'##"}[ENDCOLOR]</Text>
@@ -1220,7 +1220,7 @@
       <Text>[ICON_BULLET] [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] от количества городов.</Text>
     </Row>
     <Row Tag="TXT_KEY_DISTRESS_UNHAPPINESS">
-      <Text>[ICON_BULLET] [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] от [ICON_FOOD] и [ICON_PRODUCTION] бедствия[NEWLINE]    Фактически: {3_Num} [ICON_HAPPINESS_3] (сниж. на {4_Num})[NEWLINE]    Дефицит: [COLOR_CYAN]{2_Num:number "#.##"}[ENDCOLOR] [ICON_FOOD]/[ICON_PRODUCTION][NEWLINE]    Увеличьте [ICON_FOOD]/[ICON_PRODUCTION] на {5_Num:number "#.##"} для -1 [ICON_HAPPINESS_3]</Text>
+      <Text>[ICON_BULLET] [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] от [ICON_FOOD][ICON_PRODUCTION] тягот[NEWLINE]    Фактически: {3_Num} [ICON_HAPPINESS_3] (сниж. на {4_Num})[NEWLINE]    Дефицит: [COLOR_CYAN]{2_Num:number "#.##"}[ENDCOLOR] [ICON_FOOD]/[ICON_PRODUCTION][NEWLINE]    Увеличьте [ICON_FOOD]/[ICON_PRODUCTION] на {5_Num:number "#.##"} для -1 [ICON_HAPPINESS_3]</Text>
     </Row>
     <Row Tag="TXT_KEY_POVERTY_UNHAPPINESS">
       <Text>[ICON_BULLET] [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] от [ICON_GOLD] бедности[NEWLINE]    Фактически: {3_Num} [ICON_HAPPINESS_3] (сниж. на {4_Num})[NEWLINE]    Дефицит: [COLOR_CYAN]{2_Num:number "#.##"} [ICON_GOLD][ENDCOLOR][NEWLINE]    Увеличьте [ICON_GOLD] на {5_Num:number "#.##"} для -1 [ICON_HAPPINESS_3]</Text>
@@ -1277,7 +1277,7 @@
       <Text>[COLOR_NEGATIVE_TEXT]({1_Num})[ENDCOLOR] [ICON_CITIZEN_RED]: "Мы [ICON_RESEARCH] безграмотны!"</Text>
     </Row>
     <Row Tag="TXT_KEY_EO_CITY_UNDEFENDED">
-      <Text>[COLOR_NEGATIVE_TEXT]({1_Num})[ENDCOLOR] [ICON_CITIZEN_RED]: "Наш город в [ICON_FOOD] и [ICON_PRODUCTION] нужде!"</Text>
+      <Text>[COLOR_NEGATIVE_TEXT]({1_Num})[ENDCOLOR] [ICON_CITIZEN_RED]: "Страдаем от [ICON_FOOD][ICON_PRODUCTION] тягот!"</Text>
     </Row>
     <Row Tag="TXT_KEY_EO_CITY_POOR">
       <Text>[COLOR_NEGATIVE_TEXT]({1_Num})[ENDCOLOR] [ICON_CITIZEN_RED]: "Город [ICON_GOLD] обнищал!"</Text>
@@ -1331,7 +1331,7 @@
       <Text>Местное [ICON_HAPPINESS_1] счастье: [COLOR_POSITIVE_TEXT]{1_NUM}[ENDCOLOR]</Text>
     </Row>
     <Row Tag="TXT_KEY_SPECIALIST_UNHAPPINESS">
-      <Text>[ICON_BULLET] [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] от [ICON_URBANIZATION] урбанизации (специалисты)</Text>
+      <Text>[ICON_BULLET] [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] от [ICON_URBANIZATION] урбанизации</Text>
     </Row>
     <Row Tag="TXT_KEY_EMPIRE_WIDE_UNHAPPINESS">
       <Text>[ICON_BULLET] [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] от [ICON_WAR] войны / общественного мнения</Text>
@@ -1466,7 +1466,7 @@
       <Text>Офис:</Text>
     </Row>
     <Row Tag="TXT_KEY_PEDIA_CORP_FRANCHISE_LABEL">
-      <Text>Филиал:</Text>
+      <Text>Франшиза:</Text>
     </Row>
     <Row Tag="TXT_KEY_PEDIA_FREE_TR_LABEL">
       <Text>Торговые пути:</Text>
@@ -1505,7 +1505,7 @@
       <Text>[NEWLINE]«Если вы не управляете своим бизнесом, бизнес вытеснит вас из игры».[NEWLINE] — Б. К. Форбс[NEWLINE]</Text>
     </Row>
     <Row Tag="TXT_KEY_PEDIA_CORPORATIONS_HOMEPAGE_TEXT1">
-      <Text>Торговля и коммерция были важной частью цивилизации с древнейших времён. Корпорации — это современные структуры, позволяющие компании или группе действовать как единому целому. В современном обществе корпорации стали крупнейшими проводниками торговли и влияния. В игре корпорации позволяют укрепить богатство вашей цивилизации и получить мощные торговые преимущества.[NEWLINE][NEWLINE]Чтобы основать корпорацию, вы должны получить глобальную монополию на любой из требуемых ресурсов и построить её штаб-квартиру. После основания корпорации вы сможете строить офисы в своих городах и с их помощью создавать филиалы в иностранных городах через [ICON_INTERNATIONAL_TRADE] торговые пути.</Text>
+      <Text>Торговля и коммерция были важной частью цивилизации с древнейших времён. Корпорации — это современные структуры, позволяющие компании или группе действовать как единому целому. В современном обществе корпорации стали крупнейшими проводниками торговли и влияния. В игре корпорации позволяют укрепить богатство вашей цивилизации и получить мощные торговые преимущества.[NEWLINE][NEWLINE]Чтобы основать корпорацию, вы должны получить глобальную монополию на любой из требуемых ресурсов и построить её штаб-квартиру. После основания корпорации вы сможете строить офисы в своих городах и с их помощью создавать франшизы в иностранных городах через [ICON_INTERNATIONAL_TRADE] торговые пути.</Text>
     </Row>
     <Row Tag="TXT_KEY_PRODUCTION_BUILDING_PROCESS_EFFICIENCY_MODIFIER_NEED">
       <Text>{1: number "'+'##;'-'##"}% к коэффициенту конверсии и {1: number "'-'##;'+'##"}% к медианному модификатору {2_Yields} от процесса [COLOR_PLAYER_CYAN]{2_Process:textkey}[ENDCOLOR]</Text>
@@ -1538,7 +1538,7 @@
       <Text>{2_Sign}{1_Num}% к модификатору [ICON_CITY_STATE] размера империи</Text>
     </Row>
     <Row Tag="TXT_KEY_PRODUCTION_BUILDING_DISTRESS_REDUCTION">
-      <Text>{2_Sign}{1_Num} [ICON_HAPPINESS_3] недовольства от [ICON_FOOD] и [ICON_PRODUCTION] бедствия</Text>
+      <Text>{2_Sign}{1_Num} [ICON_HAPPINESS_3] недовольства от [ICON_FOOD][ICON_PRODUCTION] тягот</Text>
     </Row>
     <Row Tag="TXT_KEY_PRODUCTION_BUILDING_POVERTY_REDUCTION">
       <Text>{2_Sign}{1_Num} [ICON_HAPPINESS_3] недовольства от [ICON_GOLD] бедности</Text>
@@ -1898,7 +1898,7 @@
       <Text>Здесь появится информация о бонусах и требованиях вашей корпорации (после её основания)</Text>
     </Row>
     <Row Tag="TXT_KEY_NUM_FRANCHISES_TT">
-      <Text>Общее число иностранных городов с филиалами (то есть городов, куда распространилась ваша корпорация).</Text>
+      <Text>Общее число иностранных городов с франшизами (то есть городов, куда распространилась ваша корпорация).</Text>
     </Row>
     <Row Tag="TXT_KEY_NUM_OFFICES_TT">
       <Text>Общее число принадлежащих вам городов с офисами.</Text>
@@ -1910,10 +1910,10 @@
       <Text>[ICON_MINUS] офисы</Text>
     </Row>
     <Row Tag="TXT_KEY_EO_FRANCHISE_DETAILS">
-      <Text>[ICON_PLUS] филиалы</Text>
+      <Text>[ICON_PLUS] франшизы</Text>
     </Row>
     <Row Tag="TXT_KEY_EO_FRANCHISE_DETAILS_COLLAPSE">
-      <Text>[ICON_MINUS] филиалы</Text>
+      <Text>[ICON_MINUS] франшизы</Text>
     </Row>
     <Row Tag="TXT_KEY_EO_FOREIGN_CORPS_DETAILS">
       <Text>[ICON_PLUS] Иностранные корпорации</Text>
@@ -1931,7 +1931,7 @@
       <Text>Всего офисы</Text>
     </Row>
     <Row Tag="TXT_KEY_EO_FRANCHISES">
-      <Text>Всего филиалы</Text>
+      <Text>Всего франшиз</Text>
     </Row>
     <Row Tag="TXT_KEY_EO_EX_OFFICE_STACK">
       <Text>Список офисов в принадлежащих вам городах.</Text>
@@ -1940,7 +1940,7 @@
       <Text>Список городов, куда распространилась ваша корпорация.</Text>
     </Row>
     <Row Tag="TXT_KEY_EO_EX_FOREIGN_CORPS_STACK">
-      <Text>Список иностранных корпораций и общего числа их филиалов по всему миру.</Text>
+      <Text>Список иностранных корпораций и общего числа их франшиз по всему миру.</Text>
     </Row>
     <Row Tag="TXT_KEY_XP">
       <Text>ОП/ур.</Text>
@@ -1967,7 +1967,7 @@
       <Text>офис</Text>
     </Row>
     <Row Tag="TXT_KEY_CPO_FRANCHISE">
-      <Text>филиал</Text>
+      <Text>франшиза</Text>
     </Row>
     <Row Tag="TXT_KEY_CPO_RIGHT_CLICK_MORE_INFO">
       <Text>(детали - ПКМ)</Text>
@@ -1991,37 +1991,37 @@
       <Text>Ваши офисы</Text>
     </Row>
     <Row Tag="TXT_KEY_CPO_YOUR_FRANCHISES">
-      <Text>Ваши филиалы</Text>
+      <Text>Ваши франшизы</Text>
     </Row>
     <Row Tag="TXT_KEY_CPO_OFFICE_TRADE_ROUTES_SORT_TT">
-      <Text>Число иностранных торговых путей из этого города. После завершения торгового пути в том городе появится филиал {1_CorpName}, если его там ещё нет.</Text>
+      <Text>Число иностранных торговых путей из этого города. После завершения торгового пути в том городе появится франшиза {1_CorpName}, если её там ещё нет.</Text>
     </Row>
     <Row Tag="TXT_KEY_CPO_OFFICE_TRADE_ROUTES_TT">
       <Text>Из вашего города идут торговые пути в следующие иностранные города:</Text>
     </Row>
     <Row Tag="TXT_KEY_CPO_OFFICE_TRADE_ROUTES_INSTANCE_TT">
-      <Text>[ICON_BULLET] {1_FromCity} [ICON_ARROW_RIGHT] {2_ToCity} ({3_филиал})</Text>
+      <Text>[ICON_BULLET] {1_FromCity} [ICON_ARROW_RIGHT] {2_ToCity} ({3_Franchise})</Text>
     </Row>
     <Row Tag="TXT_KEY_CPO_NO_FRANCHISE">
-      <Text>Нет филиала</Text>
+      <Text>Нет франшизы</Text>
     </Row>
     <Row Tag="TXT_KEY_CPO_FRANCHISED">
-      <Text>Есть филиал</Text>
+      <Text>Есть франшиза</Text>
     </Row>
     <Row Tag="TXT_KEY_CPO_NUM_OFFICES">
       <Text>Открыто офисов: {1_Num} из {2_Num}</Text>
     </Row>
     <Row Tag="TXT_KEY_CPO_NUM_FRANCHISES">
-      <Text>Основано филиалов: {1_Num} из {2_Max}</Text>
+      <Text>Основано франшиз: {1_Num} из {2_Max}</Text>
     </Row>
     <Row Tag="TXT_KEY_CPO_BUILD_FRANCHISES_HELP">
-      <Text>Распространяйте свою корпорацию, отправляя [ICON_INTERNATIONAL_TRADE] торговые пути из городов с офисами в иностранные города. Каждый ход есть шанс, что в их империи появится филиал, а по завершении [ICON_INTERNATIONAL_TRADE] торгового пути вы гарантированно создадите один новый филиал (если в этом городе его ещё нет).</Text>
+      <Text>Распространяйте свою корпорацию, отправляя [ICON_INTERNATIONAL_TRADE] торговые пути из городов с офисами в иностранные города. Каждый ход есть шанс, что в их империи появится франшиза, а по завершении [ICON_INTERNATIONAL_TRADE] торгового пути вы гарантированно создадите одну новую франшизу (если в этом городе её ещё нет).</Text>
     </Row>
     <Row Tag="TXT_KEY_CPO_CORPORATIONS_NOT_READY">
       <Text>Вы не можете создать корпорацию, пока не изучите технологию «Корпорации».</Text>
     </Row>
     <Row Tag="TXT_KEY_CPO_WC_NO_FRANCHISES">
-      <Text>В мире ещё не создано ни одного филиала.</Text>
+      <Text>В мире ещё не создано ни одной франшизы.</Text>
     </Row>
     <Row Tag="TXT_KEY_CPO_WC_NO_CORPORATIONS">
       <Text>В мире ещё не основано ни одной корпорации.</Text>
@@ -2042,13 +2042,13 @@
       <Text>цивилизация</Text>
     </Row>
     <Row Tag="TXT_KEY_CPO_WF_CIVILIZATION_TO_SORT_TT">
-      <Text>Какая цивилизация владеет городом с филиалом.[NEWLINE][NEWLINE]Нажмите, чтобы отсортировать города по владельцу.</Text>
+      <Text>Какая цивилизация владеет городом с франшизой.[NEWLINE][NEWLINE]Нажмите, чтобы отсортировать города по владельцу.</Text>
     </Row>
     <Row Tag="TXT_KEY_CPO_WF_CITY_NAME">
-      <Text>Город с филиалом</Text>
+      <Text>Город с франшизой</Text>
     </Row>
     <Row Tag="TXT_KEY_CPO_WF_CITY_NAME_SORT_TT">
-      <Text>Название города, в котором расположен филиал.[NEWLINE][NEWLINE]Нажмите, чтобы отсортировать города с филиалами по названию.</Text>
+      <Text>Название города, в котором расположена франшиза.[NEWLINE][NEWLINE]Нажмите, чтобы отсортировать города с франшизами по названию.</Text>
     </Row>
     <Row Tag="TXT_KEY_CPO_WC_CORPNAME">
       <Text>Корпорация</Text>
@@ -2081,16 +2081,16 @@
       <Text>Число офисов, открытых этой корпорацией.[NEWLINE][NEWLINE]Нажмите, чтобы отсортировать корпорации по числу открытых офисов.</Text>
     </Row>
     <Row Tag="TXT_KEY_CPO_WC_NUM_FRANCHISES">
-      <Text># филиалы</Text>
+      <Text># франшиз</Text>
     </Row>
     <Row Tag="TXT_KEY_CPO_WC_NUM_FRANCHISES_SORT_TT">
-      <Text>Число филиалов, открытых этой корпорацией.[NEWLINE][NEWLINE]Нажмите, чтобы отсортировать корпорации по числу открытых филиалов.</Text>
+      <Text>Число франшиз, открытых этой корпорацией.[NEWLINE][NEWLINE]Нажмите, чтобы отсортировать корпорации по числу открытых франшиз.</Text>
     </Row>
     <Row Tag="TXT_KEY_CPO_WC_PULLDOWN_CORPORATIONS">
       <Text>корпорации</Text>
     </Row>
     <Row Tag="TXT_KEY_CPO_WC_PULLDOWN_FRANCHISES">
-      <Text>филиалы</Text>
+      <Text>франшизы</Text>
     </Row>
     <Row Tag="TXT_KEY_CPO_MP_RESOURCE">
       <Text>Ресурс</Text>
@@ -2123,7 +2123,7 @@
       <Text>Нет</Text>
     </Row>
     <Row Tag="TXT_KEY_CPO_MONOPOLY_OWNER_INFO">
-      <Text>{1_цивилизация} ({2_Percent}%)</Text>
+      <Text>{1_Civilization} ({2_Percent}%)</Text>
     </Row>
     <Row Tag="TXT_KEY_CPO_MP_DROPDOWN_LABEL_SELECT_TYPE">
       <Text>Тип монополии</Text>
@@ -2147,7 +2147,7 @@
       <Text>Обзор</Text>
     </Row>
     <Row Tag="TXT_KEY_CPO_YC_PULLDOWN_TYPE_OFFICES">
-      <Text>Офисы и филиалы</Text>
+      <Text>Офисы и франшизы</Text>
     </Row>
     <Row Tag="TXT_KEY_CPO_CORPORATION_BONUSES">
       <Text>Бонусы:</Text>
@@ -2165,16 +2165,16 @@
       <Text>+{1_Num}% к [ICON_GREAT_PEOPLE] скорости появления великих людей</Text>
     </Row>
     <Row Tag="TXT_KEY_CORPORATION_RESOURCE_BENEFIT_DETAILS">
-      <Text>+{3_Num} {2_Icon} {1_Имя}</Text>
+      <Text>+{3_Num} {2_Icon} {1_Name}</Text>
     </Row>
     <Row Tag="TXT_KEY_CORPORATION_YIELD_BENEFIT_DETAILS">
-      <Text>+{3_Num} {2_Icon} {1_Имя}</Text>
+      <Text>+{3_Num} {2_Icon} {1_Name}</Text>
     </Row>
     <Row Tag="TXT_KEY_CORP_MAX_FRANCHISE">
-      <Text>Основано филиалов: [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR] из [COLOR_POSITIVE_TEXT]{2_Num}[ENDCOLOR]</Text>
+      <Text>Основано франшиз: [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR] из [COLOR_POSITIVE_TEXT]{2_Num}[ENDCOLOR]</Text>
     </Row>
     <Row Tag="TXT_KEY_CORP_MAX_FRANCHISE_TT">
-      <Text>[ICON_BULLET] {1_Num} от штаб-квартиры корпорации[NEWLINE][ICON_BULLET] {2_Num} от построенных офисов[NEWLINE][ICON_BULLET] {3_Num} от максимального числа ваших [ICON_INTERNATIONAL_TRADE] торговых путей[NEWLINE][ICON_BULLET] {4_Num} от политик и догматов[NEWLINE][NEWLINE]Учтите, что некоторые политики и догматы могут позволять вашему текущему числу филиалов превышать максимум филиалов.</Text>
+      <Text>[ICON_BULLET] {1_Num} от штаб-квартиры корпорации[NEWLINE][ICON_BULLET] {2_Num} от построенных офисов[NEWLINE][ICON_BULLET] {3_Num} от максимального числа ваших [ICON_INTERNATIONAL_TRADE] торговых путей[NEWLINE][ICON_BULLET] {4_Num} от политик и догматов[NEWLINE][NEWLINE]Учтите, что некоторые политики и догматы могут позволять вашему текущему числу франшиз превышать максимум франшиз.</Text>
     </Row>
     <Row Tag="TXT_KEY_CORP_MAX_FRANCHISE_NATIONALIZATION_TT">
       <Text>[ICON_BULLET] {1_Num} от построенных офисов (догмат «Национализация»)[NEWLINE][NEWLINE]Пролетарии всех стран, соединяйтесь!</Text>
@@ -2393,7 +2393,7 @@
       <Text>[ICON_TURNS_REMAINING] торговые пути</Text>
     </Row>
     <Row Tag="TXT_KEY_VO_TRADE_ROUTES_LABEL">
-      <Text>{1_TradeRoutesUsed} / {2_TradeRoutesДоступно}</Text>
+      <Text>{1_TradeRoutesUsed} / {2_TradeRoutesAvailable}</Text>
     </Row>
     <Row Tag="TXT_KEY_VO_IDEOLOGY_STAT">
       <Text>{1_Str}</Text>

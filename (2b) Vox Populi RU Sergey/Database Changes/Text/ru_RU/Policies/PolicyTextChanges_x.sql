@@ -16,7 +16,7 @@ SET Text = 'Юстиция'
 WHERE Tag = 'TXT_KEY_POLICY_ARISTOCRACY';
 
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Юстиция[ENDCOLOR][NEWLINE][ICON_BULLET]Города с гарнизоном получают +25% [ICON_RANGE_STRENGTH] дальнобойной боевой мощи.[NEWLINE][ICON_BULLET]В [ICON_CAPITAL] столице строится [COLOR_POSITIVE_TEXT]{TXT_KEY_BUILDING_ROYAL_GUARDHOUSE}[ENDCOLOR] (+3 [ICON_PRODUCTION] производства, +2 [ICON_STRENGTH] к обороне, +50 очков здоровья, +10% [ICON_SILVER_FIST] лимита снабжения армии от [ICON_CITIZEN] населения во всех городах, +1 [ICON_PRODUCTION] производства всем советам и кузницам, 1 ячейка [ICON_ENGINEER] инженера).'
+SET Text = '[COLOR_POSITIVE_TEXT]Юстиция[ENDCOLOR][NEWLINE][ICON_BULLET]Города с гарнизоном получают +25% [ICON_RANGE_STRENGTH] дальнобойной боевой мощи.[NEWLINE][ICON_BULLET]В [ICON_CAPITAL] столице строится [COLOR_POSITIVE_TEXT]{TXT_KEY_BUILDING_ROYAL_GUARDHOUSE}[ENDCOLOR] (+3 [ICON_PRODUCTION] производства, +2 [ICON_STRENGTH] к обороне, +50 очков здоровья, +10% [ICON_SILVER_FIST] лимита военного снабжения от [ICON_CITIZEN] населения во всех городах, +1 [ICON_PRODUCTION] производства всем советам и кузницам, 1 ячейка [ICON_ENGINEER] инженера).'
 WHERE Tag = 'TXT_KEY_POLICY_ARISTOCRACY_HELP';
 
 UPDATE Language_ru_RU
@@ -28,7 +28,7 @@ SET Text = 'Суверенитет'
 WHERE Tag = 'TXT_KEY_POLICY_OLIGARCHY';
 
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Суверенитет[ENDCOLOR][NEWLINE][ICON_BULLET]В [ICON_CAPITAL] столице строится [COLOR_POSITIVE_TEXT]{TXT_KEY_BUILDING_COURT_CHAPEL}[ENDCOLOR] (+3 [ICON_PEACE] веры, +100% [ICON_CULTURE_LOCAL] очков роста границ, +5 [ICON_CULTURE_LOCAL] очков роста границ всем святилищам и храмам, 1 ячейка для [ICON_GREAT_WORK] шедевра искусства или артефакта, 1 ячейка [ICON_ARTIST] художника).'
+SET Text = '[COLOR_POSITIVE_TEXT]Суверенитет[ENDCOLOR][NEWLINE][ICON_BULLET]В [ICON_CAPITAL] столице строится [COLOR_POSITIVE_TEXT]{TXT_KEY_BUILDING_COURT_CHAPEL}[ENDCOLOR] (+3 [ICON_PEACE] веры, +100% [ICON_CULTURE_LOCAL] очков роста границ, +5 [ICON_CULTURE_LOCAL] очков роста границ всем святилищам и храмам, 1 ячейка для [ICON_GREAT_WORK] художественного шедевра или артефакта, 1 ячейка [ICON_ARTIST] художника).'
 WHERE Tag = 'TXT_KEY_POLICY_OLIGARCHY_HELP';
 
 UPDATE Language_ru_RU
@@ -40,7 +40,7 @@ SET Text = 'Величие'
 WHERE Tag = 'TXT_KEY_POLICY_MONARCHY';
 
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Величие[ENDCOLOR][NEWLINE][ICON_BULLET]Специалисты в [ICON_CAPITAL] столице потребляют вдвое меньше [ICON_FOOD] пищи, чем обычно.[NEWLINE][ICON_BULLET]В [ICON_CAPITAL] столице строится [COLOR_POSITIVE_TEXT]{TXT_KEY_BUILDING_PALACE_GARDEN}[ENDCOLOR] (+5 [ICON_FOOD] пищи, +25% к скорости появления [ICON_GREAT_PEOPLE] Великих людей, -2 [ICON_HAPPINESS_3] несчастья от [ICON_URBANIZATION] урбанизации, 1 ячейка для [ICON_GREAT_WORK] шедевра письменности, 1 ячейка [ICON_WRITER] писателя).'
+SET Text = '[COLOR_POSITIVE_TEXT]Величие[ENDCOLOR][NEWLINE][ICON_BULLET]Специалисты в [ICON_CAPITAL] столице потребляют вдвое меньше [ICON_FOOD] пищи, чем обычно.[NEWLINE][ICON_BULLET]В [ICON_CAPITAL] столице строится [COLOR_POSITIVE_TEXT]{TXT_KEY_BUILDING_PALACE_GARDEN}[ENDCOLOR] (+5 [ICON_FOOD] пищи, +25% к скорости появления [ICON_GREAT_PEOPLE] Великих людей, -2 [ICON_HAPPINESS_3] несчастья от [ICON_URBANIZATION] урбанизации, 1 ячейка для [ICON_GREAT_WORK] литературного шедевра, 1 ячейка [ICON_WRITER] писателя).'
 WHERE Tag = 'TXT_KEY_POLICY_MONARCHY_HELP';
 
 UPDATE Language_ru_RU
@@ -127,7 +127,7 @@ SET Text = 'Равенство'
 WHERE Tag = 'TXT_KEY_POLICY_REPRESENTATION';
 
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Равенство[ENDCOLOR][NEWLINE][ICON_BULLET]+1 [ICON_HAPPINESS_1] счастья в каждом городе и +1 [ICON_HAPPINESS_1] счастья за каждые 15 [ICON_CITIZEN] жителей в городе.[NEWLINE][ICON_BULLET]-1 [ICON_HAPPINESS_3] несчастья от [ICON_FOOD] нужды в пище, [ICON_PRODUCTION] нужды в производстве, [ICON_GOLD] бедности, [ICON_RESEARCH] безграмотности и [ICON_CULTURE] скуки во всех городах.'
+SET Text = '[COLOR_POSITIVE_TEXT]Равенство[ENDCOLOR][NEWLINE][ICON_BULLET]+1 [ICON_HAPPINESS_1] счастья в каждом городе и +1 [ICON_HAPPINESS_1] счастья за каждые 15 [ICON_CITIZEN] жителей в городе.[NEWLINE][ICON_BULLET]-1 [ICON_HAPPINESS_3] несчастья от [ICON_FOOD][ICON_PRODUCTION] тягот, [ICON_GOLD] бедности, [ICON_RESEARCH] безграмотности и [ICON_CULTURE] скуки во всех городах.'
 WHERE Tag = 'TXT_KEY_POLICY_REPRESENTATION_HELP';
 
 UPDATE Language_ru_RU
@@ -208,7 +208,7 @@ SET Text = 'Господство'
 WHERE Tag = 'TXT_KEY_POLICY_MILITARY_CASTE';
 
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Господство[ENDCOLOR][NEWLINE][ICON_BULLET]Все юниты ближнего боя получают повышение [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_ENDURANCE}[ENDCOLOR] (восстанавливают 15 ОЗ после победы над вражеским юнитом).[NEWLINE][ICON_BULLET]+1 [ICON_PRODUCTION] производства и +2 [ICON_CULTURE_LOCAL] очка роста границ от стратегических ресурсов.[NEWLINE][ICON_BULLET]+5 [ICON_WAR] лимита снабжения армии.'
+SET Text = '[COLOR_POSITIVE_TEXT]Господство[ENDCOLOR][NEWLINE][ICON_BULLET]Все юниты ближнего боя получают повышение [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_ENDURANCE}[ENDCOLOR] (восстанавливают 15 ОЗ после победы над вражеским юнитом).[NEWLINE][ICON_BULLET]+1 [ICON_PRODUCTION] производства и +2 [ICON_CULTURE_LOCAL] очка роста границ от стратегических ресурсов.[NEWLINE][ICON_BULLET]+5 [ICON_WAR] лимита военного снабжения.'
 WHERE Tag = 'TXT_KEY_POLICY_MILITARY_CASTE_HELP';
 
 UPDATE Language_ru_RU
@@ -399,7 +399,7 @@ SET Text = 'Гуманизм'
 WHERE Tag = 'TXT_KEY_POLICY_CULTURAL_CENTERS';
 
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Гуманизм[ENDCOLOR][NEWLINE][ICON_BULLET]+3 [ICON_PEACE] веры от [ICON_GW_WRITING] шедевров письменности.[NEWLINE][ICON_BULLET]-25% [ICON_GOLDEN_AGE] очков золотого века, необходимых для начала [ICON_GOLDEN_AGE] золотого века.[NEWLINE][ICON_BULLET]+1 [ICON_HAPPINESS_1] счастья от всех гильдий.'
+SET Text = '[COLOR_POSITIVE_TEXT]Гуманизм[ENDCOLOR][NEWLINE][ICON_BULLET]+3 [ICON_PEACE] веры от [ICON_GW_WRITING] шедевров литературы.[NEWLINE][ICON_BULLET]-25% [ICON_GOLDEN_AGE] очков золотого века, необходимых для начала [ICON_GOLDEN_AGE] золотого века.[NEWLINE][ICON_BULLET]+1 [ICON_HAPPINESS_1] счастья от всех гильдий.'
 WHERE Tag = 'TXT_KEY_POLICY_CULTURAL_CENTERS_HELP';
 
 UPDATE Language_ru_RU
@@ -722,7 +722,7 @@ SET Text = 'Самоопределение — это идея о том, что
 WHERE Tag = 'TXT_KEY_POLICY_URBANIZATION_TEXT';
 
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Новый курс[ENDCOLOR]: достопримечательности и улучшения Великих людей дают +6 к своим базовым типам дохода ([ICON_PRODUCTION] мануфактура/цитадель, [ICON_GOLD] городок, [ICON_RESEARCH] академия, [ICON_CULTURE] посольство, [ICON_PEACE] священное место, [ICON_TOURISM] достопримечательность), а также +2 [ICON_TOURISM] туризма.'
+SET Text = '[COLOR_POSITIVE_TEXT]Новый курс[ENDCOLOR]: достопримечательности и улучшения Великих людей дают +6 к своим базовым типам дохода ([ICON_PRODUCTION] мануфактура/цитадель, [ICON_GOLD] городок, [ICON_RESEARCH] академия, [ICON_CULTURE] посольство, [ICON_PEACE] святое место, [ICON_TOURISM] достопримечательность), а также +2 [ICON_TOURISM] туризма.'
 WHERE Tag = 'TXT_KEY_POLICY_NEW_DEAL_HELP';
 
 UPDATE Language_ru_RU
@@ -886,7 +886,7 @@ SET Text = 'Новый мировой порядок'
 WHERE Tag = 'TXT_KEY_POLICY_FORTIFIED_BORDERS';
 
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Новый мировой порядок[ENDCOLOR]: -2 [ICON_HAPPINESS_3] несчастья от [ICON_FOOD] нужды в пище и [ICON_PRODUCTION] нужды в производстве во всех городах. Полицейские участки и констабулярии дают +3 [ICON_CULTURE] культуры и +5 [ICON_PRODUCTION] производства, а также строятся на 100% быстрее.'
+SET Text = '[COLOR_POSITIVE_TEXT]Новый мировой порядок[ENDCOLOR]: -2 [ICON_HAPPINESS_3] несчастья от [ICON_FOOD][ICON_PRODUCTION] тягот во всех городах. Полицейские участки и констабулярии дают +3 [ICON_CULTURE] культуры и +5 [ICON_PRODUCTION] производства, а также строятся на 100% быстрее.'
 WHERE Tag = 'TXT_KEY_POLICY_FORTIFIED_BORDERS_HELP';
 
 -- MISSING an updated _TEXT to define New World Order

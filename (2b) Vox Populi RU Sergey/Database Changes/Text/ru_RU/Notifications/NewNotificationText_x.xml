@@ -54,10 +54,10 @@
 			<Text>Миссия иностранного {1_UnitType} завершена!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_EXPENDED_SUPPLY">
-			<Text>Использование {1_UnitName} увеличило ваш лимит снабжения военных отрядов на {2_Num}!</Text>
+			<Text>Использование {1_UnitName} увеличило ваш лимит военного снабжения на {2_Num}!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_EXPENDED_SUPPLY_S">
-			<Text>Лимит снабжения военных отрядов увеличен!</Text>
+			<Text>Лимит военного снабжения увеличен!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_GREAT_MUSICIAN_FAMILIAR_TOUR">
 			<Text>Ваших музыкантов радушно приняли люди {1_PlayerAdj}. Вы получаете +[COLOR_POSITIVE_TEXT]{2_Num}[ENDCOLOR] [ICON_TOURISM] туризма с ними и +{3_num} [ICON_HAPPINESS_1] счастья в вашей [ICON_CAPITAL] столице.</Text>
@@ -770,7 +770,7 @@
 			<Text>Наполеон украл {1_Num} [ICON_GREAT_WORK] {1_Num: plural 1?великое произведение; other?великих произведения;} из городов рядом с {2_City}, когда завоевал его!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ART_PLUNDERED_SUMMARY">
-			<Text>Искусство украдено!</Text>
+			<Text>Шедевр украден!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ART_STOLEN">
 			<Text>Вы разграбили {1_Num} [ICON_GREAT_WORK] {1_Num: plural 1?великое произведение; other?великих произведения;} из городов рядом с {2_City} после его завоевания!</Text>
