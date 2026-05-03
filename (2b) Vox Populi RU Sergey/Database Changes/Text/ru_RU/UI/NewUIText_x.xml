@@ -1399,6 +1399,21 @@
     <Row Tag="TXT_KEY_PEDIA_YIELDPERERA_LABEL">
       <Text>Доход за эпоху:</Text>
     </Row>
+    <Row Tag="TXT_KEY_PEDIA_FEATURE_IMPROV_YIELD_LABEL">
+      <Text>Бонус дохода от особенности местности:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_ADJACENT_CITY_IMPROV_YIELD_LABEL">
+      <Text>Доход рядом с городом:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_TECH_IMPROV_YIELD_LABEL">
+      <Text>Бонус дохода от технологии:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_TECH_FRESH_WATER_IMPROV_YIELD_LABEL">
+      <Text>Бонус дохода от технологии (при наличии пресной воды):</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_TECH_NO_FRESH_WATER_IMPROV_YIELD_LABEL">
+      <Text>Бонус дохода от технологии (без пресной воды):</Text>
+    </Row>
     <Row Tag="TXT_KEY_PROMOTIONS_PEDIA_MELEE">
       <Text>Повышения ближнего боя</Text>
     </Row>
@@ -2882,7 +2897,7 @@
       <Text>[NEWLINE] [ICON_BULLET] Требуется вариант городского события, который сейчас не активен</Text>
     </Row>
     <Row Tag="TXT_KEY_EVENT_RECENT_SPY_MISSION">
-      <Text>[NEWLINE] [ICON_BULLET] Шпион недавно проводил миссию</Text>
+      <Text>[NEWLINE] [ICON_BULLET] Шпион недавно проводил миссию (заблокировано ещё на {1_Num} {1_Num: plural 1?ход; other?ходов;})</Text>
     </Row>
     <Row Tag="TXT_KEY_NEED_NO_ACTIVE_CITY_EVENT">
       <Text>[NEWLINE] [ICON_BULLET] Недопустимое активное городское событие</Text>
