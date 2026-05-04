@@ -12,7 +12,7 @@
 			<Text>Показывать значки повышений над флагом юнита.[NEWLINE][COLOR_NEGATIVE_TEXT]{TXT_KEY_EUI_REQUIRES_RELOAD}[ENDCOLOR]</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_EUI_SEPARATE_CITY_PRODUCTION_DISPLAY">
-			<Text>Разделять элементы городского производства</Text>
+			<Text>Разделять городское производство</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_EUI_SEPARATE_CITY_PRODUCTION_BODY">
 			<Text>Разделять элементы производства города по отдельным категориям. (Например: религиозные юниты, военные юниты, проекты, национальные чудеса, чудеса света.)[NEWLINE][COLOR_NEGATIVE_TEXT]{TXT_KEY_EUI_REQUIRES_RELOAD}[ENDCOLOR]</Text>
@@ -27,7 +27,7 @@
 			<Text>Разделять великих людей и религиозных юнитов</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_EUI_SEPARATE_MILITARY_DOMAIN_DISPLAY">
-			<Text>Разделять военные юниты по типу домена</Text>
+			<Text>Разделять военные юниты по типу</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_EUI_SEPARATE_PROJECTS_WONDERS_DISPLAY">
 			<Text>Разделять проекты и чудеса</Text>
