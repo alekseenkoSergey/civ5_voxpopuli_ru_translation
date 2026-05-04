@@ -14,13 +14,13 @@
 			<Text>РЕЛИГИОЗНЫЕ ЮНИТЫ</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POP_LAND_UNITS">
-			<Text>НАЗЕМНЫЕ БОЕВЫЕ ЮНИТЫ</Text>
+			<Text>НАЗЕМНЫЕ БОЕВЫЕ</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POP_SEA_UNITS">
-			<Text>МОРСКИЕ БОЕВЫЕ ЮНИТЫ</Text>
+			<Text>МОРСКИЕ БОЕВЫЕ</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POP_AIR_UNITS">
-			<Text>ВОЗДУШНЫЕ БОЕВЫЕ ЮНИТЫ</Text>
+			<Text>ВОЗДУШНЫЕ БОЕВЫЕ</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POP_MILITARY_UNITS">
 			<Text>БОЕВЫЕ ЮНИТЫ</Text>
