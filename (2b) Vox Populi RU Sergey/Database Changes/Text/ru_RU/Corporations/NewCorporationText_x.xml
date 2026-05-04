@@ -43,7 +43,7 @@
 			<Text>Hexxon Refinery</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CORPORATION_HEXXON_REFINERY_HELP">
-			<Text>Поддерживает [ICON_VICTORY_DOMINATION] победу господства и [ICON_VICTORY_SPACE] космическую победу, усиливая вашу способность вести поздние [ICON_WAR] войны, накапливать стратегические ресурсы и увеличивать [ICON_PRODUCTION] производство и [ICON_RESEARCH] науку.[NEWLINE][ICON_BULLET]+1 [ICON_INTERNATIONAL_TRADE] торговый путь.[NEWLINE][ICON_BULLET]+1 [ICON_RES_COAL] уголь и [ICON_RES_OIL] нефть за каждую глобальную [ICON_FRANCHISE] франшизу.[NEWLINE][ICON_BULLET]+5 [ICON_PRODUCTION], [ICON_RESEARCH] и [ICON_CULTURE_LOCAL] от {TXT_KEY_BUILDING_REFINERY} во всех городах.[NEWLINE][ICON_BULLET]+2 [ICON_RESEARCH] науки от [ICON_ENGINEER] инженеров.[NEWLINE][ICON_BULLET][ICON_FRANCHISE] франшиза в городе чужой цивилизации: +2%[ICON_TOURISM].</Text>
+			<Text>Поддерживает [ICON_VICTORY_DOMINATION] победу господства и [ICON_VICTORY_SPACE] космическую победу за счёт расширения границ, накопления стратегических ресурсов, [ICON_RESEARCH] науки и военных юнитов.[NEWLINE][ICON_BULLET]+1 [ICON_INTERNATIONAL_TRADE] торговый путь.[NEWLINE][ICON_BULLET]+1 [ICON_RES_COAL] уголь и [ICON_RES_OIL] нефть за каждую глобальную [ICON_FRANCHISE] франшизу.[NEWLINE][ICON_BULLET]+5 [ICON_PRODUCTION], [ICON_RESEARCH] и [ICON_CULTURE_LOCAL] от {TXT_KEY_BUILDING_REFINERY} во всех городах.[NEWLINE][ICON_BULLET]+2 [ICON_RESEARCH] науки от [ICON_ENGINEER] инженеров.[NEWLINE][ICON_BULLET][ICON_FRANCHISE] франшиза в городе чужой цивилизации: +2%[ICON_TOURISM].</Text>
 			
 		</Row>
 		<Row Tag="TXT_KEY_CORPORATION_RESOURCE_BONUS_HEXXON_REFINERY">
