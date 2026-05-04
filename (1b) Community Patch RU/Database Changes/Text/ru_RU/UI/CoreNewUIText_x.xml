@@ -1310,7 +1310,7 @@
 			<Text>Когда убивается вражеский [ICON_SPY] шпион: {1_InstantYield}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_EXTRA_LUXURIES">
-			<Text>+100% роскошных ресурсов с улучшенных клеток, принадлежащих этому городу</Text>
+			<Text>+100% ресурсов роскоши с улучшенных клеток, принадлежащих этому городу</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_REMOVE_OCCUPIED_UNHAPPINESS">
 			<Text>Убирает [ICON_HAPPINESS_3] недовольство от [ICON_OCCUPIED] оккупации</Text>

@@ -2,7 +2,7 @@
 <GameData>
 	<Language_ru_RU>
 		<Row Tag="TXT_KEY_GAME_OPTION_BARB_GG_GA_POINTS">
-			<Text>Очки Великого Генерала/Великого Адмирала за варваров</Text>
+			<Text>Очки Великого Генерала/Адмирала за варваров</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GAME_OPTION_BARB_GG_GA_POINTS_HELP">
 			<Text>Позволяет всем игрокам накапливать очки Великого Генерала и Великого Адмирала за сражения с варварами.</Text>

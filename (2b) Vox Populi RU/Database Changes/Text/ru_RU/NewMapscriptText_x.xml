@@ -367,10 +367,10 @@
 			<Text>Определяет количество залежей стратегических ресурсов на карте</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MAP_LUXURY_RESOURCE_DENSITY">
-			<Text>Плотность роскошных ресурсов</Text>
+			<Text>Плотность ресурсов роскоши</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MAP_LUXURY_RESOURCE_DENSITY_DESCRIPTION">
-			<Text>Определяет количество роскошных ресурсов на карте</Text>
+			<Text>Определяет количество ресурсов роскоши на карте</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MAP_OVERRIDE_ASSIGN_STARTING_PLOTS">
 			<Text>Переопределить AssignStartingPlots</Text>
