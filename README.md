@@ -1,8 +1,6 @@
 # Civilization 5, Vox Populi - Russian translation
 
----
-
-### Перевод мода Vox Populi для Civilization 5 на русский язык.
+### Перевод мода Vox Populi для Civilization 5 на русский язык
 
 Версия релиза напрямую соответствует версии Vox Populi.
 
