@@ -2,7 +2,7 @@
 -- America
 --------------------
 UPDATE Language_ru_RU
-SET Text = 'Наземные военные юниты начинают игру с повышением [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_SENTRY}[ENDCOLOR]. Стоимость покупки клеток снижена на 25% и сбрасывается при основании города. При покупке клеток город получает +20 [ICON_PRODUCTION] производства, масштабируется с эрой. Можно покупать клетки, принадлежащие другим.'
+SET Text = 'Наземные военные юниты начинают игру с повышением [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_SENTRY}[ENDCOLOR]. Цена покупки клеток снижена на 25% и сбрасывается при основании города. При покупке клеток город получает +20 [ICON_PRODUCTION], масштабируется с эрой. Можно покупать клетки, принадлежащие другим.'
 WHERE Tag = 'TXT_KEY_TRAIT_RIVER_EXPANSION';
 
 UPDATE Language_ru_RU
@@ -55,7 +55,7 @@ SET Text = 'Габсбургская дипломатия'
 WHERE Tag = 'TXT_KEY_TRAIT_ANNEX_CITY_STATE_SHORT';
 
 UPDATE Language_ru_RU
-SET Text = '+50% наград за [COLOR_POSITIVE_TEXT]квесты[ENDCOLOR]. Можно устраивать [ICON_RES_MARRIAGE] браки с [ICON_CITY_STATE] городами-государствами за [ICON_GOLD] золото после 10 ходов союза. Вы получаете 200 базового [ICON_INFLUENCE] влияния с [ICON_RES_MARRIAGE] женатыми городами-государствами в мирное время.'
+SET Text = '+50% наград за [COLOR_POSITIVE_TEXT]квесты[ENDCOLOR]. Можно устраивать [ICON_RES_MARRIAGE] браки с [ICON_CITY_STATE] городами-государствами за [ICON_GOLD] золото после 10 ходов союза. Вы получаете 200 базового [ICON_INFLUENCE] влияния в мирное время у городов-государств, с которыми заключён [ICON_RES_MARRIAGE] брак.'
 WHERE Tag = 'TXT_KEY_TRAIT_ANNEX_CITY_STATE';
 
 UPDATE Language_ru_RU
@@ -115,7 +115,7 @@ WHERE Tag = 'TXT_KEY_CIV5_IMPROVEMENTS_BRAZILWOOD_CAMP_TEXT';
 -- Byzantium
 --------------------
 UPDATE Language_ru_RU
-SET Text = 'Всегда может основать [ICON_RELIGION] религию, получает 1 [COLOR_POSITIVE_TEXT]дополнительное[ENDCOLOR] верование при основании и может выбирать верования, уже присутствующие в других [ICON_RELIGION] религиях. -15% к стоимости покупок за [ICON_PEACE] веру, а также можно покупать открытых [ICON_GREAT_PEOPLE] великих личностей начиная с классической эры.'
+SET Text = 'Всегда может основать [ICON_RELIGION] религию, получает 1 [COLOR_POSITIVE_TEXT]доп.[ENDCOLOR] верование при основании и может выбирать верования, уже присутствующие в других [ICON_RELIGION] религиях. -15% к при покупках за [ICON_PEACE], также можно покупать открытых [ICON_GREAT_PEOPLE] великих личностей начиная с классической эры.'
 WHERE Tag = 'TXT_KEY_TRAIT_EXTRA_BELIEF';
 
 UPDATE Language_ru_RU
@@ -130,7 +130,7 @@ WHERE Tag = 'TXT_KEY_UNIT_BYZANTINE_DROMON_STRATEGY';
 -- Carthage
 --------------------
 UPDATE Language_ru_RU
-SET Text = '+100 [ICON_GOLD] золота и +25 [ICON_RESEARCH] науки, когда ваш рекордный объём торгуемого предмета роскоши увеличивается, а также +5 опыта юнитам, купленным за [ICON_GOLD] золото; оба бонуса масштабируются с эрой. +100% разнообразия ресурсов на [ICON_INTERNATIONAL_TRADE] торговых путях.'
+SET Text = '+100 [ICON_GOLD] золота и +25 [ICON_RESEARCH] науки при увеличении вашего максимального количества предметов роскоши доступных для торговли, а также +5 опыта юнитам, купленным за [ICON_GOLD] золото; оба бонуса масштабируются с эрой. +100% разнообразия ресурсов на [ICON_INTERNATIONAL_TRADE] торговых путях.'
 WHERE Tag = 'TXT_KEY_TRAIT_PHOENICIAN_HERITAGE';
 
 UPDATE Language_ru_RU
@@ -202,7 +202,7 @@ SET Text = 'Великий предок'
 WHERE Tag = 'TXT_KEY_TRAIT_WONDER_BUILDER_SHORT';
 
 UPDATE Language_ru_RU
-SET Text = '+20% [ICON_PRODUCTION] производства при строительстве [ICON_WONDER] чудес света, удваивается в [ICON_GOLDEN_AGE] Золотые века. Открывает ближайший [ICON_RES_ARTIFACTS] археологический памятник при основании города или (пока кто-либо не открыл [COLOR_CYAN]Археологию[ENDCOLOR]) при завершении [ICON_WONDER] чуда света. [ICON_RES_ARTIFACTS] археологические памятники получают +1 [ICON_RESEARCH] науки, [ICON_CULTURE] культуры и [ICON_PEACE] веры с каждым [ICON_GOLDEN_AGE] Золотым веком (макс. +5).'
+SET Text = '+20% [ICON_PRODUCTION] при строительстве [ICON_WONDER] чудес, удваивается в [ICON_GOLDEN_AGE] Золотые века. Открывает ближайший [ICON_RES_ARTIFACTS] памятник при основании города или (пока кто-либо не открыл [COLOR_CYAN]Археологию[ENDCOLOR]) при завершении [ICON_WONDER] чуда. [ICON_RES_ARTIFACTS] памятники получают +1 [ICON_RESEARCH], [ICON_CULTURE] и [ICON_PEACE] с каждым [ICON_GOLDEN_AGE] Золотым веком (до +5).'
 WHERE Tag = 'TXT_KEY_TRAIT_WONDER_BUILDER';
 
 UPDATE Language_ru_RU
@@ -365,7 +365,7 @@ WHERE Tag = 'TXT_KEY_CITY_NAME_BRAUNSCHWEIG';
 -- Greece
 --------------------
 UPDATE Language_ru_RU
-SET Text = '[ICON_INFLUENCE] Влияние уменьшается со скоростью 2/3 от обычной и восстанавливается вдвое быстрее. +5% [ICON_STRENGTH] боевой силы ваших и союзных юнитов за каждый союз с [ICON_CITY_STATE] городом-государством (до +25%). Нейтральная территория [ICON_CITY_STATE] городов-государств считается дружественной.'
+SET Text = '[ICON_INFLUENCE] Влияние уменьшается со скоростью 2/3 от обычной и восстанавливается вдвое быстрее. +5% [ICON_STRENGTH] боевой силы ваших и союзных юнитов за каждый союз с [ICON_CITY_STATE] городом-государством (до +25%). Нейтральная территория [ICON_CITY_STATE] ГГ считается дружественной.'
 WHERE Tag = 'TXT_KEY_TRAIT_CITY_STATE_FRIENDSHIP';
 
 UPDATE Language_ru_RU
@@ -387,7 +387,7 @@ WHERE Tag = 'TXT_KEY_UNIT_HUN_HORSE_ARCHER_STRATEGY';
 -- Inca
 --------------------
 UPDATE Language_ru_RU
-SET Text = 'Юниты могут пересекать горы и игнорируют стоимость передвижения при входе на любой холм или гору, кроме случаев пересечения реки. Города, дороги и железные дороги можно строить на горах. Горы при обработке дают +1 [ICON_PRODUCTION] производства, [ICON_GOLD] золота и [ICON_RESEARCH] науки, масштабируется с эрой.'
+SET Text = 'Юниты могут пересекать горы и игнорируют стоимость передвижения при входе на любой холм или гору, кроме пересечения реки. Города, дороги и железные дороги можно строить на горах. Горы при обработке дают +1 [ICON_PRODUCTION], [ICON_GOLD] и [ICON_RESEARCH], масштабируется с эрой.'
 WHERE Tag = 'TXT_KEY_TRAIT_GREAT_ANDEAN_ROAD';
 
 UPDATE Language_ru_RU
@@ -539,7 +539,7 @@ WHERE Tag = 'TXT_KEY_CIV5_MONGOLIA_KHAN_STRATEGY';
 -- Morocco
 --------------------
 UPDATE Language_ru_RU
-SET Text = '+1 ко всем доходам в [ICON_CAPITAL] столице за каждого уникального партнёра по [ICON_INTERNATIONAL_TRADE] торговому пути, масштабируется с эрой. Расстояние не уменьшает доходы [ICON_INTERNATIONAL_TRADE] торговых путей в марокканские города и из них. Можно грабить [ICON_INTERNATIONAL_TRADE] торговые пути между чужими городами без объявления войны.'
+SET Text = '+1 ко всем доходам в [ICON_CAPITAL] столице за каждого уникального партнёра по [ICON_INTERNATIONAL_TRADE] торговому пути, масштабируется с эрой. Расстояние не уменьшает доходы [ICON_INTERNATIONAL_TRADE] путей в марокканские города и из них. Можно грабить [ICON_INTERNATIONAL_TRADE] торговые пути между чужими городами без объявления войны.'
 WHERE Tag = 'TXT_KEY_TRAIT_GATEWAY_AFRICA';
 
 UPDATE Language_ru_RU
@@ -813,7 +813,7 @@ WHERE Tag = 'TXT_KEY_UNIT_SWEDISH_HAKKAPELIITTA_STRATEGY';
 -- Venice
 --------------------
 UPDATE Language_ru_RU
-SET Text = '[COLOR_NEGATIVE_TEXT]Не может создавать поселенцев или аннексировать города.[ENDCOLOR] Лимит [ICON_INTERNATIONAL_TRADE] торговых путей удвоен, ограничения по целям сняты. [COLOR_POSITIVE_TEXT]Бесплатный[ENDCOLOR] {TXT_KEY_UNIT_VENETIAN_MERCHANT} при открытии [COLOR_CYAN]{TXT_KEY_TECH_HORSEBACK_RIDING_TITLE}[ENDCOLOR]. [ICON_PUPPET] Марионетки дают 50% доходов и снабжения (у других цивилизаций: 30%) и могут совершать покупки за [ICON_GOLD] золото и давать [ICON_HAPPINESS_1] счастье как обычные города.'
+SET Text = '[COLOR_NEGATIVE_TEXT]Без поселенцев и аннексии городов.[ENDCOLOR] Лимит [ICON_INTERNATIONAL_TRADE] путей удвоен, без ограничений по целям. [COLOR_POSITIVE_TEXT]Бесплатный[ENDCOLOR] {TXT_KEY_UNIT_VENETIAN_MERCHANT} при открытии [COLOR_CYAN]{TXT_KEY_TECH_HORSEBACK_RIDING_TITLE}[ENDCOLOR]. [ICON_PUPPET] Марионетки дают 50% доходов (у других: 30%) и могут совершать покупки за [ICON_GOLD] и давать [ICON_HAPPINESS_1] счастье как обычные города.'
 WHERE Tag = 'TXT_KEY_TRAIT_SUPER_CITY_STATE';
 
 UPDATE Language_ru_RU

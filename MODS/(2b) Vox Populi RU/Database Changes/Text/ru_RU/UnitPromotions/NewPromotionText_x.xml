@@ -1258,7 +1258,7 @@
 			<Text>Гудендаг!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_GOEDENDAG_HELP">
-			<Text>+10% [ICON_STRENGTH] боевой мощи всем [COLOR_POSITIVE_TEXT]соседний собственный наземный юнитs[ENDCOLOR].</Text>
+			<Text>+10% [ICON_STRENGTH] боевой мощи всем [COLOR_POSITIVE_TEXT]соседним собственный наземным юнитам[ENDCOLOR].</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_UNWIELDY">
