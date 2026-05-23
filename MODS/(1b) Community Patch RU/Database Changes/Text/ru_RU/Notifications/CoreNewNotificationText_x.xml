@@ -1009,10 +1009,10 @@
 			<Text>[COLOR_POSITIVE_TEXT]      [ICON_BULLET] {1_Num}[ENDCOLOR] опыта для всех военных юнитов</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CS_QUEST_JUGGERNAUTS">
-			<Text>[COLOR_POSITIVE_TEXT]      [ICON_BULLET] {1_Num}[ENDCOLOR] могучих {1_Num: plural 1?юнита; other?юнитов;}</Text>
+			<Text>[COLOR_POSITIVE_TEXT]      [ICON_BULLET] {1_Num}[ENDCOLOR] {1_Num: plural 1?могучий юнит; other?могучих юнита;}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CS_QUEST_JUGGERNAUTS_XP">
-			<Text> ([COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR] бонусного опыта)</Text>
+			<Text> (+[COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR] опыта)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CS_QUEST_FAITH">
 			<Text>[COLOR_POSITIVE_TEXT]      [ICON_BULLET] {1_Num}[ENDCOLOR] [ICON_PEACE] веры</Text>

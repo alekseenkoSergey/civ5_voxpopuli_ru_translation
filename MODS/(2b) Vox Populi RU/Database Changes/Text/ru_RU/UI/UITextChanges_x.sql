@@ -128,10 +128,6 @@ SET Text = 'Общее общеимперское [ICON_HAPPINESS_1] счаст�
 WHERE Tag = 'TXT_KEY_TP_HAPPINESS_SOURCES';
 
 UPDATE Language_ru_RU
-SET Text = '{1_Num} от природных чудес и достопримечательностей.'
-WHERE Tag = 'TXT_KEY_TP_HAPPINESS_NATURAL_WONDERS';
-
-UPDATE Language_ru_RU
 SET Text = 'Общее общеимперское [ICON_HAPPINESS_3] недовольство: {1_Num} (ограничено населением городов)'
 WHERE Tag = 'TXT_KEY_TP_UNHAPPINESS_TOTAL';
 
