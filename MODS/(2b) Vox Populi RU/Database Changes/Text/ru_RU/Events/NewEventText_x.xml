@@ -233,7 +233,7 @@
 			<Text>Новый мировой порядок начинается сейчас!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_WAR_FERVOR_CHOICE_3_HELP">
-			<Text>10 ходов (с масштабированием по скорости игры) [COLOR_POSITIVE_TEXT]«Дня любви к королю»[ENDCOLOR] во всех городах. Военные академии дают +5 [ICON_RESEARCH] науки на {4_Turns}.</Text>
+			<Text>10 ходов (с масштабированием по скорости игры) [COLOR_POSITIVE_TEXT]«Дня любви к королю»[ENDCOLOR] во всех городах. Военные академии дают +5 [ICON_RESEARCH] науки на {4_Turns} ходов.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_WAR_FERVOR_CHOICE_4">
 			<Text>За Родину!</Text>
@@ -707,7 +707,7 @@
 			<Text>Проследите, чтобы писателей за это прославили.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_AMPHITHEATER_NEW_DRAMA_CHOICE_3_HELP">
-			<Text>Получите {4_GPChange} очков в городе.</Text>
+			<Text>Получите очки в городе: {4_GPChange}.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_AMPHITHEATER_NEW_DRAMA_CHOICE_4">
 			<Text>Им следовало бы молиться, а не этим заниматься.</Text>
@@ -1139,7 +1139,7 @@
 			<Text>Чума!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_PLAGUE_CHOICE_1_HELP">
-			<Text>Наши худшие опасения оправдались. Чума добралась до города! Люди лежат мёртвыми на улицах, а сотни умирают каждый день. Эффект: -15 [ICON_FOOD] пищи в городе на {5_Turns}.</Text>
+			<Text>Наши худшие опасения оправдались. Чума добралась до города! Люди лежат мёртвыми на улицах, а сотни умирают каждый день. Эффект: -15 [ICON_FOOD] пищи в городе на {5_Turns} ходов.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_WANDERER">
 			<Text>Таинственный странник</Text>
@@ -1250,10 +1250,10 @@
 			<Text>[ICON_PRODUCTION] Саботировать городское производство</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_SABOTAGE_PRODUCTION_HELP">
-			<Text>Город не может строить или инвестировать в здания, чудеса и проекты в течение {8_Num} ходов.</Text>
+			<Text>Город не может строить или инвестировать в здания, чудеса и проекты в течение {8_Num} {8_Num: plural 1?хода; other?ходов;}.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_SABOTAGE_PRODUCTION_EFFECT">
-			<Text>Город не может строить или инвестировать в здания, чудеса и проекты в течение {8_Num} ходов</Text>
+			<Text>Город не может строить или инвестировать в здания, чудеса и проекты в течение {8_Num} {8_Num: plural 1?хода; other?ходов;}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_STEAL_FAITH">
 			<Text>[ICON_PEACE] Похитить религиозные реликвии</Text>

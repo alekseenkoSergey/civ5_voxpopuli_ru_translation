@@ -639,7 +639,7 @@ SET Text = '{TXT_KEY_CITY_STATE_QUEST_CONTEST_TECHS_FORMAL} На данный м
 WHERE Tag = 'TXT_KEY_CITY_STATE_QUEST_CONTEST_TECHS_WINNING_FORMAL';
 
 UPDATE Language_ru_RU
-SET Text = '{TXT_KEY_CITY_STATE_QUEST_CONTEST_TECHS_FORMAL} На данный момент у лидера {1_LeaderScore} {1_LeaderScore: plural 1?технология; other?технологий;}, а у вас [COLOR_POSITIVE_TEXT]{2_PlayerScore}[ENDCOLOR].'
+SET Text = '{TXT_KEY_CITY_STATE_QUEST_CONTEST_TECHS_FORMAL} На данный момент результат лидера — {1_LeaderScore}, а ваш — [COLOR_POSITIVE_TEXT]{2_PlayerScore}[ENDCOLOR].'
 WHERE Tag = 'TXT_KEY_CITY_STATE_QUEST_CONTEST_TECHS_LOSING_FORMAL';
 
 ------------------------------------------------
@@ -648,7 +648,7 @@ WHERE Tag = 'TXT_KEY_CITY_STATE_QUEST_CONTEST_TECHS_LOSING_FORMAL';
 
 -- Anarchy (Gold, Science, Culture, Faith)
 UPDATE Language_ru_RU
-SET Text = '[COLOR_NEGATIVE_TEXT]Империя будет находиться в состоянии анархии из-за смены идеологии ещё {1_Turns} {1_Num: plural 1?ход; other?ходов;}. Во время анархии империя не будет получать [ICON_RESEARCH] науку, [ICON_GOLD] золото, [ICON_CULTURE] культуру или [ICON_PEACE] веру, а в городах не будет [ICON_PRODUCTION] производства для строительства чего-либо.[ENDCOLOR]'
+SET Text = '[COLOR_NEGATIVE_TEXT]Империя будет находиться в состоянии анархии из-за смены идеологии ещё {1_Turns} {1_Turns: plural 1?ход; other?ходов;}. Во время анархии империя не будет получать [ICON_RESEARCH] науку, [ICON_GOLD] золото, [ICON_CULTURE] культуру или [ICON_PEACE] веру, а в городах не будет [ICON_PRODUCTION] производства для строительства чего-либо.[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_TP_ANARCHY';
 
 -- Culture

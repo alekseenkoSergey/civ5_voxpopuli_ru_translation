@@ -162,7 +162,7 @@ WHERE Tag = 'TXT_KEY_UNIT_SUPPLY_REACHED_TOOLTIP';
 
 -- Building
 UPDATE Language_ru_RU
-SET Text = '+{1_Num} [ICON_DIPLOMAT] делегат во Всемирном конгрессе за каждый активный договор о взаимной обороне с вашей империей и за каждого вашего текущего вассала'
+SET Text = '+{1_Num} [ICON_DIPLOMAT] {1: plural 1?делегат; other?делегата;} во Всемирном конгрессе за каждый активный договор о взаимной обороне с вашей империей и за каждого вашего текущего вассала'
 WHERE Tag = 'TXT_KEY_PRODUCTION_BUILDING_EXTRA_VOTES_FROM_DP';
 
 ------------------------------------------------
@@ -393,7 +393,7 @@ SET Text = '{1_SpyName} достиг ранга {2_RankName}.[NEWLINE][NEWLINE]�
 WHERE Tag = 'TXT_KEY_EO_SPY_RANK_TT';
 
 UPDATE Language_ru_RU
-SET Text = '[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Шпион действует на {1_SpyBonus} {1_SpyBonus: plural 1?ранг; other?ранга;} выше обычного при подтасовке выборов, поскольку это город-государство является союзником цивилизации, на которую вы оказываете сильное культурное влияние.[ENDCOLOR]'
+SET Text = '[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Шпион получает бонус к рангу: +{1_SpyBonus} при подтасовке выборов, поскольку этот город-государство является союзником цивилизации, на которую вы оказываете сильное культурное влияние.[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_SPY_BONUS_CITY_STATE';
 
 UPDATE Language_ru_RU
@@ -402,7 +402,7 @@ WHERE Tag = 'TXT_KEY_SPY_BE_DIPLOMAT';
 
 -- Button tooltip
 UPDATE Language_ru_RU
-SET Text = 'У вас {1_Num: plural 1?есть шпион, который не; other?есть {1_Num} шпионов, которые не;} назначен на задания.[NEWLINE][NEWLINE]Шпионы могут устраивать диверсии и красть у других цивилизаций, раскрывать их планы через интриги и повышать ваше влияние на города-государства, подтасовывая выборы. Назначьте шпионов на экране обзора шпионажа, чтобы они начали работать!'
+SET Text = 'Не назначено шпионов: {1_Num}.[NEWLINE][NEWLINE]Шпионы могут устраивать диверсии и красть у других цивилизаций, раскрывать их планы через интриги и повышать ваше влияние на города-государства, подтасовывая выборы. Назначьте шпионов на экране обзора шпионажа, чтобы они начали работать!'
 WHERE Tag = 'TXT_KEY_EO_UNASSIGNED_SPIES_TT';
 
 ------------------------------------------------
@@ -585,7 +585,7 @@ SET Text = '{TXT_KEY_CITY_STATE_QUEST_CONTEST_FAITH_FORMAL} Пока что вы
 WHERE Tag = 'TXT_KEY_CITY_STATE_QUEST_CONTEST_FAITH_WINNING_FORMAL';
 
 UPDATE Language_ru_RU
-SET Text = '{TXT_KEY_CITY_STATE_QUEST_CONTEST_FAITH_FORMAL} Пока что лидер имеет {1_LeaderScore} {1_LeaderScore: plural 1?нового последователя; other?новых последователей;}, а у вас [COLOR_POSITIVE_TEXT]{2_PlayerScore}[ENDCOLOR].'
+SET Text = '{TXT_KEY_CITY_STATE_QUEST_CONTEST_FAITH_FORMAL} Пока что результат лидера — {1_LeaderScore}, а ваш — [COLOR_POSITIVE_TEXT]{2_PlayerScore}[ENDCOLOR].'
 WHERE Tag = 'TXT_KEY_CITY_STATE_QUEST_CONTEST_FAITH_LOSING_FORMAL';
 
 UPDATE Language_ru_RU
@@ -647,7 +647,7 @@ SET Text = 'ИМПЕРИАЛИЗМ'
 WHERE Tag = 'TXT_KEY_POLICY_BRANCH_EXPLORATION_CAP';
 
 UPDATE Language_ru_RU
-SET Text = 'Идеологические догматы нельзя приобретать, пока вы не выбрали идеологию. Становится доступно, если вы уже вступили в атомную эру либо открыли 18 политик будучи минимум в индустриальной эре — в зависимости от того, что произойдёт раньше.'
+SET Text = 'Идеологические догматы нельзя приобретать без идеологии. Становится доступно, если вы уже вступили в атомную эру либо открыли 18 политик будучи минимум в индустриальной эре — в зависимости от того, что произойдёт раньше.'
 WHERE Tag = 'TXT_KEY_POLICYSCREEN_IDEOLOGY_NOT_STARTED';
 
 ------------------------------------------------
@@ -758,7 +758,7 @@ SET Text = '+{1_UnitMaintenancePercent}% [ICON_GOLD] к стоимости со�
 WHERE Tag = 'TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_UNIT_MAINTENANCE';
 
 UPDATE Language_ru_RU
-SET Text = '-{1_ResearchCostPercent}% [ICON_RESEARCH] к стоимости исследований технологий, уже открытых другой цивилизацией. Дополнительно -2% за каждого союзного города-государства, вплоть до -50%'
+SET Text = '-{1_ResearchCostPercent}% [ICON_RESEARCH] к стоимости исследований технологий, уже открытых другой цивилизацией. Дополнительно -2% за каждый союзный город-государство, вплоть до -50%'
 WHERE Tag = 'TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_DISCOVERED_TECH_MODIFIER';
 
 UPDATE Language_ru_RU

@@ -323,7 +323,7 @@
 			<Text>Счастье за город: {1}</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_EUI_BUILDING_HAPPINESSPERXPOLICIES">
-			<Text>+1 счастья за каждые {1} института</Text>
+			<Text>+1 счастья за {1: plural 1?каждый институт; other?каждые {1} института;}</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_EUI_BUILDING_CITYCOUNTUNHAPPINESSMOD">
 			<Text>Модификатор недовольства от числа городов: {1}</Text>

@@ -111,7 +111,7 @@ SET Text = 'Глобальная гегемония не достигнута'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_LEAGUE_VOTING_RESULT_WORLD_LEADER_FAIL';
 
 UPDATE Language_ru_RU
-SET Text = 'Поскольку никто не получил явного большинства как минимум в {1_NumDelegates} {1_NumDelegates: plural 1?делегат; other?делегатов;}, предложение о глобальной гегемонии проваливается. {2_NumCivilizations} лидирующих {2_NumCivilizations: plural 1?цивилизация навсегда получила; other?цивилизации навсегда получили;} по одному дополнительному делегату.'
+SET Text = 'Поскольку никто не получил поддержки как минимум {1_NumDelegates} {1_NumDelegates: plural 1?делегата; other?делегатов;}, предложение о глобальной гегемонии проваливается. Цивилизации с лучшими результатами ({2_NumCivilizations}) навсегда получили по одному дополнительному делегату.'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_LEAGUE_VOTING_RESULT_WORLD_LEADER_FAIL_DETAILS';
 
 UPDATE Language_ru_RU

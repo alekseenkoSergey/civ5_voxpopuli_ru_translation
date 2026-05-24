@@ -18,7 +18,7 @@
 			<Text>Дружественные партизаны рядом с {1_Name}!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_CONSCRIPTION_SPAWN">
-			<Text>Поскольку в городе {1_CityName:textkey} живёт {2_Population} [ICON_CITIZEN] жителей, был мобилизован отряд {3_Unit}!</Text>
+			<Text>Поскольку население города {1_CityName:textkey} достигло {2_Population} [ICON_CITIZEN], был мобилизован отряд {3_Unit}!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_CONSCRIPTION_SPAWN_SUMMARY">
 			<Text>{2_Unit} мобилизован в {1_CityName:textkey}!</Text>
@@ -36,7 +36,7 @@
 			<Text>Ваш {1_UnitType} успешно поторговал!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_CITY_FREE_RESOURCE">
-			<Text>Ваш {1_UnitType} отправился в далёкие земли и открыл [COLOR_POSITIVE_TEXT]{2_ResourceNames}[ENDCOLOR]! В знак признательности вам было передано [COLOR_POSITIVE_TEXT]{3_Num}[ENDCOLOR] копий этого ресурса.</Text>
+			<Text>Ваш {1_UnitType} отправился в далёкие земли и открыл [COLOR_POSITIVE_TEXT]{2_ResourceNames}[ENDCOLOR]! В знак признательности вам было передано [COLOR_POSITIVE_TEXT]{3_Num}[ENDCOLOR] копии этого ресурса.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_CITY_FREE_RESOURCE_SUMMARY">
 			<Text>Путешествие вашего {1_UnitType} завершено!</Text>
@@ -120,7 +120,7 @@
 			<Text>Потеряна стратегическая монополия на [COLOR_POSITIVE_TEXT]{1_ResourceNames}[ENDCOLOR]!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_PROJECT_STARTED">
-			<Text>{1_Player} начал строительство [COLOR_NEGATIVE_TEXT]{2_Building}[ENDCOLOR] и завершит его через [COLOR_NEGATIVE_TEXT]{3_Turns}[ENDCOLOR] {1_Num: plural 1?ход; other?ходов;}! Когда строительство завершится, {1_Player} добьётся [COLOR_NEGATIVE_TEXT]культурной победы[ENDCOLOR]!</Text>
+			<Text>{1_Player} начал строительство [COLOR_NEGATIVE_TEXT]{2_Building}[ENDCOLOR] и завершит его через [COLOR_NEGATIVE_TEXT]{3_Turns}[ENDCOLOR] {3_Turns: plural 1?ход; other?ходов;}! Когда строительство завершится, {1_Player} добьётся [COLOR_NEGATIVE_TEXT]культурной победы[ENDCOLOR]!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_PROJECT_STARTED_S">
 			<Text>Строительство [COLOR_POSITIVE_TEXT]{1_Building}[ENDCOLOR] началось!</Text>
@@ -747,10 +747,10 @@
 			<Text>[NEWLINE]{2_Yield} очков великого {1_Name} в городе</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_YIELD_SCALED_NOTIFICATION_TURNS">
-			<Text>[NEWLINE]Длится: {1_Turns} ходов</Text>
+			<Text>[NEWLINE]Длится: {1_Turns} {1_Turns: plural 1?ход; other?ходов;}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_YIELD_DURATION">
-			<Text>{1_Num} ходов</Text>
+			<Text>{1_Num} {1_Num: plural 1?ход; other?ходов;}</Text>
 		</Row>
 
 		<!-- Unused (but still referenced in code) -->

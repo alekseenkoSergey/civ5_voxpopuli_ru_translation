@@ -482,7 +482,7 @@ SET Text = 'Святая земля'
 WHERE Tag = 'TXT_KEY_BELIEF_RELIGIOUS_FERVOR_SHORT';
 
 UPDATE Language_ru_RU
-SET Text = 'Получайте 1 дополнительного [ICON_DIPLOMAT] делегата во Всемирном конгрессе за каждые 2 принадлежащих вам [ICON_RELIGION] святых мест и [ICON_TOURISM] достопримечательностей. +50% дохода от дружественных/союзных [ICON_CITY_STATE] городов-государств, следующих этой религии.'
+SET Text = 'Получайте 1 дополнительного [ICON_DIPLOMAT] делегата во Всемирном конгрессе за каждые 2 принадлежащих вам [ICON_RELIGION] святых места или [ICON_TOURISM] достопримечательности. +50% дохода от дружественных/союзных [ICON_CITY_STATE] городов-государств, следующих этой религии.'
 WHERE Tag = 'TXT_KEY_BELIEF_RELIGIOUS_FERVOR';
 
 UPDATE Language_ru_RU

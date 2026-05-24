@@ -56,7 +56,7 @@
 			<Text>{1: number "'+'##.##;'-'##.##"} {2_YieldIcon}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TECH_HELP_BUILD_REDUCTION">
-			<Text>{1_Build}: {2_Turns} ход(ов) необходимо</Text>
+			<Text>{1_Build}: требуется {2_Turns} {2_Turns: plural 1?ход; other?ходов;}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TECH_HELP_CHOP_BOOST">
 			<Text>Вырубка лесов/джунглей: {2_Sign}{1_Num} [ICON_PRODUCTION] производства</Text>
@@ -240,7 +240,7 @@
 			<Text>+{1_Num} [ICON_GOLDEN_AGE] очков золотого века за ход.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TOP_PANEL_TURNS_UNTIL_GOLDEN_AGE">
-			<Text>Следующий Золотой Век: {1_Num} ход(ов)</Text>
+			<Text>Следующий Золотой Век: {1_Num} {1_Num: plural 1?ход; other?ходов;}</Text>
 		</Row>
 		<!-- Faith -->
 		<Row Tag="TXT_KEY_TP_FAITH_PER_TURN">
@@ -538,13 +538,13 @@
 			<Text>{TXT_KEY_MISSION_HURRY_PRODUCTION}: +{1_Num} [ICON_PRODUCTION] производство</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_UNIT_DISCOVER_TECH">
-			<Text>{1_Num} бесплатн{1: plural 1?ая технология; other?ых технологии;}</Text>
+			<Text>{1_Num} {1: plural 1?бесплатная технология; other?бесплатные технологии;}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_UNIT_DISCOVER_TECH_SCIENCE">
 			<Text>{1_Num} [ICON_RESEARCH] науки</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_UNIT_GIVE_POLICIES">
-			<Text>{1_Num} бесплатн{1: plural 1?ый институт; other?ых института;}</Text>
+			<Text>{1_Num} {1: plural 1?бесплатный институт; other?бесплатных института;}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_UNIT_GIVE_POLICIES_CULTURE">
 			<Text>{1_Num} [ICON_CULTURE] культуры</Text>
@@ -571,10 +571,10 @@
 			<Text>{TXT_KEY_MISSION_CONDUCT_TRADE_MISSION}: {2_Sign}{1_Num} базового [ICON_INFLUENCE] влияния у целевого [ICON_CITY_STATE] города-государства</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_UNIT_FREE_LUXURY">
-			<Text>{TXT_KEY_MISSION_FREE_LUXURY}: +{1_Num} случайных ресурс{1: plural 1? роскоши; other?ов роскоши;}</Text>
+			<Text>{TXT_KEY_MISSION_FREE_LUXURY}: +{1_Num} {1: plural 1?случайный ресурс роскоши; other?случайных ресурса роскоши;}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_REQUIRED_BUILDINGS_PURCHASE">
-			<Text>Требуется здания для покупка: [COLOR_YIELD_FOOD]{1_Buildings}[ENDCOLOR]</Text>
+			<Text>Требуемые здания для покупки: [COLOR_YIELD_FOOD]{1_Buildings}[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_REQUIRED_BUILDINGS_INVEST">
 			<Text>Требуемые здания для инвестирования: [COLOR_YIELD_FOOD]{1_Buildings}[ENDCOLOR]</Text>
@@ -583,7 +583,7 @@
 			<Text>Требуется завершение: [COLOR_CITY_BLUE]{1_Project:textkey}[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_REQUIRED_BELIEF">
-			<Text>Требуется верование для [ICON_PEACE] вера покупка: [COLOR_WHITE]{1_Belief:textkey}[ENDCOLOR]</Text>
+			<Text>Требуемое верование для покупки за [ICON_PEACE] веру: [COLOR_WHITE]{1_Belief:textkey}[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_UNIT_REQUIRE_ENHANCED_RELIGION">
 			<Text>Требуется улучшенная религия</Text>
@@ -595,7 +595,7 @@
 			<Text>{1_CivAdj} уникальный юнит</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_UNIQUE_UNIT_CITY_STATE">
-			<Text>[ICON_CITY_STATE] город-государство уникальный юнит</Text>
+			<Text>Уникальный юнит [ICON_CITY_STATE] города-государства</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_UNIT_MAX_CITY_INSTANCE">
 			<Text>Макс. {1_Num} за принадлежащий город</Text>
@@ -728,7 +728,7 @@
 			<Text>[ICON_BULLET][ICON_HAPPINESS_3] недовольство: {2_Sign}{1_Num}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_AIR_DEFENSE">
-			<Text>[ICON_BULLET][ICON_AIRSTRIKE_DEFENSE] город Защита от авиаударов: +{1_Num}</Text>
+			<Text>[ICON_BULLET][ICON_AIRSTRIKE_DEFENSE] Защита города от авиаударов: +{1_Num}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_GREAT_WORK_YIELD_TYPE">
 			<Text>[ICON_GREAT_WORK] Великие произведения в этом здании дают {1_YieldIcon} {2_Yield:textkey} вместо [ICON_CULTURE] культуры</Text>
@@ -752,10 +752,10 @@
 			<Text>{2_Sign}{1_Num} {3_ResourceIcon} {4_Resource:textkey}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_FREE_RESOURCE_FROM_POPULATION">
-			<Text>+{1_Num} {2_ResourceIcon} {3_Resource:textkey} для каждые [ICON_CITIZEN] население в город</Text>
+			<Text>+{1_Num} {2_ResourceIcon} {3_Resource:textkey} за каждого жителя [ICON_CITIZEN] в городе</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_FREE_RESOURCE_FROM_FRANCHISE">
-			<Text>+1 {2_ResourceIcon} {3_Resource:textkey} за каждые {1_Num} [ICON_FRANCHISE] {1: plural 1?действующую франшизу; other?действующие франшизы;}</Text>
+			<Text>+1 {2_ResourceIcon} {3_Resource:textkey} за {1: plural 1?каждую {1_Num} [ICON_FRANCHISE] действующую франшизу; other?каждые {1_Num} [ICON_FRANCHISE] действующие франшизы;}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_FOOD_MODIFIER_PER_FOLLOWER">
 			<Text>{2_Sign}{1_Num}% [ICON_FOOD] еды за каждого последователя религии большинства</Text>
@@ -794,10 +794,10 @@
 			<Text>{2_Sign}{1_Num} XP для {3_Domains}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_UNIT_XP_DOMAIN_FROM_GREAT_WORK">
-			<Text>{2_Sign}{1_Num} XP для {3_Domains} за [ICON_GREAT_WORK] великое произведение в здание</Text>
+			<Text>{2_Sign}{1_Num} XP для {3_Domains} за каждое [ICON_GREAT_WORK] великое произведение в здании</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_UNIT_XP_DOMAIN_FROM_GREAT_WORK_CITY">
-			<Text>{2_Sign}{1_Num} XP для {3_Domains} за [ICON_GREAT_WORK] великое произведение в город</Text>
+			<Text>{2_Sign}{1_Num} XP для {3_Domains} за каждое [ICON_GREAT_WORK] великое произведение в городе</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_UNIT_XP_DOMAINS_FROM_GREAT_WRITING_GLOBAL">
 			<Text>{2_Sign}{1_Num} XP для {3_Domains} во всех городах за каждое [ICON_GW_WRITING] великое литературное произведение в империи, максимум 45 XP</Text>
@@ -806,10 +806,10 @@
 			<Text>{2_Sign}{1_Num}% [ICON_FOOD] еды переносится при росте города</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_UNHAPPINESS_MODIFIER">
-			<Text>{2_Sign}{1_Num}% [ICON_HAPPINESS_4] недовольство</Text>
+			<Text>{2_Sign}{1_Num}% [ICON_HAPPINESS_4] недовольства</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_UNHAPPINESS_MODIFIER_LOCAL">
-			<Text>{2_Sign}{1_Num}% [ICON_HAPPINESS_4] недовольство в город</Text>
+			<Text>{2_Sign}{1_Num}% [ICON_HAPPINESS_4] недовольства в городе</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_UNHAPPINESS_MODIFIER_CITY_COUNT">
 			<Text>{2_Sign}{1_Num}% [ICON_HAPPINESS_4] недовольства от размера империи</Text>
@@ -893,7 +893,7 @@
 			<Text>{2_Sign}{1_Num} [ICON_CITY_SECURITY] безопасность города</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_CITY_SECURITY_PER_X_POPULATION">
-			<Text>{2_Sign}1 [ICON_CITY_SECURITY] безопасность города для каждые {1: number #.##} [ICON_CITIZEN] население в город</Text>
+			<Text>{2_Sign}1 [ICON_CITY_SECURITY] безопасность города за каждого {1: number #.##} [ICON_CITIZEN] жителя в городе</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_CITY_STRIKE_STRENGTH_MODIFIER">
 			<Text>{2_Sign}{1_Num}% [ICON_RANGE_STRENGTH] сила городского обстрела</Text>
@@ -986,10 +986,10 @@
 			<Text>{2_Sign}{1_Num}% [ICON_PRODUCTION] производства для зданий, не являющихся чудесами</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_WONDER_PRODUCTION_MODIFIER">
-			<Text>{2_Sign}{1_Num}% [ICON_PRODUCTION] производство для чудеса</Text>
+			<Text>{2_Sign}{1_Num}% [ICON_PRODUCTION] производства для чудес</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_MILITARY_PRODUCTION_MODIFIER">
-			<Text>{2_Sign}{1_Num}% [ICON_PRODUCTION] производство для военный юниты</Text>
+			<Text>{2_Sign}{1_Num}% [ICON_PRODUCTION] производства для военных юнитов</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_MILITARY_PRODUCTION_MODIFIER_FROM_WAR">
 			<Text>{2_Sign}{1_Num}% [ICON_PRODUCTION] производства боевых юнитов во всех городах за каждую крупную цивилизацию, воюющую с вашей империей</Text>
@@ -998,13 +998,13 @@
 			<Text>{2_Sign}{1_Num}% [ICON_PRODUCTION] производства для частей космического корабля</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_SPECIFIC_UNIT_PRODUCTION_MODIFIER">
-			<Text>{2_Sign}{1_Num}% [ICON_PRODUCTION] производство для [COLOR_YELLOW]{3_Unit:textkey}[ENDCOLOR]</Text>
+			<Text>{2_Sign}{1_Num}% [ICON_PRODUCTION] производства для [COLOR_YELLOW]{3_Unit:textkey}[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_SPECIFIC_UNIT_COMBAT_PRODUCTION_MODIFIER">
-			<Text>{2_Sign}{1_Num}% [ICON_PRODUCTION] производство для [COLOR_YELLOW]{3_UnitCombat:textkey} юниты[ENDCOLOR]</Text>
+			<Text>{2_Sign}{1_Num}% [ICON_PRODUCTION] производства для [COLOR_YELLOW]{3_UnitCombat:textkey} юниты[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_SPECIFIC_DOMAIN_PRODUCTION_MODIFIER">
-			<Text>{2_Sign}{1_Num}% [ICON_PRODUCTION] производство для [COLOR_YELLOW]{3_Domain:textkey}[ENDCOLOR]</Text>
+			<Text>{2_Sign}{1_Num}% [ICON_PRODUCTION] производства для [COLOR_YELLOW]{3_Domain:textkey}[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_CORPORATION_SPECIFIC_STRATEGIC_UNIT_PRODUCTION_MODIFIER">
 			<Text>{2_Sign}{1_Num}% [ICON_PRODUCTION] производства для юнитов, требующих {3_ResourceIcon} {4_Resource:textkey}</Text>
@@ -1043,16 +1043,16 @@
 			<Text>+1 [ICON_DIPLOMAT] делегат во Всемирном конгрессе за каждые {1_Gold} валового [ICON_GOLD] золота в ход, максимум до 1/4 от числа [ICON_CITY_STATE] городов-государств, изначально существовавших в мире</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_EXTRA_VOTES_FROM_DOF">
-			<Text>+{1_Num} [ICON_DIPLOMAT] делегат во Всемирном конгрессе за каждые [COLOR_POSITIVE_TEXT]2[ENDCOLOR] активные декларации дружбы с вашей империей</Text>
+			<Text>+{1_Num} [ICON_DIPLOMAT] {1: plural 1?делегат; other?делегата;} во Всемирном конгрессе за каждые [COLOR_POSITIVE_TEXT]2[ENDCOLOR] активные декларации дружбы с вашей империей</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_EXTRA_VOTES_FROM_DP">
-			<Text>+{1_Num} [ICON_DIPLOMAT] делегат во Всемирном конгрессе за каждый активный оборонительный пакт с вашей империей</Text>
+			<Text>+{1_Num} [ICON_DIPLOMAT] {1: plural 1?делегат; other?делегата;} во Всемирном конгрессе за каждый активный оборонительный пакт с вашей империей</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_EXTRA_VOTES_FROM_CAPITALS">
-			<Text>+{1_Num} [ICON_DIPLOMAT] делегат во Всемирном конгрессе за каждую [COLOR_POSITIVE_TEXT]чужую[ENDCOLOR] исходную [ICON_CAPITAL] столицу, которую вы контролируете</Text>
+			<Text>+{1_Num} [ICON_DIPLOMAT] {1: plural 1?делегат; other?делегата;} во Всемирном конгрессе за каждую [COLOR_POSITIVE_TEXT]чужую[ENDCOLOR] исходную [ICON_CAPITAL] столицу, которую вы контролируете</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_EXTRA_VOTES_FROM_RESEARCH_AGREEMENTS">
-			<Text>+{1_Num} [ICON_DIPLOMAT] делегат во Всемирном конгрессе за каждое активное соглашение об исследованиях с вашей империей</Text>
+			<Text>+{1_Num} [ICON_DIPLOMAT] {1: plural 1?делегат; other?делегата;} во Всемирном конгрессе за каждое активное соглашение об исследованиях с вашей империей</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_EXTRA_VOTES_FROM_RELIGION">
 			<Text>+1 [ICON_DIPLOMAT] делегат во Всемирном конгрессе за {1: plural 1?город; other?{1_Num} города;}, следующих вашей [ICON_RELIGION] основной религии</Text>
@@ -1076,10 +1076,10 @@
 			<Text>{2_Sign}{1_Num}% к разнообразию ресурсов для [ICON_INTERNATIONAL_TRADE] торговых путей</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_LAND_TRADE_ROUTE_RANGE_MODIFIER">
-			<Text>{2_Sign}{1_Num}% Дальность для [ICON_CARAVAN] сухопутный торговые пути</Text>
+			<Text>{2_Sign}{1_Num}% к дальности [ICON_CARAVAN] сухопутных торговых путей</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_SEA_TRADE_ROUTE_RANGE_MODIFIER">
-			<Text>{2_Sign}{1_Num}% Дальность для [ICON_CARGO_SHIP] море торговые пути</Text>
+			<Text>{2_Sign}{1_Num}% к дальности [ICON_CARGO_SHIP] морских торговых путей</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_TRADE_ROUTE_DURATION_MODIFIER">
 			<Text>{2_Sign}{1_Num}% к длительности [ICON_INTERNATIONAL_TRADE] торговых путей</Text>
@@ -1100,7 +1100,7 @@
 			<Text>{1_Num}% [ICON_CULTURE] культуры от местности и [ICON_WONDER] чудес света добавляется к [ICON_TOURISM] туризму</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_GREAT_WORK_TOURISM_MODIFIER">
-			<Text>{2_Sign}{1_Num}% [ICON_TOURISM] туризм от [ICON_GREAT_WORK] великие произведения</Text>
+			<Text>{2_Sign}{1_Num}% [ICON_TOURISM] туризма от [ICON_GREAT_WORK] великих произведений</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_NULLIFY_TECH_TOURISM_MODIFIER">
 			<Text>-{1_Num}% [ICON_TOURISM] туризма от цивилизаций, исследовавших [ICON_CYAN]{2_Tech:textkey}[ENDCOLOR]</Text>
@@ -1118,13 +1118,13 @@
 			<Text>{1_Num}% дохода {2_YieldIcon} {3_Yield:textkey} каждого города (до модификаторов) добавляется к его доходу {4_YieldIcon} {5_Yield:textkey} (после модификаторов)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_FREE_TECHS">
-			<Text>При завершении: получить {1_Num} бесплатн{1: plural 1?ую технологию; other?ых технологии;}</Text>
+			<Text>При завершении: получить {1_Num} {1: plural 1?бесплатную технологию; other?бесплатные технологии;}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_FREE_POLICIES">
-			<Text>При завершении: получить {1_Num} бесплатн{1: plural 1?ый институт; other?ых института;}</Text>
+			<Text>При завершении: получить {1_Num} {1: plural 1?бесплатный институт; other?бесплатных института;}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_FREE_GP">
-			<Text>При завершении: {1_Num} бесплатн{1: plural 1?ый великий человек; other?ых великих человека;} по вашему выбору появляется в [ICON_CAPITAL] столице</Text>
+			<Text>При завершении: {1_Num} {1: plural 1?бесплатный великий человек по вашему выбору появляется; other?бесплатных великих людей по вашему выбору появляются;} в [ICON_CAPITAL] столице</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_FREE_SPY_POINTS">
 			<Text>При завершении: получить {1_Num} [ICON_SPY_POINT] {1: plural 1?очко шпионажа; other?очка шпионажа;}</Text>
@@ -1142,7 +1142,7 @@
 			<Text>При завершении: получить бесплатно [ICON_GREAT_WORK] великое произведение [COLOR_POSITIVE_TEXT]{1_GreatWork:textkey}[ENDCOLOR] (размещается в ближайшем подходящем слоте)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_FREE_ARTIFACT">
-			<Text>При завершении: получить {1_Num} бесплатн{1: plural 1?ый артефакт; other?ых артефакта;} [ICON_ARTIFACT] (размещается в этом здании)</Text>
+			<Text>При завершении: получить {1_Num} {1: plural 1?бесплатный артефакт; other?бесплатных артефакта;} [ICON_ARTIFACT] (размещается в этом здании)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_START_GOLDEN_AGE">
 			<Text>При завершении: начать [ICON_GOLDEN_AGE] золотой век</Text>
@@ -1154,13 +1154,13 @@
 			<Text>При завершении: {1_InstantYield}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_ON_COMPLETION_FROM_POPULATION">
-			<Text>При завершении: {1_InstantYield} за каждое [ICON_CITIZEN] население в городе</Text>
+			<Text>При завершении: {1_InstantYield} за каждого жителя [ICON_CITIZEN] в городе</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_POPULATION">
 			<Text>При завершении: {2_Sign}{1_Num} [ICON_CITIZEN] населения</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_AUTOMATON">
-			<Text>При завершении: {2_Sign}{1_Num} рабочего-автоматона</Text>
+			<Text>При завершении: {2_Sign}{1_Num} {1_Num: plural 1?автоматический рабочий; other?автоматических рабочих;}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_INFLUENCE_ON_COMPLETION">
 			<Text>При завершении: {2_Sign}{1_Num} [ICON_INFLUENCE] влияния со всеми [ICON_CITY_STATE] городами-государствами</Text>
@@ -1556,7 +1556,7 @@
 			<Text>{1_YieldBoosts} городу за каждое ваше здание, которое в данный момент можно купить за [ICON_PEACE] веру</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_MODIFIER_GOLDEN_AGE">
-			<Text>{1_YieldModifiers} во время [ICON_GOLDEN_AGE] золотой век</Text>
+			<Text>{1_YieldModifiers} во время [ICON_GOLDEN_AGE] золотого века</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_MODIFIER_WLTKD">
 			<Text>{1_YieldModifiers} во время [ICON_HAPPINESS_1] «Дня любви к королю»</Text>
@@ -1571,7 +1571,7 @@
 			<Text>{1_YieldModifiers} за каждый [ICON_INTERNATIONAL_TRADE] торговый путь, направленный в города с [ICON_FRANCHISE] действующей франшизой этой корпорации</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_HAPPINESS_FROM_BUILDING">
-			<Text>[ICON_BULLET][COLOR_YIELD_FOOD]{3_Building:textkey}[ENDCOLOR]: {2_Sign}{1_Num} [ICON_HAPPINESS_1] счастье</Text>
+			<Text>[ICON_BULLET][COLOR_YIELD_FOOD]{3_Building:textkey}[ENDCOLOR]: {2_Sign}{1_Num} [ICON_HAPPINESS_1] счастья</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_HAPPINESS_FROM_BUILDING_GLOBAL">
 			<Text>[ICON_BULLET][COLOR_YIELD_FOOD]{3_Building:textkey}[ENDCOLOR] в любом городе: {2_Sign}{1_Num} [ICON_HAPPINESS_1] счастья</Text>
@@ -1604,7 +1604,7 @@
 			<Text>[ICON_BULLET]Каждое {1_Items}, принадлежащее городу: {2_YieldBoosts}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_BOOST_FROM_IMPROVEMENT_GLOBAL">
-			<Text>[ICON_BULLET]Каждый {1_Items} в империя: {2_YieldBoosts}</Text>
+			<Text>[ICON_BULLET]Каждый {1_Items} в империи: {2_YieldBoosts}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_BOOST_FROM_TECH">
 			<Text>[ICON_BULLET][COLOR_CYAN]{1_Tech:textkey}[ENDCOLOR]: {2_YieldBoosts}</Text>
@@ -1616,7 +1616,7 @@
 			<Text>[ICON_BULLET][COLOR_MAGENTA]{1_Policy:textkey}[ENDCOLOR]: {2_YieldBoosts}, если город следует вашей [ICON_RELIGION] основной религии</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_HAPPINESS_FROM_POLICY">
-			<Text>[ICON_BULLET][COLOR_MAGENTA]{3_Policy:textkey}[ENDCOLOR]: {2_Sign}{1_Num} [ICON_HAPPINESS_1] счастье</Text>
+			<Text>[ICON_BULLET][COLOR_MAGENTA]{3_Policy:textkey}[ENDCOLOR]: {2_Sign}{1_Num} [ICON_HAPPINESS_1] счастья</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_CITY_SECURITY_FROM_POLICY">
 			<Text>[ICON_BULLET][COLOR_MAGENTA]{3_Policy:textkey}[ENDCOLOR]: {2_Sign}{1_Num} [ICON_CITY_SECURITY] безопасность города</Text>
@@ -1625,7 +1625,7 @@
 			<Text>[ICON_BULLET][COLOR_WHITE]{1_Belief:textkey}[ENDCOLOR]: {2_YieldBoosts}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_HAPPINESS_FROM_BELIEF">
-			<Text>[ICON_BULLET][COLOR_WHITE]{3_Belief:textkey}[ENDCOLOR]: {2_Sign}{1_Num} [ICON_HAPPINESS_1] счастье</Text>
+			<Text>[ICON_BULLET][COLOR_WHITE]{3_Belief:textkey}[ENDCOLOR]: {2_Sign}{1_Num} [ICON_HAPPINESS_1] счастья</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_BOOST_FROM_CORPORATION">
 			<Text>[ICON_BULLET][COLOR_YIELD_GOLD]{1_Corporation:textkey}[ENDCOLOR]: {2_YieldBoosts}</Text>
@@ -1634,13 +1634,13 @@
 			<Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]{1_Civ:textkey}[ENDCOLOR]: {2_YieldBoosts}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_HAPPINESS_FROM_ACCOMPLISHMENT">
-			<Text>[ICON_BULLET][COLOR_WATER_TEXT]{3_Accomplishment:textkey}[ENDCOLOR]: {2_Sign}{1_Num} [ICON_HAPPINESS_1] счастье</Text>
+			<Text>[ICON_BULLET][COLOR_WATER_TEXT]{3_Accomplishment:textkey}[ENDCOLOR]: {2_Sign}{1_Num} [ICON_HAPPINESS_1] счастья</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_XP_FOR_DOMAIN_FROM_ACCOMPLISHMENT">
 			<Text>[ICON_BULLET][COLOR_WATER_TEXT]{3_Accomplishment:textkey}[ENDCOLOR]: {2_Sign}{1_Num} XP для [COLOR_YELLOW]{4_Domain:textkey}[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_UNIT_COMBAT_PRODUCTION_MODIFIER_FROM_ACCOMPLISHMENT">
-			<Text>[ICON_BULLET][COLOR_WATER_TEXT]{3_Accomplishment:textkey}[ENDCOLOR]: {2_Sign}{1_Num}% [ICON_PRODUCTION] производство для [COLOR_YELLOW]{4_UnitCombat:textkey}[ENDCOLOR] юнитов</Text>
+			<Text>[ICON_BULLET][COLOR_WATER_TEXT]{3_Accomplishment:textkey}[ENDCOLOR]: {2_Sign}{1_Num}% [ICON_PRODUCTION] производства для [COLOR_YELLOW]{4_UnitCombat:textkey}[ENDCOLOR] юнитов</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_PLAYER_INSTANCE_FROM_ACCOMPLISHMENT">
 			<Text>[ICON_BULLET][COLOR_WATER_TEXT]{2_Accomplishment:textkey}[ENDCOLOR]: можно построить ещё {1_Num} {1: plural 1?такое здание; other?таких здания;}</Text>
@@ -1670,10 +1670,10 @@
 			<Text>[ICON_BULLET]Каждая [ICON_MONOPOLY] глобальная монополия: {1_YieldBoosts}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_BOOST_FROM_POPULATION">
-			<Text>[ICON_BULLET]Каждый [ICON_CITIZEN] население в город: {1_YieldBoosts}</Text>
+			<Text>[ICON_BULLET]За жителя [ICON_CITIZEN] в городе: {1_YieldBoosts}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_BOOST_FROM_POPULATION_GLOBAL">
-			<Text>[ICON_BULLET]Каждый [ICON_CITIZEN] население в империя: {1_YieldBoosts}</Text>
+			<Text>[ICON_BULLET]За жителя [ICON_CITIZEN] в империи: {1_YieldBoosts}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_BOOST_FROM_RELIGION_COUNT">
 			<Text>[ICON_BULLET]Каждая [ICON_RELIGION] религия хотя бы с одним последователем в городе: {1_YieldBoosts}</Text>
@@ -1691,7 +1691,7 @@
 			<Text>[ICON_BULLET]Каждый дружественный [ICON_CITY_STATE] город-государство: {1_YieldBoosts}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_BOOST_FROM_CITY_STATE_ALLIES">
-			<Text>[ICON_BULLET]Каждое союзное [ICON_CITY_STATE] город-государство: {1_YieldBoosts}</Text>
+			<Text>[ICON_BULLET]Каждый союзный [ICON_CITY_STATE] город-государство: {1_YieldBoosts}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_BOOST_FROM_CITY_STATE_STRATEGIC_RESOURCES">
 			<Text>[ICON_BULLET]Каждая единица стратегических ресурсов, подключённых союзными [ICON_CITY_STATE] городами-государствами: {1_YieldBoosts}</Text>
@@ -1718,7 +1718,7 @@
 			<Text>[ICON_BULLET]{1_Num} {2_IconString} от особенности цивилизации</Text>
 		</Row>
 		<Row Tag="TXT_KEY_YIELD_FROM_POLICIES">
-			<Text>[ICON_BULLET]{1_Num} {2_IconString} от институты</Text>
+			<Text>[ICON_BULLET]{1_Num} {2_IconString} от институтов</Text>
 		</Row>
 		<Row Tag="TXT_KEY_YIELD_FROM_EMPIRE_POP">
 			<Text>[ICON_BULLET]{1_Num} {2_IconString} от [ICON_CITIZEN] населения по всей империи</Text>
@@ -1793,34 +1793,34 @@
 			<Text>{1: number "'[COLOR_POSITIVE_TEXT]'+#,##0.00;'[COLOR_NEGATIVE_TEXT]-'#,##0.00"}[ENDCOLOR] избытка [ICON_FOOD] до модификаторов</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GROWTH_MOD_BELIEF">
-			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% от [ICON_RELIGION] религиозный верования</Text>
+			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% от [ICON_RELIGION] религиозных верований</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GROWTH_MOD_CAPITAL">
-			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% для [ICON_CAPITAL] столица от институты</Text>
+			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% для [ICON_CAPITAL] столицы от институтов</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GROWTH_MOD_EVENT">
 			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% от активных событий</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GROWTH_MOD_GA_CITY">
-			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% от [ICON_GOLDEN_AGE] золотой век (здания)</Text>
+			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% от [ICON_GOLDEN_AGE] золотого века (здания)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GROWTH_MOD_GA_PLAYER">
-			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% от [ICON_GOLDEN_AGE] золотой век (институты)</Text>
+			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% от [ICON_GOLDEN_AGE] золотого века (институты)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GROWTH_MOD_GA_TRAIT">
 			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% от [ICON_GOLDEN_AGE] золотого века (уникальная способность)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GROWTH_MOD_PLAYER">
-			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% от институты</Text>
+			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% от институтов</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GROWTH_MOD_PUPPET">
-			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% для [ICON_PUPPET] город-марионетка</Text>
+			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% для [ICON_PUPPET] города-марионетки</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GROWTH_MOD_TOURISM">
 			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% от [ICON_INTERNATIONAL_TRADE] торговых путей (культурное влияние)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GROWTH_MOD_UNHAPPY">
-			<Text>[NEWLINE][ICON_BULLET]{1_Num}% от [ICON_HAPPINESS_3] [COLOR_NEGATIVE_TEXT]недовольство[ENDCOLOR]</Text>
+			<Text>[NEWLINE][ICON_BULLET]{1_Num}% от [ICON_HAPPINESS_3] [COLOR_NEGATIVE_TEXT]недовольства[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GROWTH_MOD_WLTKD">
 			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% от [ICON_HAPPINESS_1] «Дня любви к королю»</Text>
@@ -1829,16 +1829,16 @@
 			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% от бонуса области</Text>
 		</Row>
 		<Row Tag="TXT_KEY_YIELD_MOD_BELIEF">
-			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% от [ICON_RELIGION] религиозный верования</Text>
+			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% от [ICON_RELIGION] религиозных верований</Text>
 		</Row>
 		<Row Tag="TXT_KEY_YIELD_MOD_BUILDINGS">
-			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% от здания</Text>
+			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% от зданий</Text>
 		</Row>
 		<Row Tag="TXT_KEY_YIELD_MOD_CAPITAL">
-			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% для [ICON_CAPITAL] столица от институты</Text>
+			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% для [ICON_CAPITAL] столицы от институтов</Text>
 		</Row>
 		<Row Tag="TXT_KEY_YIELD_MOD_CONQUEST">
-			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% от завоевания города ({2_Num} {2: plural 1?ход; other?хода;} осталось)</Text>
+			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% от завоевания города (осталось ходов: {2_Num})</Text>
 		</Row>
 		<Row Tag="TXT_KEY_YIELD_MOD_CORPORATION">
 			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% от [ICON_INTERNATIONAL_TRADE] торговых путей с [ICON_FRANCHISE] действующей франшизой</Text>
@@ -1850,13 +1850,13 @@
 			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% от [ICON_GOLDEN_AGE] золотого века (база)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_YIELD_MOD_GA_BELIEF">
-			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% от [ICON_GOLDEN_AGE] золотой век (религиозный верования)</Text>
+			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% от [ICON_GOLDEN_AGE] золотого века (религиозные верования)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_YIELD_MOD_GA_CITY">
-			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% от [ICON_GOLDEN_AGE] золотой век (здания)</Text>
+			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% от [ICON_GOLDEN_AGE] золотого века (здания)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_YIELD_MOD_GA_PLAYER">
-			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% от [ICON_GOLDEN_AGE] золотой век (институты)</Text>
+			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% от [ICON_GOLDEN_AGE] золотого века (институты)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_YIELD_MOD_GA_TRAIT">
 			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% от [ICON_GOLDEN_AGE] золотого века (уникальная способность)</Text>
@@ -1889,16 +1889,16 @@
 			<Text>[NEWLINE][ICON_BULLET]+{1_Num}% от числа специалистов</Text>
 		</Row>
 		<Row Tag="TXT_KEY_YIELD_MOD_OCCUPIED_POLICY">
-			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% для [ICON_OCCUPIED] оккупированный город от институты</Text>
+			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% для [ICON_OCCUPIED] оккупированного города от институтов</Text>
 		</Row>
 		<Row Tag="TXT_KEY_YIELD_MOD_PLAYER">
 			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% от бонусов империи</Text>
 		</Row>
 		<Row Tag="TXT_KEY_YIELD_MOD_PUPPET">
-			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% для [ICON_PUPPET] город-марионетка</Text>
+			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% для [ICON_PUPPET] города-марионетки</Text>
 		</Row>
 		<Row Tag="TXT_KEY_YIELD_MOD_PUPPET_POLICY">
-			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% для [ICON_PUPPET] город-марионетка (институты для [ICON_PRODUCTION] производство)</Text>
+			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% для [ICON_PUPPET] города-марионетки (институты для [ICON_PRODUCTION] производства)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_YIELD_MOD_RAILROAD_CONNECTION">
 			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% от железнодорожного соединения</Text>
@@ -1965,10 +1965,10 @@
 			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% для [ICON_CAPITAL] столицы от [ICON_RES_MARRIAGE] дипломатических браков</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GPP_MOD_GA_BELIEF">
-			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% от [ICON_GOLDEN_AGE] золотой век (религиозный верования)</Text>
+			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% от [ICON_GOLDEN_AGE] золотого века (религиозные верования)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GPP_MOD_GA_POLICY">
-			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% от [ICON_GOLDEN_AGE] золотой век (институты)</Text>
+			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% от [ICON_GOLDEN_AGE] золотого века (институты)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GPP_MOD_GA_TRAIT">
 			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% от [ICON_GOLDEN_AGE] золотого века (уникальная способность)</Text>
@@ -2071,28 +2071,28 @@
 			<Text>[NEWLINE][ICON_BULLET]модификатор для чудеса от юнит гарнизон: {1_Num}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODMOD_WONDER_IMPROVEMENT">
-			<Text>[NEWLINE][ICON_BULLET]модификатор для чудеса от Улучшения: {1_Num}%</Text>
+			<Text>[NEWLINE][ICON_BULLET]Модификатор для чудес от улучшений: {1_Num}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODMOD_MILITARY_UNITPROMOTION">
-			<Text>[NEWLINE][ICON_BULLET]модификатор для военный юниты от юнит гарнизон: {1_Num}%</Text>
+			<Text>[NEWLINE][ICON_BULLET]Модификатор для военных юнитов от юнита гарнизона: {1_Num}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODMOD_WONDER_TO_BUILDING_FROM_UNIT_TRAIT">
-			<Text>[NEWLINE][ICON_BULLET]особенность чудо производство модификатор для здания от юнит гарнизон: {1_Num}%</Text>
+			<Text>[NEWLINE][ICON_BULLET]Модификатор производства чудес, применяемый к зданиям от юнита гарнизона: {1_Num}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODMOD_WONDER_TO_BUILDING_FROM_IMPROVEMENT_TRAIT">
-			<Text>[NEWLINE][ICON_BULLET]особенность чудо производство модификатор для здания от Улучшения: {1_Num}%</Text>
+			<Text>[NEWLINE][ICON_BULLET]Модификатор производства чудес, применяемый к зданиям от улучшений: {1_Num}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODMOD_WONDER_TO_BUILDING_FROM_POLICY_TRAIT">
-			<Text>[NEWLINE][ICON_BULLET]особенность чудо производство модификатор для здания от институты: {1_Num}%</Text>
+			<Text>[NEWLINE][ICON_BULLET]Модификатор производства чудес, применяемый к зданиям от институтов: {1_Num}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODMOD_WONDER_TO_BUILDING_FROM_RESOURCE_TRAIT">
-			<Text>[NEWLINE][ICON_BULLET]особенность чудо производство модификатор для здания от ресурсы: {1_Num}%</Text>
+			<Text>[NEWLINE][ICON_BULLET]Модификатор производства чудес, применяемый к зданиям от ресурсов: {1_Num}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODMOD_WONDER_TO_BUILDING_FROM_PLAYER_TRAIT">
 			<Text>[NEWLINE][ICON_BULLET] Модификатор особенности для чудес, применяемый к зданиям от особенностей игрока: {1_Num}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODMOD_WONDER_TO_BUILDING_FROM_CITY_TRAIT">
-			<Text>[NEWLINE][ICON_BULLET]особенность чудо производство модификатор для здания от город: {1_Num}%</Text>
+			<Text>[NEWLINE][ICON_BULLET]Модификатор производства чудес, применяемый к зданиям от города: {1_Num}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SCIENCE_YIELD_FROM_LEAGUE_ART">
 			<Text>{1_Num} [ICON_RESEARCH] науки от [ICON_GREAT_WORK] великих произведений</Text>
@@ -2128,7 +2128,7 @@
 			<Text>[NEWLINE]{1_BuildingName:textkey} нельзя строить, пока вы строите {2_BuildingName:textkey} в другом месте своей империи.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NO_ACTION_PRODUCTION_SPY_BLOCKED">
-			<Text>[NEWLINE]Заблокировано из-за недавней шпионской миссии ({1_Num} {1_Num: plural 1?ход; other?хода;} осталось).</Text>
+			<Text>[NEWLINE]Заблокировано из-за недавней шпионской миссии, осталось ходов: {1_Num}.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NO_ACTION_BUILDING_LOCAL_FEATURE">
 			<Text>[NEWLINE]Требуется {1_FeatureName:textkey} возле этого города.</Text>
@@ -2137,16 +2137,16 @@
 			<Text>[NEWLINE]Требуется монополия на {2_ResourceIcon} {1_ResourceName:textkey}. В настоящее время вы контролируете {3_Percent}%.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NO_ACTION_TENETS_COUNT_NEEDED">
-			<Text>[NEWLINE]Для строительства {2_BuildingName:textkey} требуется еще {1_Num} догмата 3-го уровня.</Text>
+			<Text>[NEWLINE]Для строительства {2_BuildingName:textkey} требуется ещё {1_Num} {1_Num: plural 1?догмат; other?догмата;} 3-го уровня.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NO_ACTION_BUILDING_NEED_NATIONAL_POP">
-			<Text>[NEWLINE]Для строительства {2_BuildingName:textkey} требуется еще {1_Num} граждан в империи.</Text>
+			<Text>[NEWLINE]Для строительства {2_BuildingName:textkey} требуется ещё {1_Num} {1_Num: plural 1?гражданин; other?граждан;} в империи.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NO_ACTION_BUILDING_NEED_LOCAL_POP">
-			<Text>[NEWLINE]Для строительства {2_BuildingName:textkey} требуется еще {1_Num} граждан в этом городе.</Text>
+			<Text>[NEWLINE]Для строительства {2_BuildingName:textkey} требуется ещё {1_Num} {1_Num: plural 1?гражданин; other?граждан;} в этом городе.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NO_ACTION_BUILDING_NEED_FOLLOWER_POP">
-			<Text>[NEWLINE]Для строительства {2_BuildingName:textkey} требуется еще {1_Num} последователей вашей [ICON_RELIGION] религии.</Text>
+			<Text>[NEWLINE]Для строительства {2_BuildingName:textkey} требуется ещё {1_Num} {1_Num: plural 1?последователь; other?последователей;} вашей [ICON_RELIGION] религии.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NO_ACTION_BUILDING_NEED_GLOBAL_FOLLOWER_POP">
 			<Text>[NEWLINE]Для строительства {2_BuildingName:textkey} требуется на {1_Num}% больше последователей вашей [ICON_RELIGION] религии по всему миру.</Text>
@@ -2188,13 +2188,13 @@
 			<Text>[NEWLINE]Вы уже инвестировали [ICON_GOLD] золото в этого юнита. Стоимость производства [ICON_PRODUCTION] этого юнита снижена на {1_Num}%.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_COOLDOWN_X_TURNS_REMAINING">
-			<Text>[NEWLINE]Вы недавно совершили покупку за [ICON_GOLD] золото в этом городе и должны подождать еще {1_Num} ход(ов), чтобы сделать это снова.</Text>
+			<Text>[NEWLINE]Вы недавно совершили покупку за [ICON_GOLD] золото в этом городе и должны подождать ещё {1_Num} {1_Num: plural 1?ход; other?хода;}, чтобы сделать это снова.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_COOLDOWN_X_TURNS_REMAINING_FAITH">
-			<Text>[NEWLINE]Вы недавно приобрели [ICON_GREAT_PEOPLE] Великого Человека за [ICON_PEACE] веру и должны подождать еще {1_Num} ход(ов), чтобы сделать это снова.</Text>
+			<Text>[NEWLINE]Вы недавно приобрели [ICON_GREAT_PEOPLE] великого человека за [ICON_PEACE] веру и должны подождать ещё {1_Num} {1_Num: plural 1?ход; other?хода;}, чтобы сделать это снова.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_COOLDOWN_X_TURNS_REMAINING_FAITH_LOCAL">
-			<Text>[NEWLINE]Вы недавно совершили покупку за [ICON_PEACE] веру в этом городе и должны подождать еще {1_Num} ход(ов), чтобы сделать это снова.</Text>
+			<Text>[NEWLINE]Вы недавно совершили покупку за [ICON_PEACE] веру в этом городе и должны подождать ещё {1_Num} {1_Num: plural 1?ход; other?хода;}, чтобы сделать это снова.</Text>
 		</Row>
 
 		<!-- Unit panel -->
@@ -2383,7 +2383,7 @@
 			<Text>Бонус рядом с городом</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUPANEL_NO_FRIENDLY_UNIT_ADJACENT_BONUS">
-			<Text>Нет соседнего дружеского юнита</Text>
+			<Text>Нет соседнего дружественного юнита</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUPANEL_PENALTY_VS_DOMAIN">
 			<Text>Штраф против области</Text>
@@ -2454,10 +2454,10 @@
 			<Text>{1: number "'+'##;'-'##"}% от их зданий[NEWLINE]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CO_PLAYER_TOURISM_TOUR_BONUS">
-			<Text>Бонус +100% от концертного тура ({1_NumTurns} ходов)[NEWLINE]</Text>
+			<Text>Бонус +100% от концертного тура ({1_NumTurns} {1_NumTurns: plural 1?ход; other?ходов;})[NEWLINE]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CO_PLAYER_TOURISM_TOUR_BONUS_HALF">
-			<Text>Бонус +50% от концертного тура ({1_NumTurns} ходов)[NEWLINE]</Text>
+			<Text>Бонус +50% от концертного тура ({1_NumTurns} {1_NumTurns: plural 1?ход; other?ходов;})[NEWLINE]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CO_EXOTIC_THEY">
 			<Text>[NEWLINE][NEWLINE]Их [ICON_TOURISM] влияние туризма на {1_Civ}: [COLOR_CYAN]экзотическое[ENDCOLOR]</Text>
@@ -2491,19 +2491,19 @@
 
 		<!-- Religion overview -->
 		<Row Tag="TXT_KEY_RO_WR_TOTAL_CITIES">
-			<Text>города</Text>
+			<Text>Города</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RO_WR_TOTAL_FOLLOWERS">
-			<Text>последователи</Text>
+			<Text>Верующие</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RO_WR_YEAR_FOUNDED">
-			<Text>Основана</Text>
+			<Text>Дата</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RO_WR_OWNED_CITIES">
-			<Text>[COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR] всех городов следуют {2_Name}.[NEWLINE][NEWLINE]{3_Num} ваших городов имеют {4_Name} как религию большинства. Они составляют [COLOR_POSITIVE_TEXT]{5_Num}%[ENDCOLOR] ваших городов.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR] всех городов следуют {2_Name}.[NEWLINE][NEWLINE]Ваши города с {4_Name} как религией большинства: {3_Num}. Они составляют [COLOR_POSITIVE_TEXT]{5_Num}%[ENDCOLOR] ваших городов.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RO_WR_OWNED_FOLLOWERS">
-			<Text>[COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR] населения мира следует {2_Name}.[NEWLINE][NEWLINE]{3_Num} вашего [ICON_CITIZEN] населения следует {4_Name}. Они составляют [COLOR_POSITIVE_TEXT]{5_Num}%[ENDCOLOR] вашего населения.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR] населения мира следует {2_Name}.[NEWLINE][NEWLINE]Ваше [ICON_CITIZEN] население, следующее {4_Name}: {3_Num}. Оно составляет [COLOR_POSITIVE_TEXT]{5_Num}%[ENDCOLOR] вашего населения.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RO_TAB_MAP">
 			<Text>Карта</Text>
@@ -2562,7 +2562,7 @@
 
 		<!-- World Congress screen -->
 		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_DETAILS_PATRONAGE_FINISHER_VOTES">
-			<Text>[NEWLINE][ICON_BULLET]{1_NumVotes} от институты</Text>
+			<Text>[NEWLINE][ICON_BULLET]{1_NumVotes} от институтов</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_DETAILS_RELIGION_REFORMATION_VOTES">
 			<Text>[NEWLINE][ICON_BULLET]{1_NumVotes} от верования Реформации</Text>
@@ -2674,7 +2674,7 @@
 			<Text>Слова Ганди подкреплены ЯДЕРНЫМ ОРУЖИЕМ!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_COOP_WAR_AGAINST_TURNS">
-			<Text>Через {1_Num} ходов мы объявим им войну.</Text>
+			<Text>Через {1_Num} {1_Num: plural 1?ход; other?ходов;} мы объявим им войну.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_PREVIOUSLY_FRIENDS">
 			<Text>Раньше мы дружили с их цивилизацией.</Text>
@@ -2858,20 +2858,20 @@
 			<Text>Ваши военные силы выглядят угрожающе.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_AGGRESSIVE_POSTURE_HIGH">
-			<Text>Ваше военные силы выглядят чрезвычайно угрожающе.</Text>
+			<Text>Ваши военные силы выглядят чрезвычайно угрожающе.</Text>
 		</Row>
 		<!-- Promises -->
 		<Row Tag="TXT_KEY_DIPLO_MILITARY_PROMISE_TURNS">
-			<Text>Вы обещали не объявлять им войну еще {1_Num} ходов.</Text>
+			<Text>Вы обещали не объявлять им войну ещё {1_Num} {1_Num: plural 1?ход; other?ходов;}.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_EXPANSION_PROMISE_TURNS">
-			<Text>Вы обещали не селиться рядом с ними еще {1_Num} ходов.</Text>
+			<Text>Вы обещали не селиться рядом с ними ещё {1_Num} {1_Num: plural 1?ход; other?ходов;}.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_BORDER_PROMISE_TURNS">
-			<Text>Вы обещали не покупать землю рядом с ними еще {1_Num} ходов.</Text>
+			<Text>Вы обещали не покупать землю рядом с ними ещё {1_Num} {1_Num: plural 1?ход; other?ходов;}.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_AI_EXPANSION_PROMISE_TURNS">
-			<Text>Они пообещали не селиться рядом с вами еще {1_Num} ходов.</Text>
+			<Text>Они пообещали не селиться рядом с вами ещё {1_Num} {1_Num: plural 1?ход; other?ходов;}.</Text>
 		</Row>
 		<!-- World Congress -->
 		<Row Tag="TXT_KEY_DIPLO_MAINTAINED_THEIR_HOSTING">
@@ -3034,7 +3034,7 @@
 
 		<!-- Leader screen -->
 		<Row Tag="TXT_KEY_DIPLO_NEGOTIATE_PEACE_BLOCKED_THEM_TT">
-			<Text>Они не могут заключить с вами мир еще на {1_Num} хода из-за сделки, которую они заключили с другим игроком.</Text>
+			<Text>Они не могут заключить с вами мир ещё {1_Num} {1_Num: plural 1?ход; other?ходов;} из-за сделки, которую они заключили с другим игроком.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_NEGOTIATE_PEACE_BLOCKED_MOD_TT">
 			<Text>Вы всегда воюете с этим игроком!</Text>
@@ -3180,7 +3180,7 @@
 
 		<!-- Trade screen -->
 		<Row Tag="TXT_KEY_DIPLO_DEF_PACT_NO_LIMIT_TT">
-			<Text>Если на одного из игроков нападет другая крупная цивилизация, другой игрок немедленно и автоматически начнет войну с агрессором. Это соглашение длится {1_Num} ходов.</Text>
+			<Text>Если на одного из игроков нападёт другая крупная цивилизация, другой игрок немедленно и автоматически начнёт войну с агрессором. Это соглашение длится {1_Num} ходов.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TRADE_WLTKD_RESOURCE_CITIES">
 			<Text>Следующие города в настоящее время требуют этот ресурс:</Text>
@@ -3297,10 +3297,10 @@
 			<Text>Они уже вассалы {1_CivName}!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_VASSAL_YOU_TOO_SOON">
-			<Text>Вы не можете стать их вассалом в течение {1_Num} ходов, потому что прошло слишком мало времени с тех пор, как закончилось ваше вассальное положение.</Text>
+			<Text>Вы не можете стать их вассалом в течение {1_Num} {1_Num: plural 1?хода; other?ходов;}, потому что прошло слишком мало времени с тех пор, как закончилось ваше вассальное положение.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_VASSAL_THEM_TOO_SOON">
-			<Text>Они не могут стать вашими вассалами в течение {1_Num} ходов, потому что их вассалитет закончился слишком недавно.</Text>
+			<Text>Они не могут стать вашими вассалами в течение {1_Num} {1_Num: plural 1?хода; other?ходов;}, потому что их вассалитет закончился слишком недавно.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_VASSAL_YOU_NO_POPULATION">
 			<Text>Вы не можете стать их вассалом, потому что у вас нет городов и населения!</Text>
@@ -3330,10 +3330,10 @@
 			<Text>Они не могут просить своего господина освободить вассалов!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_VASSAL_REVOKE_US_TOO_SOON">
-			<Text>Недавно мы кого-то вассализировали и не можем выполнить это действие еще {1_Num} ходов.</Text>
+			<Text>Недавно мы кого-то вассализировали и не можем выполнить это действие ещё {1_Num} {1_Num: plural 1?ход; other?ходов;}.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_VASSAL_REVOKE_THEM_TOO_SOON">
-			<Text>Они недавно вассализировали кого-то и не могут выполнить это действие еще {1_Num} ходов.</Text>
+			<Text>Они недавно вассализировали кого-то и не могут выполнить это действие ещё {1_Num} {1_Num: plural 1?ход; other?ходов;}.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_WAR_NO_PEACE_THIRD_PARTY_TT">
 			<Text>Может включать только союзные города-государства в мирную сделку.</Text>
@@ -3437,10 +3437,10 @@
 			<Text>Нейтральный</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PEACE_BLOCKED_TURNS">
-			<Text>Мирный договор недоступен в течение {1_Num} хода(ов)</Text>
+			<Text>Мирный договор недоступен в течение {1_Num} {1_Num: plural 1?хода; other?ходов;}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PEACE_BLOCKED_CSTATE_TURNS_TT">
-			<Text>Вы агрессивно напали на этот город-государство и не можете заключить мир в течение {1_Num} ходов!</Text>
+			<Text>Вы агрессивно напали на этот город-государство и не можете заключить мир в течение {1_Num} {1_Num: plural 1?хода; other?ходов;}!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CSTATE_JERK_STATUS">
 			<Text>[COLOR_NEGATIVE_TEXT]Вы агрессивно напали на этот город-государство![ENDCOLOR][NEWLINE]В течение следующих [COLOR_NEGATIVE_TEXT]{1_JerkRate}[ENDCOLOR] ходов город-государство не будет давать вам никаких заданий, а ваш [ICON_INFLUENCE] минимум влияния будет уменьшен. [NEWLINE]Если в течение этого времени вы станете [COLOR_POSITIVE_TEXT]Дружествены[ENDCOLOR] этому городу-государству, штрафы будут сняты досрочно.[NEWLINE][NEWLINE]</Text>
@@ -3535,13 +3535,13 @@
 			<Text>Вы получили {1_Num} [ICON_INFLUENCE] влияния от дипломатической миссии!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MISC_IMPROVEMENT_DESTROYED_EVENT">
-			<Text>{2_Num} {1_Improvement}{2_Num: plural 1?; other?s;} разграблено рядом с {3_City} из-за выбора события!</Text>
+			<Text>Из-за выбора события рядом с {3_City} разграблены улучшения ({1_Improvement}): {2_Num}!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MISC_STRATEGIC_RESOURCE_PILLAGED_EVENT">
-			<Text>{2_Num} {1_Num: plural 1?источник; other?источника;} {1_Resource} разграблено рядом с {3_City} из-за выбора события!</Text>
+			<Text>Из-за выбора события рядом с {3_City} разграблены источники ресурса {1_Resource}: {2_Num}!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MISC_BUILDING_DESTROYED_EVENT">
-			<Text>[COLOR_NEGATIVE_TEXT]{1_Building}[ENDCOLOR] уничтожается в {2_City} из-за выбора события!</Text>
+			<Text>Из-за выбора события в {2_City} уничтожено здание [COLOR_NEGATIVE_TEXT]{1_Building}[ENDCOLOR]!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_AIR_PATROL_BOMBED_GROUND_TARGETS">
 			<Text>Ваш {@1_UnitName} не встретил сопротивления и атаковал находившиеся на земле вражеские воздушные и зенитные юниты!</Text>
@@ -3623,7 +3623,7 @@
 			<Text>Города</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SETTINGS_MILITARY_BUTTON">
-			<Text>Военный юниты</Text>
+			<Text>Военные юниты</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SETTINGS_CIVILIAN_BUTTON">
 			<Text>Гражданские юниты</Text>

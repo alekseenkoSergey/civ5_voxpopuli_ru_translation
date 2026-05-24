@@ -1148,7 +1148,7 @@
       <Text>[NEWLINE]   [ICON_BULLET] [ICON_CULTURE] скука: {1: number "'[COLOR_NEGATIVE_TEXT]'##;'[COLOR_POSITIVE_TEXT]'##"}[ENDCOLOR]</Text>
     </Row>
     <Row Tag="TXT_KEY_EO_CITY_LOCAL_UNHAPPINESS">
-      <Text>Города не могут создавать больше [ICON_HAPPINESS_3] недовольства, чем их [ICON_CITIZEN] население (кроме [ICON_URBANIZATION] урбанизации).[NEWLINE][NEWLINE]Местное [ICON_HAPPINESS_3] недовольство: [COLOR_NEGATIVE_TEXT]{1_NUM}[ENDCOLOR] (ход {2_NUM})</Text>
+      <Text>Города не могут создавать больше [ICON_HAPPINESS_3] недовольства, чем их [ICON_CITIZEN] население (кроме [ICON_URBANIZATION] урбанизации).[NEWLINE][NEWLINE]Местное [ICON_HAPPINESS_3]: [COLOR_NEGATIVE_TEXT]{1_NUM}[ENDCOLOR] (ход {2_NUM})</Text>
     </Row>
     <Row Tag="TXT_KEY_EO_CITY_GLOBAL_MEDIAN_MODS">
       <Text>[COLOR_POSITIVE_TEXT]Потребности города (модификатор %):[ENDCOLOR]</Text>
@@ -1364,10 +1364,10 @@
       <Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR] от религии</Text>
     </Row>
     <Row Tag="TXT_KEY_CITY_UNHAPPY">
-      <Text>Город имеет {1_Num} избыточного [ICON_HAPPINESS_3]!</Text>
+      <Text>Избыточное [ICON_HAPPINESS_3] недовольство: {1_Num}!</Text>
     </Row>
     <Row Tag="TXT_KEY_EO_CITY_LOCAL_HAPPINESS_EXPLANATION_PUPPET">
-      <Text>[ICON_PUPPET] Марионеточные, [ICON_OCCUPIED] оккупированные, [ICON_RAZE] сжигаемые или находящиеся в [ICON_RESISTANCE] сопротивлении города не производят [ICON_HAPPINESS_1] счастье и не получают выгоду от общеимперских источников [ICON_HAPPINESS_1] счастья.</Text>
+      <Text>[ICON_PUPPET] Марионеточные, [ICON_OCCUPIED] оккупированные, [ICON_RAZE] сжигаемые или находящиеся в [ICON_RESISTANCE] сопротивлении города не производят [ICON_HAPPINESS_1] счастья и не получают выгоду от общеимперских источников [ICON_HAPPINESS_1] счастья.</Text>
     </Row>
     <Row Tag="TXT_KEY_GAME_CONCEPT_SECTION_26">
       <Text>[COLOR_GREEN]Вассалитет[ENDCOLOR]</Text>
@@ -2264,13 +2264,13 @@
       <Text>Города вассала:</Text>
     </Row>
     <Row Tag="TXT_KEY_VO_CITY_PERCENT_TT">
-      <Text>Соотношение между общим числом городов, которыми ваш вассал владеет сейчас, и числом городов, которое у него было на момент начала вассалитета.[NEWLINE][NEWLINE][ICON_BULLET]Городов сейчас: {1_CurrentCities}[NEWLINE][ICON_BULLET]Городов раньше: {2_StartCities}[NEWLINE][NEWLINE]У этого игрока {3_PlayerCities} городов.</Text>
+      <Text>Соотношение между общим числом городов, которыми ваш вассал владеет сейчас, и числом городов, которое у него было на момент начала вассалитета.[NEWLINE][NEWLINE][ICON_BULLET]Городов сейчас: {1_CurrentCities}[NEWLINE][ICON_BULLET]Городов раньше: {2_StartCities}[NEWLINE][NEWLINE]Городов у этого игрока: {3_PlayerCities}.</Text>
     </Row>
     <Row Tag="TXT_KEY_VO_MASTER_CITY_PERCENT">
       <Text>Города сюзерена:</Text>
     </Row>
     <Row Tag="TXT_KEY_VO_MASTER_CITY_PERCENT_TT">
-      <Text>Соотношение между общим числом городов, которыми ваш вассал владеет сейчас, и числом ваших городов сейчас.[NEWLINE][NEWLINE][ICON_BULLET]Города вассала: {1_CurrentCities}[NEWLINE][ICON_BULLET]Города сюзерена: {2_MasterCities}[NEWLINE][NEWLINE]У этого игрока {3_Cities} городов.</Text>
+      <Text>Соотношение между общим числом городов, которыми ваш вассал владеет сейчас, и числом ваших городов сейчас.[NEWLINE][NEWLINE][ICON_BULLET]Города вассала: {1_CurrentCities}[NEWLINE][ICON_BULLET]Города сюзерена: {2_MasterCities}[NEWLINE][NEWLINE]Городов у этого игрока: {3_Cities}.</Text>
     </Row>
     <Row Tag="TXT_KEY_VO_MASTER_POP_PERCENT">
       <Text>Население сюзерена:</Text>
@@ -3002,7 +3002,7 @@
       <Text>{3_Value} {2_Icon} {1_Yield}</Text>
     </Row>
     <Row Tag="TXT_KEY_EVENT_YIELD_SCALED_SPECIALIST">
-      <Text>{2_Yield} очков {1_Name}</Text>
+      <Text>Очки {1_Name}: {2_Yield}</Text>
     </Row>
     <Row Tag="TXT_KEY_GP_DIPLOMAT_DETAILS_COLLAPSE">
       <Text>[ICON_MINUS] Великие дипломаты</Text>
