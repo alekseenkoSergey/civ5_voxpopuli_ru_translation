@@ -600,7 +600,7 @@ WHERE Tag = 'TXT_KEY_UNIT_OTTOMAN_JANISSARY_STRATEGY';
 -- Persia
 --------------------
 UPDATE Language_ru_RU
-SET Text = '[ICON_GOLDEN_AGE] Золотые века длятся на 50% дольше, и 15% вашего валового [ICON_GOLD] дохода каждую ход превращается в [ICON_GOLDEN_AGE] очки Золотого века. Во время [ICON_GOLDEN_AGE] Золотого века юниты получают +1 [ICON_MOVES] к передвижению и +15% [ICON_STRENGTH] боевой силы.'
+SET Text = '[ICON_GOLDEN_AGE] Золотые века длятся на 50% дольше, и 15% вашего валового [ICON_GOLD] дохода каждый ход превращается в [ICON_GOLDEN_AGE] очки Золотого века. Во время [ICON_GOLDEN_AGE] Золотого века юниты получают +1 [ICON_MOVES] к передвижению и +15% [ICON_STRENGTH] боевой силы.'
 WHERE Tag = 'TXT_KEY_TRAIT_ENHANCED_GOLDEN_AGES';
 
 UPDATE Language_ru_RU
