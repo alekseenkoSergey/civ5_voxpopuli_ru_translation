@@ -152,19 +152,19 @@
 			<Text>Используется мощными юнитами и зданиями поздней игры.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Бонус стратегической монополии (25%):[ENDCOLOR] Юниты получают +5 HP при лечении.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Бонус глобальной монополии (50%):[ENDCOLOR] +2 [ICON_PRODUCTION] производства на клетках с ресурсом.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESOURCE_MONOPOLY_YIELD_GOLD_COAL">
-			<Text>Используется мощными юнитами и зданиями середины игры.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Бонус стратегической монополии (25%):[ENDCOLOR] Морские юниты получают +1 [ICON_MOVES] к перемещению.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Бонус глобальной монополии (50%):[ENDCOLOR] +3 [ICON_GOLD] золота на клетках с ресурсом.</Text>
+			<Text>Используется мощными зданиями середины игры.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Бонус стратегической монополии (25%):[ENDCOLOR] Морские юниты получают +10% [ICON_STRENGTH] боевой мощи.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Бонус глобальной монополии (50%):[ENDCOLOR] +3 [ICON_GOLD] золота на клетках с ресурсом.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESOURCE_MONOPOLY_YIELD_SCIENCE_OIL">
-			<Text>Используется мощными юнитами и зданиями поздней игры.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Бонус стратегической монополии (25%):[ENDCOLOR] Юниты получают +2 XP после боя.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Бонус глобальной монополии (50%):[ENDCOLOR] +2 [ICON_RESEARCH] науки на клетках с ресурсом.</Text>
+			<Text>Используется мощными юнитами поздней игры.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Бонус стратегической монополии (25%):[ENDCOLOR] Юниты получают +2 XP после боя.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Бонус глобальной монополии (50%):[ENDCOLOR] +2 [ICON_RESEARCH] науки на клетках с ресурсом.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESOURCE_MONOPOLY_YIELD_SCIENCE_HORSE">
-			<Text>Используется мощными юнитами.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Бонус стратегической монополии (25%):[ENDCOLOR] Юниты получают +10% [ICON_STRENGTH] силы при атаке.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Бонус глобальной монополии (50%):[ENDCOLOR] +2 [ICON_RESEARCH] науки на клетках с ресурсом.</Text>
+			<Text>Используется мощными юнитами ранней и средней игры и зданиями поздней игры.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Бонус стратегической монополии (25%):[ENDCOLOR] Юниты получают +10% [ICON_STRENGTH] силы при атаке.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Бонус глобальной монополии (50%):[ENDCOLOR] +2 [ICON_RESEARCH] науки на клетках с ресурсом.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESOURCE_MONOPOLY_YIELD_PRODUCTION_IRON">
-			<Text>Используется мощными юнитами на протяжении всей игры.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Бонус стратегической монополии (25%):[ENDCOLOR] Юниты получают +10% [ICON_STRENGTH] силы при обороне.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Бонус глобальной монополии (50%):[ENDCOLOR] +2 [ICON_PRODUCTION] производства на клетках с ресурсом.</Text>
+			<Text>Используется мощными юнитами и зданиями поздней игры.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Бонус стратегической монополии (25%):[ENDCOLOR] Юниты получают +10% [ICON_STRENGTH] силы при обороне.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Бонус глобальной монополии (50%):[ENDCOLOR] +2 [ICON_PRODUCTION] производства на клетках с ресурсом.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESOURCE_MONOPOLY_MOD_SCIENCE_URANIUM">
-			<Text>Используется для создания ужасающего оружия массового уничтожения.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Бонус стратегической монополии (25%):[ENDCOLOR] Юниты получают +10% [ICON_STRENGTH] силы при атаке.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Бонус глобальной монополии (50%):[ENDCOLOR] +10% [ICON_RESEARCH] науки во всех ваших городах.</Text>
+			<Text>Используется для создания ужасающего оружия массового уничтожения и атомных электростанций.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Бонус стратегической монополии (25%):[ENDCOLOR] Юниты получают +10% [ICON_STRENGTH] силы при атаке.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Бонус глобальной монополии (50%):[ENDCOLOR] +10% [ICON_RESEARCH] науки во всех ваших городах.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESOURCE_MONOPOLY_STRAT_HORSE">
 			<Text>[COLOR_POSITIVE_TEXT]Бонус стратегической монополии:[ENDCOLOR] Юниты получают +10% [ICON_STRENGTH] силы при атаке.</Text>
@@ -173,7 +173,7 @@
 			<Text>[COLOR_POSITIVE_TEXT]Бонус стратегической монополии:[ENDCOLOR] Юниты получают +10% [ICON_STRENGTH] силы при обороне.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESOURCE_MONOPOLY_STRAT_COAL">
-			<Text>[COLOR_POSITIVE_TEXT]Бонус стратегической монополии:[ENDCOLOR] Морские юниты получают +1 [ICON_MOVES] к перемещению.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Бонус стратегической монополии:[ENDCOLOR] Морские юниты получают +10% [ICON_STRENGTH] боевой мощи.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESOURCE_MONOPOLY_STRAT_ALUMINUM">
 			<Text>[COLOR_POSITIVE_TEXT]Бонус стратегической монополии:[ENDCOLOR] Юниты получают +5 HP при лечении.</Text>

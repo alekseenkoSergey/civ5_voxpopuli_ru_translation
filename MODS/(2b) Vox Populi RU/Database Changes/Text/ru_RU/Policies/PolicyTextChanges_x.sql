@@ -79,7 +79,7 @@ SET Text = 'Прогресс'
 WHERE Tag = 'TXT_KEY_POLICY_BRANCH_LIBERTY';
 
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Прогресс[ENDCOLOR] рассчитан на основание сети самодостаточных городов в [COLOR_CYAN]ранней игре[ENDCOLOR] с бесплатными стартовыми доходами и более высокой скоростью [ICON_WORKER] улучшения клеток. Строительство зданий и рождение [ICON_CITIZEN] жителей поддерживают экономику [COLOR_CYAN]на протяжении всей игры[ENDCOLOR].[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие Прогресса даёт:[ENDCOLOR][NEWLINE][ICON_BULLET]Мгновенный прирост в 75 [ICON_RESEARCH] науки.[NEWLINE][ICON_BULLET]Получайте 10 [ICON_RESEARCH] науки при рождении [ICON_CITIZEN] жителя, с ростом по эпохе.[NEWLINE][ICON_BULLET]Получайте 15 [ICON_CULTURE] культуры при изучении технологии, с ростом по эпохе, а также за каждую уже открытую технологию (без роста по эпохе).[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Каждая открытая политика Прогресса даёт:[ENDCOLOR][NEWLINE][ICON_BULLET]Дополнительно 15 [ICON_CULTURE] культуры при изучении технологии, с ростом по эпохе.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие всех политик Прогресса даёт:[ENDCOLOR][NEWLINE][ICON_BULLET]Открывает строительство [COLOR_POSITIVE_TEXT]Запретного дворца[ENDCOLOR].[NEWLINE][ICON_BULLET]Получайте 25 [ICON_GOLD] золота при рождении [ICON_CITIZEN] жителя в любом городе, с ростом по эпохе.[NEWLINE][ICON_BULLET]Позволяет покупать [ICON_GREAT_WRITER] Великих писателей за [ICON_PEACE] веру, начиная с Индустриальной эры.'
+SET Text = '[COLOR_POSITIVE_TEXT]Прогресс[ENDCOLOR] рассчитан на основание сети самодостаточных городов в [COLOR_CYAN]ранней игре[ENDCOLOR] с бесплатными стартовыми доходами и более высокой скоростью [ICON_WORKER] улучшения клеток. Строительство зданий и рождение [ICON_CITIZEN] жителей поддерживают экономику [COLOR_CYAN]на протяжении всей игры[ENDCOLOR].[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие Прогресса даёт:[ENDCOLOR][NEWLINE][ICON_BULLET]Мгновенный прирост в 75 [ICON_RESEARCH] науки.[NEWLINE][ICON_BULLET]Получайте 8 [ICON_RESEARCH] науки при рождении [ICON_CITIZEN] жителя, с ростом по эпохе.[NEWLINE][ICON_BULLET]Получайте 15 [ICON_CULTURE] культуры при изучении технологии, с ростом по эпохе, а также за каждую уже открытую технологию (без роста по эпохе).[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Каждая открытая политика Прогресса даёт:[ENDCOLOR][NEWLINE][ICON_BULLET]Дополнительно 15 [ICON_CULTURE] культуры при изучении технологии, с ростом по эпохе.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Принятие всех политик Прогресса даёт:[ENDCOLOR][NEWLINE][ICON_BULLET]Открывает строительство [COLOR_POSITIVE_TEXT]Запретного дворца[ENDCOLOR].[NEWLINE][ICON_BULLET]Получайте 25 [ICON_GOLD] золота при рождении [ICON_CITIZEN] жителя в любом городе, с ростом по эпохе.[NEWLINE][ICON_BULLET]Позволяет покупать [ICON_GREAT_WRITER] Великих писателей за [ICON_PEACE] веру, начиная с Индустриальной эры.'
 WHERE Tag = 'TXT_KEY_POLICY_BRANCH_LIBERTY_HELP';
 
 UPDATE Language_ru_RU
@@ -245,7 +245,7 @@ SET Text = '[COLOR_POSITIVE_TEXT]Верность[ENDCOLOR] усиливает �
 WHERE Tag = 'TXT_KEY_POLICY_BRANCH_PIETY_HELP';
 
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Организованная религия[ENDCOLOR][NEWLINE][ICON_BULLET]+25% давления из ваших городов, следующих вашей [ICON_RELIGION] основной религии.[NEWLINE][ICON_BULLET]+1 [ICON_DIPLOMAT] делегат во Всемирном конгрессе за каждые 10 городов, следующих вашей [ICON_RELIGION] основной религии.[NEWLINE][ICON_BULLET]+2 [ICON_CULTURE] культуры от святилищ и храмов.'
+SET Text = '[COLOR_POSITIVE_TEXT]Организованная религия[ENDCOLOR][NEWLINE][ICON_BULLET]+25% давления из ваших городов, следующих вашей [ICON_RELIGION] основной религии.[NEWLINE][ICON_BULLET]+1 [ICON_DIPLOMAT] делегат во Всемирном конгрессе за каждые 10 городов, следующих вашей [ICON_RELIGION] основной религии.[NEWLINE][ICON_BULLET]+2 [ICON_CULTURE] культуры от святилищ и +6 [ICON_CULTURE] культуры от Великого храма.'
 WHERE Tag = 'TXT_KEY_POLICY_ORGANIZED_RELIGION_HELP';
 
 UPDATE Language_ru_RU
@@ -350,7 +350,7 @@ SET Text = 'Биржевые рынки'
 WHERE Tag = 'TXT_KEY_POLICY_CULTURAL_DIPLOMACY';
 
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Биржевые рынки[ENDCOLOR][NEWLINE][ICON_BULLET]+1 [ICON_INTERNATIONAL_TRADE] торговый путь.[NEWLINE][ICON_BULLET]+15% модификатора [ICON_TOURISM] туризма за [COLOR_POSITIVE_TEXT]торговые пути[ENDCOLOR].[NEWLINE][ICON_BULLET]+1 каждого стратегического ресурса за каждые три ваших союза с городами-государствами.[NEWLINE][ICON_BULLET]Ресурсы от городов-государств учитываются при глобальных монополиях.'
+SET Text = '[COLOR_POSITIVE_TEXT]Биржевые рынки[ENDCOLOR][NEWLINE][ICON_BULLET]+1 [ICON_INTERNATIONAL_TRADE] торговый путь.[NEWLINE][ICON_BULLET]+15% модификатора [ICON_TOURISM] туризма за [COLOR_POSITIVE_TEXT]торговые пути[ENDCOLOR].[NEWLINE][ICON_BULLET]+1 каждого стратегического ресурса за каждые три ваших союза с [ICON_CITY_STATE] городами-государствами.[NEWLINE][ICON_BULLET]Ресурсы от [ICON_CITY_STATE] городов-государств учитываются при [ICON_MONOPOLY] глобальных монополиях.'
 WHERE Tag = 'TXT_KEY_POLICY_CULTURAL_DIPLOMACY_HELP';
 
 UPDATE Language_ru_RU
@@ -423,7 +423,7 @@ SET Text = 'Наследие'
 WHERE Tag = 'TXT_KEY_POLICY_FLOURISHING_OF_ARTS';
 
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Наследие[ENDCOLOR][NEWLINE][ICON_BULLET]+4 [ICON_GOLD] золота от [ICON_GW_MUSIC] шедевров музыки.[NEWLINE][ICON_BULLET]+50% ко всем [ICON_TOURISM]/[ICON_CULTURE] тематическим бонусам империи.[NEWLINE][ICON_BULLET]25% [ICON_CULTURE] культуры от [ICON_WONDER] чудес света и клеток добавляется к [ICON_TOURISM] туризму города.'
+SET Text = '[COLOR_POSITIVE_TEXT]Наследие[ENDCOLOR][NEWLINE][ICON_BULLET]+4 [ICON_GOLD] золота от [ICON_GW_MUSIC] шедевров музыки.[NEWLINE][ICON_BULLET]+2 [ICON_PRODUCTION] производства и [ICON_CULTURE] культуры от театров, галерей и оперных театров.[NEWLINE][ICON_BULLET]25% [ICON_CULTURE] культуры от [ICON_WONDER] чудес света и клеток добавляется к [ICON_TOURISM] туризму города.'
 WHERE Tag = 'TXT_KEY_POLICY_FLOURISHING_OF_ARTS_HELP';
 
 UPDATE Language_ru_RU
@@ -443,7 +443,7 @@ SET Text = 'Идея национального достояния, как и н
 WHERE Tag = 'TXT_KEY_POLICY_ARTISTIC_GENIUS_TEXT';
 
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Культурный обмен[ENDCOLOR][NEWLINE][ICON_BULLET]+1 [ICON_HAPPINESS_1] счастья за каждые 3 [ICON_GREAT_WORK] шедевра в городе.[NEWLINE][ICON_BULLET]+2 [ICON_PRODUCTION] производства и [ICON_CULTURE] культуры от театров, галерей и оперных театров.[NEWLINE][ICON_BULLET]+10% модификатора [ICON_TOURISM] туризма за [COLOR_POSITIVE_TEXT]открытые границы[ENDCOLOR] с другими цивилизациями.'
+SET Text = '[COLOR_POSITIVE_TEXT]Культурный обмен[ENDCOLOR][NEWLINE][ICON_BULLET]+1 [ICON_HAPPINESS_1] счастья за каждые 3 [ICON_GREAT_WORK] шедевра в городе.[NEWLINE][ICON_BULLET]+50% ко всем [ICON_TOURISM]/[ICON_CULTURE] тематическим бонусам империи.[NEWLINE][ICON_BULLET]+10% модификатора [ICON_TOURISM] туризма за [COLOR_POSITIVE_TEXT]открытые границы[ENDCOLOR] с другими цивилизациями.'
 WHERE Tag = 'TXT_KEY_POLICY_ETHICS_HELP';
 
 --------------------
@@ -484,7 +484,7 @@ SET Text = 'Субсидии'
 WHERE Tag = 'TXT_KEY_POLICY_CARAVANS';
 
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Субсидии[ENDCOLOR][NEWLINE][ICON_BULLET]-50% [ICON_GOLD] затрат на содержание путей.[NEWLINE][ICON_BULLET]Города получают +15 [ICON_RESEARCH] науки при строительстве зданий, с ростом по эпохе.[NEWLINE][ICON_BULLET]+1 [ICON_HAPPINESS_1] счастья от {TXT_KEY_BUILDING_WINDMILL}.'
+SET Text = '[COLOR_POSITIVE_TEXT]Субсидии[ENDCOLOR][NEWLINE][ICON_BULLET]Получите 4 единицы бесплатного угля.[NEWLINE][ICON_BULLET]Города получают +15 [ICON_RESEARCH] науки при строительстве зданий, с ростом по эпохе.[NEWLINE][ICON_BULLET]+1 [ICON_HAPPINESS_1] счастья от {TXT_KEY_BUILDING_WINDMILL}.'
 WHERE Tag = 'TXT_KEY_POLICY_CARAVANS_HELP';
 
 UPDATE Language_ru_RU
@@ -545,7 +545,7 @@ SET Text = 'Эксплуатация'
 WHERE Tag = 'TXT_KEY_POLICY_MERCHANT_NAVY';
 
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Эксплуатация[ENDCOLOR][NEWLINE][ICON_BULLET]+2 [ICON_FOOD] пищи и +1 [ICON_PRODUCTION] производства от ферм, лагерей и плантаций.[NEWLINE][ICON_BULLET]+1 [ICON_PRODUCTION] производства и [ICON_RESEARCH] науки от побережий, озёр и океанов.'
+SET Text = '[COLOR_POSITIVE_TEXT]Эксплуатация[ENDCOLOR][NEWLINE][ICON_BULLET]+3 [ICON_FOOD] пищи, [ICON_PRODUCTION] производства и [ICON_GOLD] золота от ресурсов роскоши.[NEWLINE][ICON_BULLET]+1 [ICON_PRODUCTION] производства и [ICON_RESEARCH] науки от побережий, озёр и океанов.'
 WHERE Tag = 'TXT_KEY_POLICY_MERCHANT_NAVY_HELP';
 
 UPDATE Language_ru_RU
@@ -569,7 +569,7 @@ SET Text = 'Колониализм'
 WHERE Tag = 'TXT_KEY_POLICY_NAVAL_TRADITION';
 
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Колониализм[ENDCOLOR][NEWLINE][ICON_BULLET]+2 [ICON_RESEARCH] науки и +1 [ICON_CULTURE] культуры от казарм, оружейных, военных академий, фортов и цитаделей.[NEWLINE][ICON_BULLET]Каждый уникальный модификатор [ICON_MONOPOLY] глобальной монополии усиливается ещё на 10%, если он процентный, или на +3, если нет.'
+SET Text = '[COLOR_POSITIVE_TEXT]Колониализм[ENDCOLOR][NEWLINE][ICON_BULLET]+2 [ICON_RESEARCH] науки и +1 [ICON_CULTURE] культуры от фортов, а также от оружейных, бастионных фортов и военных академий.[NEWLINE][ICON_BULLET]+4 [ICON_RESEARCH] науки и [ICON_CULTURE] культуры от цитаделей.[NEWLINE][ICON_BULLET]Каждый бонус [ICON_MONOPOLY] глобальной монополии усиливается ещё на 5%, если он процентный, или на +5, если нет.'
 WHERE Tag = 'TXT_KEY_POLICY_NAVAL_TRADITION_HELP';
 
 UPDATE Language_ru_RU

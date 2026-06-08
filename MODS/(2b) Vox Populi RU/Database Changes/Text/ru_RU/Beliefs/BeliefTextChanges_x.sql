@@ -36,7 +36,7 @@ SET Text = 'Бог ремесленников'
 WHERE Tag = 'TXT_KEY_BELIEF_STONE_CIRCLES_SHORT';
 
 UPDATE Language_ru_RU
-SET Text = '+1 [ICON_PEACE] веры и [ICON_PRODUCTION] производства от каменоломен. +2 [ICON_PEACE] веры и [ICON_RESEARCH] науки от дворца. +2 [ICON_PEACE] веры и +1 [ICON_CULTURE] культуры от каменотёсных мастерских.'
+SET Text = '+1 [ICON_PEACE] веры, [ICON_PRODUCTION] производства и [ICON_RESEARCH] науки от каменоломен. +2 [ICON_PEACE] веры и [ICON_RESEARCH] науки от дворца. +2 [ICON_PEACE] веры и +1 [ICON_CULTURE] культуры от каменотёсных мастерских.'
 WHERE Tag = 'TXT_KEY_BELIEF_STONE_CIRCLES';
 
 UPDATE Language_ru_RU
@@ -62,7 +62,7 @@ SET Text = 'Бог звёзд и неба'
 WHERE Tag = 'TXT_KEY_BELIEF_DANCE_AURORA_SHORT';
 
 UPDATE Language_ru_RU
-SET Text = '+1 [ICON_PEACE] вера, [ICON_FOOD] пища и [ICON_CULTURE] культура от клеток тундры и снега с ресурсами.'
+SET Text = '+1 [ICON_PEACE] веры, [ICON_FOOD] пищи и [ICON_CULTURE] культуры от клеток тундры и снега с улучшенными ресурсами. +1 [ICON_PEACE] веры и +1 [ICON_FOOD] пищи от городов на снегу или тундре либо рядом с ними.'
 WHERE Tag = 'TXT_KEY_BELIEF_DANCE_AURORA';
 
 UPDATE Language_ru_RU
@@ -70,7 +70,7 @@ SET Text = 'Бог солнца'
 WHERE Tag = 'TXT_KEY_BELIEF_SUN_GOD_SHORT';
 
 UPDATE Language_ru_RU
-SET Text = '+2 [ICON_PEACE] веры и [ICON_GOLD] золота от амбаров. +1 [ICON_PEACE] веры, [ICON_FOOD] пищи и [ICON_RESEARCH] науки от ферм на улучшенных ресурсах.'
+SET Text = '+2 [ICON_PEACE] веры, +1 [ICON_PRODUCTION] производства и +1 [ICON_GOLD] золота от амбаров. +1 [ICON_PEACE] веры, [ICON_FOOD] пищи и [ICON_RESEARCH] науки от ферм на улучшенных ресурсах.'
 WHERE Tag = 'TXT_KEY_BELIEF_SUN_GOD';
 
 -- God of War
@@ -138,12 +138,12 @@ SET Text = 'Богиня дома'
 WHERE Tag = 'TXT_KEY_BELIEF_FERTILITY_RITES_SHORT';
 
 UPDATE Language_ru_RU
-SET Text = '+25% [ICON_FOOD] роста. +1 [ICON_PEACE] вера и [ICON_FOOD] пища от святилищ. +8 [ICON_PEACE] веры и [ICON_FOOD] пищи при постройке здания, масштабируется с эпохой.'
+SET Text = '+25% [ICON_FOOD] роста и +1 [ICON_HAPPINESS_1] счастья. +1 [ICON_PEACE] вера и [ICON_FOOD] пища от святилищ и дворца. +8 [ICON_PEACE] веры и [ICON_FOOD] пищи при постройке здания, масштабируется с эпохой.'
 WHERE Tag = 'TXT_KEY_BELIEF_FERTILITY_RITES';
 
 -- Goddess of the Hunt
 UPDATE Language_ru_RU
-SET Text = '+1 [ICON_PEACE] вера, [ICON_GOLD] золото и [ICON_CULTURE] культура от лагерей. +2 [ICON_FOOD] пищи от коптилен.'
+SET Text = '+1 [ICON_PEACE] вера, [ICON_GOLD] золото и [ICON_CULTURE] культура от лагерей. +1 [ICON_PEACE] вера и [ICON_FOOD] пища от коптилен.'
 WHERE Tag = 'TXT_KEY_BELIEF_GODDESS_HUNT';
 
 UPDATE Language_ru_RU
@@ -178,7 +178,7 @@ SET Text = 'Евангелизм'
 WHERE Tag = 'TXT_KEY_BELIEF_PILGRIMAGE_SHORT';
 
 UPDATE Language_ru_RU
-SET Text = 'Когда вы распространяете свою [ICON_RELIGION] религию, получайте +15 [ICON_FOOD] пищи в Святом городе, масштабируется с числом новых последователей вашей [ICON_RELIGION] религии, а если город иностранный — 15 [ICON_TOURISM] туризма, масштабируется с числом последователей других [ICON_RELIGION] религий в этом городе.[NEWLINE]Открывает [COLOR_POSITIVE_TEXT]национальное чудо «Апостольский дворец»[ENDCOLOR] (+4 [ICON_PEACE] веры, +4 [ICON_GOLDEN_AGE] очка Золотого века; +5 [ICON_TOURISM] туризма от [ICON_RELIGION] святых мест; открывает [COLOR_POSITIVE_TEXT]верование Реформации[ENDCOLOR]).'
+SET Text = 'Когда вы распространяете свою [ICON_RELIGION] религию, получайте +15 [ICON_FOOD] пищи в Святом городе, масштабируется с числом новых последователей вашей [ICON_RELIGION] религии, а если город иностранный — 15 [ICON_TOURISM] туризма, масштабируется с числом последователей других [ICON_RELIGION] религий в этом городе.[NEWLINE]Открывает [COLOR_POSITIVE_TEXT]национальное чудо «Апостольский дворец»[ENDCOLOR] (+4 [ICON_PEACE] веры, +4 [ICON_GOLDEN_AGE] очка Золотого века; +25 [ICON_TOURISM] туризма при [ICON_PUPPET] подтасовке выборов в городе-государстве, масштабируется с эпохой; +5 [ICON_TOURISM] туризма от [ICON_RELIGION] святых мест; открывает [COLOR_POSITIVE_TEXT]верование Реформации[ENDCOLOR]).'
 WHERE Tag = 'TXT_KEY_BELIEF_PILGRIMAGE';
 
 -- Ceremonial Burial
@@ -191,7 +191,7 @@ SET Text = 'Совет старейшин'
 WHERE Tag = 'TXT_KEY_BELIEF_PAPAL_PRIMACY_SHORT';
 
 UPDATE Language_ru_RU
-SET Text = 'Когда город впервые принимает вашу [ICON_RELIGION] религию, получайте 20 [ICON_RESEARCH] науки и [ICON_PRODUCTION] производства в вашем Святом городе; бонус постепенно масштабируется в зависимости от числа городов, исповедующих вашу [ICON_RELIGION] религию (максимум — 25 городов).[NEWLINE]Открывает [COLOR_POSITIVE_TEXT]национальное чудо «Священный совет»[ENDCOLOR] (+4 [ICON_PEACE] веры, +5 [ICON_FOOD] пищи; +5 [ICON_RESEARCH] науки от [ICON_RELIGION] святых мест; открывает [COLOR_POSITIVE_TEXT]верование Реформации[ENDCOLOR]).'
+SET Text = 'Когда город впервые принимает вашу [ICON_RELIGION] религию, получайте 10 [ICON_PEACE] веры, 20 [ICON_PRODUCTION] производства и 20 [ICON_RESEARCH] науки в вашем Святом городе; бонус постепенно масштабируется в зависимости от числа городов, исповедующих вашу [ICON_RELIGION] религию (максимум — 25 городов).[NEWLINE]Открывает [COLOR_POSITIVE_TEXT]национальное чудо «Священный совет»[ENDCOLOR] (+4 [ICON_PEACE] веры, +5 [ICON_FOOD] пищи; +10 [ICON_CITY_SECURITY] безопасности города во всех городах; +5 [ICON_RESEARCH] науки от [ICON_RELIGION] святых мест; открывает [COLOR_POSITIVE_TEXT]верование Реформации[ENDCOLOR]).'
 WHERE Tag = 'TXT_KEY_BELIEF_PAPAL_PRIMACY';
 
 UPDATE Language_ru_RU
@@ -199,7 +199,7 @@ SET Text = 'Божественное наследие'
 WHERE Tag = 'TXT_KEY_BELIEF_PEACE_LOVING_SHORT';
 
 UPDATE Language_ru_RU
-SET Text = 'Святой город производит на +20% больше всех видов дохода, пока ваша империя находится в [ICON_GOLDEN_AGE] Золотом веке.[NEWLINE]Открывает [COLOR_POSITIVE_TEXT]национальное чудо «Небесный трон»[ENDCOLOR] (+2 [ICON_PEACE] веры, [ICON_CULTURE] культуры, [ICON_FOOD] пищи, [ICON_RESEARCH] науки, [ICON_GOLD] золота и [ICON_PRODUCTION] производства; +5 [ICON_GOLDEN_AGE] очков Золотого века от [ICON_RELIGION] святых мест; открывает [COLOR_POSITIVE_TEXT]верование Реформации[ENDCOLOR]).'
+SET Text = 'Святой город производит на +20% больше всех видов дохода, пока ваша империя находится в [ICON_GOLDEN_AGE] Золотом веке.[NEWLINE]Открывает [COLOR_POSITIVE_TEXT]национальное чудо «Небесный трон»[ENDCOLOR] (+2 [ICON_PEACE] веры, [ICON_CULTURE] культуры, [ICON_FOOD] пищи, [ICON_RESEARCH] науки, [ICON_GOLD] золота и [ICON_PRODUCTION] производства; +80 [ICON_SPY_POINT] очков шпионажа; +5 [ICON_GOLDEN_AGE] очков Золотого века от [ICON_RELIGION] святых мест; открывает [COLOR_POSITIVE_TEXT]верование Реформации[ENDCOLOR]).'
 WHERE Tag = 'TXT_KEY_BELIEF_PEACE_LOVING';
 
 UPDATE Language_ru_RU
@@ -207,7 +207,7 @@ SET Text = 'Почитание героев'
 WHERE Tag = 'TXT_KEY_BELIEF_INTERFAITH_DIALOGUE_SHORT';
 
 UPDATE Language_ru_RU
-SET Text = 'Получайте 100 [ICON_PEACE] веры и [ICON_GOLDEN_AGE] очков Золотого века при захвате города, а также 25 [ICON_GREAT_GENERAL] очков великого генерала (если город не прибрежный) или [ICON_GREAT_ADMIRAL] очков великого адмирала (если город прибрежный). Бонус масштабируется с [ICON_CITIZEN] населением города и эпохой.[NEWLINE]Открывает [COLOR_POSITIVE_TEXT]национальное чудо «Великий алтарь»[ENDCOLOR] (+5 [ICON_PEACE] веры, +15% [ICON_PRODUCTION] производства военных юнитов; +5 [ICON_PRODUCTION] производства от [ICON_RELIGION] святых мест; открывает [COLOR_POSITIVE_TEXT]верование Реформации[ENDCOLOR]).'
+SET Text = 'Получайте на 33% больше очков [ICON_GREAT_GENERAL] великих генералов и [ICON_GREAT_ADMIRAL] великих адмиралов. Когда рождается [ICON_GREAT_GENERAL] великий генерал или [ICON_GREAT_ADMIRAL] великий адмирал, получайте 75 [ICON_GOLD] золота и [ICON_PEACE] веры за каждый город, следующий вашей [ICON_RELIGION] религии (максимум 25 городов).[NEWLINE]Открывает [COLOR_POSITIVE_TEXT]национальное чудо «Великий алтарь»[ENDCOLOR] (+5 [ICON_PEACE] веры, +15% [ICON_PRODUCTION] производства военных юнитов; +5 [ICON_PRODUCTION] производства от [ICON_RELIGION] святых мест; открывает [COLOR_POSITIVE_TEXT]верование Реформации[ENDCOLOR]).'
 WHERE Tag = 'TXT_KEY_BELIEF_INTERFAITH_DIALOGUE';
 
 UPDATE Language_ru_RU
@@ -215,7 +215,7 @@ SET Text = 'Священный закон'
 WHERE Tag = 'TXT_KEY_BELIEF_CHURCH_PROPERTY_SHORT';
 
 UPDATE Language_ru_RU
-SET Text = 'Когда вы открываете социальный институт, получайте 5 [ICON_PEACE] веры, [ICON_RESEARCH] науки и [ICON_GOLD] золота за каждого последователя вашей [ICON_RELIGION] религии (максимум 250 последователей).[NEWLINE]Открывает [COLOR_POSITIVE_TEXT]национальное чудо «Божественный суд»[ENDCOLOR] (+4 [ICON_PEACE] веры, +6 [ICON_GOLD] золота; +5 [ICON_CULTURE] культуры от [ICON_RELIGION] святых мест; открывает [COLOR_POSITIVE_TEXT]верование Реформации[ENDCOLOR]).'
+SET Text = 'Когда вы открываете социальный институт, получайте 6 [ICON_PEACE] веры, [ICON_RESEARCH] науки и [ICON_GOLD] золота за каждого последователя вашей [ICON_RELIGION] религии (максимум 250 последователей).[NEWLINE]Открывает [COLOR_POSITIVE_TEXT]национальное чудо «Божественный суд»[ENDCOLOR] (+4 [ICON_PEACE] веры, +6 [ICON_GOLD] золота; +50 [ICON_SPY_POINT] очков шпионажа; +5 [ICON_CULTURE] культуры от [ICON_RELIGION] святых мест; открывает [COLOR_POSITIVE_TEXT]верование Реформации[ENDCOLOR]).'
 WHERE Tag = 'TXT_KEY_BELIEF_CHURCH_PROPERTY';
 
 UPDATE Language_ru_RU
@@ -223,7 +223,7 @@ SET Text = 'Теократическое правление'
 WHERE Tag = 'TXT_KEY_BELIEF_WORLD_CHURCH_SHORT';
 
 UPDATE Language_ru_RU
-SET Text = '«День любви к королю» увеличивает [ICON_PEACE] веру, [ICON_CULTURE] культуру и [ICON_GOLD] золото города на 15%.[NEWLINE]Открывает [COLOR_POSITIVE_TEXT]национальное чудо «Великая костница»[ENDCOLOR] (+10 [ICON_PEACE] веры; +5 [ICON_GOLD] золота от [ICON_RELIGION] святых мест; открывает [COLOR_POSITIVE_TEXT]верование Реформации[ENDCOLOR]).'
+SET Text = '«День любви к королю» увеличивает [ICON_PEACE] веру, [ICON_CULTURE] культуру и [ICON_GOLD] золото города на 15%.[NEWLINE]Открывает [COLOR_POSITIVE_TEXT]национальное чудо «Великая костница»[ENDCOLOR] (+10 [ICON_PEACE] веры; получайте 100 [ICON_CULTURE] культуры и [ICON_PEACE] веры, когда в империи убивают [ICON_SPY] шпиона, масштабируется с эпохой; +5 [ICON_GOLD] золота от [ICON_RELIGION] святых мест; открывает [COLOR_POSITIVE_TEXT]верование Реформации[ENDCOLOR]).'
 WHERE Tag = 'TXT_KEY_BELIEF_WORLD_CHURCH';
 
 UPDATE Language_ru_RU
@@ -231,7 +231,7 @@ SET Text = 'Запредельные мысли'
 WHERE Tag = 'TXT_KEY_BELIEF_INITIATION_RITES_SHORT';
 
 UPDATE Language_ru_RU
-SET Text = 'При переходе в новую эпоху Святой город получает 12 единиц каждого вида дохода за каждый город, исповедующий вашу [ICON_RELIGION] религию (максимум 25 городов), масштабируется с эпохой.[NEWLINE]Открывает [COLOR_POSITIVE_TEXT]национальное чудо «Священный сад»[ENDCOLOR] (+3 [ICON_PEACE] веры, +5 [ICON_CULTURE] культуры; +5 [ICON_FOOD] пищи от [ICON_RELIGION] святых мест; открывает [COLOR_POSITIVE_TEXT]верование Реформации[ENDCOLOR]).'
+SET Text = 'При переходе в новую эпоху Святой город получает 15 единиц каждого вида дохода за каждый город, исповедующий вашу [ICON_RELIGION] религию (максимум 25 городов), масштабируется с эпохой.[NEWLINE]Открывает [COLOR_POSITIVE_TEXT]национальное чудо «Священный сад»[ENDCOLOR] (+3 [ICON_PEACE] веры, +5 [ICON_CULTURE] культуры; получайте 20 единиц каждого вида дохода, когда в империи обнаруживают [ICON_SPY] шпиона, масштабируется с эпохой; +5 [ICON_FOOD] пищи от [ICON_RELIGION] святых мест; открывает [COLOR_POSITIVE_TEXT]верование Реформации[ENDCOLOR]).'
 WHERE Tag = 'TXT_KEY_BELIEF_INITIATION_RITES';
 
 UPDATE Language_ru_RU
@@ -239,7 +239,7 @@ SET Text = 'Откровение'
 WHERE Tag = 'TXT_KEY_BELIEF_TITHE_SHORT';
 
 UPDATE Language_ru_RU
-SET Text = 'Когда вы исследуете технологию, получайте +2 [ICON_GOLDEN_AGE] очка Золотого века, [ICON_PEACE] веры и [ICON_CULTURE] культуры за каждого последователя вашей [ICON_RELIGION] религии (максимум 250 последователей).[NEWLINE]Открывает [COLOR_POSITIVE_TEXT]национальное чудо «Хартарий»[ENDCOLOR] (+5 [ICON_RESEARCH] науки от [ICON_RELIGION] святых мест; открывает [COLOR_POSITIVE_TEXT]верование Реформации[ENDCOLOR]).'
+SET Text = 'Когда вы исследуете технологию, получайте +2 [ICON_GOLDEN_AGE] очка Золотого века, [ICON_PEACE] веры и [ICON_CULTURE] культуры за каждого последователя вашей [ICON_RELIGION] религии (максимум 250 последователей).[NEWLINE]Открывает [COLOR_POSITIVE_TEXT]национальное чудо «Хартарий»[ENDCOLOR] (3 ячейки [ICON_GREAT_WORK] великих литературных произведений; +1 [ICON_CITY_SECURITY] безопасности города за каждых 2 [ICON_CITIZEN] жителей в городе; +5 [ICON_RESEARCH] науки от [ICON_RELIGION] святых мест; открывает [COLOR_POSITIVE_TEXT]верование Реформации[ENDCOLOR]).'
 WHERE Tag = 'TXT_KEY_BELIEF_TITHE';
 
 ----------------------------------------------
@@ -410,7 +410,7 @@ SET Text = 'Священный календарь'
 WHERE Tag = 'TXT_KEY_BELIEF_MISSIONARY_ZEAL_SHORT';
 
 UPDATE Language_ru_RU
-SET Text = '+33% [ICON_GREAT_PEOPLE] скорости появления великих людей в Святом городе во время [ICON_GOLDEN_AGE] Золотых веков. +3 [ICON_GOLDEN_AGE] очка Золотого века и [ICON_GOLD] золота в [ICON_RELIGION] Святом городе за каждый иностранный город, следующий этой религии. Миссионеры этой религии на 25% сильнее.'
+SET Text = '+33% [ICON_GREAT_PEOPLE] скорости появления великих людей в Святом городе во время [ICON_GOLDEN_AGE] Золотых веков. +3 [ICON_GOLDEN_AGE] очка Золотого века и [ICON_GOLD] золота в [ICON_RELIGION] Святом городе за каждый иностранный город, следующий этой религии. [ICON_MISSIONARY] Миссионеры этой религии на 25% сильнее.'
 WHERE Tag = 'TXT_KEY_BELIEF_MISSIONARY_ZEAL';
 
 UPDATE Language_ru_RU
@@ -445,12 +445,12 @@ SET Text = 'Дух крестоносцев'
 WHERE Tag = 'TXT_KEY_BELIEF_EVANGELISM_SHORT';
 
 UPDATE Language_ru_RU
-SET Text = 'Сухопутные юниты получают +10% [ICON_STRENGTH] боевой силы против сухопутных юнитов на вражеской территории и ещё +10% против сухопутных юнитов игроков, не исповедующих вашу религию. При захвате городов вы получаете 50 [ICON_CULTURE] культуры и [ICON_GOLD] золота, масштабируется с эпохой и [ICON_CITIZEN] населением города.'
+SET Text = 'Сухопутные юниты получают +10% [ICON_STRENGTH] боевой силы против сухопутных юнитов на вражеской территории и ещё +5% против сухопутных юнитов игроков, не исповедующих вашу религию. +2 [ICON_GOLD] золота и [ICON_CULTURE] культуры от казарм, оружейных и военных академий.'
 WHERE Tag = 'TXT_KEY_BELIEF_EVANGELISM';
 
 -- Defender of the Faith
 UPDATE Language_ru_RU
-SET Text = 'Сухопутные юниты получают +10% [ICON_STRENGTH] боевой силы против сухопутных юнитов на дружественной территории и ещё +10% против сухопутных юнитов игроков, не исповедующих вашу религию. +1 [ICON_PEACE] вера и +2 [ICON_CULTURE] культуры от всех оборонительных зданий.'
+SET Text = 'Сухопутные юниты получают +10% [ICON_STRENGTH] боевой силы против сухопутных юнитов на дружественной территории и ещё +5% против сухопутных юнитов игроков, не исповедующих вашу религию. +1 [ICON_PEACE] вера и +2 [ICON_CULTURE] культуры от всех оборонительных зданий.'
 WHERE Tag = 'TXT_KEY_BELIEF_DEFENDER_FAITH';
 
 UPDATE Language_ru_RU
@@ -474,7 +474,7 @@ SET Text = 'Глобальные заповеди'
 WHERE Tag = 'TXT_KEY_BELIEF_CHARITABLE_MISSIONS_SHORT';
 
 UPDATE Language_ru_RU
-SET Text = '[ICON_RELIGION] Религия распространяется на 15% быстрее (30% после изучения Печатного пресса). Получайте 350 [ICON_RESEARCH] науки, [ICON_CULTURE] культуры, [ICON_GOLD] золота, [ICON_PEACE] веры и [ICON_GOLDEN_AGE] очков Золотого века, когда вы проводите предложение во Всемирном конгрессе или Организации Объединённых Наций; масштабируется с эпохой.'
+SET Text = 'Можно строить канцелярии, печатные дома и информационные службы за [ICON_PEACE] веру. Каждое из этих зданий даёт +1 [ICON_GOLD] золота, [ICON_RESEARCH] науки и [ICON_CULTURE] культуры. +20% [ICON_PRODUCTION] производства для [COLOR_YELLOW]дипломатических юнитов[ENDCOLOR]. Получайте 350 [ICON_RESEARCH] науки, [ICON_CULTURE] культуры, [ICON_GOLD] золота, [ICON_PEACE] веры и [ICON_GOLDEN_AGE] очков Золотого века, когда вы проводите предложение во Всемирном конгрессе или Организации Объединённых Наций; масштабируется с эпохой.'
 WHERE Tag = 'TXT_KEY_BELIEF_CHARITABLE_MISSIONS';
 
 UPDATE Language_ru_RU
@@ -490,7 +490,7 @@ SET Text = 'Вдохновлённые труды'
 WHERE Tag = 'TXT_KEY_BELIEF_UNITY_OF_PROPHETS_SHORT';
 
 UPDATE Language_ru_RU
-SET Text = 'Достопримечательности и улучшения великих людей дают +2 [ICON_PEACE] веры и [ICON_RESEARCH] науки. [ICON_GREAT_WORK] Великие произведения дают +2 [ICON_CULTURE] культуры. Можно покупать археологов за [ICON_PEACE] веру.'
+SET Text = 'Достопримечательности и улучшения великих людей дают +2 [ICON_PEACE] веры и +3 [ICON_RESEARCH] науки. [ICON_GREAT_WORK] Великие произведения дают +3 [ICON_CULTURE] культуры. Можно покупать археологов за [ICON_PEACE] веру.'
 WHERE Tag = 'TXT_KEY_BELIEF_UNITY_OF_PROPHETS';
 
 -- Sacred Sites
@@ -500,5 +500,5 @@ WHERE Tag = 'TXT_KEY_BELIEF_SACRED_SITES';
 
 -- To the Glory of God
 UPDATE Language_ru_RU
-SET Text = 'Можно использовать [ICON_PEACE] веру для покупки любого типа [ICON_GREAT_PEOPLE] великих людей (в промышленную эпоху), но за 150% обычной стоимости, если это не разблокировано соответствующим институтом. Когда вы расходуете [ICON_GREAT_PEOPLE] великого человека, получайте 3 [ICON_GOLD] золота, [ICON_RESEARCH] науки и [ICON_CULTURE] культуры за каждый город, следующий вашей религии (максимум 20 городов).'
+SET Text = 'Можно использовать [ICON_PEACE] веру для покупки любого типа [ICON_GREAT_PEOPLE] великих людей (в промышленную эпоху), но за 150% обычной стоимости, если это не разблокировано соответствующим институтом.'
 WHERE Tag = 'TXT_KEY_BELIEF_TO_GLORY_OF_GOD';

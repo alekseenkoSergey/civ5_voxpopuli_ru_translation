@@ -67,5 +67,11 @@
 		<Row Tag="TXT_KEY_ACCOMPLISHMENT_WARS_WON">
 			<Text>Победа в войне</Text>
 		</Row>
+		<Row Tag="TXT_KEY_ACCOMPLISHMENT_CITY_CONVERTED">
+			<Text>Обращение города в вашу религию</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ACCOMPLISHMENT_HISTORIC_EVENT">
+			<Text>Завершение исторического события</Text>
+		</Row>
 	</Language_ru_RU>
 </GameData>

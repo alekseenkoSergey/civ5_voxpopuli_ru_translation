@@ -53,7 +53,7 @@
 			<Text>+3 [ICON_CULTURE_LOCAL] очка роста границ за каждую глобальную [ICON_FRANCHISE] франшизу. +15% [ICON_PRODUCTION] производства при создании военных юнитов. При обучении военного юнита в этом городе вы получаете [ICON_RESEARCH] науку, равную 25% [ICON_PRODUCTION] стоимости производства юнита.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CORPORATION_TRADE_ROUTE_BONUS_HEXXON_REFINERY">
-			<Text>[ICON_INTERNATIONAL_TRADE] Торговые пути из городов с офисом Hexxon Refinery в города с франшизой Hexxon Refinery дают дополнительно +50% [ICON_SCIENCE] науки.</Text>
+			<Text>[ICON_INTERNATIONAL_TRADE] Торговые пути из городов с офисом Hexxon Refinery в города с франшизой Hexxon Refinery дают дополнительно +50% [ICON_RESEARCH] науки.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CORPORATION_HEXXON_REFINERY_OFFICE_BENEFIT_HELP">
 			<Text>Текущий бонус офиса: {1_String}</Text>

@@ -348,14 +348,14 @@
 			<Text>Шрапнельные снаряды I</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SHRAPNEL_ROUNDS_1_HELP">
-			<Text>+35% [ICON_STRENGTH] боевой мощи при атаке [COLOR_POSITIVE_TEXT]наземных юнитов[ENDCOLOR].</Text>
+			<Text>+50% [ICON_STRENGTH] боевой мощи при атаке [COLOR_POSITIVE_TEXT]наземных юнитов[ENDCOLOR].</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_SHRAPNEL_ROUNDS_2">
 			<Text>Шрапнельные снаряды II</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SHRAPNEL_ROUNDS_2_HELP">
-			<Text>+35% [ICON_STRENGTH] боевой мощи при атаке [COLOR_POSITIVE_TEXT]наземных юнитов[ENDCOLOR].</Text>
+			<Text>+50% [ICON_STRENGTH] боевой мощи при атаке [COLOR_POSITIVE_TEXT]наземных юнитов[ENDCOLOR].</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_PROMOTION_VANGUARD">
@@ -385,14 +385,6 @@
 		<Row Tag="TXT_KEY_PROMOTION_ENCIRCLEMENT_HELP">
 			<Text>+10% [ICON_STRENGTH] боевой мощи за каждый [COLOR_POSITIVE_TEXT]соседний собственный морской юнит[ENDCOLOR] при атаке.[NEWLINE]Восстанавливает 10 ОЗ после [COLOR_POSITIVE_TEXT]уничтожения вражеского юнита[ENDCOLOR].</Text>
 		</Row>
-
-		<Row Tag="TXT_KEY_PROMOTION_MINELAYER">
-			<Text>Минный заградитель</Text>
-		</Row>
-		<Row Tag="TXT_KEY_PROMOTION_MINELAYER_HELP">
-			<Text>-10% [ICON_STRENGTH] боевой мощи при защите от [COLOR_NEGATIVE_TEXT]дальнобойных атак[ENDCOLOR].[NEWLINE]-2 [ICON_MOVES] перемещения для вражеских морских юнитов, начинающих свой ход рядом с этим юнитом.[NEWLINE]Юниты, игнорирующие зону контроля, невосприимчивы к этому эффекту.[NEWLINE][NEWLINE]Доступно после исследования [COLOR_CYAN]{TXT_KEY_TECH_COMBUSTION_TITLE}[ENDCOLOR].</Text>
-		</Row>
-
 		<Row Tag="TXT_KEY_PROMOTION_AERIAL_TORPEDO">
 			<Text>Воздушная торпеда</Text>
 		</Row>
@@ -740,7 +732,7 @@
 			<Text>Прикрывающий огонь II</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_COVERING_FIRE_2_HELP">
-			<Text>+10% [ICON_STRENGTH] боевой мощи при обороне.[NEWLINE]-25% [ICON_STRENGTH] боевой мощи при атаке [COLOR_NEGATIVE_TEXT]укреплённых юнитов[ENDCOLOR] и [COLOR_NEGATIVE_TEXT]городов[ENDCOLOR].[NEWLINE]-15% [ICON_STRENGTH] боевой мощи у вражеских юнитов [COLOR_POSITIVE_TEXT]в пределах 2 клеток от этого юнита[ENDCOLOR].</Text>
+			<Text>+10% [ICON_STRENGTH] боевой мощи при обороне.[NEWLINE]+15% [ICON_STRENGTH] боевой мощи при обороне против [COLOR_POSITIVE_TEXT]дальних атак[ENDCOLOR].[NEWLINE]-25% [ICON_STRENGTH] боевой мощи при атаке [COLOR_NEGATIVE_TEXT]укреплённых юнитов[ENDCOLOR] и [COLOR_NEGATIVE_TEXT]городов[ENDCOLOR].[NEWLINE]-15% [ICON_STRENGTH] боевой мощи у вражеских юнитов [COLOR_POSITIVE_TEXT]в пределах 2 клеток от этого юнита[ENDCOLOR].</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_TITANIC">
@@ -1057,14 +1049,6 @@
 		<Row Tag="TXT_KEY_PROMOTION_BRUTE_STRENGTH_HELP">
 			<Text>+40% [ICON_STRENGTH] боевой мощи против [COLOR_POSITIVE_TEXT]варваров[ENDCOLOR].</Text>
 		</Row>
-
-		<Row Tag="TXT_KEY_PROMOTION_LEGACY">
-			<Text>Наследие</Text>
-		</Row>
-		<Row Tag="TXT_KEY_PROMOTION_LEGACY_HELP">
-			<Text>+5% [ICON_STRENGTH] боевой мощи за каждый уровень выше 1.</Text>
-		</Row>
-
 		<Row Tag="TXT_KEY_PROMOTION_RIACHUELO">
 			<Text>Риачуэло</Text>
 		</Row>
@@ -1197,14 +1181,6 @@
 		<Row Tag="TXT_KEY_PROMOTION_DHANURVIDYA_HELP">
 			<Text>Получает 0.5 [ICON_CULTURE] культуры и [ICON_PEACE] веры за каждый опыт, полученный в бою.</Text>
 		</Row>
-
-		<Row Tag="TXT_KEY_PROMOTION_CETBANG">
-			<Text>Четбанг</Text>
-		</Row>
-		<Row Tag="TXT_KEY_PROMOTION_CETBANG_HELP">
-			<Text>Наносит 10 урона вражеским юнитам, заканчивающим ход рядом с этим юнитом.[NEWLINE]Этот урон игнорирует снижение урона.</Text>
-		</Row>
-
 		<Row Tag="TXT_KEY_PROMOTION_KANTAI_KESSEN">
 			<Text>Кантай Кэссэн</Text>
 		</Row>
@@ -1244,7 +1220,7 @@
 			<Text>Раззия</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_RAZZIA_HELP">
-			<Text>Получает 200% [ICON_STRENGTH] боевой мощи побеждённых вражеских юнитов в виде [ICON_FOOD] пищи и [ICON_PRODUCTION] производства в городе происхождения этого юнита.[NEWLINE]Получает 100 [ICON_FOOD] пищи и [ICON_PRODUCTION] производства в городе происхождения этого юнита при [ICON_RAZING] разграблении улучшений.[NEWLINE]Получает 200 [ICON_FOOD] пищи и [ICON_PRODUCTION] производства в городе происхождения этого юнита при разграблении [ICON_INTERNATIONAL_TRADE] торговых путей.</Text>
+			<Text>Получает 200% [ICON_STRENGTH] боевой мощи побеждённых вражеских юнитов в виде [ICON_PRODUCTION] производства и [ICON_GOLD] золота в городе происхождения этого юнита.[NEWLINE]Получает 100 [ICON_PRODUCTION] производства и [ICON_GOLD] золота в городе происхождения этого юнита при [ICON_RAZING] разграблении улучшений.[NEWLINE]Получает 400 [ICON_PRODUCTION] производства и [ICON_GOLD] золота в городе происхождения этого юнита при разграблении [ICON_INTERNATIONAL_TRADE] торговых путей.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_BURGHER">
@@ -1503,6 +1479,39 @@
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_JUGGERNAUT_HELP">
 			<Text>+25 очков здоровья.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ANIMISM">
+			<Text>Анимист</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ANIMISM_HELP">
+			<Text>Игнорирует стоимость передвижения по местности.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_CHASQUI_TRAINING">
+			<Text>Обучение часки</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_CHASQUI_TRAINING_HELP">
+			<Text>Может пересекать горы.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FLAT_MOVEMENT_COST_HELP">
+			<Text>Все клетки стоят 1 [ICON_MOVES] перемещение.[NEWLINE][COLOR_NEGATIVE_TEXT]Не может использовать дороги и железные дороги.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_RETALIATION">
+			<Text>Возмездие</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_RETALIATION_HELP">
+			<Text>Наносит [COLOR_POSITIVE_TEXT]10 урона[ENDCOLOR] вражеским юнитам, заканчивающим ход рядом с этим юнитом.[NEWLINE]Этот урон игнорирует снижение урона.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SPEAR_WALL">
+			<Text>Стена копий</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SPEAR_WALL_HELP">
+			<Text>Наносит [COLOR_POSITIVE_TEXT]5 урона[ENDCOLOR] вражеским юнитам, заканчивающим ход рядом с этим юнитом.[NEWLINE]Этот урон игнорирует снижение урона.[NEWLINE][NEWLINE]Наносит [COLOR_POSITIVE_TEXT]5 урона[ENDCOLOR] всем соседним вражеским юнитам, если этот юнит [COLOR_POSITIVE_TEXT]укреплён[ENDCOLOR] в начале своего хода.[NEWLINE]Этот урон игнорирует снижение урона, но не действует на юниты в [COLOR_NEGATIVE_TEXT]городах[ENDCOLOR] и [COLOR_NEGATIVE_TEXT]укреплениях[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_TRIUMPH">
+			<Text>Триумф</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_TRIUMPH_HELP">
+			<Text>+15% [ICON_STRENGTH] боевой мощи.[NEWLINE]Получайте 50% [ICON_STRENGTH] боевой мощи побеждённых вражеских сухопутных юнитов в виде [ICON_GREAT_GENERAL] очков великого генерала.</Text>
 		</Row>
 	</Language_ru_RU>
 </GameData>

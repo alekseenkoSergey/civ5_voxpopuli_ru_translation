@@ -1247,25 +1247,25 @@
 			<Text>[ICON_GREAT_WORK] Великое произведение «{2_GWName}» было украдено.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_SABOTAGE_PRODUCTION">
-			<Text>[ICON_PRODUCTION] Саботировать городское производство</Text>
+			<Text>[ICON_STAR] Убить городского губернатора</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_SABOTAGE_PRODUCTION_HELP">
-			<Text>Город не может строить или инвестировать в здания, чудеса и проекты в течение {8_Num} {8_Num: plural 1?хода; other?ходов;}.</Text>
+			<Text>Город не может строить или инвестировать в здания, чудеса и проекты в течение {8_Num} ходов. В первые 2 хода он входит в [ICON_RESISTANCE] сопротивление, [ICON_BLOCKADED] блокирован и не может выполнять [ICON_RANGE_STRENGTH] дальние удары.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_SABOTAGE_PRODUCTION_EFFECT">
-			<Text>Город не может строить или инвестировать в здания, чудеса и проекты в течение {8_Num} {8_Num: plural 1?хода; other?ходов;}</Text>
+			<Text>Город входит в [ICON_RESISTANCE] сопротивление, [ICON_BLOCKADED] блокирован и не может выполнять [ICON_RANGE_STRENGTH] дальние удары в течение 2 ходов. Город не может строить или инвестировать в здания, чудеса и проекты в общей сложности {8_Num} ходов.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_STEAL_FAITH">
 			<Text>[ICON_PEACE] Похитить религиозные реликвии</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_STEAL_FAITH_HELP">
-			<Text>Красть 100% [ICON_PEACE] веры за ход из целевого города. -100% религиозного давления, исходящего от целевого города. Длится {5_Duration}.</Text>
+			<Text>Выкачивать 100% [ICON_PEACE] веры, производимой этим городом, в течение {5_Duration}. В это время он испускает -100% [ICON_RELIGION] религиозного давления.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_STEAL_FAITH_EFFECT">
-			<Text>Каждый ход крадётся 100% [ICON_PEACE] выработки веры города. Город испускает -100% религиозного давления. {5_DurationText}</Text>
+			<Text>Каждый ход выкачивается 100% [ICON_PEACE] выработки веры города. Город испускает -100% [ICON_RELIGION] религиозного давления. {5_DurationText}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_SCIENTIFIC_GREATPEOPLE">
-			<Text>[ICON_GREAT_PEOPLE] Похитить специалистов в городе</Text>
+			<Text>[ICON_GREAT_PEOPLE] Похитить специалистов</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_SCIENTIFIC_GREATPEOPLE_HELP">
 			<Text>Специалисты дают -1 [ICON_GREAT_PEOPLE] ОВЛ в ход в целевом городе. {6_PlayerEventEffect}</Text>
@@ -1286,7 +1286,7 @@
 			<Text>Специалисты в вашей столице дают +1 [ICON_GREAT_PEOPLE] ОВЛ в ход.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_STEAL_FROM_TREASURY">
-			<Text>[ICON_GOLD] Украсть из государственной казны</Text>
+			<Text>[ICON_GOLD] Ограбить государственную казну</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_STEAL_FROM_TREASURY_HELP">
 			<Text>Украсть {8_Num}% [ICON_GOLD] золота из казны целевой империи. {7_AmountToSteal}</Text>
@@ -1301,10 +1301,10 @@
 			<Text>[ICON_RESEARCH] Украсть технологию</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_STEAL_TECH_HELP">
-			<Text>Украсть случайно выбранную технологию.</Text>
+			<Text>Открыть случайно выбранную технологию, известную целевой империи.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_STEAL_TECH_EFFECT">
-			<Text>Технология «{1_TechName}» была украдена.</Text>
+			<Text>Секреты технологии [COLOR_CYAN]«{1_TechName}»[ENDCOLOR] были украдены.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_ECONOMIC_TILES">
 			<Text>[ICON_CITIZEN] Радикализовать сельское население</Text>
@@ -1316,22 +1316,22 @@
 			<Text>Все улучшенные клетки с ресурсами и часть дорог/железных дорог вокруг города были разграблены.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_URBAN_UNREST">
-			<Text>[ICON_RESISTANCE] Вооружить местное население</Text>
+			<Text>[ICON_RESISTANCE] Вооружить местных мятежников</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_URBAN_UNREST_HELP">
-			<Text>Город входит в состояние [ICON_RESISTANCE] сопротивления на 2 хода, и в районе появляются юниты мятежников. Город не генерирует [ICON_TOURISM] туризм в течение {8_Num} ходов.</Text>
+			<Text>Город входит в состояние [ICON_RESISTANCE] сопротивления на 2 хода. В районе появляются 5 [ICON_TEAM_2] юнитов мятежников, плюс по одному за каждую прошедшую эпоху. Город не генерирует [ICON_TOURISM] туризм в течение {8_Num} ходов.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_URBAN_UNREST_EFFECT">
-			<Text>Город вошёл в состояние [ICON_RESISTANCE] сопротивления на 2 хода, и в районе появились юниты мятежников. Город не генерирует [ICON_TOURISM] туризм в течение {8_Num} ходов.</Text>
+			<Text>Город вошёл в состояние [ICON_RESISTANCE] сопротивления на 2 хода. В районе появляются 5 [ICON_TEAM_2] юнитов мятежников, плюс по одному за каждую прошедшую эпоху. Город не генерирует [ICON_TOURISM] туризм в течение {8_Num} ходов.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_CITY_DEFENSES">
-			<Text>[ICON_STRENGTH] Вывести из строя оборону города</Text>
+			<Text>[ICON_STRENGTH] Саботировать оборону города</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_CITY_DEFENSES_HELP">
-			<Text>Все укрепления, принадлежащие этому городу, разграбляются. Город блокирован и не может выполнять дальние удары в течение {8_Num} ходов.</Text>
+			<Text>Все [COLOR_POSITIVE_TEXT]укрепления[ENDCOLOR], принадлежащие этому городу, [ICON_RAZING] разграбляются. Город [ICON_BLOCKADED] блокирован и не может выполнять [ICON_RANGE_STRENGTH] дальние удары в течение {8_Num} ходов.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_CITY_DEFENSES_EFFECT">
-			<Text>Укрепления вокруг города были разграблены. Город блокирован и не может выполнять дальние удары в течение {8_Num} ходов.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Укрепления[ENDCOLOR] вокруг города были [ICON_RAZING] разграблены. Город [ICON_BLOCKADED] блокирован и не может выполнять [ICON_RANGE_STRENGTH] дальние удары в течение {8_Num} ходов.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_COUNTERSPY_FOCUS">
 			<Text>Контрразведка</Text>
@@ -1343,25 +1343,124 @@
 			<Text>[ICON_CITY_SECURITY] Создать контршпионскую сеть.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_COUNTERSPY_NETWORK_HELP">
-			<Text>Иностранные [ICON_SPY] шпионы получают -20 очков сети в ход.[NEWLINE][NEWLINE]Получайте 50 [ICON_RESEARCH] науки и [ICON_CULTURE] культуры, когда вы обнаруживаете иностранного [ICON_SPY] шпиона, и 150 [ICON_RESEARCH] науки и [ICON_CULTURE] культуры, когда вы убиваете иностранного шпиона, с масштабированием по эпохе.</Text>
+			<Text>Иностранные [ICON_SPY] шпионы получают [COLOR_POSITIVE_TEXT]-20[ENDCOLOR] очков сети в ход. [ICON_CIVIL_SERVANT] Гражданские служащие дают [COLOR_NEGATIVE_TEXT]-1[ENDCOLOR] каждого из своих базовых доходов.[NEWLINE][NEWLINE]Иностранные шпионы не могут выполнять миссии «Похитить специалистов», «Радикализовать сельское население» или «Ограбить государственную казну».[NEWLINE][NEWLINE]Получайте 50 [ICON_RESEARCH] науки и [ICON_CULTURE] культуры, когда обнаруживаете иностранного [ICON_SPY] шпиона, и 150 [ICON_RESEARCH] науки и [ICON_CULTURE] культуры, когда убиваете иностранного шпиона; масштабируется с эпохой.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_COUNTERSPY_NETWORK_EFFECT">
-			<Text>Иностранные [ICON_SPY] шпионы получают [ICON_NEGATIVE_TEXT]-20 очков сети[ENDCOLOR] в ход.</Text>
+			<Text>Иностранные [ICON_SPY] шпионы получают [ICON_POSITIVE_TEXT]-20 очков сети[ENDCOLOR] в ход. [ICON_CIVIL_SERVANT] Гражданские служащие дают [COLOR_NEGATIVE_TEXT]-1[ENDCOLOR] каждого из своих базовых доходов. Иностранные шпионы не могут выполнять миссии «Похитить специалистов», «Радикализовать сельское население» или «Ограбить государственную казну».</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_COUNTERSPY_NETWORK_MISSION">
 			<Text>Создать сеть</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_COUNTERSPY_DEFENSE">
-			<Text>[ICON_STRENGTH] Усилить оборону города.</Text>
+			<Text>[ICON_STRENGTH] Осматривать оборону города.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_COUNTERSPY_DEFENSE_HELP">
-			<Text>Городские [ICON_RANGE_STRENGTH] дальнобойные атаки на 30% сильнее. Иностранные шпионы не могут выполнять миссию «Вывести из строя оборону города».[NEWLINE][NEWLINE]Получайте 50 [ICON_RESEARCH] науки и [ICON_CULTURE] культуры, когда вы обнаруживаете иностранного [ICON_SPY] шпиона, и 150 [ICON_RESEARCH] науки и [ICON_CULTURE] культуры, когда вы убиваете иностранного шпиона, с масштабированием по эпохе.</Text>
+			<Text>Городские [ICON_RANGE_STRENGTH] дальнобойные атаки на 30% сильнее. +2 [ICON_PRODUCTION] производства и [ICON_CULTURE_LOCAL] очка роста границ от [COLOR_POSITIVE_TEXT]укреплений[ENDCOLOR].[NEWLINE][NEWLINE]Иностранные шпионы не могут выполнять миссии «Вывести из строя оборону города», «Отравить водоснабжение» и «Убить городского губернатора».[NEWLINE][NEWLINE]Получайте 50 [ICON_PRODUCTION] производства и [ICON_CULTURE] культуры, когда обнаруживаете иностранного [ICON_SPY] шпиона, и 150 [ICON_PRODUCTION] производства и [ICON_CULTURE] культуры, когда убиваете иностранного шпиона; масштабируется с эпохой.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_COUNTERSPY_DEFENSE_EFFECTS">
-			<Text>Городские [ICON_RANGE_STRENGTH] дальнобойные атаки на 30% сильнее. Иностранные шпионы не могут выполнять миссию «Вывести из строя оборону города».</Text>
+			<Text>Городские [ICON_RANGE_STRENGTH] дальнобойные атаки на 30% сильнее. +2 [ICON_PRODUCTION] производства и [ICON_CULTURE_LOCAL] очка роста границ от [COLOR_POSITIVE_TEXT]укреплений[ENDCOLOR]. Иностранные шпионы не могут выполнять миссии «Вывести из строя оборону города», «Отравить водоснабжение» или «Убить городского губернатора».</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_COUNTERSPY_DEFENSE_MISSION">
 			<Text>Усилить оборону</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_CITY_DEFENSES_PEDIA">
+			<Text>Все [COLOR_POSITIVE_TEXT]укрепления[ENDCOLOR], принадлежащие этому городу, [ICON_RAZING] разграбляются. Город [ICON_BLOCKADED] блокирован и не может выполнять [ICON_RANGE_STRENGTH] дальние удары. Длится 5 ходов (стандартная скорость).[NEWLINE]75% шанс обнаружения / 75% шанс гибели</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_CITY_INFILTRATE">
+			<Text>[ICON_PUPPET] Внедриться в администрацию губернатора</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_CITY_INFILTRATE_EFFECT">
+			<Text>В администрации губернатора есть агент: 10% [ICON_GOLD] золота, [ICON_RESEARCH] науки и [ICON_CULTURE] культуры выкачиваются в течение {5_Duration}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_CITY_INFILTRATE_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Выкачивать[ENDCOLOR] 10% [ICON_GOLD] золота, [ICON_RESEARCH] науки и [ICON_CULTURE] культуры, производимых этим городом, в течение {5_Duration}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_CITY_INFILTRATE_PEDIA">
+			<Text>[COLOR_POSITIVE_TEXT]Выкачивает[ENDCOLOR] 10% [ICON_GOLD] золота, [ICON_RESEARCH] науки и [ICON_CULTURE] культуры, производимых этим городом. Длится 15 ходов (стандартная скорость).[NEWLINE]Город не может быть [ICON_CAPITAL] столицей.[NEWLINE]5% шанс обнаружения / 5% шанс гибели</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_COUNTERSPY_RELIGION">
+			<Text>[ICON_RELIGION] Охотиться на еретиков.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_COUNTERSPY_RELIGION_EFFECTS">
+			<Text>Усиливает давление [ICON_RELIGION] религии большинства из этого города на +25%, но [COLOR_NEGATIVE_TEXT]уменьшает[ENDCOLOR] [ICON_FOOD] рост на 15%. Иностранные шпионы не могут выполнять миссии «Похитить религиозные реликвии», «Украсть великое произведение» или «Распространить мятежные листовки».</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_COUNTERSPY_RELIGION_HELP">
+			<Text>Усиливает давление [ICON_RELIGION] религии большинства из этого города на +25%, но [COLOR_NEGATIVE_TEXT]уменьшает[ENDCOLOR] [ICON_FOOD] рост на 15%.[NEWLINE][NEWLINE]Иностранные шпионы не могут выполнять миссии «Похитить религиозные реликвии», «Украсть великое произведение» или «Распространить мятежные листовки».[NEWLINE][NEWLINE]Получайте 50 [ICON_CULTURE] культуры и [ICON_PEACE] веры, когда обнаруживаете иностранного [ICON_SPY] шпиона, и 150 [ICON_CULTURE] культуры и [ICON_PEACE] веры, когда убиваете иностранного шпиона; масштабируется с эпохой.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_COUNTERSPY_RELIGION_MISSION">
+			<Text>Охота на еретиков</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_COUNTERSPY_TOURISM">
+			<Text>[ICON_OCCUPIED] Развернуть блокпосты.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_COUNTERSPY_TOURISM_EFFECTS">
+			<Text>-25% [ICON_HAPPINESS_3] к модификатору потребностей в городе, но [COLOR_NEGATIVE_TEXT]уменьшает[ENDCOLOR] [ICON_TOURISM] туризм на 15%. Иностранные шпионы не могут выполнять миссии «Захватить торговый караван» или «Вооружить местных мятежников».</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_COUNTERSPY_TOURISM_HELP">
+			<Text>-25% [ICON_HAPPINESS_3] к модификатору потребностей в городе, но [COLOR_NEGATIVE_TEXT]уменьшает[ENDCOLOR] [ICON_TOURISM] туризм на 15%.[NEWLINE][NEWLINE]Иностранные шпионы не могут выполнять миссии «Захватить торговый караван» или «Вооружить местных мятежников».[NEWLINE][NEWLINE]Получайте 50 [ICON_CULTURE] культуры и [ICON_TOURISM] туризма, когда обнаруживаете иностранного [ICON_SPY] шпиона, и 150 [ICON_CULTURE] культуры и [ICON_TOURISM] туризма, когда убиваете иностранного шпиона; масштабируется с эпохой.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_COUNTERSPY_TOURISM_MISSION">
+			<Text>Развернуть блокпосты</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_ECONOMIC_TILES_PEDIA">
+			<Text>Все улучшенные клетки с ресурсами, принадлежащие городу, разграбляются. Каждая дорога или железная дорога имеет 50% шанс быть разграбленной.[NEWLINE]50% шанс обнаружения / 5% шанс гибели</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_HIJACK">
+			<Text>[ICON_PIRATE] Захватить торговый караван</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_HIJACK_EFFECT">
+			<Text>В этой местности появились 2 [ICON_TEAM_2] юнита мятежников. Город не производит [ICON_TOURISM] туризм в течение {8_Num} ходов.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_HIJACK_HELP">
+			<Text>В этой местности появляются 2 [ICON_TEAM_2] юнита мятежников, и город не производит [ICON_TOURISM] туризм в течение {8_Num} ходов.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_HIJACK_PEDIA">
+			<Text>Рядом с городом появляются 2 [ICON_TEAM_2] юнита мятежников. Город не производит [ICON_TOURISM] туризм. Длится 10 ходов (стандартная скорость).[NEWLINE]У города должен быть [ICON_INTERNATIONAL_TRADE] торговый путь.[NEWLINE]25% шанс обнаружения / 5% шанс гибели</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_LEAFLETS">
+			<Text>[ICON_HAPPINESS_4] Распространить мятежные листовки</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_LEAFLETS_EFFECT">
+			<Text>Мятежная литература вдохновляет протесты, увеличивая все модификаторы [ICON_HAPPINESS_3] потребностей на 25% в течение {5_Duration}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_LEAFLETS_HELP">
+			<Text>Увеличить модификатор [ICON_HAPPINESS_3] потребностей города на 25% в течение {5_Duration}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_LEAFLETS_PEDIA">
+			<Text>Увеличивает модификатор [ICON_HAPPINESS_3] потребностей города на 25%. Длится 15 ходов (стандартная скорость).[NEWLINE]Требует открытия [COLOR_CYAN]Печатного пресса[ENDCOLOR].[NEWLINE]75% шанс обнаружения / 5% шанс гибели</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_POISON_WATER">
+			<Text>[ICON_FOOD] Отравить водоснабжение</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_POISON_WATER_EFFECT">
+			<Text>Вода отравлена: город производит -50% [ICON_FOOD] пищи в течение {5_Duration}, а половину этого времени [ICON_BLOCKADED] блокирован и не может выполнять [ICON_RANGE_STRENGTH] дальние удары.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_POISON_WATER_HELP">
+			<Text>Город производит -50% [ICON_FOOD] пищи в течение {5_Duration}, а половину этого времени город [ICON_BLOCKADED] блокирован и не может выполнять [ICON_RANGE_STRENGTH] дальние удары.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_POISON_WATER_PEDIA">
+			<Text>Город производит -50% [ICON_FOOD] пищи. Длится 10 ходов (стандартная скорость). Половину этого времени город [ICON_BLOCKADED] блокирован и не может выполнять [ICON_RANGE_STRENGTH] дальние удары.[NEWLINE]У города не должно быть доступа к пресной воде или медицинской лаборатории.[NEWLINE]50% шанс обнаружения / 25% шанс гибели</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_SABOTAGE_PRODUCTION_PEDIA">
+			<Text>Город не может строить или инвестировать в здания, чудеса и проекты. Длится 10 ходов (стандартная скорость). В первые 2 хода он входит в [ICON_RESISTANCE] сопротивление, [ICON_BLOCKADED] блокирован и не может выполнять [ICON_RANGE_STRENGTH] дальние удары.[NEWLINE]75% шанс обнаружения / 5% шанс гибели</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_SCIENTIFIC_GREATPEOPLE_PEDIA">
+			<Text>Специалисты дают -1 [ICON_GREAT_PEOPLE] очко великих людей за ход в целевом городе. Специалисты в вашей столице дают +1 [ICON_GREAT_PEOPLE] очко великих людей за ход. Длится 15 ходов (стандартная скорость).[NEWLINE]Город не может быть [ICON_PUPPET] марионеткой.[NEWLINE]25% шанс обнаружения / 50% шанс гибели</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_STEAL_FAITH_PEDIA">
+			<Text>Выкачивает 100% [ICON_PEACE] веры, производимой этим городом. Город испускает -100% [ICON_RELIGION] религиозного давления. Длится 15 ходов (стандартная скорость).[NEWLINE]В городе должен быть храм.[NEWLINE]25% шанс обнаружения / 25% шанс гибели</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_STEAL_FROM_TREASURY_PEDIA">
+			<Text>Украсть 35% [ICON_GOLD] золота из казны целевой империи.[NEWLINE]Город должен быть [ICON_CAPITAL] столицей.[NEWLINE]25% шанс обнаружения / 25% шанс гибели</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_STEAL_GW_PEDIA">
+			<Text>Украсть случайно выбранное [ICON_GREAT_WORK] великое произведение из целевого города.[NEWLINE]95% шанс обнаружения / 75% шанс гибели</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_STEAL_TECH_PEDIA">
+			<Text>Открыть случайно выбранную технологию, известную целевой империи.[NEWLINE]5% шанс обнаружения / 95% шанс гибели</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_URBAN_UNREST_PEDIA">
+			<Text>Город входит в [ICON_RESISTANCE] сопротивление на 2 хода. В этой местности появляется 5 [ICON_TEAM_2] юнитов мятежников, плюс по одному за каждую прошедшую эпоху. Город не производит [ICON_TOURISM] туризм. Длится 10 ходов (стандартная скорость).[NEWLINE]75% шанс обнаружения / 25% шанс гибели</Text>
 		</Row>
 	</Language_ru_RU>
 </GameData>

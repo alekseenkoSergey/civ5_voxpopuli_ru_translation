@@ -403,7 +403,7 @@
 			<Text>Максимум очков здоровья: {1_Num}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_UNIT_SIGHT">
-			<Text>[ICON_BULLET] Обзор: {1_Num}</Text>
+			<Text>[ICON_VISION] Обзор: {1_Num}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_UNIT_AIR_DEFENSE">
 			<Text>[ICON_AIRSTRIKE_DEFENSE] Защита от авиаударов: {1_Num}</Text>
@@ -484,7 +484,7 @@
 			<Text>Игнорирует [ICON_STRENGTH] силу города от зданий при атаке</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_UNIT_CULTURE_ON_DISBAND_UPGRADE">
-			<Text>Получает [ICON_CULTURE] культуру при расформировании или улучшении</Text>
+			<Text>При расформировании или улучшении: получите [ICON_CULTURE] культуру в размере {1_Num}x суммарного опыта</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_UNIT_GOODY_MODIFIER">
 			<Text>{2_Sign}{1_Num}% к наградам древних руин</Text>
@@ -737,7 +737,7 @@
 			<Text>До {1_YieldBoosts} при [COLOR_POSITIVE_TEXT]тематическом оформлении[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_DEFENSE_FROM_WONDERS">
-			<Text>+{1_Num} [ICON_STRENGTH] силы города за каждое национальное/мировое чудо в городе</Text>
+			<Text>[ICON_BULLET]+{1_Num} [ICON_STRENGTH] силы города за каждое национальное/мировое чудо в городе</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_DEFENSE_MODIFIER">
 			<Text>{2_Sign}{1_Num}% [ICON_STRENGTH] сила города от здания</Text>
@@ -746,7 +746,7 @@
 			<Text>{2_Sign}{1_Num}% [ICON_STRENGTH] силы города от зданий во всех городах вашей команды</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_DAMAGE_REDUCTION">
-			<Text>Уменьшение урона: +{1_Num}</Text>
+			<Text>[ICON_BULLET][ICON_STRENGTH] Уменьшение урона: {2_Sign}{1_Num}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_FREE_RESOURCE">
 			<Text>{2_Sign}{1_Num} {3_ResourceIcon} {4_Resource:textkey}</Text>
@@ -1088,7 +1088,7 @@
 			<Text>{2_Sign}{1_Num}% к длительности [ICON_INTERNATIONAL_TRADE] торговых путей, исходящих из этого города</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_TRADE_UNIT_EXTRA_SIGHT">
-			<Text>{2_Sign}{1_Num} к обзору торговых юнитов</Text>
+			<Text>{2_Sign}{1_Num} [ICON_VISION] к обзору торговых юнитов</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_TRADE_UNIT_SPEED_MULTIPLIER">
 			<Text>{1_Num}x к скорости торговых юнитов</Text>
@@ -1938,9 +1938,6 @@
 		</Row>
 		<Row Tag="TXT_KEY_YIELD_MOD_WORLD_WONDER">
 			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% от наличия [ICON_WONDER] чудес света</Text>
-		</Row>
-		<Row Tag="TXT_KEY_YIELD_MULTIPLIER_POLICY">
-			<Text>[NEWLINE][ICON_BULLET]Удваивается институтами</Text>
 		</Row>
 		<!-- Great person points -->
 		<Row Tag="TXT_KEY_GPP_FROM_SPECIALIST">
@@ -2968,7 +2965,7 @@
 			<Text>Они боятся, что ваше разжигание войны погрузит мир в ядерную зиму!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_WARMONGER_HATE_MAXIMAL">
-			<Text> (Они яростно ненавидят разжигателей войны!)</Text>
+			<Text>[SPACE](Они истово ненавидят разжигателей войны!)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_WARMONGER_HATE_EXTREME">
 			<Text> (Они ненавидят разжигателей войны!)</Text>
@@ -3487,7 +3484,7 @@
 			<Text>Урон по области</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MISC_YOU_UNIT_WAS_DAMAGED_AOE_STRIKE_FORTIFY">
-			<Text>Пилум</Text>
+			<Text>Укреплённый удар</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MISC_YOU_UNIT_WAS_DAMAGED_SPLASH">
 			<Text>Урон по соседним целям</Text>
@@ -3639,6 +3636,51 @@
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SETTINGS_TURN_ON_ALL_BUTTON">
 			<Text>Включить всё</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_TRADE_TECHNOLOGIES_NO_RESEARCH_OTHER_PLAYER">
+			<Text>Они должны основать город, чтобы начать исследования.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_TRADE_TECHNOLOGIES_NO_RESEARCH_PLAYER">
+			<Text>Вы должны основать город, чтобы начать исследования.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GROWTH_MINIMUM">
+			<Text>Общее количество [ICON_FOOD] пищи в этом городе не может опуститься ниже {1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PATHFINDING_SEALIFT">
+			<Text>[ICON_CARGO_SHIP] Транспортировка</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODMOD_RELIGION_UNIT_COMBAT">
+			<Text>[NEWLINE][ICON_BULLET]Модификатор для класса боевых юнитов от религии: {1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_CITY_CONNECTION_TILE_BOOST">
+			<Text>{1_YieldBoosts} к клеткам [COLOR_POSITIVE_TEXT]городского соединения[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_EXTRA_SPIES_FROM_ACCOMPLISHMENT">
+			<Text>[COLOR_WATER_TEXT]{2_Accomplishment:textkey}[ENDCOLOR]: получить {1_Num} [ICON_SPY] {1: plural 1?шпиона; other?шпионов;}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_EXTRA_SPY_POINTS_FROM_ACCOMPLISHMENT">
+			<Text>[COLOR_WATER_TEXT]{2_Accomplishment:textkey}[ENDCOLOR]: получить {1_Num} [ICON_SPY_POINT] {1: plural 1?очко шпионажа; other?очков шпионажа;}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_MINIMUM_FOOD">
+			<Text>Общий выход [ICON_FOOD] пищи не может опуститься ниже {1_Food}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_SEALIFT">
+			<Text>Разрешает [COLOR_POSITIVE_TEXT]транспортировку[ENDCOLOR] через [ICON_CONNECTED] городские соединения по воде</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_MODIFIER_FROM_ACCOMPLISHMENT">
+			<Text>[ICON_BULLET][COLOR_WATER_TEXT]{1_Accomplishment:textkey}[ENDCOLOR]: {2_YieldBoosts}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_COST_PRODUCTION_ADDED_PER_ERA">
+			<Text>{1_Num} [ICON_PRODUCTION] + {2_Num} [ICON_PRODUCTION] за эпоху</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_UPGRADE">
+			<Text>Улучшается до: {1_Unit:textkey} ({2_Techs}{3_Cost} [ICON_GOLD])</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_UPGRADE_NO_COST">
+			<Text>Улучшается до: {1_Unit:textkey} ({2_Techs})</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WARMONGER_PREVIEW_CASUS_BELLI_CULTURE_BOMB">
+			<Text>Снижено на [COLOR_CYAN]{1_Num}%[ENDCOLOR] (кроме владельца и его сюзеренов/вассалов), потому что они украли у вас территорию!</Text>
 		</Row>
 	</Language_ru_RU>
 </GameData>

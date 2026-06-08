@@ -25,7 +25,7 @@ SET Text = 'Уникальная арабская замена {TXT_KEY_BUILDING
 WHERE Tag = 'TXT_KEY_BUILDING_BAZAAR_STRATEGY';
 
 UPDATE Language_ru_RU
-SET Text = ' {TXT_KEY_UNIT_ARABIAN_CAMELARCHER} — уникальный арабский юнит, заменяющий {TXT_KEY_UNIT_HEAVY_SKIRMISHER}. Он может наносить небольшой урон группе врагов на соседних клетках и один раз за ход отступать от рукопашной атаки. Для обучения не требует [ICON_RES_HORSE] {TXT_KEY_RESOURCE_HORSES}.'
+SET Text = '{TXT_KEY_UNIT_ARABIAN_CAMELARCHER} — уникальный арабский юнит, заменяющий {TXT_KEY_UNIT_HEAVY_SKIRMISHER}. Для обучения не требует [ICON_RES_HORSE] {TXT_KEY_RESOURCE_HORSES}. Он может наносить небольшой урон группе врагов рядом с собой. В отличие от конных застрельщиков, {TXT_KEY_UNIT_ARABIAN_CAMELARCHER} легко передвигается по пустыне. Более того, он сражается с повышенной силой на предпочитаемой Аравией местности. Масса таких юнитов способна защищать или атаковать пустынные позиции даже против мощных вражеских сил.'
 WHERE Tag = 'TXT_KEY_UNIT_ARABIAN_CAMELARCHER_STRATEGY';
 
 --------------------
@@ -387,7 +387,7 @@ WHERE Tag = 'TXT_KEY_UNIT_HUN_HORSE_ARCHER_STRATEGY';
 -- Inca
 --------------------
 UPDATE Language_ru_RU
-SET Text = 'Юниты могут пересекать горы и игнорируют стоимость передвижения при входе на любой холм или гору, кроме пересечения реки. Города, дороги и железные дороги можно строить на горах. Горы при обработке дают +1 [ICON_PRODUCTION], [ICON_GOLD] и [ICON_RESEARCH], масштабируется с эрой.'
+SET Text = 'Гражданские и разведывательные юниты могут пересекать горы. Юниты игнорируют стоимость местности [COLOR_POSITIVE_TEXT]на холмах[ENDCOLOR]. Принадлежащие вам холмы или горы с [ICON_CONNECTED] городскими соединениями или [ICON_INTERNATIONAL_TRADE] торговыми путями дают +1 [ICON_GOLD] золота, увеличиваясь ещё на +1 в [COLOR_CYAN]индустриальную эпоху[ENDCOLOR].'
 WHERE Tag = 'TXT_KEY_TRAIT_GREAT_ANDEAN_ROAD';
 
 UPDATE Language_ru_RU
@@ -395,7 +395,7 @@ SET Text = 'Пата-пата'
 WHERE Tag = 'TXT_KEY_IMPROVEMENT_TERRACE_FARM';
 
 UPDATE Language_ru_RU
-SET Text = 'Можно строить только на холмах. +1 [ICON_FOOD] пищи за каждые две соседние клетки с горой, фермой, Пата-пата или Академией. Фермы получают +1 [ICON_FOOD] пищи за каждые 2 соседние фермы или Пата-пата.'
+SET Text = 'Можно строить только на горах. +1 [ICON_FOOD] пищи всем соседним сухопутным клеткам без гор.[NEWLINE][NEWLINE]Можно строить [COLOR_POSITIVE_TEXT]в пределах территории инков или рядом с ней[ENDCOLOR]. После завершения присваивает клетку под собой, если построено на [COLOR_POSITIVE_TEXT]нейтральной территории[ENDCOLOR].'
 WHERE Tag = 'TXT_KEY_CIV5_IMPROVEMENTS_TERRACE_FARM_HELP';
 
 UPDATE Language_ru_RU
@@ -422,7 +422,7 @@ SET Text = 'Нага-Малла'
 WHERE Tag = 'TXT_KEY_UNIT_INDIAN_WARELEPHANT';
 
 UPDATE Language_ru_RU
-SET Text = '{TXT_KEY_UNIT_INDIAN_WARELEPHANT} — уникальный индийский юнит, заменяющий {TXT_KEY_UNIT_CUIRASSIER}. Как слоновий юнит, он вселяет страх в соседние вражеские юниты и ослабляет их, обладает значительно более высокой [ICON_STRENGTH] боевой силой и [ICON_RANGE_STRENGTH] дальнобойной силой, но движется медленнее. Для обучения не требует [ICON_RES_HORSE] {TXT_KEY_RESOURCE_HORSES}, а доступен с открытием [COLOR_CYAN]{TXT_KEY_TECH_GUNPOWDER_TITLE}[ENDCOLOR], раньше, чем {TXT_KEY_UNIT_CUIRASSIER}. Не начинает с повышением {TXT_KEY_PROMOTION_SKIRMISHER_DOCTRINE}.'
+SET Text = '{TXT_KEY_UNIT_INDIAN_WARELEPHANT} — уникальный индийский юнит, заменяющий {TXT_KEY_UNIT_CUIRASSIER}. Как слоновий юнит, он вселяет страх в соседние вражеские юниты и ослабляет их, обладает значительно более высокой [ICON_RANGE_STRENGTH] дальнобойной боевой силой, но движется медленнее. Для обучения не требует [ICON_RES_HORSE] {TXT_KEY_RESOURCE_HORSES}, а доступен с открытием [COLOR_CYAN]{TXT_KEY_TECH_GUNPOWDER_TITLE}[ENDCOLOR], раньше, чем {TXT_KEY_UNIT_CUIRASSIER}. Не начинает с повышением {TXT_KEY_PROMOTION_SKIRMISHER_DOCTRINE}, но начинает с [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_STALWART}[ENDCOLOR] и [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_RETALIATION}[ENDCOLOR].'
 WHERE Tag = 'TXT_KEY_UNIT_INDIAN_WARELEPHANT_STRATEGY';
 
 UPDATE Language_ru_RU
@@ -449,7 +449,7 @@ SET Text = 'Сумпах Палапа'
 WHERE Tag = 'TXT_KEY_TRAIT_SPICE_SHORT';
 
 UPDATE Language_ru_RU
-SET Text = 'Когда вы получаете город, рядом появляется один из 3 уникальных предметов роскоши ([ICON_RES_CLOVES]/[ICON_RES_PEPPER]/[ICON_RES_NUTMEG]). +5% к модификаторам уникального дохода и длительности [ICON_GOLDEN_AGE] Золотого века от [ICON_MONOPOLY] глобальных монополий; +2 к доходам и [ICON_HAPPINESS_1] счастью от [ICON_MONOPOLY] глобальных монополий.'
+SET Text = 'Когда вы получаете город, рядом появляется один из 3 уникальных ресурсов роскоши ([ICON_RES_CLOVES]/[ICON_RES_PEPPER]/[ICON_RES_NUTMEG]). Каждый бонус [ICON_MONOPOLY] глобальной монополии усиливается ещё на 5%, если он процентный, или на +2, если нет.'
 WHERE Tag = 'TXT_KEY_TRAIT_SPICE';
 
 UPDATE Language_ru_RU
@@ -483,7 +483,7 @@ SET Text = 'Сёгунат'
 WHERE Tag = 'TXT_KEY_TRAIT_FIGHT_WELL_DAMAGED_SHORT';
 
 UPDATE Language_ru_RU
-SET Text = '+1 [ICON_CULTURE] культуры и [ICON_PEACE] веры от оборонительных зданий. Когда рождается [ICON_GREAT_ADMIRAL] великий адмирал или [ICON_GREAT_GENERAL] великий генерал, вы получаете 50% прогресса к [ICON_GREAT_WORK] великому художнику, писателю и музыканту в вашей [ICON_CAPITAL] столице.'
+SET Text = 'Сухопутные рукопашные юниты, кроме разведывательных, начинают с повышением [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_BUSHIDO}[ENDCOLOR]. Когда рождается [ICON_GREAT_ADMIRAL] великий адмирал или [ICON_GREAT_GENERAL] великий генерал, вы получаете 50% прогресса к [ICON_GREAT_WORK] великому писателю, художнику и музыканту в вашей [ICON_CAPITAL] столице.'
 WHERE Tag = 'TXT_KEY_TRAIT_FIGHT_WELL_DAMAGED';
 
 UPDATE Language_ru_RU
@@ -539,7 +539,7 @@ WHERE Tag = 'TXT_KEY_CIV5_MONGOLIA_KHAN_STRATEGY';
 -- Morocco
 --------------------
 UPDATE Language_ru_RU
-SET Text = '+1 ко всем доходам в [ICON_CAPITAL] столице за каждого уникального партнёра по [ICON_INTERNATIONAL_TRADE] торговому пути, масштабируется с эрой. Расстояние не уменьшает доходы [ICON_INTERNATIONAL_TRADE] путей в марокканские города и из них. Можно грабить [ICON_INTERNATIONAL_TRADE] торговые пути между чужими городами без объявления войны.'
+SET Text = '+2 ко всем доходам в [ICON_CAPITAL] столице за каждого уникального партнёра по [ICON_INTERNATIONAL_TRADE] торговому пути, масштабируется с эпохой. Расстояние не уменьшает доходы [ICON_INTERNATIONAL_TRADE] торговых путей в марокканские города и из них.'
 WHERE Tag = 'TXT_KEY_TRAIT_GATEWAY_AFRICA';
 
 UPDATE Language_ru_RU
@@ -619,7 +619,7 @@ SET Text = 'Получите 1 [COLOR_POSITIVE_TEXT]бесплатную[ENDCOLO
 WHERE Tag = 'TXT_KEY_TRAIT_SOLIDARITY';
 
 UPDATE Language_ru_RU
-SET Text = 'Уникальная польская замена {TXT_KEY_BUILDING_STABLE}. Помимо бонусов {TXT_KEY_BUILDING_STABLE}, {TXT_KEY_BUILDING_DUCAL_STABLE_DESC} даёт более сильный бонус к [ICON_PRODUCTION] производству и бонусный опыт для конных рукопашных юнитов, а также больше усиливает пастбищные ресурсы. Кроме того, оно даёт бесплатную [ICON_RES_HORSE] лошадь, вместо того чтобы требовать рядом улучшенный ресурс пастбища.'
+SET Text = 'Уникальная польская замена {TXT_KEY_BUILDING_STABLE}. Помимо бонусов {TXT_KEY_BUILDING_STABLE}, {TXT_KEY_BUILDING_DUCAL_STABLE_DESC} даёт бонус к [ICON_PRODUCTION] производству и бонусный опыт для конных рукопашных юнитов, а также сильнее усиливает пастбищные ресурсы. Кроме того, оно даёт бесплатную [ICON_RES_HORSE] лошадь, вместо того чтобы требовать рядом улучшенный ресурс пастбища.'
 WHERE Tag = 'TXT_KEY_BUILDING_DUCAL_STABLE_STRATEGY';
 
 UPDATE Language_ru_RU
@@ -688,7 +688,7 @@ WHERE Tag = 'TXT_KEY_UNIT_PORTUGUESE_NAU_STRATEGY';
 -- Rome
 --------------------
 UPDATE Language_ru_RU
-SET Text = '+30% [ICON_STRENGTH] боевой силы против [ICON_CITY_STATE] городов-государств. Завоёванные города-государства дают доходы, [ICON_HAPPINESS_1] счастье и подарочные юниты так, словно были [COLOR_POSITIVE_TEXT]союзниками[ENDCOLOR]. +15% [ICON_PRODUCTION] производства при строительстве зданий, уже присутствующих в [ICON_CAPITAL] столице.'
+SET Text = '+25% [ICON_PRODUCTION] производства при строительстве зданий, уже присутствующих в [ICON_CAPITAL] столице. +2 [ICON_GOLD] золота, +1 [ICON_CULTURE] культуры и +1 [ICON_TOURISM] туризма в [ICON_CAPITAL] столице за каждый город в пределах 8 клеток, [ICON_CONNECTED] соединённый по суше с любым вашим городом; масштабируется с эпохой.'
 WHERE Tag = 'TXT_KEY_TRAIT_CAPITAL_BUILDINGS_CHEAPER';
 
 UPDATE Language_ru_RU
@@ -798,7 +798,7 @@ SET Text = 'Лев Севера'
 WHERE Tag = 'TXT_KEY_TRAIT_DIPLOMACY_GREAT_PEOPLE_SHORT';
 
 UPDATE Language_ru_RU
-SET Text = 'Наземные рукопашные юниты начинают игру с повышением [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_ATTACK_BONUS_SWEDEN}[ENDCOLOR], а осадные юниты — с повышением [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_MOBILITY}[ENDCOLOR]. Все военные юниты лечатся на 10 HP и получают 2 XP, когда рождается [ICON_GREAT_PEOPLE] великая личность. +15% [ICON_STRENGTH] боевой силы от [ICON_GREAT_GENERAL]/[ICON_GREAT_ADMIRAL] [COLOR_POSITIVE_TEXT]лидерства[ENDCOLOR].'
+SET Text = 'Наземные рукопашные юниты начинают игру с повышением [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_ATTACK_BONUS_SWEDEN}[ENDCOLOR], а осадные юниты — с повышением [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_MOBILITY}[ENDCOLOR]. Все военные юниты лечатся на 10 HP и получают 3 XP, когда рождается [ICON_GREAT_PEOPLE] великая личность. +15% [ICON_STRENGTH] боевой силы от [ICON_GREAT_GENERAL]/[ICON_GREAT_ADMIRAL] [COLOR_POSITIVE_TEXT]лидерства[ENDCOLOR].'
 WHERE Tag = 'TXT_KEY_TRAIT_DIPLOMACY_GREAT_PEOPLE';
 
 UPDATE Language_ru_RU

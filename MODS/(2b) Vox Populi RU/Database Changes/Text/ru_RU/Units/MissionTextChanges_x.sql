@@ -10,7 +10,7 @@ WHERE Tag = 'TXT_KEY_MISSION_CREATE_GREAT_WORK_HELP';
 
 -- Write Political Treatise
 UPDATE Language_ru_RU
-SET Text = 'Этот приказ расходует великого человека и даёт большое количество [ICON_CULTURE] культуры, увеличивающееся на [COLOR_POSITIVE_TEXT]3%[ENDCOLOR] за каждое принадлежащее вам [ICON_GREAT_WORK] великое произведение.'
+SET Text = 'Этот приказ расходует великого человека и даёт большое количество [ICON_CULTURE] культуры, увеличивающееся на [COLOR_POSITIVE_TEXT]8%[ENDCOLOR] за каждое принадлежащее вам [ICON_GW_WRITING] великое литературное произведение.'
 WHERE Tag = 'TXT_KEY_MISSION_GIVE_POLICIES_HELP';
 
 -- Start a Golden Age

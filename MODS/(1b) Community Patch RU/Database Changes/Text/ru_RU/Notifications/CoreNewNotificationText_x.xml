@@ -1112,7 +1112,7 @@
 		</Row>
 		<!-- You have made peace with {1_TeamName}! -->
 		<Row Tag="TXT_KEY_MISC_YOU_MADE_PEACE_WITH_DETAILED">
-			<Text>Вы заключили мир с {1_TeamName}! Все союзники и вассалы обеих сторон также заключили мир друг с другом. {2_OurAllies} {3_TheirAllies}</Text>
+			<Text>Вы заключили мир с {1_TeamName}! У войск обеих сторон есть {2_num} {2_num: plural 1?ход; other?ходов;} на выход с территории друг друга. Все союзники и вассалы обеих сторон также заключили мир друг с другом. {3_OurAllies} {4_TheirAllies}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MISC_YOU_MADE_PEACE_WITH_MINOR_DETAILED">
 			<Text>Вы заключили мир с {1_TeamName}! Ваши союзники и вассалы также заключили мир. {2_OurAllies}</Text>
@@ -1352,6 +1352,21 @@
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_PLAGUE_TRANSFER_THEM">
 			<Text>Во время боя на наш {1_Unit} от их {2_Unit} перекинулась свирепая чума!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INSTANT_YIELD_TYPE_SCRAP_OR_UPGRADE_SHORT">
+			<Text>Расформирование или улучшение юнита</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_YOU_MADE_PEACE_WITH_DETAILED_NO_DISENGAGEMENT">
+			<Text>Вы заключили мир с {1_TeamName}! Все союзники и вассалы обеих сторон также заключили мир друг с другом. {2_OurAllies} {3_TheirAllies}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_YOU_MADE_PEACE_WITH_DETAILED_OUR_DISENGAGEMENT">
+			<Text>Вы заключили мир с {1_TeamName}! У войск с вашей стороны есть {2_num} {2_num: plural 1?ход; other?ходов;} на выход с их территории. Все союзники и вассалы обеих сторон также заключили мир друг с другом. {3_OurAllies} {4_TheirAllies}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_YOU_MADE_PEACE_WITH_DETAILED_THEIR_DISENGAGEMENT">
+			<Text>Вы заключили мир с {1_TeamName}! У войск с их стороны есть {2_num} {2_num: plural 1?ход; other?ходов;} на выход с вашей территории. Все союзники и вассалы обеих сторон также заключили мир друг с другом. {3_OurAllies} {4_TheirAllies}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TOURISM_EVENT_RELIGION_SPREAD">
+			<Text>Поскольку город впервые обратился в вашу собственную [ICON_RELIGION] религию, ваш [ICON_TOURISM] туризм со всеми известными цивилизациями увеличился на {1_Num} (до модификаторов туризма)!</Text>
 		</Row>
 	</Language_ru_RU>
 </GameData>

@@ -852,7 +852,7 @@ SET Text = 'Один или оба из нас уже исследовали в�
 WHERE Tag = 'TXT_KEY_DIPLO_RESCH_AGREEMENT_ALL_TECHS_RESEARCHED';
 
 UPDATE Language_ru_RU
-SET Text = 'Ни у одного из игроков пока нет Технологии для торговли этим предметом (Философия).'
+SET Text = 'Ни у одного из игроков пока нет технологии для торговли этим предметом (Образование).'
 WHERE Tag = 'TXT_KEY_DIPLO_RESCH_AGREEMENT_NO_TECH';
 
 UPDATE Language_ru_RU

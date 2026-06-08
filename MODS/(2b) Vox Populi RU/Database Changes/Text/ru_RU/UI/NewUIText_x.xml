@@ -20,7 +20,7 @@
       <Text>[NEWLINE] [ICON_BULLET]Расширенные шпионские миссии отключены.</Text>
     </Row>
     <Row Tag="TXT_KEY_SPY_POINTS_TT">
-      <Text>Ваши текущие [ICON_SPY_POINT] очки шпионажа: {1_Num}/{2_Threshold}[NEWLINE][NEWLINE]Вы получаете нового шпиона каждый раз, когда количество [ICON_SPY_POINT] очков шпионажа превышает порог {2_Threshold}. Значение порога зависит от количества цивилизаций и городов-государств, существовавших в начале игры. Когда первая цивилизация достигает Ренессанса, или когда вы вступаете в любую более позднюю эпоху, вы получаете 100 [ICON_SPY_POINT] очков шпионажа. Некоторые здания и политики также дают [ICON_SPY_POINT] очки шпионажа.[NEWLINE][NEWLINE]Общее число когда-либо накопленных [ICON_SPY_POINT] очков шпионажа: {3_NumTotal}</Text>
+      <Text>Ваши текущие [ICON_SPY_POINT] очки шпионажа: {1_Num}/{2_Threshold}[NEWLINE][NEWLINE]Вы получаете нового шпиона каждый раз, когда количество [ICON_SPY_POINT] очков шпионажа превышает порог {2_Threshold}.[NEWLINE][NEWLINE]Общее число когда-либо накопленных [ICON_SPY_POINT] очков шпионажа: {3_NumTotal}</Text>
     </Row>
     <Row Tag="TXT_KEY_EVENT_NO_TECH_STEAL">
       <Text>[NEWLINE] [ICON_BULLET] Нет технологий для кражи.</Text>
@@ -1086,9 +1086,6 @@
     </Row>
     <Row Tag="TXT_KEY_CITY_HAS_OBSTACLE_WATER">
       <Text>Вражеские морские и погружённые юниты тратят все [ICON_MOVES] очки перемещения при входе на водную территорию, принадлежащую этому городу.</Text>
-    </Row>
-    <Row Tag="TXT_KEY_CITY_HAS_AIRPORT">
-      <Text>Позволяет [COLOR_POSITIVE_TEXT]авиапереброску[ENDCOLOR] в этот город и из него. Увеличивает вместимость воздушных юнитов в городе. +10 [ICON_STRENGTH] урона вражеским воздушным юнитам во время авиаударов по городу.</Text>
     </Row>
     <Row Tag="TXT_KEY_CORPORATION_OFFICEHQ_TT">
       <Text>[ICON_CAPITAL] Штаб-квартира [COLOR_POSITIVE_TEXT]{1_Name}[ENDCOLOR]</Text>
@@ -3046,5 +3043,20 @@
     <Row Tag="TXT_KEY_MISSION_PLUNDER_TRADE_ROUTE_DISABLED_CORPORATION_HELP">
       <Text>Нельзя грабить торговые пути, защищённые корпорацией владельца торгового пути.</Text>
     </Row>
-  </Language_ru_RU>
+    <Row Tag="TXT_KEY_CITY_HAS_AIRLIFT">
+        <Text>Разрешает [COLOR_POSITIVE_TEXT]авиапереброску[ENDCOLOR] в этот город и из него.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_HAS_SEALIFT">
+        <Text>Разрешает [COLOR_POSITIVE_TEXT]транспортировку[ENDCOLOR] в этот город и из него.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_HISTORIC_EVENT_RELIGION_SPREAD">
+        <Text>[ICON_RELIGION] Новый город обращён</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_HISTORIC_EVENT_RELIGION_SPREAD_TT">
+        <Text>Каждое первое обращение города в вашу собственную [ICON_RELIGION] религию станет [COLOR_POSITIVE_TEXT]историческим событием[ENDCOLOR]!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEED_NO_FRESH_WATER">
+        <Text>[NEWLINE] [ICON_BULLET] У города не должно быть доступа к пресной воде</Text>
+    </Row>
+</Language_ru_RU>
 </GameData>

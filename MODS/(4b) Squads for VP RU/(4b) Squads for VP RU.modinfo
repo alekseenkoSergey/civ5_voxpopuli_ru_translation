@@ -2,7 +2,7 @@
 <Mod id="2920e66f-5aa2-46f8-a204-99ddd7a57fa9" version="1">
   <Properties>
     <Name>(4b) Squads for VP - перевод</Name>
-    <Teaser>(5.2.7) Перевод на русский</Teaser>
+    <Teaser>(5.3.2) Перевод на русский</Teaser>
     <Description>QoL-мод для организации и одновременного перемещения групп юнитов.
 Squads использует два режима: [COLOR_GREEN]Режим управления[ENDCOLOR] и [COLOR_GREEN]Режим перемещения[ENDCOLOR].[NEWLINE][NEWLINE]
 В [COLOR_GREEN]Режиме управления[ENDCOLOR] юнитов можно добавлять или удалять с помощью [COLOR_YELLOW]ЛКМ[ENDCOLOR] по самому юниту или его значку. Группы юнитов можно добавлять в отряд сразу, удерживая [COLOR_YELLOW]ПКМ[ENDCOLOR] и протягивая рамку над юнитами, которых нужно добавить. Войти в [COLOR_GREEN]Режим управления[ENDCOLOR] для отряда можно, нажав кнопку [COLOR_BLUE]Управление отрядом[ENDCOLOR] в интерфейсе при выбранном этом отряде, либо сочетанием клавиш [COLOR_YELLOW]CTRL+NUM[ENDCOLOR], где num — клавиша с номером отряда.[NEWLINE][NEWLINE]

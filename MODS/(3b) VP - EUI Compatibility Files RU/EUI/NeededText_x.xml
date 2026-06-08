@@ -17,6 +17,9 @@
 		<Row Tag="TXT_KEY_EO_GP_RESOURCES">
 			<Text>От великих людей</Text>
 		</Row>
+		<Row Tag="TXT_KEY_EO_POLICY_RESOURCES">
+			<Text>От институтов</Text>
+		</Row>
 		<Row Tag="TXT_KEY_EO_CORP_RESOURCES">
 			<Text>От корпорации</Text>
 		</Row>

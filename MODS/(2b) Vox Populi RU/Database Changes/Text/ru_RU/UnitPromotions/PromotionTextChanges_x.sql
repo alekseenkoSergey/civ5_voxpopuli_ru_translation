@@ -494,7 +494,7 @@ SET Text = 'Может входить на [COLOR_POSITIVE_TEXT]непроход
 WHERE Tag = 'TXT_KEY_PROMOTION_HOVERING_UNIT_HELP';
 
 UPDATE Language_ru_RU
-SET Text = 'Все клетки стоят 1 [ICON_MOVES] перемещения.[NEWLINE][COLOR_NEGATIVE_TEXT]Не может использовать дороги и железные дороги.[ENDCOLOR]'
+SET Text = 'Единая стоимость перемещения'
 WHERE Tag = 'TXT_KEY_PROMOTION_FLAT_MOVEMENT_COST';
 
 UPDATE Language_ru_RU
@@ -657,15 +657,6 @@ WHERE Tag = 'TXT_KEY_PROMOTION_SKI_INFANTRY_HELP';
 UPDATE Language_ru_RU
 SET Text = '-20% [ICON_STRENGTH] боевой мощи для [COLOR_POSITIVE_TEXT]соседние вражеские юниты[ENDCOLOR].[NEWLINE]Погрузка и высадка стоят всего 1 [ICON_MOVES] перемещения.'
 WHERE Tag = 'TXT_KEY_PROMOTION_HAKA_WAR_DANCE_HELP';
-
-UPDATE Language_ru_RU
-SET Text = 'Хаааан!'
-WHERE Tag = 'TXT_KEY_PROMOTION_MEDIC_GENERAL';
-
-UPDATE Language_ru_RU
-SET Text = 'Наносит 10 урона вражеским юнитам, заканчивающим ход рядом с этим юнитом.[NEWLINE]Этот урон игнорирует снижение урона.'
-WHERE Tag = 'TXT_KEY_PROMOTION_MEDIC_GENERAL_HELP';
-
 -- Quick Study
 UPDATE Language_ru_RU
 SET Text = '+50% опыта, получаемого в бою.'
@@ -713,7 +704,7 @@ WHERE Tag = 'TXT_KEY_PROMOTION_LIGHTNING_WARFARE_HELP';
 
 -- Exotic Cargo
 UPDATE Language_ru_RU
-SET Text = 'Может {TXT_KEY_MISSION_SELL_EXOTIC_GOODS}, находясь рядом с иностранной территорией, чтобы получить [ICON_GOLD] золото и опыт в зависимости от расстояния до вашей [ICON_CAPITAL] столицы, до двух раз.[NEWLINE]Если как Португалия продать товары городу-государству, на его территории [COLOR_POSITIVE_TEXT]автоматически создаётся[ENDCOLOR] Фейтория.[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]Теряется при улучшении.[ENDCOLOR]'
+SET Text = 'Может {TXT_KEY_MISSION_SELL_EXOTIC_GOODS}, находясь рядом с иностранной территорией, чтобы получить [ICON_GOLD] золото и опыт в зависимости от расстояния до вашей [ICON_CAPITAL] столицы, до двух раз.[NEWLINE]Если как Португалия продать товары городу-государству, на его территории [COLOR_POSITIVE_TEXT]автоматически создаётся[ENDCOLOR] Фейтория.'
 WHERE Tag = 'TXT_KEY_PROMOTION_SELL_EXOTIC_GOODS_HELP';
 
 -- City Plunder

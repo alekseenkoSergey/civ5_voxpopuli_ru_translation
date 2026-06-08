@@ -15,7 +15,7 @@
 			<Text>Оборона</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROCESS_DEFENSE_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Оборона[ENDCOLOR] усиливает [ICON_STRENGTH] оборону города и увеличивает восстановление очков здоровья на 10% от [ICON_PRODUCTION] производства города.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Оборона[ENDCOLOR] усиливает [ICON_STRENGTH] оборону города и увеличивает восстановление очков здоровья на 10% от [ICON_PRODUCTION] производства города; показатель растёт на 1% за каждый ход выполнения процесса обороны, вплоть до максимума 15%.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROCESS_DEFENSE_STRATEGY">
 			<Text>Вложение производства в оборону — это крайняя мера, чтобы спасти ваш город от захвата иностранной державой.</Text>

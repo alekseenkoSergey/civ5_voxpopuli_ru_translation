@@ -48,7 +48,7 @@
 			<Text>Миссия вашего {1_UnitType} завершена!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_GREAT_DIPLOMAT_OTHER">
-			<Text>{1_UnitType} увеличил {4_OwnerAdj} [ICON_INFLUENCE] влияние в {3_CivShortDesc} на [COLOR_NEGATIVE_TEXT]{2_Num}[ENDCOLOR] и уменьшил ваше [ICON_INFLUENCE] влияние в городе-государстве на ту же величину! Их минимальное [ICON_INFLUENCE] влияние на этот город-государство также увеличилось на [COLOR_NEGATIVE_TEXT]{5_Num}[ENDCOLOR]!</Text>
+			<Text>{1_UnitType} увеличил {4_OwnerAdj} [ICON_INFLUENCE] влияние в {3_CivShortDesc} на [COLOR_NEGATIVE_TEXT]{2_Num}[ENDCOLOR] и уменьшил ваше [ICON_INFLUENCE] влияние в городе-государстве на ту же величину!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_GREAT_DIPLOMAT_OTHER_SUMMARY">
 			<Text>Миссия иностранного {1_UnitType} завершена!</Text>
@@ -839,6 +839,12 @@
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_MINOR_CITY_YIELDS_CAPITAL">
 			<Text>[NEWLINE][ICON_CAPITAL] Столица дополнительно даёт {1_YieldList}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SPY_POINTS_RECEIVED">
+			<Text>Вы получили дополнительно {1_SpyPoints} [ICON_SPY_POINT] очков шпионажа; текущий прогресс к новому [ICON_SPY] шпиону теперь составляет {2_SpyPoints}/{3_Threshold}.[NEWLINE]Всего накоплено {4_SpyPoints} [ICON_SPY_POINTS] очков шпионажа.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_SPY_POINTS_RECEIVED">
+			<Text>Вы получили дополнительные [ICON_SPY_POINT] очки шпионажа!</Text>
 		</Row>
 	</Language_ru_RU>
 </GameData>

@@ -66,7 +66,7 @@ WHERE Tag = 'TXT_KEY_TECH_CHEMISTRY_HELP';
 
 -- Metallurgy
 UPDATE Language_ru_RU
-SET Text = 'Позволяет строить [COLOR_POSITIVE_TEXT]Лансера[ENDCOLOR] — мощный конный юнит эпохи Ренессанса.'
+SET Text = 'Позволяет строить [COLOR_POSITIVE_TEXT]мушкетёра[ENDCOLOR] — мощный дальнобойный юнит эпохи Возрождения.'
 WHERE Tag = 'TXT_KEY_TECH_METALLURGY_HELP';
 
 -- Industrialization
@@ -231,7 +231,7 @@ WHERE Tag = 'TXT_KEY_TECH_GUILDS_HELP';
 
 -- Printing Press
 UPDATE Language_ru_RU
-SET Text = 'Позволяет строить [COLOR_POSITIVE_TEXT]Печатный пресс[ENDCOLOR] — здание, позволяющее дипломатическим юнитам игнорировать стоимость передвижения по местности. Также открывает возможность основать Всемирный конгресс.'
+SET Text = 'Позволяет строить [COLOR_POSITIVE_TEXT]печатный дом[ENDCOLOR] — здание, позволяющее дипломатическим юнитам игнорировать стоимость передвижения по местности. Также открывает возможность основать Всемирный конгресс.'
 WHERE Tag = 'TXT_KEY_TECH_PRINTING_PRESS_HELP';
 
 -- Astronomy

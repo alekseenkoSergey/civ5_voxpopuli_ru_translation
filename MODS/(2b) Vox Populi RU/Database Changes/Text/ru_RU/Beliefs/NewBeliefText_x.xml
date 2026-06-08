@@ -14,7 +14,7 @@
 			<Text>Эпона, Великая Кобылица</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_NUADA">
-			<Text>+15% [ICON_GOLD] золота и [ICON_RESEARCH] науки во время «Дня любви к королю». +3 [ICON_GOLD] золота, [ICON_RESEARCH] науки и [ICON_GOLDEN_AGE] очков Золотого века в вашей [ICON_CAPITAL] столице/Святом городе за каждый уникальный ресурс роскоши, которым вы владеете или который импортируете. +3 [ICON_GOLD] золота, [ICON_RESEARCH] науки и [ICON_GOLDEN_AGE] очков Золотого века за каждый активный торговый путь в город или из него. +5 [ICON_GOLD] золота от {TXT_KEY_BUILDING_CEILIDH_HALL}.</Text>
+			<Text>+10% [ICON_GOLD] золота и [ICON_RESEARCH] науки во время «Дня любви к королю». +2 [ICON_GOLD] золота и [ICON_RESEARCH] науки в вашей [ICON_CAPITAL] столице/Святом городе за каждый уникальный ресурс роскоши, которым вы владеете или который импортируете. +2 [ICON_GOLD] золота и [ICON_RESEARCH] науки за каждый активный торговый путь в город или из него. +5 [ICON_GOLD] золота от {TXT_KEY_BUILDING_CEILIDH_HALL}.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_NUADA_SHORT">
 			<Text>Нуада, Сереброрукий</Text>
@@ -97,7 +97,7 @@
 			<Text>+4 [ICON_PEACE] веры[NEWLINE]+2 [ICON_CULTURE] культуры[NEWLINE][NEWLINE]+1 [ICON_PEACE] веры ко всем [ICON_GREAT_WORK] великим произведениям в городе.[NEWLINE][NEWLINE]При постройке начинается 15 ходов [ICON_HAPPINESS_1] «Дня любви к королю».[NEWLINE][NEWLINE]+40% религиозного давления на другие города, если эта религия является религией большинства в городе.[NEWLINE][NEWLINE]-1 [ICON_HAPPINESS_3] недовольства от [ICON_CULTURE] скуки.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_GURDWARA_TOOLTIP">
-			<Text>+2 [ICON_PEACE] веры[NEWLINE]+3 [ICON_FOOD] пищи[NEWLINE]+10% [ICON_FOOD] пищи[NEWLINE][NEWLINE]+10% [ICON_STRENGTH] силы города от зданий.[NEWLINE][NEWLINE]+25% религиозного давления на другие города, если эта религия является религией большинства в городе.[NEWLINE][NEWLINE]-1 [ICON_HAPPINESS_3] недовольства от [ICON_FOOD][ICON_PRODUCTION] тягот.</Text>
+			<Text>+2 [ICON_PEACE] веры[NEWLINE]+3 [ICON_FOOD] пищи[NEWLINE]+10% [ICON_FOOD] пищи[NEWLINE][NEWLINE]+3 [ICON_STRENGTH] силы города.[NEWLINE]+10% [ICON_STRENGTH] силы города от зданий.[NEWLINE]+10% [ICON_RANGE_STRENGTH] силы городского обстрела.[NEWLINE][NEWLINE]Сухопутные военные юниты гарнизона в этом городе восстанавливают дополнительно 5 HP независимо от действия.[NEWLINE][NEWLINE]+25% религиозного давления на другие города, если эта религия является религией большинства в городе.[NEWLINE][NEWLINE]-1 [ICON_HAPPINESS_3] недовольства от [ICON_FOOD] и [ICON_PRODUCTION] тягот.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_MANDIR_TOOLTIP">
 			<Text>+3 [ICON_PEACE] веры[NEWLINE]+2 [ICON_FOOD] пищи[NEWLINE][NEWLINE]+5 всех видов дохода при рождении [ICON_CITIZEN] жителя в этом городе, масштабируется с эпохой.[NEWLINE][NEWLINE]+15% религиозного давления на другие города, если эта религия является религией большинства в городе, и -10% религиозного давления на этот город от городов, следующих другим религиям, или от активного распространения других религий.[NEWLINE][NEWLINE]-1 [ICON_HAPPINESS_3] недовольства от [ICON_GOLD] бедности.</Text>
@@ -106,7 +106,7 @@
 			<Text>+3 [ICON_PEACE] веры[NEWLINE]+2 [ICON_RESEARCH] науки[NEWLINE][NEWLINE]+15% [ICON_CULTURE] культуры во время [ICON_GOLDEN_AGE] Золотого века.[NEWLINE][NEWLINE]+25% религиозного давления на другие города, если эта религия является религией большинства в городе.[NEWLINE][NEWLINE]-1 [ICON_HAPPINESS_3] недовольства от [ICON_RESEARCH] безграмотности.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_ORDER_TOOLTIP">
-			<Text>+2 [ICON_PEACE] веры[NEWLINE]+3 [ICON_GOLD] золота[NEWLINE]+1 [ICON_WAR] военного снабжения[NEWLINE][NEWLINE]Получайте [ICON_PEACE] веру в размере 10% от [ICON_PRODUCTION] стоимости производства при завершении создания военного юнита.[NEWLINE][NEWLINE]+10% [ICON_RANGE_STRENGTH] силы городского обстрела.[NEWLINE][NEWLINE]Все существующие и будущие подходящие юниты, обученные в этом городе, получают повышение [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_MORALE}[ENDCOLOR].[NEWLINE][NEWLINE]+25% религиозного давления на другие города, если эта религия является религией большинства в городе.[NEWLINE][NEWLINE]-1 [ICON_HAPPINESS_3] недовольства от [ICON_FOOD][ICON_PRODUCTION] тягот.</Text>
+			<Text>+2 [ICON_PEACE] веры[NEWLINE]+3 [ICON_GOLD] золота[NEWLINE][NEWLINE]Получайте [ICON_GOLD] золото в размере 15% от [ICON_PRODUCTION] стоимости производства при завершении военного юнита.[NEWLINE][NEWLINE]+15 XP для военных юнитов, обученных в городе.[NEWLINE][NEWLINE]Все существующие и будущие подходящие юниты, обученные в этом городе, получают повышение [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_MORALE}[ENDCOLOR].[NEWLINE][NEWLINE]+25% религиозного давления на другие города, если эта религия является религией большинства в городе.[NEWLINE][NEWLINE]-1 [ICON_HAPPINESS_3] недовольства от [ICON_FOOD] и [ICON_PRODUCTION] тягот.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_PAGODA_TOOLTIP">
 			<Text>+2 [ICON_PEACE] веры[NEWLINE][NEWLINE]+1 ко [COLOR_POSITIVE_TEXT]всем видам дохода[ENDCOLOR] за каждую [ICON_RELIGION] религию, у которой есть хотя бы один последователь в городе.[NEWLINE][NEWLINE]-1 [ICON_HAPPINESS_3] недовольства от [ICON_CULTURE] скуки и -2 [ICON_HAPPINESS_3] недовольства от [ICON_RELIGION] религиозных волнений.</Text>
@@ -118,7 +118,34 @@
 			<Text>+2 [ICON_PEACE] веры[NEWLINE]+3 [ICON_PRODUCTION] производства[NEWLINE][NEWLINE]+10% [ICON_RESEARCH] науки во время [ICON_HAPPINESS_1] «Дня любви к королю».[NEWLINE][NEWLINE]-15% религиозного давления на этот город от городов, следующих другим религиям, или от активного распространения других религий.[NEWLINE][NEWLINE]-1 [ICON_HAPPINESS_3] недовольства от [ICON_FOOD][ICON_PRODUCTION] тягот.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_TEOCALLI_TOOLTIP">
-			<Text>+2 [ICON_PEACE] веры[NEWLINE][NEWLINE]+2 [ICON_PEACE] веры, когда ваш юнит побеждает военный юнит, и дополнительно +8 [ICON_PEACE] веры, если этот юнит был создан в этом городе.[NEWLINE][NEWLINE]+10 XP для военных юнитов, обученных в городе.[NEWLINE][NEWLINE]+25% религиозного давления на другие города, если эта религия является религией большинства в городе.[NEWLINE][NEWLINE]-1 [ICON_HAPPINESS_3] недовольства от [ICON_FOOD][ICON_PRODUCTION] тягот.</Text>
+			<Text>+2 [ICON_PEACE] веры[NEWLINE]+1 [ICON_WAR] военного снабжения[NEWLINE][NEWLINE]+2 [ICON_PEACE] веры, когда ваш юнит побеждает военный юнит, и дополнительно +8 [ICON_PEACE] веры, если этот юнит был создан в этом городе.[NEWLINE][NEWLINE]+25% религиозного давления на другие города, если эта религия является религией большинства в городе.[NEWLINE][NEWLINE]-1 [ICON_HAPPINESS_3] недовольства от [ICON_FOOD] и [ICON_PRODUCTION] тягот.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_ANIMISM">
+			<Text>+1 [ICON_FOOD] пищи и [ICON_CULTURE] культуры от чудес природы, озёр и [COLOR_NEGATIVE_TEXT]неулучшенных[ENDCOLOR] особенностей местности. [ICON_MISSIONARY] Миссионеры игнорируют стоимость передвижения по местности.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_ANIMISM_SHORT">
+			<Text>Анимизм</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_CITY_OF_GOD">
+			<Text>Когда в вашем Святом городе рождается [ICON_CITIZEN] житель, получайте 15 [ICON_CULTURE] культуры, [ICON_RESEARCH] науки и [ICON_PEACE] веры за каждый город, следующий вашей [ICON_RELIGION] религии (максимум 25 городов).[NEWLINE]Открывает [COLOR_POSITIVE_TEXT]национальное чудо «Небесный грот»[ENDCOLOR] (+2 [ICON_PEACE] веры, +2 [ICON_GOLD] золота, +2 [ICON_HAPPINESS_1] счастья; +5 [ICON_FOOD] пищи от [ICON_RELIGION] святых мест; открывает [COLOR_POSITIVE_TEXT]верование Реформации[ENDCOLOR]).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_CITY_OF_GOD_SHORT">
+			<Text>Град Божий</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_DAOGUAN">
+			<Text>Можно покупать даогуани за [ICON_PEACE] веру.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_DAOGUAN_SHORT">
+			<Text>Даогуани</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_WORK_ETHIC_VP">
+			<Text>Можно строить мастерские, ветряные мельницы и фабрики за [ICON_PEACE] веру. Каждое из этих зданий даёт +2 [ICON_PRODUCTION] производства. +25% к скорости [ICON_WORKER] улучшения клеток для [COLOR_YELLOW]гражданских юнитов[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_WORK_ETHIC_VP_SHORT">
+			<Text>Трудовая этика</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_DAOGUAN_TOOLTIP">
+			<Text>+4 [ICON_PEACE] веры[NEWLINE]+10 [ICON_CITY_SECURITY] безопасности города[NEWLINE][NEWLINE]+10 [ICON_SPY_POINT] очков шпионажа при постройке.[NEWLINE][NEWLINE]Усиливает давление [ICON_RELIGION] религии большинства, исходящее из этого города, на +25%[NEWLINE]Увеличивает сопротивление города [ICON_RELIGION] религиозному обращению на 10%.[NEWLINE][NEWLINE]1 специалист в этом городе больше не создаёт [ICON_HAPPINESS_3] недовольства от урбанизации.</Text>
 		</Row>
 	</Language_ru_RU>
 </GameData>
