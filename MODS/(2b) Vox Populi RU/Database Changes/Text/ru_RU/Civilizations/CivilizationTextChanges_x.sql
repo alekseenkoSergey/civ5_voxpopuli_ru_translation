@@ -688,6 +688,10 @@ WHERE Tag = 'TXT_KEY_UNIT_PORTUGUESE_NAU_STRATEGY';
 -- Rome
 --------------------
 UPDATE Language_ru_RU
+SET Text = 'Все дороги ведут в Рим'
+WHERE Tag = 'TXT_KEY_TRAIT_CAPITAL_BUILDINGS_CHEAPER_SHORT';
+
+UPDATE Language_ru_RU
 SET Text = '+25% [ICON_PRODUCTION] производства при строительстве зданий, уже присутствующих в [ICON_CAPITAL] столице. +2 [ICON_GOLD] золота, +1 [ICON_CULTURE] культуры и +1 [ICON_TOURISM] туризма в [ICON_CAPITAL] столице за каждый город в пределах 8 клеток, [ICON_CONNECTED] соединённый по суше с любым вашим городом; масштабируется с эпохой.'
 WHERE Tag = 'TXT_KEY_TRAIT_CAPITAL_BUILDINGS_CHEAPER';
 
