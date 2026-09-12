@@ -847,5 +847,5 @@ SET Text = '{1_Num} от [ICON_CONNECTED] торговых путей к [ICON_C
 WHERE Tag = 'TXT_KEY_TP_GOLD_FROM_CITY_CONNECTIONS';
 
 UPDATE Language_ru_RU
-SET Text = 'Шпионаж начнётся, когда вы накопите достаточно [ICON_SPY_POINT] очков шпионажа, чтобы получить первого [ICON_SPY] шпиона'
+SET Text = 'Шпионаж начнётся, когда вы накопите достаточно [ICON_SPY_POINT] очков шпионажа[NEWLINE]И сможете получить первого [ICON_SPY] шпиона'
 WHERE Tag = 'TXT_KEY_ESPIONAGE_NOT_STARTED_YET';

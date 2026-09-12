@@ -202,7 +202,7 @@ SET Text = 'Великий предок'
 WHERE Tag = 'TXT_KEY_TRAIT_WONDER_BUILDER_SHORT';
 
 UPDATE Language_ru_RU
-SET Text = '+20% [ICON_PRODUCTION] при строительстве [ICON_WONDER] чудес, удваивается в [ICON_GOLDEN_AGE] Золотые века. Открывает ближайший [ICON_RES_ARTIFACTS] памятник при основании города или (пока кто-либо не открыл [COLOR_CYAN]Археологию[ENDCOLOR]) при завершении [ICON_WONDER] чуда. [ICON_RES_ARTIFACTS] памятники получают +1 [ICON_RESEARCH], [ICON_CULTURE] и [ICON_PEACE] с каждым [ICON_GOLDEN_AGE] Золотым веком (до +5).'
+SET Text = '+20% [ICON_PRODUCTION] при строительстве [ICON_WONDER] чудес, удваивается в [ICON_GOLDEN_AGE] Золотые века. Открывает ближайший [ICON_RES_ARTIFACTS] памятник при основании города или (пока кто-либо не открыл [COLOR_CYAN]Археологию[ENDCOLOR]) при завершении [ICON_WONDER] чуда. [ICON_RES_ARTIFACTS] памятники дают +1 [ICON_RESEARCH], [ICON_CULTURE] и [ICON_PEACE] с каждым [ICON_GOLDEN_AGE] Золотым веком (до +5).'
 WHERE Tag = 'TXT_KEY_TRAIT_WONDER_BUILDER';
 
 UPDATE Language_ru_RU
