@@ -671,9 +671,6 @@
 		<Row Tag="TXT_KEY_INSTANT_YIELD_RESEARCH_AGREEMENT">
 			<Text>[ICON_RESEARCH] Научное соглашение:[NEWLINE]{1_YieldString}</Text>
 		</Row>
-		<Row Tag="TXT_KEY_INSTANT_YIELD_TYPE_RESEARCH_AGREMEENT_SHORT">
-			<Text>Завершение научного соглашения</Text>
-		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_LUXURY_RESOURCE_GAIN">
 			<Text>Получение предмета роскоши:[NEWLINE]{1_YieldString}</Text>
 		</Row>
@@ -1367,6 +1364,330 @@
 		</Row>
 		<Row Tag="TXT_KEY_TOURISM_EVENT_RELIGION_SPREAD">
 			<Text>Поскольку город впервые обратился в вашу собственную [ICON_RELIGION] религию, ваш [ICON_TOURISM] туризм со всеми известными цивилизациями увеличился на {1_Num} (до модификаторов туризма)!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_START_WAR">
+			<Text>{@2_MinorCivName} ищет войны против {1_TargetName:textkey}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_START_WAR">
+			<Text>{@2_MinorCivName} недавно подвергся запугиванию, и его жители требуют возмездия от {1_TargetName:textkey}. Если вы поможете им, объявив войну {1_TargetName:textkey}, вы будете щедро вознаграждены.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_COMPLETE_WAR">
+			<Text>Война начата ради {@1_MinorCivName}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_WAR">
+			<Text>Жители {@1_MinorCivName} рады видеть, что вы начали войну ради них.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_CONSTRUCT_NATIONAL_WONDER">
+			<Text>{@2_CivName} мечтает о {@1_NationalWonderName}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_CONSTRUCT_NATIONAL_WONDER">
+			<Text>Историки {@2_CivName} сетуют, что империи мира стали декадентскими и чрезмерно разросшимися. Они утверждают, что цивилизации, построившие {@1_NationalWonderName}, восстановят своё имперское величие и заслужат благосклонность этого города-государства.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_COMPLETE_CONSTRUCT_NATIONAL_WONDER">
+			<Text>{@1_NationalWonderName} построено для {@2_CivName}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_CONSTRUCT_NATIONAL_WONDER">
+			<Text>Как и надеялся {@2_CivName}, вы построили {@1_NationalWonderName}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_GIFT_SPECIFIC_UNIT">
+			<Text>{@2_CivName} желает получить {TXT_KEY_GRAMMAR_A_AN &lt;&lt; {1_UnitName}}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_GIFT_SPECIFIC_UNIT">
+			<Text>Лидеры {@3_CivName} хотят усилить свою армию. Если вы отправите им {TXT_KEY_GRAMMAR_A_AN &lt;&lt; {1_UnitName}} как минимум с {2_XP} XP, это восстановит их имперское величие и принесёт вам их благосклонность.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_COMPLETE_GIFT_SPECIFIC_UNIT">
+			<Text>{1_UnitName} отправлен в {@2_CivName}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_GIFT_SPECIFIC_UNIT">
+			<Text>Как и надеялся {@2_CivName}, вы отправили им {TXT_KEY_GRAMMAR_A_AN &lt;&lt; {1_UnitName}}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_FIND_CITY_STATE">
+			<Text>{2_CivName:textkey} хочет открыть {1_TargetName:textkey}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_FIND_CITY_STATE">
+			<Text>Купцы {2_CivName:textkey} слышали о далёком городе под названием {1_TargetName:textkey}. {2_CivName:textkey} ищет исследователей, которые помогут найти этот город. Если вы сможете его обнаружить, вы будете вознаграждены.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_COMPLETE_FIND_CITY_STATE">
+			<Text>{1_TargetName:textkey} найден для {2_CivName:textkey}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_FIND_CITY_STATE">
+			<Text>Как и надеялся {2_CivName:textkey}, вы нашли город {1_TargetName:textkey}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_INFLUENCE">
+			<Text>{1_MinorCivName:textkey} проводит форум</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_INFLUENCE">
+			<Text>{3_MinorCivName:textkey} проводит форум по государственному искусству и приглашает делегатов всех цивилизаций принять участие. Каждая дипломатическая миссия к ним в это время будет эффективнее, принося на [COLOR_POSITIVE_TEXT]{2_BoostPercentage}%[ENDCOLOR] больше [ICON_INFLUENCE] влияния. [COLOR_POSITIVE_TEXT]Осталось ходов: {1_TurnsRemaining}.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_COMPLETE_INFLUENCE">
+			<Text>{1_MinorCivName:textkey} завершил свой форум</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_INFLUENCE">
+			<Text>Форум в {1_MinorCivName:textkey} завершился. Количество [ICON_INFLUENCE] влияния, получаемого от дипломатических миссий, вернулось к обычному уровню.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_TOURISM">
+			<Text>{1_MinorCivName:textkey} готовится к фестивалю народов</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_TOURISM">
+			<Text>Жители {3_MinorCivName:textkey} вскоре проведут фестиваль народов. В рамках подготовки они отправляют делегации во все великие цивилизации известного мира. Игрок с наибольшим [ICON_TOURISM] туризмом через {2_TurnsDuration} ходов, несомненно, произведёт на делегатов наибольшее впечатление. [COLOR_POSITIVE_TEXT]До открытия фестиваля осталось {1_TurnsRemaining} ходов.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_COMPLETE_TOURISM">
+			<Text>{1_MinorCivName:textkey} впечатлён вашим туризмом!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_TOURISM">
+			<Text>Вы впечатлили {1_MinorCivName:textkey} [ICON_TOURISM] туризмом своей цивилизации! Остальные цивилизации их не впечатлили. Преуспевшие цивилизации (ничьи допускаются):[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_ENDED_CONTEST_TOURISM">
+			<Text>{1_MinorCivName:textkey} не впечатлён вашим туризмом</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_ENDED_CONTEST_TOURISM">
+			<Text>Другая цивилизация поразила {1_MinorCivName:textkey} своим [ICON_TOURISM] туризмом. Вашего [ICON_TOURISM] туризма оказалось недостаточно. Преуспевшие цивилизации (ничьи допускаются):[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_ARCHAEOLOGY">
+			<Text>{1_MinorCivName:textkey} ищет археолога</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_ARCHAEOLOGY">
+			<Text>Выдающийся профессор из {1_MinorCivName:textkey} обратился ко всему миру с просьбой разыскать ценные артефакты в ближайшем месте. Первый игрок, который отправит археолога исследовать этот участок, получит награду.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_COMPLETE_ARCHAEOLOGY">
+			<Text>Археологические раскопки завершены для {1_MinorCivName:textkey}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_ARCHAEOLOGY">
+			<Text>Профессор из {1_MinorCivName:textkey} в восторге от результатов ваших раскопок и утверждает, что всё найденное наверняка должно оказаться в музее.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_ENDED_ARCHAEOLOGY">
+			<Text>Участок раскопан кем-то другим!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_ENDED_ARCHAEOLOGY">
+			<Text>Иностранная команда археологов опередила вас и первой раскопала участок возле {1_MinorCivName:textkey}. Профессор из {1_MinorCivName:textkey} был впечатлён их работой, и их влияние в городе-государстве увеличилось.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_CIRCUMNAVIGATION">
+			<Text>{1_MinorCivName:textkey} ищет отважных мореплавателей</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_CIRCUMNAVIGATION">
+			<Text>Моряки {1_MinorCivName:textkey} слышали, как навигаторы из других цивилизаций и городов-государств утверждают, что Земля может быть круглой, и хотят, чтобы вы нашли истину. Если вы сумеете доказать, что мир круглый, ваше [ICON_INFLUENCE] влияние на этот город-государство увеличится.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_COMPLETE_CIRCUMNAVIGATION">
+			<Text>Кругосветное плавание совершено для {1_MinorCivName:textkey}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_CIRCUMNAVIGATION">
+			<Text>Моряки {1_MinorCivName:textkey} в восхищении от мастерства ваших навигаторов и рады узнать, что мир не плоский и не представляет собой диск.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_ENDED_CIRCUMNAVIGATION">
+			<Text>Кто-то другой обогнул земной шар</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_ENDED_CIRCUMNAVIGATION">
+			<Text>Кто-то другой совершил кругосветное плавание для {1_MinorCivName:textkey}. Ваши навигаторы разочарованы, и ваше влияние на этот город-государство не увеличилось.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_LIBERATION">
+			<Text>{2_MinorCivName:textkey} призывает освободить {1_CityName:textkey}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_LIBERATION">
+			<Text>Партизаны из завоёванного города {1_CityName:textkey} объединились с лидерами {2_MinorCivName:textkey} и просят вашей помощи в возвращении своей столицы. Если вы поможете партизанам {1_CityName:textkey} освободить их столицу, ваше [ICON_INFLUENCE] влияние на оба города-государства значительно возрастёт.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_COMPLETE_LIBERATION">
+			<Text>Освобождение {1_CityName:textkey} достигнуто для {2_MinorCivName:textkey}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_LIBERATION">
+			<Text>Лидеры {2_MinorCivName:textkey} восхваляют ваши героические деяния и благодарят вас за освобождение {1_CityName:textkey}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_ENDED_LIBERATION">
+			<Text>Помощь в освобождении {1_CityName:textkey} больше не нужна</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_ENDED_LIBERATION">
+			<Text>Партизаны {1_CityName:textkey} больше не нуждаются в вашей помощи. В результате лидеры {2_MinorCivName:textkey} отозвали свою просьбу о содействии.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_HORDE">
+			<Text>Орда варваров атакует {1_MinorCivName:textkey}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_HORDE">
+			<Text>Рядом с {2_MinorCivName:textkey} появилась орда варваров! Если к концу [COLOR_POSITIVE_TEXT]{1_TurnsRemaining}[ENDCOLOR] ходов рядом с городом останутся варвары, [COLOR_NEGATIVE_TEXT]город будет разграблен[ENDCOLOR]!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_COMPLETE_HORDE">
+			<Text>Орда рядом с {1_MinorCivName:textkey} рассеяна!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_HORDE">
+			<Text>Орде варваров у {1_MinorCivName:textkey} не удалось разграбить город, и теперь она рассеялась.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_ENDED_HORDE">
+			<Text>Варвары окружают {1_MinorCivName:textkey}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_ENDED_HORDE">
+			<Text>Варвары закрепились рядом с {1_CityStateName:textkey} и [COLOR_NEGATIVE_TEXT]захватывают его[ENDCOLOR]!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_REBELLION">
+			<Text>Революция против {1_TargetName:textkey} в {2_MinorCivName:textkey}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_REBELLION_BLANK">
+			<Text>Революция против {1_TargetName:textkey} в {2_MinorCivName:textkey}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_REBELLION_BLANK_RANDOM">
+			<Text>Революция в {1_MinorCivName:textkey}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_REBELLION_GENERAL">
+			<Text>Жители {3_MinorCivName:textkey} подняли революцию против {2_TargetName:textkey}! Если повстанцы сохранят присутствие в течение [COLOR_POSITIVE_TEXT]{1_TurnsRemaining}[ENDCOLOR] ходов, [COLOR_NEGATIVE_TEXT]город падёт перед революцией[ENDCOLOR], а его союзы изменятся.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_REBELLION_GENERAL_BLANK">
+			<Text>Жители {3_MinorCivName:textkey} подняли революцию против {2_TargetName:textkey}! Если повстанцы сохранят присутствие в течение [COLOR_POSITIVE_TEXT]{1_TurnsRemaining}[ENDCOLOR] ходов, [COLOR_NEGATIVE_TEXT]город падёт перед революцией[ENDCOLOR], а его союзы изменятся.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_REBELLION_GENERAL_BLANK_RANDOM">
+			<Text>Жители {2_MinorCivName:textkey} подняли революцию против своих нынешних правителей! Если повстанцы сохранят присутствие в течение [COLOR_POSITIVE_TEXT]{1_TurnsRemaining}[ENDCOLOR] ходов, [COLOR_NEGATIVE_TEXT]город падёт перед революцией[ENDCOLOR], а его союзы изменятся.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_REBELLION_FREEDOM">
+			<Text>Борцы за свободу из {3_MinorCivName:textkey} возглавляют революцию против {2_TargetName:textkey}! Если повстанцы сохранят присутствие в течение [COLOR_POSITIVE_TEXT]{1_TurnsRemaining}[ENDCOLOR] ходов, [COLOR_NEGATIVE_TEXT]город падёт перед революцией[ENDCOLOR], а его союзы изменятся.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_REBELLION_ORDER">
+			<Text>Пролетариат {3_MinorCivName:textkey} возглавляет революцию против {2_TargetName:textkey}! Если повстанцы сохранят присутствие в течение [COLOR_POSITIVE_TEXT]{1_TurnsRemaining}[ENDCOLOR] ходов, [COLOR_NEGATIVE_TEXT]город падёт перед революцией[ENDCOLOR], а его союзы изменятся.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_REBELLION_AUTOCRACY">
+			<Text>Партизаны {3_MinorCivName:textkey} возглавляют революцию против {2_TargetName:textkey}! Если повстанцы сохранят присутствие в течение [COLOR_POSITIVE_TEXT]{1_TurnsRemaining}[ENDCOLOR] ходов, [COLOR_NEGATIVE_TEXT]город падёт перед революцией[ENDCOLOR], а его союзы изменятся.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_COMPLETE_REBELLION">
+			<Text>Революция в {1_MinorCivName:textkey} подавлена!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_REBELLION">
+			<Text>Революционеры {1_MinorCivName:textkey} потерпели неудачу, и их боевой дух сломлен.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_ENDED_REBELLION">
+			<Text>Революция в {1_MinorCivName:textkey} победила</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_ENDED_REBELLION">
+			<Text>Революция в {2_CityStateName:textkey} увенчалась успехом, и их союз с {1_TargetName:textkey} завершился. Теперь {2_CityStateName:textkey} ищет дружбы и защиты у других империй.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_ENDED_REBELLION_BLANK">
+			<Text>Революция в {1_CityStateName:textkey} завершилась. Теперь {1_CityStateName:textkey} ищет дружбы и защиты у других империй.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_CORP_ENABLED_S">
+			<Text>Корпорации доступны!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_CORP_ENABLED">
+			<Text>Теперь можно основать корпорацию! Загляните на экран [COLOR_POSITIVE_TEXT]«Корпорации и монополии»[ENDCOLOR], чтобы узнать о ваших текущих ресурсных монополиях, обо всех возможных корпорациях и о тех корпорациях, которые вам доступны.[NEWLINE][NEWLINE]Постройте штаб-квартиру корпорации в одном из ваших городов, чтобы основать её! Помните, что вы можете основать только [COLOR_POSITIVE_TEXT]одну[ENDCOLOR] корпорацию, так что выбирайте с умом!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CORPORATION_FOUNDED_SUMMARY">
+			<Text>Корпорация основана!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CORPORATION_FOUNDED">
+			<Text>Вы основали [COLOR_POSITIVE_TEXT]{@1_CorporationName}[ENDCOLOR]! Чтобы распространить вашу новую корпорацию по всему миру, стройте корпоративные офисы в собственных городах и отправляйте [ICON_INTERNATIONAL_TRADE] торговые пути из этих городов в иностранные города!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CORPORATION_FOUNDED_OTHER_PLAYER_SUMMARY">
+			<Text>{1_PlayerName} основал корпорацию!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CORPORATION_FOUNDED_OTHER_PLAYER">
+			<Text>{1_PlayerName} основал [COLOR_POSITIVE_TEXT]{@2_CorporationName}[ENDCOLOR]! Эту корпорацию больше нельзя основать, пока не будет уничтожена штаб-квартира корпорации другого игрока (при захвате города).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_TRADE_UNIT_CORPORATION_BUILDING_SUMMARY">
+			<Text>{@1_BldgName} распространяется в {@2_City}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_TRADE_UNIT_CORPORATION_BUILDING">
+			<Text>{@2_BldgName} распространился в город {@1_City} в результате торгового пути с {@3_City}. Это повысит ценность всех ваших корпоративных офисов!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_TRADE_UNIT_CORPORATION_BUILDING_FOREIGN_SUMMARY">
+			<Text>{@1_BldgName} распространяется в {@2_City}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_TRADE_UNIT_CORPORATION_BUILDING_FOREIGN">
+			<Text>{@2_BldgName}, иностранная корпорация, распространилась в город {@1_City} в результате торгового пути с {@3_City}. Это повысит ценность их корпорации!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_TRADE_UNIT_CORPORATION_BUILDING_FREEDOM_SUMMARY">
+			<Text>{@1_BldgName} распространяется в {@2_City}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_TRADE_UNIT_CORPORATION_BUILDING_FREEDOM">
+			<Text>{@2_BldgName} распространился в городе {@1_City}! Это повысит ценность всех ваших корпоративных офисов!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_TRADE_UNIT_CORPORATION_BUILDING_FOREIGN_FREEDOM_SUMMARY">
+			<Text>{@1_BldgName} распространяется в {@2_City}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_TRADE_UNIT_CORPORATION_BUILDING_FOREIGN_FREEDOM">
+			<Text>{@2_BldgName}, иностранная корпорация, распространилась в городе {@1_City}! Это повысит ценность их корпорации!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_CORPORATION_DESTROYED_SUMMARY">
+			<Text>{@1_BldgName} закрывает все офисы и франшизы!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_CORPORATION_DESTROYED">
+			<Text>{@1_BldgName} закрыла все глобальные офисы и франшизы из-за безвременного уничтожения своей штаб-квартиры.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_CORPORATION_BUILDINGS_REMOVED_CITY_S">
+			<Text>{@1_BldgName} удалён из {2_City}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_CORPORATION_BUILDINGS_REMOVED_CITY">
+			<Text>{@1_BldgName} был принудительно закрыт {3_Civ} в {2_City} из-за догмата или резолюции!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INSTANT_YIELD_TYPE_RESEARCH_AGREEMENT_SHORT">
+			<Text>Завершение научного соглашения</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_CONTEST_ARTSY_UNITS_NAME">
+			<Text>Состязание деятелей культуры</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_CONTEST_SCIENCEY_UNITS_NAME">
+			<Text>Состязание новаторов</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_SPY_MISSION_NAME">
+			<Text>Провести шпионскую миссию</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_PLEDGE_TO_PROTECT_ATTACKED">
+			<Text>{2_MinorCivName:textkey} недавно подвергся нападению со стороны {1_AttackerName:textkey} и ищет защиты у великой державы. Если вы пообещаете защищать их, они вознаградят вас.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_PLEDGE_TO_PROTECT_ATTACKED">
+			<Text>Ваше обещание защищать {2_MinorCivName:textkey} помогло им оправиться от недавнего нападения {1_AttackerName:textkey}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_ARTSY_UNITS">
+			<Text>{3_MinorCivName:textkey} готовит грандиозный фестиваль искусства, музыки, литературы и древностей. Тот, кто израсходует больше всего Великих художников, Великих писателей, Великих музыкантов и археологов в течение следующих {2_TurnsDuration} ходов, получит у них [ICON_INFLUENCE] влияние. [COLOR_POSITIVE_TEXT]Осталось ходов: {1_TurnsRemaining}.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_ARTSY_UNITS">
+			<Text>{1_MinorCivName:textkey} готовит культурный фестиваль!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_ARTSY_UNITS">
+			<Text>Ваши художники, писатели, музыканты и археологи поразили {1_MinorCivName:textkey}! Преуспевшие цивилизации (ничьи допускаются):[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_COMPLETE_ARTSY_UNITS">
+			<Text>{1_MinorCivName:textkey} поражён вашей культурой!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_ENDED_ARTSY_UNITS">
+			<Text>Художники, писатели, музыканты и археологи другой цивилизации затмили всех в {1_MinorCivName:textkey}. Вашей культурной делегации оказалось недостаточно, и ваше [ICON_INFLUENCE] влияние осталось прежним. Преуспевшие цивилизации (ничьи допускаются):[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_ENDED_ARTSY_UNITS">
+			<Text>{1_MinorCivName:textkey} рукоплещет другой цивилизации</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_SCIENCEY_UNITS">
+			<Text>{3_MinorCivName:textkey} готовит грандиозную выставку новаторства, торговли и инженерии. Тот, кто израсходует больше всего Великих учёных, Великих торговцев и Великих инженеров в течение следующих {2_TurnsDuration} ходов, получит у них [ICON_INFLUENCE] влияние. [COLOR_POSITIVE_TEXT]Осталось ходов: {1_TurnsRemaining}.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_SCIENCEY_UNITS">
+			<Text>{1_MinorCivName:textkey} готовит выставку прогресса!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_SCIENCEY_UNITS">
+			<Text>Ваши учёные, торговцы и инженеры восхитили {1_MinorCivName:textkey}! Преуспевшие цивилизации (ничьи допускаются):[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_COMPLETE_SCIENCEY_UNITS">
+			<Text>{1_MinorCivName:textkey} восхищён вашей изобретательностью!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_ENDED_SCIENCEY_UNITS">
+			<Text>Учёные, торговцы и инженеры другой цивилизации затмили всех в {1_MinorCivName:textkey}. Вашей делегации новаторов оказалось недостаточно, и ваше [ICON_INFLUENCE] влияние осталось прежним. Преуспевшие цивилизации (ничьи допускаются):[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_ENDED_SCIENCEY_UNITS">
+			<Text>{1_MinorCivName:textkey} поддерживает другого новатора</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_SPY_MISSION">
+			<Text>Возможность для шпионажа от {@1_Civ}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_SPY_MISSION">
+			<Text>{@2_Civ} запросили разведданные из-за рубежа. Проведите шпионскую миссию [COLOR_POSITIVE_TEXT]{@1_SpyMission}[ENDCOLOR] против любой цивилизации, чтобы заслужить их благодарность.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_SPY_MISSION_COMPLETE">
+			<Text>Шпионская миссия выполнена!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_SPY_MISSION_COMPLETE">
+			<Text>{@2_Civ} довольны разведданными, собранными вашими агентами. Ваша успешная шпионская миссия [COLOR_POSITIVE_TEXT]{@1_SpyMission}[ENDCOLOR] принесла вам их расположение.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_CORPORATION_LOCAL_FRANCHISE_SUMMARY">
+			<Text>{@1_BldgName} распространяется в {@2_City}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_CORPORATION_LOCAL_FRANCHISE">
+			<Text>{@1_BldgName}, иностранная корпорация, распространилась в город {@2_City} из-за растущего потребительского спроса. Это увеличит стоимость их корпорации!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_CORPORATION_LOCAL_FRANCHISE_OWNER_SUMMARY">
+			<Text>{@1_BldgName} распространяется в {@2_City}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_CORPORATION_LOCAL_FRANCHISE_OWNER">
+			<Text>{@1_BldgName} распространилась в город {@2_City} из-за растущего потребительского спроса. Это увеличит стоимость всех ваших корпоративных офисов!</Text>
 		</Row>
 	</Language_ru_RU>
 </GameData>

@@ -378,7 +378,7 @@ SET Text = 'Инквизиция'
 WHERE Tag = 'TXT_KEY_BELIEF_RELIGIOUS_TEXTS_SHORT';
 
 UPDATE Language_ru_RU
-SET Text = '[ICON_INQUISITOR] Инквизиторы стоят на 33% меньше [ICON_PEACE] веры и при искоренении ереси приносят 25 [ICON_GOLD] золота за каждого обращённого [ICON_CITIZEN] жителя. Ваши [ICON_SPY] шпионы оказывают +52 религиозного давления на города, в которых находятся (на стандартной скорости), и дают +2 [ICON_HAPPINESS_1] счастья, если размещены в иностранном городе.'
+SET Text = '[ICON_INQUISITOR] Инквизиторы стоят на 33% меньше [ICON_PEACE] веры. Если ваши [ICON_SPY] шпионы размещены в городе, они дают +2 [ICON_HAPPINESS_1] счастья и уменьшают существующее давление других религий на 26 за ход (на стандартной скорости). Шпионы, размещённые в иностранном городе, также получают +8 очков сети за ход.'
 WHERE Tag = 'TXT_KEY_BELIEF_RELIGIOUS_TEXTS';
 
 UPDATE Language_ru_RU

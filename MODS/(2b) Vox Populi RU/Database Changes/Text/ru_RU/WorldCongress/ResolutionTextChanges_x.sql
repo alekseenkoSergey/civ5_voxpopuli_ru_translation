@@ -63,7 +63,7 @@ WHERE Tag = 'TXT_KEY_RESOLUTION_BAN_LUXURY_HAPPINESS_HELP';
 
 -- Scholars In Residence
 UPDATE Language_ru_RU
-SET Text = 'Цивилизации получают -20% [ICON_RESEARCH] к стоимости исследований технологий, уже открытых другой цивилизацией. Дополнительно -2% за каждого союзного города-государства, вплоть до -50%.'
+SET Text = 'Цивилизации получают -20% [ICON_RESEARCH] к стоимости технологий, уже открытых другой цивилизацией. Дополнительно -2% за каждый союзный город-государство, вплоть до -50%.'
 WHERE Tag = 'TXT_KEY_RESOLUTION_MEMBER_DISCOVERED_TECH_DISCOUNT_HELP';
 
 -- Cultural Heritage Sites

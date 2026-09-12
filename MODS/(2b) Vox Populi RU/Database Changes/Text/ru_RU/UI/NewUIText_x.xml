@@ -329,7 +329,7 @@
       <Text>[COLOR_POSITIVE_TEXT]Брак[ENDCOLOR]</Text>
     </Row>
     <Row Tag="TXT_KEY_DIPLO_MAJOR_CIV_DIPLO_STATE_MARRIED_TT">
-      <Text>[COLOR_POSITIVE_TEXT]Дипломатический брак:[ENDCOLOR] Ваше базовое [ICON_INFLUENCE] влияние увеличено на 75 с масштабированием по эпохе, а в вашей [ICON_CAPITAL] столице вы получаете +15% к [ICON_GREAT_PEOPLE] скорости появления великих людей.</Text>
+      <Text>[COLOR_POSITIVE_TEXT]Дипломатический брак:[ENDCOLOR] Ваше базовое [ICON_INFLUENCE] влияние увеличено на 200 в мирное время.</Text>
     </Row>
     <Row Tag="TXT_KEY_POP_CSTATE_PROTECTED_BY">
       <Text>Защищают:</Text>
@@ -369,45 +369,6 @@
     </Row>
     <Row Tag="TXT_KEY_MINOR_CIV_CONTACT_BONUS_FRIENDSHIP">
       <Text>К сожалению, им нечего вам предложить, но поскольку это {2_Personality} город-государство, ваша [COLOR_POSITIVE_TEXT]дружба увеличивается на {1_NumFriendship}[ENDCOLOR].</Text>
-    </Row>
-    <Row Tag="TXT_KEY_CITY_STATE_QUEST_WAR_FORMAL">
-      <Text>Они хотят, чтобы вы объявили войну {1_TargetName:textkey}.</Text>
-    </Row>
-    <Row Tag="TXT_KEY_CITY_STATE_QUEST_CONSTRUCT_NATIONAL_WONDER_FORMAL">
-      <Text>Они хотят, чтобы вы построили {1_NationalWonderName:textkey}.</Text>
-    </Row>
-    <Row Tag="TXT_KEY_CITY_STATE_QUEST_GIFT_SPECIFIC_UNIT_FORMAL">
-      <Text>Они хотят, чтобы вы отправили им {TXT_KEY_GRAMMAR_A_AN &lt;&lt; {1_UnitName}} как минимум с {2_XP} XP.</Text>
-    </Row>
-    <Row Tag="TXT_KEY_CITY_STATE_QUEST_FIND_CITY_STATE_FORMAL">
-      <Text>Они хотят, чтобы вы нашли город-государство {1_CityStateName:textkey}.</Text>
-    </Row>
-    <Row Tag="TXT_KEY_CITY_STATE_QUEST_INFLUENCE_FORMAL">
-      <Text>Дипломатические миссии временно более эффективны.</Text>
-    </Row>
-    <Row Tag="TXT_KEY_CITY_STATE_QUEST_INFLUENCE_TOURISM_FORMAL">
-      <Text>Они наградят игрока с наибольшим [ICON_TOURISM] туризмом за ход.</Text>
-    </Row>
-    <Row Tag="TXT_KEY_CITY_STATE_QUEST_CONTEST_TOURISM_WINNING_FORMAL">
-      <Text>{TXT_KEY_CITY_STATE_QUEST_INFLUENCE_TOURISM_FORMAL} Пока что вы лидируете с [ICON_TOURISM] [COLOR_POSITIVE_TEXT]{1_PlayerScore} за ход[ENDCOLOR].</Text>
-    </Row>
-    <Row Tag="TXT_KEY_CITY_STATE_QUEST_CONTEST_TOURISM_LOSING_FORMAL">
-      <Text>{TXT_KEY_CITY_STATE_QUEST_INFLUENCE_TOURISM_FORMAL} Пока что лидер имеет [ICON_TOURISM] {1_LeaderScore} за ход, а у вас [ICON_TOURISM] [COLOR_POSITIVE_TEXT]{2_PlayerScore} за ход[ENDCOLOR].</Text>
-    </Row>
-    <Row Tag="TXT_KEY_CITY_STATE_QUEST_ARCHAEOLOGY_FORMAL">
-      <Text>Отправьте археолога к месту раскопок рядом с этим городом-государством.</Text>
-    </Row>
-    <Row Tag="TXT_KEY_CITY_STATE_QUEST_CIRCUMNAVIGATION_FORMAL">
-      <Text>Станьте первым, кто совершит кругосветное путешествие.</Text>
-    </Row>
-    <Row Tag="TXT_KEY_CITY_STATE_QUEST_LIBERATION_FORMAL">
-      <Text>Они хотят, чтобы вы освободили город {1_CityName:textkey}.</Text>
-    </Row>
-    <Row Tag="TXT_KEY_CITY_STATE_QUEST_HORDE_FORMAL">
-      <Text>Защитите их от варварской орды! Если к моменту завершения задания рядом с городом будут варвары, город будет [COLOR_NEGATIVE_TEXT]разграблен[ENDCOLOR]!</Text>
-    </Row>
-    <Row Tag="TXT_KEY_CITY_STATE_QUEST_REBELLION_FORMAL">
-      <Text>Против их союзника происходит восстание!</Text>
     </Row>
     <Row Tag="TXT_KEY_CITY_STATE_QUEST_GLOBAL_HEADER">
       <Text>Глобальные квесты:</Text>
@@ -540,12 +501,6 @@
     </Row>
     <Row Tag="TXT_KEY_TP_SCIENCE_FROM_ESPIONAGE_NEGATIVE">
       <Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] [ICON_RESEARCH] украдено вражескими [ICON_SPY] шпионами.</Text>
-    </Row>
-    <Row Tag="TXT_KEY_MINOR_SCIENCE_FROM_LEAGUE_ALLIES">
-      <Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT]-{1_Num}%[ENDCOLOR] к стоимости [ICON_RESEARCH] технологий, известных другим цивилизациям.</Text>
-    </Row>
-    <Row Tag="TXT_KEY_SCIENCE_FUNDING_FROM_LEAGUE">
-      <Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT]+{1_Num}%[ENDCOLOR] [ICON_RESEARCH] от резолюций</Text>
     </Row>
     <Row Tag="TXT_KEY_TP_CULTURE_FROM_ANNEXED_MINORS">
       <Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] от завоёванных городов-государств.</Text>
@@ -720,12 +675,6 @@
     </Row>
     <Row Tag="TXT_KEY_CITY_COUNT_SUPPLY">
       <Text>От N городов</Text>
-    </Row>
-    <Row Tag="TXT_KEY_UNIT_SUPPLY_REMAINING_TOOLTIP_NOT_WEARY">
-      <Text>Количество военных юнитов: {12_Num} ({2_Num} использовано военного снабжения)[NEWLINE]Общее военное снабжение: {1_Num}[NEWLINE][COLOR_NEGATIVE_TEXT]Снижение лимита военного снабжения из-за усталости от войны: {6_Num}%[ENDCOLOR][NEWLINE][NEWLINE]Источники военного снабжения:[NEWLINE]  [ICON_BULLET]+{4_Num} от [ICON_CITY_STATE] городов ([ICON_WAR] {13_Num} - {14_Num} из-за [ICON_RESEARCH] содержания технологий)[NEWLINE]  [ICON_BULLET]+{3_Num} от [ICON_CITIZEN] населения ([ICON_SILVER_FIST] {15_Num} - {16_Num} из-за [ICON_RESEARCH] содержания технологий)[NEWLINE]  [ICON_BULLET]+{5_Num} от [ICON_CHECKBOX] уровня сложности ([ICON_CAPITAL] {17_Num} - {18_Num} из-за [ICON_RESEARCH] уровня эпохи)[NEWLINE]  [ICON_BULLET]+{11_Num} от [ICON_GREAT_GENERAL]/[ICON_GREAT_ADMIRAL] великих людей[NEWLINE][NEWLINE][NEWLINE]Снижения военного снабжения:[NEWLINE]  [ICON_BULLET] -{8_Num} от [ICON_RESEARCH] общего уровня технологий[NEWLINE]  [ICON_BULLET] -{9_Num} от [ICON_CITY_STATE] числа городов[NEWLINE]  [ICON_BULLET] -{7_Num} от [ICON_WAR] усталости от войны[NEWLINE][NEWLINE]Каждый ваш ([ICON_PUPPET] немарионеточный) город: +5% к штрафу за [ICON_CITY_STATE] число городов.[NEWLINE]Стоимость военных юнитов в [ICON_GOLD]/[ICON_PEACE] увеличена на {10_Num}% из-за [ICON_WAR] усталости от войны.</Text>
-    </Row>
-    <Row Tag="TXT_KEY_UNIT_SUPPLY_REMAINING_TOOLTIP">
-      <Text>{TXT_KEY_UNIT_SUPPLY_REMAINING_TOOLTIP_NOT_WEARY}[NEWLINE]Наибольшая усталость от войны: {19_CivName} {20_Num}%</Text>
     </Row>
     <Row Tag="TXT_KEY_POPUP_REMOVE_SPHERE_CAPTURED_CITY">
       <Text>Убрать сферу влияния</Text>
@@ -1058,7 +1007,7 @@
       <Text>При успешной подтасовке выборов: {1_InstantYield}</Text>
     </Row>
     <Row Tag="TXT_KEY_GROWTH_MOD_HAPPY">
-      <Text>[NEWLINE][ICON_BULLET]{1_Num}% от местного [ICON_HAPPINESS_1] счастья</Text>
+      <Text>[NEWLINE][ICON_BULLET]+{1_Num}% от местного [ICON_HAPPINESS_1] счастья</Text>
     </Row>
     <Row Tag="TXT_KEY_GROWTH_MOD_OVER_SUPPLY">
       <Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% от [COLOR_NEGATIVE_TEXT]превышения лимита военного снабжения[ENDCOLOR]</Text>
@@ -1725,51 +1674,6 @@
     </Row>
     <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_POSITIVE_GREAT_PERSON_RATE_ARTSY">
       <Text>Усиление [ICON_PRODUCTION]/[ICON_CULTURE] для цивилизаций с показателями ниже мирового среднего. +{1_GreatPersonRateMod}% к скорости появления для {2_GreatPersonList}</Text>
-    </Row>
-    <Row Tag="TXT_KEY_DIPLO_TRADE_MAP">
-      <Text>КАРТА МИРА</Text>
-    </Row>
-    <Row Tag="TXT_KEY_DIPLO_TRADE_MAP_TT">
-      <Text>Открывает всю сушу, исследованную этой цивилизацией.[NEWLINE][NEWLINE]Примечание: вы не получите контакта с неизвестными цивилизациями и городами-государствами.</Text>
-    </Row>
-    <Row Tag="TXT_KEY_DIPLO_TRADE_MAPS_NO_TECH_BOTH">
-      <Text>Оба игрока ещё не имеют технологии, необходимой для торговли этим предметом ({1_Tech:textkey}).</Text>
-    </Row>
-    <Row Tag="TXT_KEY_DIPLO_TRADE_MAPS_NO_TECH_OTHER_PLAYER">
-      <Text>Они ещё не имеют технологии, необходимой для торговли этим предметом ({1_Tech:textkey}).</Text>
-    </Row>
-    <Row Tag="TXT_KEY_DIPLO_TRADE_MAPS_NO_TECH_PLAYER">
-      <Text>Вы ещё не имеете технологии, необходимой для торговли этим предметом ({1_Tech:textkey}).</Text>
-    </Row>
-    <Row Tag="TXT_KEY_DIPLO_TRADE_MAPS_THEY_ALREADY_EXPLORED">
-      <Text>Они уже исследовали все земли, открываемые вашей картой мира.</Text>
-    </Row>
-    <Row Tag="TXT_KEY_DIPLO_TRADE_MAPS_WE_ALREADY_EXPLORED">
-      <Text>Мы уже исследовали все земли, открываемые их картой мира.</Text>
-    </Row>
-    <Row Tag="TXT_KEY_DIPLO_ITEMS_TECHNOLOGIES">
-      <Text>ТЕХНОЛОГИИ</Text>
-    </Row>
-    <Row Tag="TXT_KEY_DIPLO_TECHNOLOGIES">
-      <Text>ТЕХНОЛОГИИ</Text>
-    </Row>
-    <Row Tag="TXT_KEY_DIPLO_TO_TRADE_TECHNOLOGIES_TRADE_YES">
-      <Text>У нас есть технологии, доступные для обмена.</Text>
-    </Row>
-    <Row Tag="TXT_KEY_DIPLO_TO_TRADE_TECHNOLOGIES_TRADE_NO">
-      <Text>У нас нет технологий, доступных для обмена.</Text>
-    </Row>
-    <Row Tag="TXT_KEY_DIPLO_TO_TRADE_TECHNOLOGIES_TRADE_YES_THEM">
-      <Text>У другого лидера есть технологии, доступные для обмена.</Text>
-    </Row>
-    <Row Tag="TXT_KEY_DIPLO_TO_TRADE_TECHNOLOGIES_TRADE_NO_THEM">
-      <Text>У другого лидера нет технологий, доступных для обмена.</Text>
-    </Row>
-    <Row Tag="TXT_KEY_DIPLO_TRADE_TECHNOLOGIES_NO_TECH_OTHER_PLAYER">
-      <Text>У них ещё нет технологии, необходимой для продажи этого предмета (Научная теория).</Text>
-    </Row>
-    <Row Tag="TXT_KEY_DIPLO_TRADE_TECHNOLOGIES_NO_TECH_PLAYER">
-      <Text>У вас ещё нет технологии, необходимой для продажи этого предмета (Научная теория).</Text>
     </Row>
     <Row Tag="TXT_KEY_DIPLO_VASSALAGE_PEACE">
       <Text>ВАССАЛЬНОЕ ГОСУДАРСТВО</Text>
@@ -3058,5 +2962,68 @@
     <Row Tag="TXT_KEY_NEED_NO_FRESH_WATER">
         <Text>[NEWLINE] [ICON_BULLET] У города не должно быть доступа к пресной воде</Text>
     </Row>
-</Language_ru_RU>
+    <Row Tag="TXT_KEY_UNIT_SUPPLY_BREAKDOWN_HEADER">
+      <Text>Военные юниты: {1_Num} ({2_Num} [ICON_SILVER_FIST] использовано военного снабжения)[NEWLINE]Всего [ICON_SILVER_FIST] военного снабжения: {3_Num}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_SUPPLY_BREAKDOWN_FROM_CITIES">
+      <Text>[ICON_BULLET]+{1_Num} от [ICON_CITY_STATE] городов{2_Str}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_SUPPLY_BREAKDOWN_FROM_POPULATION">
+      <Text>[ICON_BULLET]+{1_Num} от [ICON_CITIZEN] населения{2_Str}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_SUPPLY_BREAKDOWN_FROM_GREAT_PEOPLE">
+      <Text>[ICON_BULLET]+{1_Num} от [ICON_GREAT_GENERAL]/[ICON_GREAT_ADMIRAL] великих людей</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_SUPPLY_BREAKDOWN_FROM_DIFFICULTY">
+      <Text>[ICON_BULLET]+{1_Num} от [ICON_CHECKBOX] сложности{2_Str}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_SUPPLY_BREAKDOWN_SUBTOTAL">
+      <Text>[ICON_BULLET]= {1_Num} до модификаторов</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_SUPPLY_BREAKDOWN_TECH_DIVISOR">
+      <Text>({1_Num} / [COLOR_NEGATIVE_TEXT]{2_Num}%[ENDCOLOR] [ICON_RESEARCH] технологического прогресса)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_SUPPLY_BREAKDOWN_TECH_EXPLAINER">
+      <Text>[ICON_RESEARCH] Технологический прогресс: известно {1_Num}% всех технологий.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_SUPPLY_BREAKDOWN_EMPIRE_SIZE">
+      <Text>[ICON_BULLET]/ [COLOR_NEGATIVE_TEXT]{1_Num}%[ENDCOLOR] штраф за число городов: {2_Num} [ICON_CITY_STATE] {2_Num: plural 1?город; other?городов;} (+{3_Num}% за каждый)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_SUPPLY_BREAKDOWN_ERA_PENALTY">
+      <Text>({1_Num} - [COLOR_NEGATIVE_TEXT]{2_Num}[ENDCOLOR] за [ICON_RESEARCH] прогресс эпох)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_SUPPLY_BREAKDOWN_HIGHEST_WEARINESS">
+      <Text>Наибольшая [ICON_WAR] усталость от войны: {1_CivName} {2_Num}%.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_SUPPLY_BREAKDOWN_WAR_WEARINESS">
+      <Text>[ICON_BULLET]x [COLOR_NEGATIVE_TEXT]{1_Num}%[ENDCOLOR] от [ICON_WAR] усталости от войны</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_SUPPLY_BREAKDOWN_TOTAL">
+      <Text>[ICON_BULLET]= {1_Num} [ICON_SILVER_FIST] военного снабжения</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_SUPPLY_BREAKDOWN_UNIT_COST">
+      <Text>Стоимость военных юнитов в [ICON_GOLD]/[ICON_PEACE] увеличена на [COLOR_NEGATIVE_TEXT]{1_Num}%[ENDCOLOR] из-за [ICON_WAR] усталости от войны.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_SUPPLY_BREAKDOWN_DIFFICULTY_MODIFIER">
+      <Text>[ICON_BULLET]x {1_Str} от [ICON_CHECKBOX] сложности</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIFFICULTY_MODIFIER_SUPPLY">
+      <Text>Модификатор сложности</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIFFICULTY_MODIFIER_SUPPLY_TT">
+      <Text>Изменяется уровнем сложности</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_TECH_ALLIES_DISCOUNT">
+      <Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR] от {2_Num} союзных городов-государств.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_TECH_SCHOLAR_DISCOUNT">
+      <Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR] от резолюции «Учёные-резиденты».</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_CITY_SECURITY_COUNTERSPY_TT">
+      <Text>[NEWLINE][ICON_BULLET]Текущая специализация контршпиона: [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_NETWORK_POINTS_RELIGION_TT">
+      <Text>[NEWLINE][ICON_BULLET]Религия: [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
+    </Row>
+	</Language_ru_RU>
 </GameData>

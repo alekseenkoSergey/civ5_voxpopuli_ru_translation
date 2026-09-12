@@ -1,8 +1,8 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Mod id="b16f4a70-b69d-4b17-af4c-05e101b333fd" version="1">
   <Properties>
     <Name>(1b) Community Patch - перевод</Name>
-    <Teaser>(5.3.3) Перевод на русский</Teaser>
+    <Teaser>(5.4.6) Перевод на русский</Teaser>
     <Description>Русский перевод Community Patch</Description>
     <Authors>Sergey</Authors>
     <Homepage>https://github.com/alekseenkoSergey/civ5_voxpopuli_ru_translation</Homepage>
@@ -21,7 +21,7 @@
   <Dependencies>
     <Game minversion="1.0.3.124" maxversion="1.0.3.999" />
     <Dlc id="6DA07636-4123-4018-B643-6575B4EC336B" minversion="0" maxversion="999" />
-    <Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" minversion="150" maxversion="999" title="(1) Community Patch" />
+    <Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" minversion="151" maxversion="999" title="(1) Community Patch" />
   </Dependencies>
   <References />
   <Blocks>
@@ -52,8 +52,10 @@
     <File>Database Changes/Text/ru_RU/Notifications/CoreNotificationTextChanges_x.sql</File>
     <File>Database Changes/Text/ru_RU/Policies/CorePolicyTextChanges_x.sql</File>
     <File>Database Changes/Text/ru_RU/Religions/CoreReligionTextChanges_x.sql</File>
+    <File>Database Changes/Text/ru_RU/UI/CoreNewMissionText_x.xml</File>
     <File>Database Changes/Text/ru_RU/UI/CoreNewUIText_x.xml</File>
     <File>Database Changes/Text/ru_RU/UI/CoreUITextChanges_x.sql</File>
+    <File>Database Changes/Text/ru_RU/UI/NewInterfaceModeText_x.xml</File>
     <File>Database Changes/Text/ru_RU/UnitPromotions/CoreNewPromotionText_x.xml</File>
     <File>Database Changes/Text/ru_RU/UnitPromotions/CorePromotionTextChanges_x.sql</File>
     <File>Database Changes/Text/ru_RU/Units/CoreMissionTextChanges_x.sql</File>
@@ -91,8 +93,10 @@
       <UpdateDatabase>Database Changes/Text/ru_RU/Notifications/CoreNotificationTextChanges_x.sql</UpdateDatabase>
       <UpdateDatabase>Database Changes/Text/ru_RU/Policies/CorePolicyTextChanges_x.sql</UpdateDatabase>
       <UpdateDatabase>Database Changes/Text/ru_RU/Religions/CoreReligionTextChanges_x.sql</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/UI/CoreNewMissionText_x.xml</UpdateDatabase>
       <UpdateDatabase>Database Changes/Text/ru_RU/UI/CoreNewUIText_x.xml</UpdateDatabase>
       <UpdateDatabase>Database Changes/Text/ru_RU/UI/CoreUITextChanges_x.sql</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ru_RU/UI/NewInterfaceModeText_x.xml</UpdateDatabase>
       <UpdateDatabase>Database Changes/Text/ru_RU/UnitPromotions/CoreNewPromotionText_x.xml</UpdateDatabase>
       <UpdateDatabase>Database Changes/Text/ru_RU/UnitPromotions/CorePromotionTextChanges_x.sql</UpdateDatabase>
       <UpdateDatabase>Database Changes/Text/ru_RU/Units/CoreMissionTextChanges_x.sql</UpdateDatabase>

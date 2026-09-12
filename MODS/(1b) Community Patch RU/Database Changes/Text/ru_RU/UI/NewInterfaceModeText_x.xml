@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_ru_RU>
+		<Row Tag="TXT_KEY_INTERFACEMODE_SEALIFT">
+			<Text>Транспортировка</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INTERFACEMODE_SEALIFT_HELP">
+			<Text>Этот приказ позволит юниту перебазироваться на сухопутную клетку в дружественном городе с [ICON_CONNECTED] прямым соединением по воде или рядом с ним. Целевая клетка не может быть занята или соседствовать с вражеским юнитом.</Text>
+		</Row>
+	</Language_ru_RU>
+</GameData>

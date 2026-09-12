@@ -385,7 +385,7 @@
 			<Text>[COLOR_POSITIVE_TEXT]Не требует содержания[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_UNIT_NO_SUPPLY">
-			<Text>[COLOR_POSITIVE_TEXT]Не расходует [ICON_WAR] военное снабжение[ENDCOLOR]</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Не расходует [ICON_SILVER_FIST] военное снабжение[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_UNIT_UNHAPPINESS">
 			<Text>[ICON_HAPPINESS_3] [COLOR_NEGATIVE_TEXT]Недовольство: {1_Num}</Text>
@@ -514,7 +514,7 @@
 			<Text>При расходовании: +{1_Num} {2_ResIcon} {3_Res:textkey}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_UNIT_EXPEND_SUPPLY">
-			<Text>При расходовании: +{1_Num} [ICON_WAR] военного снабжения</Text>
+			<Text>При расходовании: +{1_Num} [ICON_SILVER_FIST] военного снабжения</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_UNIT_EXPEND_COPY_TILE_YIELD">
 			<Text>При расходовании: добавляет доход клетки в [ICON_CAPITAL] столицу</Text>
@@ -884,7 +884,7 @@
 			<Text>{2_Sign}{1_Num} {1: plural 1?слот для воздушного юнита; other?слота для воздушных юнитов;}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_SUPPLY_FLAT">
-			<Text>{2_Sign}{1_Num} [ICON_WAR] военное снабжение</Text>
+			<Text>{2_Sign}{1_Num} [ICON_SILVER_FIST] военное снабжение</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_SUPPLY_MODIFIER">
 			<Text>{2_Sign}{1_Num}% [ICON_SILVER_FIST] военного снабжения от населения</Text>
@@ -1223,10 +1223,10 @@
 			<Text>При принятии института: {1_InstantYield}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_INSTANT_YIELD_ON_GOLDEN_AGE_START">
-			<Text>Когда начинается [ICON_GOLDEN_AGE] золотой век: {1_InstantYield}</Text>
+			<Text>При начале или продлении [ICON_GOLDEN_AGE] золотого века: {1_InstantYield}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_UNIT_XP_ON_GOLDEN_AGE_START">
-			<Text>Когда начинается [ICON_GOLDEN_AGE] золотой век: {2_Sign}{1_Num} XP для всех будущих юнитов, обучаемых в этом городе, максимум {3_Num} XP</Text>
+			<Text>При начале или продлении [ICON_GOLDEN_AGE] золотого века: {2_Sign}{1_Num} XP для всех будущих юнитов, обучаемых в этом городе, максимум {3_Num} XP</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_INSTANT_YIELD_ON_WLTKD">
 			<Text>Когда в этом городе начинается [ICON_HAPPINESS_1] «День любви к королю»: {1_InstantYield}</Text>
@@ -1310,7 +1310,7 @@
 			<Text>Когда убивается вражеский [ICON_SPY] шпион: {1_InstantYield}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_EXTRA_LUXURIES">
-			<Text>+100% ресурсов роскоши с улучшенных клеток, принадлежащих этому городу</Text>
+			<Text>+1 копия ресурсов роскоши с улучшенных клеток, принадлежащих этому городу</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_REMOVE_OCCUPIED_UNHAPPINESS">
 			<Text>Убирает [ICON_HAPPINESS_3] недовольство от [ICON_OCCUPIED] оккупации</Text>
@@ -1661,7 +1661,7 @@
 			<Text>[ICON_BULLET]Любой торговый путь, проходящий через этот город: {1_YieldBoosts}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_BOOST_FROM_GOLDEN_AGE_START">
-			<Text>[ICON_BULLET]Добавление ходов [ICON_GOLDEN_AGE] золотого века: {1_YieldBoosts} (максимум {2_YieldBoostCaps})</Text>
+			<Text>[ICON_BULLET]{1_YieldBoosts} за ход за каждый [ICON_GOLDEN_AGE] золотой век, начатый или продлённый после постройки здания (максимум {2_YieldBoostCaps})</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_BOOST_FROM_THEMES">
 			<Text>[ICON_BULLET]Каждый тематически оформленный набор [ICON_GREAT_WORK] великих произведений в городе: {1_YieldBoosts}</Text>
@@ -1836,9 +1836,6 @@
 		</Row>
 		<Row Tag="TXT_KEY_YIELD_MOD_CAPITAL">
 			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% для [ICON_CAPITAL] столицы от институтов</Text>
-		</Row>
-		<Row Tag="TXT_KEY_YIELD_MOD_CONQUEST">
-			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% от завоевания города (осталось ходов: {2_Num})</Text>
 		</Row>
 		<Row Tag="TXT_KEY_YIELD_MOD_CORPORATION">
 			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% от [ICON_INTERNATIONAL_TRADE] торговых путей с [ICON_FRANCHISE] действующей франшизой</Text>
@@ -2061,9 +2058,6 @@
 		<Row Tag="TXT_KEY_PRODMOD_UNIT_CORPORATION">
 			<Text>[NEWLINE][ICON_BULLET]Модификатор для юнита от корпорации: {1_Num}%</Text>
 		</Row>
-		<Row Tag="TXT_KEY_PRODMOD_CONQUEST_BUILDINGS_PRIOR_ERAS">
-			<Text>[NEWLINE][ICON_BULLET] Модификатор зданий прошлых эпох: {1_Num}%</Text>
-		</Row>
 		<Row Tag="TXT_KEY_PRODMOD_WONDER_UNITPROMOTION">
 			<Text>[NEWLINE][ICON_BULLET]модификатор для чудеса от юнит гарнизон: {1_Num}%</Text>
 		</Row>
@@ -2107,7 +2101,7 @@
 			<Text>({1_Pressure} давления, +{2_PressurePerTurn} за ход)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RELIGION_TOOLTIP_EXTENDED">
-			<Text>{1_ReligionIcon} {2_NumFollowers} {2_NumFollowers: plural 1?последователь; other?последователя;} ({3_TotalPressure} + {4_PressurePerTurn} давления от {5_Num} {5_Num:plural 1?города-источника; other?городов-источников;})</Text>
+			<Text>{1_ReligionIcon} {2_NumFollowers} {2_NumFollowers: plural 1?последователь; other?последователя;} ({3_TotalPressure} + {4_PressurePerTurn} давления; {5_Num} {5_Num:plural 1?город-источник; other?городов-источников;})</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NO_ACTION_NO_SUPPLY">
 			<Text>[NEWLINE]Невозможно [ICON_PRODUCTION] обучить этого юнита, так как вы достигли предела снабжения!</Text>
@@ -3610,12 +3604,6 @@
 		<Row Tag="TXT_KEY_NOTIFICATION_SETTINGS_TITLE">
 			<Text>Настройки уведомлений о мгновенных доходах</Text>
 		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_LOG_INSTANT_YIELD_TYPE">
-			<Text>Событие</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_LOG_NOTIFICATION">
-			<Text>Уведомление</Text>
-		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SETTINGS_CITY_BUTTON">
 			<Text>Города</Text>
 		</Row>
@@ -3681,6 +3669,234 @@
 		</Row>
 		<Row Tag="TXT_KEY_WARMONGER_PREVIEW_CASUS_BELLI_CULTURE_BOMB">
 			<Text>Снижено на [COLOR_CYAN]{1_Num}%[ENDCOLOR] (кроме владельца и его сюзеренов/вассалов), потому что они украли у вас территорию!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_TRADE_MAP">
+			<Text>КАРТА МИРА</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_TRADE_MAP_TT">
+			<Text>Открывает всю сушу, исследованную этой цивилизацией.[NEWLINE][NEWLINE]Примечание: вы не получите контакта с неизвестными цивилизациями и городами-государствами.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_TRADE_MAPS_NO_TECH_BOTH">
+			<Text>Оба игрока ещё не имеют технологии, необходимой для торговли этим предметом ({1_Tech:textkey}).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_TRADE_MAPS_NO_TECH_OTHER_PLAYER">
+			<Text>Они ещё не имеют технологии, необходимой для торговли этим предметом ({1_Tech:textkey}).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_TRADE_MAPS_NO_TECH_PLAYER">
+			<Text>Вы ещё не имеете технологии, необходимой для торговли этим предметом ({1_Tech:textkey}).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_TRADE_MAPS_THEY_ALREADY_EXPLORED">
+			<Text>Они уже исследовали все земли, открываемые вашей картой мира.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_TRADE_MAPS_WE_ALREADY_EXPLORED">
+			<Text>Мы уже исследовали все земли, открываемые их картой мира.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_ITEMS_TECHNOLOGIES">
+			<Text>ТЕХНОЛОГИИ</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_TECHNOLOGIES">
+			<Text>ТЕХНОЛОГИИ</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_TO_TRADE_TECHNOLOGIES_TRADE_YES">
+			<Text>У нас есть технологии, доступные для обмена.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_TO_TRADE_TECHNOLOGIES_TRADE_NO">
+			<Text>У нас нет технологий, доступных для обмена.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_TO_TRADE_TECHNOLOGIES_TRADE_YES_THEM">
+			<Text>У другого лидера есть технологии, доступные для обмена.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_TO_TRADE_TECHNOLOGIES_TRADE_NO_THEM">
+			<Text>У другого лидера нет технологий, доступных для обмена.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_TRADE_TECHNOLOGIES_NO_TECH_OTHER_PLAYER">
+			<Text>У них ещё нет технологии, необходимой для продажи этого предмета (Научная теория).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_TRADE_TECHNOLOGIES_NO_TECH_PLAYER">
+			<Text>У вас ещё нет технологии, необходимой для продажи этого предмета (Научная теория).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_WAR_FORMAL">
+			<Text>Они хотят, чтобы вы объявили войну {1_TargetName:textkey}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_CONSTRUCT_NATIONAL_WONDER_FORMAL">
+			<Text>Они хотят, чтобы вы построили {1_NationalWonderName:textkey}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_GIFT_SPECIFIC_UNIT_FORMAL">
+			<Text>Они хотят, чтобы вы отправили им {TXT_KEY_GRAMMAR_A_AN &lt;&lt; {1_UnitName}} как минимум с {2_XP} XP.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_FIND_CITY_STATE_FORMAL">
+			<Text>Они хотят, чтобы вы нашли город-государство {1_CityStateName:textkey}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_INFLUENCE_FORMAL">
+			<Text>Дипломатические миссии временно более эффективны.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_INFLUENCE_TOURISM_FORMAL">
+			<Text>Они наградят игрока с наибольшим [ICON_TOURISM] туризмом за ход.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_CONTEST_TOURISM_WINNING_FORMAL">
+			<Text>{TXT_KEY_CITY_STATE_QUEST_INFLUENCE_TOURISM_FORMAL} Пока что вы лидируете с [ICON_TOURISM] [COLOR_POSITIVE_TEXT]{1_PlayerScore} за ход[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_CONTEST_TOURISM_LOSING_FORMAL">
+			<Text>{TXT_KEY_CITY_STATE_QUEST_INFLUENCE_TOURISM_FORMAL} Пока что лидер имеет [ICON_TOURISM] {1_LeaderScore} за ход, а у вас [ICON_TOURISM] [COLOR_POSITIVE_TEXT]{2_PlayerScore} за ход[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_ARCHAEOLOGY_FORMAL">
+			<Text>Отправьте археолога к месту раскопок рядом с этим городом-государством.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_CIRCUMNAVIGATION_FORMAL">
+			<Text>Станьте первым, кто совершит кругосветное путешествие.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_LIBERATION_FORMAL">
+			<Text>Они хотят, чтобы вы освободили город {1_CityName:textkey}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_HORDE_FORMAL">
+			<Text>Защитите их от варварской орды! Если к моменту завершения задания рядом с городом будут варвары, город будет [COLOR_NEGATIVE_TEXT]разграблен[ENDCOLOR]!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_REBELLION_FORMAL">
+			<Text>Против их союзника происходит восстание!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ALLOWS_EXTRA_LUXURIES">
+			<Text>Открывает проекты, увеличивающие местные копии ресурсов роскоши</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_COST_BASE_LABEL">
+			<Text>базовая стоимость</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_COST_ADJUSTED_LABEL">
+			<Text>скорректированная стоимость</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_CULTURE_CITY_COST_DETAIL">
+			<Text>[ICON_BULLET]Стоимость следующей политики: {1_Num} [ICON_CULTURE] культуры = {2_Num} [ICON_CULTURE] {8_Str} + {3_Num} [ICON_CULTURE] (+{5_Str}% от {7_Num} {7_Num: plural 1?нестоличного города; other?нестоличных городов;}).[NEWLINE][ICON_BULLET]Новый город добавит [COLOR_NEGATIVE_TEXT]+{4_Num}[ENDCOLOR] [ICON_CULTURE] (+{6_Str}% от {8_Str}).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_POLICY_TENET_PENALTY_EXPLAINER">
+			<Text>Каждый догмат увеличивает стоимость будущих политик: уровень 1 [COLOR_NEGATIVE_TEXT]+{1_Num}%[ENDCOLOR], уровень 2 [COLOR_NEGATIVE_TEXT]+{2_Num}%[ENDCOLOR], уровень 3 [COLOR_NEGATIVE_TEXT]+{3_Num}%[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_POLICY_COST_BASE">
+			<Text>Базовая стоимость политики: {1_Num} [ICON_CULTURE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_POLICY_DISCOUNT_CAPPED">
+			<Text>(ограничено {1_Num}%)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_POLICY_DISCOUNT_HEADER">
+			<Text>[ICON_BULLET]x {1_Str} от изменений стоимости политик{2_Str}:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_POLICY_DISCOUNT_FROM_POLICIES">
+			<Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]-{1_Num}%[ENDCOLOR] от принятых политик и догматов.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_POLICY_DISCOUNT_FROM_BUILDINGS">
+			<Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]-{1_Num}%[ENDCOLOR] от зданий.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_POLICY_DISCOUNT_FROM_MINOR_CIVS">
+			<Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]-{1_Num}%[ENDCOLOR] от модификаторов городов-государств.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_POLICY_DISCOUNT_FROM_TRAITS">
+			<Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]-{1_Num}%[ENDCOLOR] от особенностей цивилизации.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_POLICY_TENET_PENALTY">
+			<Text>[ICON_BULLET]x [COLOR_NEGATIVE_TEXT]{1_Num}%[ENDCOLOR] от {2_Num} {2_Num: plural 1?принятого догмата; other?принятых догматов;}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_POLICY_DIFFICULTY">
+			<Text>[ICON_BULLET]x {1_Str} от сложности и эпохи.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_POLICY_COST_TOTAL">
+			<Text>[ICON_BULLET]= {1_Num} [ICON_CULTURE] скорректированная стоимость политики.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_TECH_CITY_COST_DETAIL">
+			<Text>[ICON_BULLET]Текущая стоимость технологии: {1_Num} [ICON_RESEARCH] науки = {2_Num} [ICON_RESEARCH] {8_Str} + {3_Num} [ICON_RESEARCH] (+{5_Str}% от {7_Num} {7_Num: plural 1?города; other?городов;}).[NEWLINE][ICON_BULLET]Новый город добавит [COLOR_NEGATIVE_TEXT]+{4_Num}[ENDCOLOR] [ICON_RESEARCH] (+{6_Str}% от {8_Str}).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_TECH_COST_BASE">
+			<Text>Базовая стоимость технологии: {1_Num} [ICON_RESEARCH]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_TECH_DISCOUNT_HEADER">
+			<Text>[ICON_BULLET]/ {1_Str}{2_Str} от скидок к стоимости технологий:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_TECH_DISCOUNT_SCHOLAR_SPLIT">
+			<Text>([COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR] x [COLOR_POSITIVE_TEXT]{2_Num}%[ENDCOLOR])</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_TECH_CATCHUP_DISCOUNT">
+			<Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]{1_Str}%[ENDCOLOR] от того, что {2_Num}/{3_Num} известных цивилизаций уже открыли эту технологию.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_TECH_PREREQ_DISCOUNT">
+			<Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]{1_Str}%[ENDCOLOR] от известных необязательных предшествующих технологий.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_TECH_COST_TOTAL">
+			<Text>[ICON_BULLET]= {1_Num} [ICON_RESEARCH] скорректированная стоимость технологии.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_LOCAL_FRANCHISE_CHANCE">
+			<Text>{2_Sign}{1_Num}% шанс, что каждый ход в этом городе будет основана случайная доступная иностранная [ICON_FRANCHISE] франшиза</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_PUPPET">
+			<Text>Город должен быть [ICON_PUPPET] марионеткой</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_NUM_FRANCHISES">
+			<Text>Требуется {1_Num} глобальных [ICON_FRANCHISE] франшиз</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_PERCENT_MONOPOLIES">
+			<Text>Требуется контроль над {1_Num}% возможных глобальных [ICON_MONOPOLY] монополий</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_MODIFIER_FROM_DISTANCE_TO_CAPITAL_INCREASING">
+			<Text>[ICON_BULLET]{1_YieldBoosts} за каждую клетку расстояния от столицы (максимальное значение: {2_YieldBoostCaps}%)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_MODIFIER_FROM_DISTANCE_TO_CAPITAL_DECREASING">
+			<Text>[ICON_BULLET]{1_YieldBoosts} за каждую клетку расстояния от столицы (минимальное значение: {2_YieldBoostCaps}%)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_MODIFIER_FROM_DISTANCE_TO_CAPITAL_INCREASING_WITH_BASE_VALUE">
+			<Text>[ICON_BULLET]{1_YieldBoostsBase}, плюс {2_YieldBoosts}% за каждую клетку расстояния от столицы (максимальное значение: {3_YieldBoostCaps}%)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_MODIFIER_FROM_DISTANCE_TO_CAPITAL_DECREASING_WITH_BASE_VALUE">
+			<Text>[ICON_BULLET]{1_YieldBoostsBase}, минус {2_YieldBoosts}% за каждую клетку расстояния от столицы (минимальное значение: {3_YieldBoostCaps}%)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_MOD_DISTANCE_CAPITAL">
+			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% от расстояния до столицы</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODMOD_BUILDINGS_PRIOR_ERAS">
+			<Text>[NEWLINE][ICON_BULLET]Модификатор для зданий прошлых эпох: {1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODMOD_WONDER_TO_BUILDING_FROM_RELIGION_TRAIT">
+			<Text>[NEWLINE][ICON_BULLET]Модификатор производства зданий от религиозной черты чуда: {1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODMOD_CONQUEST">
+			<Text>[NEWLINE][ICON_BULLET]Модификатор от недавнего завоевания города: {1: number "'+'##;'-'##"}% (осталось {2_Num} {2: plural 1?ход; other?хода;})</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_BLOCKED_NOT_IN_ENEMY_TERRITORY">
+			<Text>{TXT_KEY_GRAMMAR_UPPER_A_AN &lt;&lt; {@1_ImprovementName}} нельзя построить на вражеской территории.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_BLOCKED_TILE_IMPROVEMENT">
+			<Text>Существующее улучшение на этой клетке не позволяет присоединить клетку.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_SPY_ALREADY_IN_CITY">
+			<Text>Ваш шпион {2_SpyName} уже находится в {1_CityName}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_MILITARY_PROMISE_EXPIRING">
+			<Text>Вы обещали не объявлять друг другу войну. (Истекает после этого хода.)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_EXPANSION_PROMISE_EXPIRING">
+			<Text>Вы обещали не основывать города рядом с ними. (Истекает после этого хода.)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_BORDER_PROMISE_EXPIRING">
+			<Text>Вы обещали не покупать землю рядом с ними. (Истекает после этого хода.)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_AI_EXPANSION_PROMISE_EXPIRING">
+			<Text>Они обещали не основывать города рядом с вами. (Истекает после этого хода.)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_CONTEST_ARTSY_UNITS_FORMAL">
+			<Text>Они наградят игрока, который израсходует больше всего [ICON_GREAT_PEOPLE] Великих художников, Великих писателей, Великих музыкантов и археологов.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_CONTEST_ARTSY_UNITS_WINNING_FORMAL">
+			<Text>{TXT_KEY_CITY_STATE_QUEST_CONTEST_ARTSY_UNITS_FORMAL} Пока что вы лидируете с [ICON_GREAT_PEOPLE][COLOR_POSITIVE_TEXT]{1_PlayerScore}[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_CONTEST_ARTSY_UNITS_LOSING_FORMAL">
+			<Text>{TXT_KEY_CITY_STATE_QUEST_CONTEST_ARTSY_UNITS_FORMAL} Пока что у лидера [ICON_GREAT_PEOPLE]{1_LeaderScore}, а у вас [ICON_GREAT_PEOPLE][COLOR_POSITIVE_TEXT]{2_PlayerScore}[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_CONTEST_SCIENCEY_UNITS_FORMAL">
+			<Text>Они наградят игрока, который израсходует больше всего [ICON_GREAT_PEOPLE] Великих учёных, Великих торговцев и Великих инженеров.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_CONTEST_SCIENCEY_UNITS_WINNING_FORMAL">
+			<Text>{TXT_KEY_CITY_STATE_QUEST_CONTEST_SCIENCEY_UNITS_FORMAL} Пока что вы лидируете с [ICON_GREAT_PEOPLE][COLOR_POSITIVE_TEXT]{1_PlayerScore}[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_CONTEST_SCIENCEY_UNITS_LOSING_FORMAL">
+			<Text>{TXT_KEY_CITY_STATE_QUEST_CONTEST_SCIENCEY_UNITS_FORMAL} Пока что у лидера [ICON_GREAT_PEOPLE]{1_LeaderScore}, а у вас [ICON_GREAT_PEOPLE][COLOR_POSITIVE_TEXT]{2_PlayerScore}[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_SPY_MISSION_FORMAL">
+			<Text>Проведите шпионскую миссию [COLOR_POSITIVE_TEXT]{@1_SpyMission}[ENDCOLOR] против любой цивилизации.</Text>
 		</Row>
 	</Language_ru_RU>
 </GameData>

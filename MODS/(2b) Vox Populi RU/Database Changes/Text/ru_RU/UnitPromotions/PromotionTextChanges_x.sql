@@ -448,12 +448,12 @@ WHERE Tag = 'TXT_KEY_PROMOTION_OCEAN_MOVEMENT_HELP';
 
 -- Exploration
 UPDATE Language_ru_RU
-SET Text = '+1 [ICON_MOVES] перемещения.'
+SET Text = '+1 [ICON_MOVES] перемещения.[NEWLINE][NEWLINE][COLOR_CYAN]Теряется при передаче другому игроку.[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_PROMOTION_NAVAL_TRADITION_HELP';
 
 -- Patriotic War
 UPDATE Language_ru_RU
-SET Text = '+20% [ICON_STRENGTH] боевой мощи в [COLOR_POSITIVE_TEXT]городах[ENDCOLOR] или рядом с ними.'
+SET Text = '+20% [ICON_STRENGTH] боевой мощи в [COLOR_POSITIVE_TEXT]городах[ENDCOLOR] или рядом с ними.[NEWLINE][NEWLINE][COLOR_CYAN]Теряется при передаче другому игроку.[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_PROMOTION_NATIONALISM_HELP';
 
 -- Altitude Training
@@ -463,17 +463,17 @@ WHERE Tag = 'TXT_KEY_PROMOTION_ALTITUDE_TRAINING_HELP';
 
 -- Morale 
 UPDATE Language_ru_RU
-SET Text = '+10% [ICON_STRENGTH] боевой мощи.'
+SET Text = '+10% [ICON_STRENGTH] боевой мощи.[NEWLINE][NEWLINE][COLOR_CYAN]Теряется при передаче другому игроку.[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_PROMOTION_MORALE_HELP';
 
 -- Statue Of Zeus
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Военные юниты:[ENDCOLOR] +25% [ICON_STRENGTH] боевой мощи при атаке [COLOR_POSITIVE_TEXT]городов[ENDCOLOR].[NEWLINE][COLOR_POSITIVE_TEXT]Рабочие:[ENDCOLOR] Невосприимчивы к статусу [COLOR_NEGATIVE_TEXT]{TXT_KEY_PROMOTION_PRISONERS_OF_WAR}[ENDCOLOR].'
+SET Text = '[COLOR_POSITIVE_TEXT]Военные юниты:[ENDCOLOR] +25% [ICON_STRENGTH] боевой мощи при атаке [COLOR_POSITIVE_TEXT]городов[ENDCOLOR].[NEWLINE][COLOR_POSITIVE_TEXT]Рабочие:[ENDCOLOR] Невосприимчивы к статусу [COLOR_NEGATIVE_TEXT]{TXT_KEY_PROMOTION_PRISONERS_OF_WAR}[ENDCOLOR].[NEWLINE][NEWLINE][COLOR_CYAN]Теряется при передаче другому игроку.[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_PROMOTION_STATUE_ZEUS_HELP';
 
 -- Himeji Castle
 UPDATE Language_ru_RU
-SET Text = '+15% [ICON_STRENGTH] боевой мощи [COLOR_POSITIVE_TEXT]на дружественной территории[ENDCOLOR].'
+SET Text = '+15% [ICON_STRENGTH] боевой мощи [COLOR_POSITIVE_TEXT]на дружественной территории[ENDCOLOR].[NEWLINE][NEWLINE][COLOR_CYAN]Теряется при передаче другому игроку.[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_PROMOTION_HIMEJI_CASTLE_HELP';
 
 UPDATE Language_ru_RU

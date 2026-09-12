@@ -1,8 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<Language_ru_RU>
+		<Row Tag="TXT_KEY_GOODY_PRODUCTION">
+			<Text>Вы находите запас припасов, который повышает [ICON_PRODUCTION] производство в ближайшем городе!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOODY_GOLDEN_AGE">
+			<Text>Вы находите древние реликвии, ускоряющие движение вашей цивилизации к [ICON_GOLDEN_AGE] золотому веку!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOODY_TILES">
+			<Text>Вы находите кочевое племя, желающее присоединиться к вашей цивилизации и передающее дополнительные земли вокруг ближайшего города!</Text>
+		</Row>
 		<Row Tag="TXT_KEY_GOODY_SCIENCE">
 			<Text>Вы находите древние артефакты, которые вдохновляют вашу цивилизацию на продвижение к новой технологии!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOODY_LOST_PROTOTYPE">
+			<Text>Вы находите утерянные прототипы! Ваш юнит получает временные бонусы к обороне, а его следующее улучшение будет бесплатным.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOODY_CHOOSE_PRODUCTION">
+			<Text>Припасы для [ICON_PRODUCTION] производства в ближайшем городе.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOODY_CHOOSE_GOLDEN_AGE">
+			<Text>Реликвии, дающие [ICON_GOLDEN_AGE] очки золотого века.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOODY_CHOOSE_FREE_TILES">
+			<Text>Племя, передающее вам земли вокруг ближайшего города.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOODY_CHOOSE_SCIENCE">
+			<Text>Древние артефакты, дающие [ICON_RESEARCH] науку.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOODY_CHOOSE_LOST_PROTOTYPE">
+			<Text>Утерянные прототипы для будущего бесплатного улучшения.</Text>
 		</Row>
 	</Language_ru_RU>
 </GameData>

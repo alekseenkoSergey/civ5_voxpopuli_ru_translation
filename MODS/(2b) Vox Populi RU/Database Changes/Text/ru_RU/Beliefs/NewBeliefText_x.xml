@@ -118,7 +118,7 @@
 			<Text>+2 [ICON_PEACE] веры[NEWLINE]+3 [ICON_PRODUCTION] производства[NEWLINE][NEWLINE]+10% [ICON_RESEARCH] науки во время [ICON_HAPPINESS_1] «Дня любви к королю».[NEWLINE][NEWLINE]-15% религиозного давления на этот город от городов, следующих другим религиям, или от активного распространения других религий.[NEWLINE][NEWLINE]-1 [ICON_HAPPINESS_3] недовольства от [ICON_FOOD][ICON_PRODUCTION] тягот.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_TEOCALLI_TOOLTIP">
-			<Text>+2 [ICON_PEACE] веры[NEWLINE]+1 [ICON_WAR] военного снабжения[NEWLINE][NEWLINE]+2 [ICON_PEACE] веры, когда ваш юнит побеждает военный юнит, и дополнительно +8 [ICON_PEACE] веры, если этот юнит был создан в этом городе.[NEWLINE][NEWLINE]+25% религиозного давления на другие города, если эта религия является религией большинства в городе.[NEWLINE][NEWLINE]-1 [ICON_HAPPINESS_3] недовольства от [ICON_FOOD] и [ICON_PRODUCTION] тягот.</Text>
+			<Text>+2 [ICON_PEACE] веры[NEWLINE]+1 [ICON_SILVER_FIST] военного снабжения[NEWLINE][NEWLINE]+2 [ICON_PEACE] веры, когда ваш юнит побеждает военный юнит, и дополнительно +8 [ICON_PEACE] веры, если этот юнит был создан в этом городе.[NEWLINE][NEWLINE]+25% религиозного давления на другие города, если эта религия является религией большинства в городе.[NEWLINE][NEWLINE]-1 [ICON_HAPPINESS_3] недовольства от [ICON_FOOD] и [ICON_PRODUCTION] тягот.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_ANIMISM">
 			<Text>+1 [ICON_FOOD] пищи и [ICON_CULTURE] культуры от чудес природы, озёр и [COLOR_NEGATIVE_TEXT]неулучшенных[ENDCOLOR] особенностей местности. [ICON_MISSIONARY] Миссионеры игнорируют стоимость передвижения по местности.</Text>
@@ -127,7 +127,7 @@
 			<Text>Анимизм</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_CITY_OF_GOD">
-			<Text>Когда в вашем Святом городе рождается [ICON_CITIZEN] житель, получайте 15 [ICON_CULTURE] культуры, [ICON_RESEARCH] науки и [ICON_PEACE] веры за каждый город, следующий вашей [ICON_RELIGION] религии (максимум 25 городов).[NEWLINE]Открывает [COLOR_POSITIVE_TEXT]национальное чудо «Небесный грот»[ENDCOLOR] (+2 [ICON_PEACE] веры, +2 [ICON_GOLD] золота, +2 [ICON_HAPPINESS_1] счастья; +5 [ICON_FOOD] пищи от [ICON_RELIGION] святых мест; открывает [COLOR_POSITIVE_TEXT]верование Реформации[ENDCOLOR]).</Text>
+			<Text>Когда в вашем Святом городе рождается [ICON_CITIZEN] житель, получайте 15 [ICON_RESEARCH] науки, [ICON_CULTURE] культуры и [ICON_PEACE] веры за каждый город, следующий вашей [ICON_RELIGION] религии (максимум 25 городов).[NEWLINE]Открывает [COLOR_POSITIVE_TEXT]национальное чудо «Священный сад»[ENDCOLOR] (+2 [ICON_PEACE] веры, +2 [ICON_GOLD] золота, +2 [ICON_HAPPINESS_1] счастья; +50 [ICON_RESEARCH] науки, [ICON_CULTURE] культуры и [ICON_PEACE] веры, когда в империи обнаруживают [ICON_SPY] шпиона, масштабируется с эпохой. +5 [ICON_FOOD] пищи от [ICON_RELIGION] святых мест; открывает [COLOR_POSITIVE_TEXT]верование Реформации[ENDCOLOR]).</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_CITY_OF_GOD_SHORT">
 			<Text>Град Божий</Text>

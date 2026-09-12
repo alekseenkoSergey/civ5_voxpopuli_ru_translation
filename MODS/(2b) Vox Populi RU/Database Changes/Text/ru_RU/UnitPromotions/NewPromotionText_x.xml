@@ -452,35 +452,35 @@
 			<Text>Gå-På</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_ATTACK_BONUS_SWEDEN_HELP">
-			<Text>+20% [ICON_STRENGTH] боевой мощи при атаке.</Text>
+			<Text>+20% [ICON_STRENGTH] боевой мощи при атаке.[NEWLINE][NEWLINE][COLOR_CYAN]Теряется при передаче другому игроку.[ENDCOLOR]</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_COERCION">
 			<Text>Пар ле Сан Версе</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_COERCION_HELP">
-			<Text>Вербует побеждённые вражеские юниты, окружённые хотя бы половиной соседних проходимых клеток.[NEWLINE]Захваченные юниты [COLOR_POSITIVE_TEXT]не расходуют снабжение[ENDCOLOR]; начинают с 25% максимальных ОЗ и 0 опыта; и могут сразу двигаться (но не атаковать).</Text>
+			<Text>Вербует побеждённые вражеские юниты, окружённые хотя бы половиной соседних проходимых клеток.[NEWLINE]Захваченные юниты [COLOR_POSITIVE_TEXT]не расходуют снабжение[ENDCOLOR]; начинают с 25% максимальных ОЗ и 0 опыта; и могут сразу двигаться (но не атаковать).[NEWLINE][NEWLINE][COLOR_CYAN]Теряется при передаче другому игроку.[ENDCOLOR]</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_VIKING">
 			<Text>Викинг (суша)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_VIKING_HELP">
-			<Text>[ICON_RAZING] Разграбление не требует [ICON_MOVES] перемещения и лечит дополнительно [COLOR_POSITIVE_TEXT]10 ОЗ[ENDCOLOR].[NEWLINE]Наносит [COLOR_POSITIVE_TEXT]10 урона[ENDCOLOR] всем соседним вражеским юнитам при [ICON_RAZING] разграблении улучшений и даёт 30 [ICON_GOLD] золота, масштабируясь с эпохой.</Text>
+			<Text>[ICON_RAZING] Разграбление не требует [ICON_MOVES] перемещения и лечит дополнительно [COLOR_POSITIVE_TEXT]10 ОЗ[ENDCOLOR].[NEWLINE]Наносит [COLOR_POSITIVE_TEXT]10 урона[ENDCOLOR] всем соседним вражеским юнитам при [ICON_RAZING] разграблении улучшений и даёт 30 [ICON_GOLD] золота, масштабируясь с эпохой.[NEWLINE][NEWLINE][COLOR_CYAN]Теряется при передаче другому игроку.[ENDCOLOR]</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_LONGBOAT">
 			<Text>Викинг (море)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_LONGBOAT_HELP">
-			<Text>[ICON_RAZING] Разграбление не требует [ICON_MOVES] перемещения и [COLOR_POSITIVE_TEXT]полностью лечит[ENDCOLOR] этот юнит.[NEWLINE]Наносит [COLOR_POSITIVE_TEXT]15 урона[ENDCOLOR] всем соседним вражеским юнитам при [ICON_RAZING] разграблении улучшений и даёт 60 [ICON_GOLD] золота, масштабируясь с эпохой.</Text>
+			<Text>[ICON_RAZING] Разграбление не требует [ICON_MOVES] перемещения и [COLOR_POSITIVE_TEXT]полностью лечит[ENDCOLOR] этот юнит.[NEWLINE]Наносит [COLOR_POSITIVE_TEXT]15 урона[ENDCOLOR] всем соседним вражеским юнитам при [ICON_RAZING] разграблении улучшений и даёт 60 [ICON_GOLD] золота, масштабируясь с эпохой.[NEWLINE][NEWLINE][COLOR_CYAN]Теряется при передаче другому игроку.[ENDCOLOR]</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_SUN_NEVER_SETS">
 			<Text>Солнце не заходит</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SUN_NEVER_SETS_HELP">
-			<Text>+1 [ICON_MOVES] перемещения.[NEWLINE]+1% [ICON_STRENGTH] боевой мощи за каждую клетку расстояния до [ICON_CAPITAL] столицы (макс. +30%).</Text>
+			<Text>+1 [ICON_MOVES] перемещения.[NEWLINE]+1% [ICON_STRENGTH] боевой мощи за каждую клетку расстояния до [ICON_CAPITAL] столицы (макс. +30%).[NEWLINE][NEWLINE][COLOR_CYAN]Теряется при передаче другому игроку.[ENDCOLOR]</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_FASTER_WORKER">
@@ -494,21 +494,21 @@
 			<Text>Выносливость</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_ENDURANCE_HELP">
-			<Text>лечит 15 ОЗ после [COLOR_POSITIVE_TEXT]уничтожении вражеский юнит[ENDCOLOR].</Text>
+			<Text>лечит 15 ОЗ после [COLOR_POSITIVE_TEXT]уничтожении вражеский юнит[ENDCOLOR].[NEWLINE][NEWLINE][COLOR_CYAN]Теряется при передаче другому игроку.[ENDCOLOR]</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_CONSCRIPTION">
 			<Text>Призыв</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_CONSCRIPTION_HELP">
-			<Text>+10% [ICON_STRENGTH] боевой мощи.</Text>
+			<Text>+10% [ICON_STRENGTH] боевой мощи.[NEWLINE][NEWLINE][COLOR_CYAN]Теряется при передаче другому игроку.[ENDCOLOR]</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_IMPERIALISM">
 			<Text>Империализм</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_IMPERIALISM_HELP">
-			<Text>+1 [ICON_VISION] обзора.</Text>
+			<Text>+1 [ICON_VISION] обзора.[NEWLINE][NEWLINE][COLOR_CYAN]Теряется при передаче другому игроку.[ENDCOLOR]</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_FASTER_GENERAL">
@@ -529,35 +529,35 @@
 			<Text>Банзай!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_BANZAI_HELP">
-			<Text>+1% [ICON_STRENGTH] боевой мощи за каждые 3 ОЗ ниже максимума здоровья.[NEWLINE]Устраняет штрафы к бою при атаке или обороне против атак ближнего боя, пока юнит [ICON_POSITIVE_TEXT]ранен[ENDCOLOR].</Text>
+			<Text>+1% [ICON_STRENGTH] боевой мощи за каждые 3 ОЗ ниже максимума здоровья.[NEWLINE]Устраняет штрафы к бою при атаке или обороне против атак ближнего боя, пока юнит [COLOR_POSITIVE_TEXT]ранен[ENDCOLOR].</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_LIGHTNING_WARFARE_GUNPOWDER">
 			<Text>Молниеносная война (пороховые)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_LIGHTNING_WARFARE_GUNPOWDER_HELP">
-			<Text>+15% [ICON_STRENGTH] боевой мощи при атаке.[NEWLINE]Игнорирует [COLOR_POSITIVE_TEXT]зону контроля[ENDCOLOR].</Text>
+			<Text>+15% [ICON_STRENGTH] боевой мощи при атаке.[NEWLINE]Игнорирует [COLOR_POSITIVE_TEXT]зону контроля[ENDCOLOR].[NEWLINE][NEWLINE][COLOR_CYAN]Теряется при передаче другому игроку.[ENDCOLOR]</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_LIGHTNING_WARFARE_ARMORED">
 			<Text>Молниеносная война (бронетехника)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_LIGHTNING_WARFARE_ARMORED_HELP">
-			<Text>+15% [ICON_STRENGTH] боевой мощи при атаке.[NEWLINE]+1 [ICON_MOVES] перемещения.</Text>
+			<Text>+15% [ICON_STRENGTH] боевой мощи при атаке.[NEWLINE]+1 [ICON_MOVES] перемещения.[NEWLINE][NEWLINE][COLOR_CYAN]Теряется при передаче другому игроку.[ENDCOLOR]</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_MARE_NOSTRUM">
 			<Text>Маре Нострум</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_MARE_NOSTRUM_HELP">
-			<Text>+25% [ICON_STRENGTH] боевой мощи при атаке [COLOR_POSITIVE_TEXT]городов[ENDCOLOR].[NEWLINE]+5 ОЗ когда лечении [COLOR_POSITIVE_TEXT]на дружественной территории[ENDCOLOR].</Text>
+			<Text>+25% [ICON_STRENGTH] боевой мощи при атаке [COLOR_POSITIVE_TEXT]городов[ENDCOLOR].[NEWLINE]+5 ОЗ когда лечении [COLOR_POSITIVE_TEXT]на дружественной территории[ENDCOLOR].[NEWLINE][NEWLINE][COLOR_CYAN]Теряется при передаче другому игроку.[ENDCOLOR]</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_ENGINEERING_CORP">
 			<Text>Инженерный корпус</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_ENGINEERING_CORP_HELP">
-			<Text>Может входить на [ICON_POSITIVE_TEXT]непроходимые[ENDCOLOR] клетки.</Text>
+			<Text>Может входить на [COLOR_POSITIVE_TEXT]непроходимые[ENDCOLOR] клетки.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_FALLOUT_RESISTANCE">
@@ -578,14 +578,14 @@
 			<Text>Священные шаги</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SACRED_STEPS_HELP">
-			<Text>+2 [ICON_MOVES] перемещения.</Text>
+			<Text>+2 [ICON_MOVES] перемещения.[NEWLINE][NEWLINE][COLOR_CYAN]Теряется при передаче другому игроку.[ENDCOLOR]</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_EVERLASTING_YOUTH">
 			<Text>Вечная молодость</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_EVERLASTING_YOUTH_HELP">
-			<Text>+5 ОЗ когда [COLOR_POSITIVE_TEXT]лечении[ENDCOLOR].</Text>
+			<Text>+5 ОЗ когда [COLOR_POSITIVE_TEXT]лечении[ENDCOLOR].[NEWLINE][NEWLINE][COLOR_CYAN]Теряется при передаче другому игроку.[ENDCOLOR]</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_ROYAL_SIGNET">
@@ -634,21 +634,21 @@
 			<Text>Хинете</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_JINETE_HELP">
-			<Text>+15% [ICON_STRENGTH] боевой мощи при атаке.[NEWLINE]Отступает от атаки ближнего боя если есть свободная клетка позади этот юнит, один раз за ход.[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]Теряется при улучшении.[ENDCOLOR]</Text>
+			<Text>+15% [ICON_STRENGTH] боевой мощи при атаке.[NEWLINE]Отступает от атаки ближнего боя если есть свободная клетка позади этот юнит, один раз за ход.[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]Теряется при улучшении.[ENDCOLOR][NEWLINE][NEWLINE][COLOR_CYAN]Теряется при передаче другому игроку.[ENDCOLOR]</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_IKLWA">
 			<Text>Иклуа</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_IKLWA_HELP">
-			<Text>+10% [ICON_STRENGTH] боевой мощи при атаке.</Text>
+			<Text>+10% [ICON_STRENGTH] боевой мощи при атаке.[NEWLINE][NEWLINE][COLOR_CYAN]Теряется при передаче другому игроку.[ENDCOLOR]</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_BUSHIDO">
 			<Text>Восемь добродетелей бусидо</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_BUSHIDO_HELP">
-			<Text>Случайным образом получает одно из перечисленных ниже улучшений после первого боя:[NEWLINE][COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_RIGHTEOUSNESS}[ENDCOLOR], [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_BENEVOLENCE}[ENDCOLOR], [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_RESPECT}[ENDCOLOR], [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_SINCERITY}[ENDCOLOR], [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_HONOR}[ENDCOLOR], [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_LOYALTY}[ENDCOLOR], [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_SELF_CONTROL}[ENDCOLOR], [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_COURAGE}[ENDCOLOR]</Text>
+			<Text>Случайным образом получает одно из перечисленных ниже улучшений после первого боя:[NEWLINE][COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_RIGHTEOUSNESS}[ENDCOLOR], [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_BENEVOLENCE}[ENDCOLOR], [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_RESPECT}[ENDCOLOR], [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_SINCERITY}[ENDCOLOR], [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_HONOR}[ENDCOLOR], [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_LOYALTY}[ENDCOLOR], [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_SELF_CONTROL}[ENDCOLOR], [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_COURAGE}[ENDCOLOR][NEWLINE][NEWLINE][COLOR_CYAN]Теряется при передаче другому игроку.[ENDCOLOR]</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_PROXENOS">
@@ -662,21 +662,21 @@
 			<Text>Эпоха открытий</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_AGE_OF_DISCOVERY_HELP">
-			<Text>Получает 1 [ICON_GOLD] золота и 0.1 опыта при открытии клетки.[NEWLINE]Это значение умножается на 12 для природных чудес, на 4 для {TXT_KEY_IMPROVEMENT_GOODY_HUT} и на 3 для ресурсов.[NEWLINE]Может забирать [COLOR_POSITIVE_TEXT]{TXT_KEY_IMPROVEMENT_GOODY_HUT}[ENDCOLOR].</Text>
+			<Text>Получает 1 [ICON_GOLD] золота и 0.1 опыта при открытии клетки.[NEWLINE]Это значение умножается на 12 для природных чудес, на 4 для {TXT_KEY_IMPROVEMENT_GOODY_HUT} и на 3 для ресурсов.[NEWLINE]Может забирать [COLOR_POSITIVE_TEXT]{TXT_KEY_IMPROVEMENT_GOODY_HUT}[ENDCOLOR].[NEWLINE][NEWLINE][COLOR_CYAN]Теряется при передаче другому игроку.[ENDCOLOR]</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_VENETIAN_CRAFTSMANSHIP">
 			<Text>Венецианское мастерство</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_VENETIAN_CRAFTSMANSHIP_HELP">
-			<Text>+10% [ICON_STRENGTH] боевой мощи.[NEWLINE]+1 [ICON_MOVES] перемещения.</Text>
+			<Text>+10% [ICON_STRENGTH] боевой мощи.[NEWLINE]+1 [ICON_MOVES] перемещения.[NEWLINE][NEWLINE][COLOR_CYAN]Теряется при передаче другому игроку.[ENDCOLOR]</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_TREASURE_FLEET">
 			<Text>Флот сокровищ</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_TREASURE_FLEET_HELP">
-			<Text>+10% [ICON_STRENGTH] боевой мощи при атаке.[NEWLINE]+1 [ICON_VISION] обзор.[NEWLINE]Может лечиться [COLOR_POSITIVE_TEXT]вне дружественной территории[ENDCOLOR].</Text>
+			<Text>+10% [ICON_STRENGTH] боевой мощи при атаке.[NEWLINE]+1 [ICON_VISION] обзор.[NEWLINE]Может лечиться [COLOR_POSITIVE_TEXT]вне дружественной территории[ENDCOLOR].[NEWLINE][NEWLINE][COLOR_CYAN]Теряется при передаче другому игроку.[ENDCOLOR]</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_BRUTE_FORCE">
@@ -746,7 +746,7 @@
 			<Text>Балочная ось</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_BEAM_AXLE_HELP">
-			<Text>Вход на [ICON_NEGATIVE_TEXT]лес[ENDCOLOR], [ICON_NEGATIVE_TEXT]джунгли[ENDCOLOR], [ICON_NEGATIVE_TEXT]болото[ENDCOLOR] и [ICON_NEGATIVE_TEXT]холмы[ENDCOLOR] стоит +1 [ICON_MOVES] перемещения (не суммируется).[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Теряется при улучшении.[ENDCOLOR]</Text>
+			<Text>Вход на [COLOR_NEGATIVE_TEXT]лес[ENDCOLOR], [COLOR_NEGATIVE_TEXT]джунгли[ENDCOLOR], [COLOR_NEGATIVE_TEXT]болото[ENDCOLOR] и [COLOR_NEGATIVE_TEXT]холмы[ENDCOLOR] стоит +1 [ICON_MOVES] перемещения (не суммируется).[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Теряется при улучшении.[ENDCOLOR]</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_SKIRMISHER_DOCTRINE">
@@ -865,7 +865,7 @@
 			<Text>Военная традиция</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_MILITARY_TRADITION_HELP">
-			<Text>+1 [ICON_WAR] военного снабжения, когда этот юнит расходуется.</Text>
+			<Text>+1 [ICON_SILVER_FIST] военного снабжения, когда этот юнит расходуется.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_GREAT_DIPLOMAT">
@@ -879,7 +879,7 @@
 			<Text>Защищённая шахта</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SHIELDED_SILO_HELP">
-			<Text>Невосприимчив к урону от [ICON_POSITIVE_TEXT]ядерного оружия[ENDCOLOR].</Text>
+			<Text>Невосприимчив к урону от [COLOR_POSITIVE_TEXT]ядерного оружия[ENDCOLOR].</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_HEAVY_FLANKING">
@@ -1040,7 +1040,7 @@
 			<Text>Шютценкёниг</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SCHUTZENKONIG_HELP">
-			<Text>+2% [ICON_STRENGTH] боевой мощи за каждый не-вражеский [ICON_RES_MARRIAGE] состоящий в браке город-государство (макс. +30%).</Text>
+			<Text>+2% [ICON_STRENGTH] боевой мощи за каждый не-вражеский [ICON_RES_MARRIAGE] состоящий в браке город-государство (макс. +30%).[NEWLINE][NEWLINE][COLOR_CYAN]Теряется при передаче другому игроку.[ENDCOLOR]</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_BRUTE_STRENGTH">
@@ -1255,7 +1255,7 @@
 			<Text>Боевой петух</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_FIGHTING_COCK_HELP">
-			<Text>+1% [ICON_STRENGTH] боевой мощи за каждые 3 ОЗ ниже максимума здоровья.[NEWLINE]Устраняет штрафы к бою при атаке или обороне против атак ближнего боя, пока юнит [ICON_POSITIVE_TEXT]ранен[ENDCOLOR].</Text>
+			<Text>+1% [ICON_STRENGTH] боевой мощи за каждые 3 ОЗ ниже максимума здоровья.[NEWLINE]Устраняет штрафы к бою при атаке или обороне против атак ближнего боя, пока юнит [COLOR_POSITIVE_TEXT]ранен[ENDCOLOR].</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_LEGATUS_LEGIONIS">
@@ -1283,7 +1283,7 @@
 			<Text>Танец большого коня</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_BIG_HORSE_DANCE_HELP">
-			<Text>+20% [ICON_STRENGTH] боевой мощи, если юнит [COLOR_POSITIVE_TEXT]укреплён[ENDCOLOR].[NEWLINE]+1% [ICON_STRENGTH] боевой мощи за каждые 3 ОЗ ниже максимума здоровья.[NEWLINE]Устраняет штрафы к бою при атаке или обороне против атак ближнего боя, пока юнит [ICON_POSITIVE_TEXT]ранен[ENDCOLOR].</Text>
+			<Text>+20% [ICON_STRENGTH] боевой мощи, если юнит [COLOR_POSITIVE_TEXT]укреплён[ENDCOLOR].[NEWLINE]+1% [ICON_STRENGTH] боевой мощи за каждые 3 ОЗ ниже максимума здоровья.[NEWLINE]Устраняет штрафы к бою при атаке или обороне против атак ближнего боя, пока юнит [COLOR_POSITIVE_TEXT]ранен[ENDCOLOR].</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_CROUCHING_TIGER">
@@ -1318,7 +1318,7 @@
 			<Text>Сшитые каноэ</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SEWN_CANOES_HELP">
-			<Text>Устраняет штрафы к бою при атаке через реку.[NEWLINE]Удваивает [ICON_MOVES] перемещение при движении вдоль рек.</Text>
+			<Text>Устраняет штрафы к бою при атаке через реку.[NEWLINE]Удваивает [ICON_MOVES] перемещение при движении вдоль рек.[NEWLINE][NEWLINE][COLOR_CYAN]Теряется при передаче другому игроку.[ENDCOLOR]</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_INVINCIBLE">
@@ -1332,56 +1332,56 @@
 			<Text>Праведность</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_RIGHTEOUSNESS_HELP">
-			<Text>+20% [ICON_STRENGTH] боевой мощи при атаке [COLOR_POSITIVE_TEXT]юнитов с 50% ОЗ или меньше[ENDCOLOR].[NEWLINE]+1% [ICON_STRENGTH] боевой мощи за каждые 3 ОЗ ниже максимума здоровья.[NEWLINE]Устраняет штрафы к бою при атаке или обороне против атак ближнего боя, пока юнит [ICON_POSITIVE_TEXT]ранен[ENDCOLOR].[NEWLINE]Восстанавливает 10 ОЗ после уничтожения вражеского юнита.</Text>
+			<Text>+20% [ICON_STRENGTH] боевой мощи при атаке [COLOR_POSITIVE_TEXT]юнитов с 50% ОЗ или меньше[ENDCOLOR].[NEWLINE]+1% [ICON_STRENGTH] боевой мощи за каждые 3 ОЗ ниже максимума здоровья.[NEWLINE]Устраняет штрафы к бою при атаке или обороне против атак ближнего боя, пока юнит [COLOR_POSITIVE_TEXT]ранен[ENDCOLOR].[NEWLINE]Восстанавливает 10 ОЗ после уничтожения вражеского юнита.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_COURAGE">
 			<Text>Мужество</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_COURAGE_HELP">
-			<Text>+15% [ICON_STRENGTH] боевой мощи при атаке.[NEWLINE]+1% [ICON_STRENGTH] боевой мощи за каждые 3 ОЗ ниже максимума здоровья.[NEWLINE]Устраняет штрафы к бою при атаке или обороне против атак ближнего боя, пока юнит [ICON_POSITIVE_TEXT]ранен[ENDCOLOR].[NEWLINE]Восстанавливает 10 ОЗ после уничтожения вражеского юнита.</Text>
+			<Text>+15% [ICON_STRENGTH] боевой мощи при атаке.[NEWLINE]+1% [ICON_STRENGTH] боевой мощи за каждые 3 ОЗ ниже максимума здоровья.[NEWLINE]Устраняет штрафы к бою при атаке или обороне против атак ближнего боя, пока юнит [COLOR_POSITIVE_TEXT]ранен[ENDCOLOR].[NEWLINE]Восстанавливает 10 ОЗ после уничтожения вражеского юнита.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_BENEVOLENCE">
 			<Text>Доброжелательность</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_BENEVOLENCE_HELP">
-			<Text>+5 ОЗ при [COLOR_POSITIVE_TEXT]лечении[ENDCOLOR] для юнитов [COLOR_POSITIVE_TEXT]на соседних с этой клеткой клетках[ENDCOLOR].[NEWLINE]+1% [ICON_STRENGTH] боевой мощи за каждые 3 ОЗ ниже максимума здоровья.[NEWLINE]Устраняет штрафы к бою при атаке или обороне против атак ближнего боя, пока юнит [ICON_POSITIVE_TEXT]ранен[ENDCOLOR].[NEWLINE]Восстанавливает 10 ОЗ после уничтожения вражеского юнита.</Text>
+			<Text>+5 ОЗ при [COLOR_POSITIVE_TEXT]лечении[ENDCOLOR] для юнитов [COLOR_POSITIVE_TEXT]на соседних с этой клеткой клетках[ENDCOLOR].[NEWLINE]+1% [ICON_STRENGTH] боевой мощи за каждые 3 ОЗ ниже максимума здоровья.[NEWLINE]Устраняет штрафы к бою при атаке или обороне против атак ближнего боя, пока юнит [COLOR_POSITIVE_TEXT]ранен[ENDCOLOR].[NEWLINE]Восстанавливает 10 ОЗ после уничтожения вражеского юнита.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_RESPECT">
 			<Text>Уважение</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_RESPECT_HELP">
-			<Text>+20% [ICON_STRENGTH] боевой мощи при атаке [COLOR_POSITIVE_TEXT]юнитов с более чем 50% ОЗ[ENDCOLOR].[NEWLINE]+1% [ICON_STRENGTH] боевой мощи за каждые 3 ОЗ ниже максимума здоровья.[NEWLINE]Устраняет штрафы к бою при атаке или обороне против атак ближнего боя, пока юнит [ICON_POSITIVE_TEXT]ранен[ENDCOLOR].[NEWLINE]Восстанавливает 10 ОЗ после уничтожения вражеского юнита.</Text>
+			<Text>+20% [ICON_STRENGTH] боевой мощи при атаке [COLOR_POSITIVE_TEXT]юнитов с более чем 50% ОЗ[ENDCOLOR].[NEWLINE]+1% [ICON_STRENGTH] боевой мощи за каждые 3 ОЗ ниже максимума здоровья.[NEWLINE]Устраняет штрафы к бою при атаке или обороне против атак ближнего боя, пока юнит [COLOR_POSITIVE_TEXT]ранен[ENDCOLOR].[NEWLINE]Восстанавливает 10 ОЗ после уничтожения вражеского юнита.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_SINCERITY">
 			<Text>Искренность</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SINCERITY_HELP">
-			<Text>+50% опыта, получаемого в бою.[NEWLINE]+1% [ICON_STRENGTH] боевой мощи за каждые 3 ОЗ ниже максимума здоровья.[NEWLINE]Устраняет штрафы к бою при атаке или обороне против атак ближнего боя, пока юнит [ICON_POSITIVE_TEXT]ранен[ENDCOLOR].[NEWLINE]Восстанавливает 10 ОЗ после уничтожения вражеского юнита.</Text>
+			<Text>+50% опыта, получаемого в бою.[NEWLINE]+1% [ICON_STRENGTH] боевой мощи за каждые 3 ОЗ ниже максимума здоровья.[NEWLINE]Устраняет штрафы к бою при атаке или обороне против атак ближнего боя, пока юнит [COLOR_POSITIVE_TEXT]ранен[ENDCOLOR].[NEWLINE]Восстанавливает 10 ОЗ после уничтожения вражеского юнита.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_HONOR">
 			<Text>Честь</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_HONOR_HELP">
-			<Text>+15% [ICON_STRENGTH] боевой мощи [COLOR_POSITIVE_TEXT]вне дружественной территории[ENDCOLOR].[NEWLINE]+1% [ICON_STRENGTH] боевой мощи за каждые 3 ОЗ ниже максимума здоровья.[NEWLINE]Устраняет штрафы к бою при атаке или обороне против атак ближнего боя, пока юнит [ICON_POSITIVE_TEXT]ранен[ENDCOLOR].[NEWLINE]Восстанавливает 10 ОЗ после уничтожения вражеского юнита.</Text>
+			<Text>+15% [ICON_STRENGTH] боевой мощи [COLOR_POSITIVE_TEXT]вне дружественной территории[ENDCOLOR].[NEWLINE]+1% [ICON_STRENGTH] боевой мощи за каждые 3 ОЗ ниже максимума здоровья.[NEWLINE]Устраняет штрафы к бою при атаке или обороне против атак ближнего боя, пока юнит [COLOR_POSITIVE_TEXT]ранен[ENDCOLOR].[NEWLINE]Восстанавливает 10 ОЗ после уничтожения вражеского юнита.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_LOYALTY">
 			<Text>Верность</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_LOYALTY_HELP">
-			<Text>+15% [ICON_STRENGTH] боевой мощи [COLOR_POSITIVE_TEXT]на дружественной территории[ENDCOLOR].[NEWLINE]+1% [ICON_STRENGTH] боевой мощи за каждые 3 ОЗ ниже максимума здоровья.[NEWLINE]Устраняет штрафы к бою при атаке или обороне против атак ближнего боя, пока юнит [ICON_POSITIVE_TEXT]ранен[ENDCOLOR].[NEWLINE]Восстанавливает 10 ОЗ после уничтожения вражеского юнита.</Text>
+			<Text>+15% [ICON_STRENGTH] боевой мощи [COLOR_POSITIVE_TEXT]на дружественной территории[ENDCOLOR].[NEWLINE]+1% [ICON_STRENGTH] боевой мощи за каждые 3 ОЗ ниже максимума здоровья.[NEWLINE]Устраняет штрафы к бою при атаке или обороне против атак ближнего боя, пока юнит [COLOR_POSITIVE_TEXT]ранен[ENDCOLOR].[NEWLINE]Восстанавливает 10 ОЗ после уничтожения вражеского юнита.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_SELF_CONTROL">
 			<Text>Самообладание</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SELF_CONTROL_HELP">
-			<Text>+15% [ICON_STRENGTH] боевой мощи при обороне.[NEWLINE]+1% [ICON_STRENGTH] боевой мощи за каждые 3 ОЗ ниже максимума здоровья.[NEWLINE]Устраняет штрафы к бою при атаке или обороне против атак ближнего боя, пока юнит [ICON_POSITIVE_TEXT]ранен[ENDCOLOR].[NEWLINE]Восстанавливает 10 ОЗ после уничтожения вражеского юнита.</Text>
+			<Text>+15% [ICON_STRENGTH] боевой мощи при обороне.[NEWLINE]+1% [ICON_STRENGTH] боевой мощи за каждые 3 ОЗ ниже максимума здоровья.[NEWLINE]Устраняет штрафы к бою при атаке или обороне против атак ближнего боя, пока юнит [COLOR_POSITIVE_TEXT]ранен[ENDCOLOR].[NEWLINE]Восстанавливает 10 ОЗ после уничтожения вражеского юнита.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_BOARDED_1">
@@ -1429,7 +1429,7 @@
 			<Text>Рвение</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_FERVOR_HELP">
-			<Text>+10% [ICON_STRENGTH] боевой мощи.[NEWLINE]Длится 30 ходов.</Text>
+			<Text>+10% [ICON_STRENGTH] боевой мощи.[NEWLINE]Длится 30 ходов.[NEWLINE][NEWLINE][COLOR_CYAN]Теряется при передаче другому игроку.[ENDCOLOR]</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_MARSH_WALKER">
@@ -1471,7 +1471,7 @@
 			<Text>Призывник</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_CONSCRIPT_HELP">
-			<Text>Этот юнит не расходует [ICON_WAR] снабжение юнитов.[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]Теряется при улучшении.[ENDCOLOR]</Text>
+			<Text>Этот юнит не расходует [ICON_SILVER_FIST] снабжение юнитов.[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]Теряется при улучшении.[ENDCOLOR]</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_JUGGERNAUT">
@@ -1490,7 +1490,7 @@
 			<Text>Обучение часки</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_CHASQUI_TRAINING_HELP">
-			<Text>Может пересекать горы.</Text>
+			<Text>Может пересекать горы.[NEWLINE][NEWLINE][COLOR_CYAN]Теряется при передаче другому игроку.[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_FLAT_MOVEMENT_COST_HELP">
 			<Text>Все клетки стоят 1 [ICON_MOVES] перемещение.[NEWLINE][COLOR_NEGATIVE_TEXT]Не может использовать дороги и железные дороги.[ENDCOLOR]</Text>
@@ -1511,7 +1511,55 @@
 			<Text>Триумф</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_TRIUMPH_HELP">
-			<Text>+15% [ICON_STRENGTH] боевой мощи.[NEWLINE]Получайте 50% [ICON_STRENGTH] боевой мощи побеждённых вражеских сухопутных юнитов в виде [ICON_GREAT_GENERAL] очков великого генерала.</Text>
+			<Text>+15% [ICON_STRENGTH] боевой мощи.[NEWLINE]Получайте 50% [ICON_STRENGTH] боевой мощи побеждённых вражеских сухопутных юнитов в виде [ICON_GREAT_GENERAL] очков великого генерала.[NEWLINE][NEWLINE][COLOR_CYAN]Теряется при передаче другому игроку.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_LOST_PROTOTYPE">
+			<Text>Потерянный прототип</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_LOST_PROTOTYPE_HELP">
+			<Text>+20% [ICON_STRENGTH] боевой мощи при обороне.[NEWLINE]-100% стоимости улучшения.[NEWLINE][COLOR_NEGATIVE_TEXT]Теряется при улучшении.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_AMBITION_PEDIA">
+			<Text>[COLOR_POSITIVE_TEXT]({TXT_KEY_PROMOTION_MYSTIC_BLADE})[ENDCOLOR] Решимость</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BENEVOLENCE_PEDIA">
+			<Text>[COLOR_POSITIVE_TEXT]({TXT_KEY_TRAIT_FIGHT_WELL_DAMAGED_SHORT})[ENDCOLOR] Доброжелательность</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_COURAGE_PEDIA">
+			<Text>[COLOR_POSITIVE_TEXT]({TXT_KEY_TRAIT_FIGHT_WELL_DAMAGED_SHORT})[ENDCOLOR] Мужество</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ENEMY_BLADE_PEDIA">
+			<Text>[COLOR_POSITIVE_TEXT]({TXT_KEY_PROMOTION_MYSTIC_BLADE})[ENDCOLOR] Вражеский клинок</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_EVIL_SPIRITS_PEDIA">
+			<Text>[COLOR_POSITIVE_TEXT]({TXT_KEY_PROMOTION_MYSTIC_BLADE})[ENDCOLOR] Защита предков</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_HONOR_PEDIA">
+			<Text>[COLOR_POSITIVE_TEXT]({TXT_KEY_TRAIT_FIGHT_WELL_DAMAGED_SHORT})[ENDCOLOR] Честь</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_INVULNERABIILITY_PEDIA">
+			<Text>[COLOR_POSITIVE_TEXT]({TXT_KEY_PROMOTION_MYSTIC_BLADE})[ENDCOLOR] Неуязвимость</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_LOYALTY_PEDIA">
+			<Text>[COLOR_POSITIVE_TEXT]({TXT_KEY_TRAIT_FIGHT_WELL_DAMAGED_SHORT})[ENDCOLOR] Верность</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_RESPECT_PEDIA">
+			<Text>[COLOR_POSITIVE_TEXT]({TXT_KEY_TRAIT_FIGHT_WELL_DAMAGED_SHORT})[ENDCOLOR] Уважение</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_RESTLESSNESS_PEDIA">
+			<Text>[COLOR_POSITIVE_TEXT]({TXT_KEY_PROMOTION_MYSTIC_BLADE})[ENDCOLOR] Неутомимость</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_RIGHTEOUSNESS_PEDIA">
+			<Text>[COLOR_POSITIVE_TEXT]({TXT_KEY_TRAIT_FIGHT_WELL_DAMAGED_SHORT})[ENDCOLOR] Праведность</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SELF_CONTROL_PEDIA">
+			<Text>[COLOR_POSITIVE_TEXT]({TXT_KEY_TRAIT_FIGHT_WELL_DAMAGED_SHORT})[ENDCOLOR] Самообладание</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SINCERITY_PEDIA">
+			<Text>[COLOR_POSITIVE_TEXT]({TXT_KEY_TRAIT_FIGHT_WELL_DAMAGED_SHORT})[ENDCOLOR] Искренность</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SNEAK_ATTACK_PEDIA">
+			<Text>[COLOR_POSITIVE_TEXT]({TXT_KEY_PROMOTION_MYSTIC_BLADE})[ENDCOLOR] Внезапная атака</Text>
 		</Row>
 	</Language_ru_RU>
 </GameData>

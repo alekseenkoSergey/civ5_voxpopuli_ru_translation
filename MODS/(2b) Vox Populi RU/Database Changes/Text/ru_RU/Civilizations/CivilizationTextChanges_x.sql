@@ -836,7 +836,7 @@ SET Text = '-50% [ICON_GOLD] содержания для рукопашных и
 WHERE Tag = 'TXT_KEY_TRAIT_BUFFALO_HORNS';
 
 UPDATE Language_ru_RU
-SET Text = 'Уникальная зулусская замена {TXT_KEY_BUILDING_BARRACKS}. Помимо бонусов {TXT_KEY_BUILDING_BARRACKS}, {TXT_KEY_BUILDING_IKANDA_DESC} даёт больше [ICON_WAR] военного снабжения и предоставляет всем рукопашным и пороховым юнитам повышение {TXT_KEY_PROMOTION_IKLWA}, открывающее уникальную ветку повышений с дополнительными HP, дополнительным [ICON_MOVES] передвижением и бонусом к флангу. Здание становится доступно с открытием [COLOR_CYAN]{TXT_KEY_TECH_BRONZE_WORKING_TITLE}[ENDCOLOR], а не [COLOR_CYAN]{TXT_KEY_TECH_ARCHERY_TITLE}[ENDCOLOR].'
+SET Text = 'Уникальная зулусская замена {TXT_KEY_BUILDING_BARRACKS}. Помимо бонусов {TXT_KEY_BUILDING_BARRACKS}, {TXT_KEY_BUILDING_IKANDA_DESC} даёт больше [ICON_SILVER_FIST] военного снабжения и предоставляет всем рукопашным и пороховым юнитам повышение {TXT_KEY_PROMOTION_IKLWA}, открывающее уникальную ветку повышений с дополнительными HP, дополнительным [ICON_MOVES] передвижением и бонусом к флангу. Здание становится доступно с открытием [COLOR_CYAN]{TXT_KEY_TECH_BRONZE_WORKING_TITLE}[ENDCOLOR], а не [COLOR_CYAN]{TXT_KEY_TECH_ARCHERY_TITLE}[ENDCOLOR].'
 WHERE Tag = 'TXT_KEY_BUILDING_IKANDA_STRATEGY';
 
 UPDATE Language_ru_RU

@@ -216,9 +216,6 @@ UPDATE Language_ru_RU
 SET Text = '{1_ReligionIcon} {2_NumFollowers} {2_NumFollowers: plural 1?последователь; other?последователей;} {3_PressureString} ({4_Num} торговых путей)'
 WHERE Tag = 'TXT_KEY_RELIGION_TOOLTIP_LINE_WITH_TRADE';
 
-UPDATE Language_ru_RU
-SET Text = 'Не более {1_Num} на одного игрока'
-WHERE Tag = 'TXT_KEY_NO_ACTION_PLAYER_COUNT_MAX';
 
 ------------------------------------------------
 -- Conquest picker
@@ -896,3 +893,11 @@ WHERE Tag = 'TXT_KEY_DIPLO_DISCUSS_HOW_DARE_YOU';
 UPDATE Language_ru_RU
 SET Text = 'Ваш венецианский купец купил город-государство!'
 WHERE Tag = 'TXT_KEY_VENETIAN_MERCHANT_BOUGHT_CITY_STATE';
+
+UPDATE Language_ru_RU
+SET Text = 'Каждый город добавляет +{1_Str}% к стоимости [ICON_RESEARCH] технологий.'
+WHERE Tag = 'TXT_KEY_TP_TECH_CITY_COST';
+
+UPDATE Language_ru_RU
+SET Text = 'Каждый [ICON_PUPPET] немарионеточный город, кроме столицы, добавляет +{1_Str}% к стоимости [ICON_CULTURE] политики.'
+WHERE Tag = 'TXT_KEY_TP_CULTURE_CITY_COST';

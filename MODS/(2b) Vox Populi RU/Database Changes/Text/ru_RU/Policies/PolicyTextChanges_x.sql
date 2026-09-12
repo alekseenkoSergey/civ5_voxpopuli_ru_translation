@@ -208,7 +208,7 @@ SET Text = 'Господство'
 WHERE Tag = 'TXT_KEY_POLICY_MILITARY_CASTE';
 
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Господство[ENDCOLOR][NEWLINE][ICON_BULLET]Все юниты ближнего боя получают повышение [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_ENDURANCE}[ENDCOLOR] (восстанавливают 15 ОЗ после победы над вражеским юнитом).[NEWLINE][ICON_BULLET]+1 [ICON_PRODUCTION] производства и +2 [ICON_CULTURE_LOCAL] очка роста границ от стратегических ресурсов.[NEWLINE][ICON_BULLET]+5 [ICON_WAR] лимита военного снабжения.'
+SET Text = '[COLOR_POSITIVE_TEXT]Господство[ENDCOLOR][NEWLINE][ICON_BULLET]Все юниты ближнего боя получают повышение [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_ENDURANCE}[ENDCOLOR] (восстанавливают 15 ОЗ после победы над вражеским юнитом).[NEWLINE][ICON_BULLET]+1 [ICON_PRODUCTION] производства и +2 [ICON_CULTURE_LOCAL] очка роста границ от стратегических ресурсов.[NEWLINE][ICON_BULLET]+5 [ICON_SILVER_FIST] лимита военного снабжения.'
 WHERE Tag = 'TXT_KEY_POLICY_MILITARY_CASTE_HELP';
 
 UPDATE Language_ru_RU
@@ -245,7 +245,7 @@ SET Text = '[COLOR_POSITIVE_TEXT]Верность[ENDCOLOR] усиливает �
 WHERE Tag = 'TXT_KEY_POLICY_BRANCH_PIETY_HELP';
 
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Организованная религия[ENDCOLOR][NEWLINE][ICON_BULLET]+25% давления из ваших городов, следующих вашей [ICON_RELIGION] основной религии.[NEWLINE][ICON_BULLET]+1 [ICON_DIPLOMAT] делегат во Всемирном конгрессе за каждые 10 городов, следующих вашей [ICON_RELIGION] основной религии.[NEWLINE][ICON_BULLET]+2 [ICON_CULTURE] культуры от святилищ и +6 [ICON_CULTURE] культуры от Великого храма.'
+SET Text = '[COLOR_POSITIVE_TEXT]Организованная религия[ENDCOLOR][NEWLINE][ICON_BULLET]+25% давления из ваших городов, следующих вашей [ICON_RELIGION] основной религии.[NEWLINE][ICON_BULLET]+1 [ICON_DIPLOMAT] делегат во Всемирном конгрессе за каждые 10 городов, следующих вашей [ICON_RELIGION] основной религии.[NEWLINE][ICON_BULLET]+2 [ICON_CULTURE] культуры от храмов и +6 [ICON_CULTURE] культуры от Великого храма.'
 WHERE Tag = 'TXT_KEY_POLICY_ORGANIZED_RELIGION_HELP';
 
 UPDATE Language_ru_RU
@@ -581,7 +581,7 @@ SET Text = 'Цивилизаторская миссия'
 WHERE Tag = 'TXT_KEY_POLICY_TREASURE_FLEETS';
 
 UPDATE Language_ru_RU
-SET Text = '[COLOR_POSITIVE_TEXT]Цивилизаторская миссия[ENDCOLOR][NEWLINE][ICON_BULLET]Вы сохраняете все здания в завоёванных городах.[NEWLINE][ICON_BULLET]Получайте 75 [ICON_GOLD] золота при захвате города, с ростом по эпохе и [ICON_CITIZEN] населению города.[NEWLINE][ICON_BULLET]+10% [ICON_PRODUCTION] производства при строительстве зданий, а также дополнительно +10% [ICON_PRODUCTION] производства за каждую разницу эпох между вашей текущей эпохой и эпохой здания во всех [ICON_PUPPET] марионеточных городах и городах с судом.'
+SET Text = '[COLOR_POSITIVE_TEXT]Цивилизаторская миссия[ENDCOLOR][NEWLINE][ICON_BULLET]Вы сохраняете все здания в завоёванных городах.[NEWLINE][ICON_BULLET]Получайте 75 [ICON_GOLD] золота при захвате города, с ростом по эпохе и [ICON_CITIZEN] населению города.[NEWLINE][ICON_BULLET]+10% [ICON_PRODUCTION] производства при строительстве зданий за каждую эпоху старше вашей текущей эпохи во всех городах.'
 WHERE Tag = 'TXT_KEY_POLICY_TREASURE_FLEETS_HELP';
 
 UPDATE Language_ru_RU

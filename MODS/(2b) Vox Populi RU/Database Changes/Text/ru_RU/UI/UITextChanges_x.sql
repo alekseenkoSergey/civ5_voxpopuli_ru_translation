@@ -63,7 +63,7 @@ WHERE Tag = 'TXT_KEY_MAYA_DATE_TOOLTIP';
 
 -- Science
 UPDATE Language_ru_RU
-SET Text = 'Каждый ваш ([ICON_PUPPET] немарионеточный) город увеличивает стоимость технологий на {1_Num}%.'
+SET Text = 'Каждый [ICON_PUPPET] немарионеточный город добавляет +({1_Str}% + {3_Str}% x текущее число немарионеточных городов) к стоимости [ICON_RESEARCH] технологий.'
 WHERE Tag = 'TXT_KEY_TP_TECH_CITY_COST';
 
 UPDATE Language_ru_RU
@@ -76,7 +76,7 @@ WHERE Tag = 'TXT_KEY_TP_SCIENCE_FROM_MINORS';
 
 -- Culture
 UPDATE Language_ru_RU
-SET Text = 'Каждый ваш ([ICON_PUPPET] немарионеточный) город увеличивает стоимость социальных политик на {1_Num}%.'
+SET Text = 'Каждый [ICON_PUPPET] немарионеточный город добавляет +({1_Str}% + {3_Str}% x текущее число немарионеточных городов) к стоимости [ICON_CULTURE] институтов.'
 WHERE Tag = 'TXT_KEY_TP_CULTURE_CITY_COST';
 
 UPDATE Language_ru_RU
@@ -758,7 +758,7 @@ SET Text = '+{1_UnitMaintenancePercent}% [ICON_GOLD] к стоимости со�
 WHERE Tag = 'TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_UNIT_MAINTENANCE';
 
 UPDATE Language_ru_RU
-SET Text = '-{1_ResearchCostPercent}% [ICON_RESEARCH] к стоимости исследований технологий, уже открытых другой цивилизацией. Дополнительно -2% за каждый союзный город-государство, вплоть до -50%'
+SET Text = '-{1_ResearchCostPercent}% [ICON_RESEARCH] к стоимости технологий, уже открытых другой цивилизацией. Дополнительно -2% за каждый союзный город-государство, вплоть до -50%'
 WHERE Tag = 'TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_DISCOVERED_TECH_MODIFIER';
 
 UPDATE Language_ru_RU
@@ -849,3 +849,15 @@ WHERE Tag = 'TXT_KEY_TP_GOLD_FROM_CITY_CONNECTIONS';
 UPDATE Language_ru_RU
 SET Text = 'Шпионаж начнётся, когда вы накопите достаточно [ICON_SPY_POINT] очков шпионажа[NEWLINE]И сможете получить первого [ICON_SPY] шпиона'
 WHERE Tag = 'TXT_KEY_ESPIONAGE_NOT_STARTED_YET';
+
+UPDATE Language_ru_RU
+SET Text = 'Ни у одного игрока пока нет технологии для обмена этим предметом (Философия).'
+WHERE Tag = 'TXT_KEY_DIPLO_OPEN_BORDERS_NO_TECH';
+
+UPDATE Language_ru_RU
+SET Text = 'Ни у одного игрока пока нет технологии для обмена этим предметом (Образование).'
+WHERE Tag = 'TXT_KEY_DIPLO_RESCH_AGREEMENT_NO_TECH';
+
+UPDATE Language_ru_RU
+SET Text = '[ICON_BULLET]Стоимость следующего института: {1_Num} [ICON_CULTURE] культуры = {2_Num} [ICON_CULTURE] {8_Str} + {3_Num} [ICON_CULTURE] (+{5_Str}% от {7_Num} {7_Num: plural 1?города; other?городов;}).[NEWLINE][ICON_BULLET]Новый город добавит [COLOR_NEGATIVE_TEXT]+{4_Num}[ENDCOLOR] [ICON_CULTURE] (+{6_Str}% от {8_Str}).'
+WHERE Tag = 'TXT_KEY_TP_CULTURE_CITY_COST_DETAIL';

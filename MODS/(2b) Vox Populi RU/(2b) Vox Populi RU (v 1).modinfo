@@ -1,8 +1,8 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Mod id="3f3328eb-bf8c-4daa-8dbf-20f28b165bc7" version="1">
   <Properties>
     <Name>(2b) Vox Populi - перевод</Name>
-    <Teaser>(5.3.3) Перевод на русский</Teaser>
+    <Teaser>(5.4.6) Перевод на русский</Teaser>
     <Description>Русский перевод Vox Populi</Description>
     <Authors>Sergey</Authors>
     <Homepage>https://github.com/alekseenkoSergey/civ5_voxpopuli_ru_translation</Homepage>
@@ -75,7 +75,6 @@
     <File>Database Changes/Text/ru_RU/WorldMap/FeatureTextChanges_x.sql</File>
     <File>Database Changes/Text/ru_RU/WorldMap/ImprovementTextChanges_x.sql</File>
     <File>Database Changes/Text/ru_RU/WorldMap/NewFeatureText_x.xml</File>
-    <File>Database Changes/Text/ru_RU/WorldMap/NewGoodyHutText_x.xml</File>
     <File>Database Changes/Text/ru_RU/WorldMap/NewImprovementText_x.xml</File>
     <File>Database Changes/Text/ru_RU/WorldMap/NewResourceText_x.xml</File>
     <File>Database Changes/Text/ru_RU/WorldMap/ResourceTextChanges_x.sql</File>
@@ -136,7 +135,6 @@
       <UpdateDatabase>Database Changes/Text/ru_RU/WorldMap/FeatureTextChanges_x.sql</UpdateDatabase>
       <UpdateDatabase>Database Changes/Text/ru_RU/WorldMap/ImprovementTextChanges_x.sql</UpdateDatabase>
       <UpdateDatabase>Database Changes/Text/ru_RU/WorldMap/NewFeatureText_x.xml</UpdateDatabase>
-      <UpdateDatabase>Database Changes/Text/ru_RU/WorldMap/NewGoodyHutText_x.xml</UpdateDatabase>
       <UpdateDatabase>Database Changes/Text/ru_RU/WorldMap/NewImprovementText_x.xml</UpdateDatabase>
       <UpdateDatabase>Database Changes/Text/ru_RU/WorldMap/NewResourceText_x.xml</UpdateDatabase>
       <UpdateDatabase>Database Changes/Text/ru_RU/WorldMap/ResourceTextChanges_x.sql</UpdateDatabase>
